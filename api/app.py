@@ -1,7 +1,7 @@
 import gensim.downloader
 import json
 
-def lambda_handler(event, context):
+def handler(event, context):
 	print("Received event: " + str(event))
 	poc_lambda()
 	return {
@@ -11,7 +11,7 @@ def lambda_handler(event, context):
 
 
 def poc_lambda():
-	glove_vectors = gensim.downloader.load('glove-twitter-200')
+	glove_vectors = gensim.downloader.load('glove-twitter-25')
 	print("Word2Vec model glove-twitter-200 loaded")
 	print("Door vector: " + glove_vectors['door'])
 	print("Wheel vector: " + glove_vectors['wheel'])
