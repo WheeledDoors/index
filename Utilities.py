@@ -4,9 +4,6 @@ import matplotlib.pyplot as plt
 import nltk
 import pickle
 
-nltk.download('stopwords')
-nltk.download('punkt')
-nltk.download('wordnet')
 
 from nltk.corpus import stopwords
 from nltk.stem import WordNetLemmatizer
@@ -16,11 +13,12 @@ from nltk.tokenize import word_tokenize
 import gensim
 from gensim import corpora
 
-lemmatizer = WordNetLemmatizer()
-stop_words = set(stopwords.words("english"))
 
 
 def clean_data(df):
+    lemmatizer = WordNetLemmatizer()
+    stop_words = pickle.load(open("stop_words.pickle", 'rb'))
+
     df = df.apply(word_tokenize)
     df = df.map(lambda x: [i.lower() for i in x if i.lower() not in stop_words])
     df = df.map(lambda x: [lemmatizer.lemmatize(i) for i in x if i.lower() if i.isalnum()])
