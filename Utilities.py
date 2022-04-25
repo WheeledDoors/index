@@ -50,7 +50,8 @@ def NB_BOW(df):
     df = clean_data(df)
     x_vec = vect.transform(df)
     result = loaded_model.predict(x_vec)
-    return result
+    return [np.mean(result), len(np.where(result==0)[0]), len(np.where(result==1)[0])]
+
 
 
 def Log_TFIDF(df):
@@ -59,4 +60,4 @@ def Log_TFIDF(df):
     df = clean_data(df)
     x_vec = vect.transform(df)
     result = loaded_model.predict(x_vec)
-    return result
+    return [np.mean(result), len(np.where(result==0)[0]), len(np.where(result==1)[0])]
