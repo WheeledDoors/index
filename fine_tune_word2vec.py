@@ -3,6 +3,7 @@ from gensim.models import Word2Vec
 
 import loader
 import gensim.downloader
+import gensim.downloader as api
 
 def split_into_sentences(text):
 	out = []
@@ -38,10 +39,15 @@ if __name__ == "__main__":
 	reddit_doors_list = split_into_sentences(reddit_doors_list)
 	wiki_wheels_list = split_into_sentences(wiki_wheels_list)
 	wiki_doors_list = split_into_sentences(wiki_doors_list)
-	
+	model_twitter = api.load("glove-twitter-25")	
+	print(type(model_twitter))
+	# corpus = api.load('text8')
 	# Fine-tune the word2vec model
-	model_twitter = Word2Vec(twitter_wheels_list + twitter_doors_list , min_count=1, vector_size=300, window=5, workers=4)
-	print("Door twitter: " + str(model_twitter.wv.most_similar('door', topn=10)))
+	# model_twitter = Word2Vec(sentences=corpus, vector_size=100, window=5, min_count=1, workers=4)
+	# model_twitter.save('models/base.model')
+	# model_twitter = Word2Vec.load('models/base.model')
+	model_twitter.train(twitter_wheels_list + twitter_doors_list, total_examples=len(twitter_wheels_list + twitter_doors_list), epochs=10)
+	print("Door twitter: " + str(model_twitter.wv.most_similar('computer', topn=10)))
 	print("Wheel twitter: " + str(model_twitter.wv.most_similar('wheel', topn=10)))
 	model_reddit = Word2Vec(reddit_wheels_list + reddit_doors_list , min_count=1, vector_size=300, window=5, workers=4)
 	print("Door reddit: " + str(model_reddit.wv.most_similar('door', topn=10)))
