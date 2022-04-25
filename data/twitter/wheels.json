@@ -1,0 +1,2041 @@
+{
+	"statuses": [
+		{
+			"created_at": "Sun Apr 03 07:50:53 +0000 2022",
+			"id": 1510525230779092992,
+			"id_str": "1510525230779092992",
+			"text": "Now you know why India makes the most two-wheelers in the world. We know how to carry the highest volume of cargo p\u2026 https://t.co/RqawYRw2Qd",
+			"truncated": true,
+			"entities": {
+				"hashtags": [],
+				"symbols": [],
+				"user_mentions": [],
+				"urls": [
+					{
+						"url": "https://t.co/RqawYRw2Qd",
+						"expanded_url": "https://twitter.com/i/web/status/1510525230779092992",
+						"display_url": "twitter.com/i/web/status/1\u2026",
+						"indices": [
+							117,
+							140
+						]
+					}
+				]
+			},
+			"metadata": {
+				"result_type": "popular",
+				"iso_language_code": "en"
+			},
+			"source": "<a href=\"http://twitter.com/download/iphone\" rel=\"nofollow\">Twitter for iPhone</a>",
+			"in_reply_to_status_id": null,
+			"in_reply_to_status_id_str": null,
+			"in_reply_to_user_id": null,
+			"in_reply_to_user_id_str": null,
+			"in_reply_to_screen_name": null,
+			"user": {
+				"id": 34197952,
+				"id_str": "34197952",
+				"name": "anand mahindra",
+				"screen_name": "anandmahindra",
+				"location": "Mumbai, India",
+				"description": "Chairman & Team member, Covid-19 Fighters, Mahindra Group",
+				"url": "https://t.co/XqMcsY5cZB",
+				"entities": {
+					"url": {
+						"urls": [
+							{
+								"url": "https://t.co/XqMcsY5cZB",
+								"expanded_url": "http://www.mahindra.com",
+								"display_url": "mahindra.com",
+								"indices": [
+									0,
+									23
+								]
+							}
+						]
+					},
+					"description": {
+						"urls": []
+					}
+				},
+				"protected": false,
+				"followers_count": 9021250,
+				"friends_count": 272,
+				"listed_count": 6426,
+				"created_at": "Wed Apr 22 05:40:01 +0000 2009",
+				"favourites_count": 28,
+				"utc_offset": null,
+				"time_zone": null,
+				"geo_enabled": true,
+				"verified": true,
+				"statuses_count": 23050,
+				"lang": null,
+				"contributors_enabled": false,
+				"is_translator": false,
+				"is_translation_enabled": false,
+				"profile_background_color": "C0DEED",
+				"profile_background_image_url": "http://abs.twimg.com/images/themes/theme1/bg.png",
+				"profile_background_image_url_https": "https://abs.twimg.com/images/themes/theme1/bg.png",
+				"profile_background_tile": false,
+				"profile_image_url": "http://pbs.twimg.com/profile_images/1469566916356235278/0ZNq-mmf_normal.jpg",
+				"profile_image_url_https": "https://pbs.twimg.com/profile_images/1469566916356235278/0ZNq-mmf_normal.jpg",
+				"profile_banner_url": "https://pbs.twimg.com/profile_banners/34197952/1647260731",
+				"profile_link_color": "1DA1F2",
+				"profile_sidebar_border_color": "C0DEED",
+				"profile_sidebar_fill_color": "DDEEF6",
+				"profile_text_color": "333333",
+				"profile_use_background_image": true,
+				"has_extended_profile": false,
+				"default_profile": true,
+				"default_profile_image": false,
+				"following": null,
+				"follow_request_sent": null,
+				"notifications": null,
+				"translator_type": "none",
+				"withheld_in_countries": []
+			},
+			"geo": null,
+			"coordinates": null,
+			"place": null,
+			"contributors": null,
+			"is_quote_status": false,
+			"retweet_count": 8291,
+			"favorite_count": 102715,
+			"favorited": false,
+			"retweeted": false,
+			"possibly_sensitive": false,
+			"lang": "en"
+		},
+		{
+			"created_at": "Sun Apr 03 09:00:02 +0000 2022",
+			"id": 1510542629288624128,
+			"id_str": "1510542629288624128",
+			"text": "Dear Detectives, \nThe Wheel of Fate is Spinning... #IdentityV #Seer #white https://t.co/wWlB3ap619",
+			"truncated": false,
+			"entities": {
+				"hashtags": [
+					{
+						"text": "IdentityV",
+						"indices": [
+							51,
+							61
+						]
+					},
+					{
+						"text": "Seer",
+						"indices": [
+							62,
+							67
+						]
+					},
+					{
+						"text": "white",
+						"indices": [
+							68,
+							74
+						]
+					}
+				],
+				"symbols": [],
+				"user_mentions": [],
+				"urls": [],
+				"media": [
+					{
+						"id": 1510191626957692934,
+						"id_str": "1510191626957692934",
+						"indices": [
+							75,
+							98
+						],
+						"media_url": "http://pbs.twimg.com/media/FPVHSIuVIAY1xbq.jpg",
+						"media_url_https": "https://pbs.twimg.com/media/FPVHSIuVIAY1xbq.jpg",
+						"url": "https://t.co/wWlB3ap619",
+						"display_url": "pic.twitter.com/wWlB3ap619",
+						"expanded_url": "https://twitter.com/GameIdentityV/status/1510542629288624128/photo/1",
+						"type": "photo",
+						"sizes": {
+							"thumb": {
+								"w": 150,
+								"h": 150,
+								"resize": "crop"
+							},
+							"large": {
+								"w": 1448,
+								"h": 2048,
+								"resize": "fit"
+							},
+							"medium": {
+								"w": 848,
+								"h": 1200,
+								"resize": "fit"
+							},
+							"small": {
+								"w": 481,
+								"h": 680,
+								"resize": "fit"
+							}
+						}
+					}
+				]
+			},
+			"extended_entities": {
+				"media": [
+					{
+						"id": 1510191626957692934,
+						"id_str": "1510191626957692934",
+						"indices": [
+							75,
+							98
+						],
+						"media_url": "http://pbs.twimg.com/media/FPVHSIuVIAY1xbq.jpg",
+						"media_url_https": "https://pbs.twimg.com/media/FPVHSIuVIAY1xbq.jpg",
+						"url": "https://t.co/wWlB3ap619",
+						"display_url": "pic.twitter.com/wWlB3ap619",
+						"expanded_url": "https://twitter.com/GameIdentityV/status/1510542629288624128/photo/1",
+						"type": "photo",
+						"sizes": {
+							"thumb": {
+								"w": 150,
+								"h": 150,
+								"resize": "crop"
+							},
+							"large": {
+								"w": 1448,
+								"h": 2048,
+								"resize": "fit"
+							},
+							"medium": {
+								"w": 848,
+								"h": 1200,
+								"resize": "fit"
+							},
+							"small": {
+								"w": 481,
+								"h": 680,
+								"resize": "fit"
+							}
+						}
+					}
+				]
+			},
+			"metadata": {
+				"result_type": "popular",
+				"iso_language_code": "en"
+			},
+			"source": "<a href=\"https://mobile.twitter.com\" rel=\"nofollow\">Twitter Web App</a>",
+			"in_reply_to_status_id": null,
+			"in_reply_to_status_id_str": null,
+			"in_reply_to_user_id": null,
+			"in_reply_to_user_id_str": null,
+			"in_reply_to_screen_name": null,
+			"user": {
+				"id": 986531180999667712,
+				"id_str": "986531180999667712",
+				"name": "Identity V",
+				"screen_name": "GameIdentityV",
+				"location": "",
+				"description": "Welcome to Identity V official English Page.\nCustomer Service\uff1agameidentityv@global.netease.com \nBusiness Contact: id5.bd@global.netease.com",
+				"url": "https://t.co/3jZL6WOzhL",
+				"entities": {
+					"url": {
+						"urls": [
+							{
+								"url": "https://t.co/3jZL6WOzhL",
+								"expanded_url": "https://www.identityvgame.com/",
+								"display_url": "identityvgame.com",
+								"indices": [
+									0,
+									23
+								]
+							}
+						]
+					},
+					"description": {
+						"urls": []
+					}
+				},
+				"protected": false,
+				"followers_count": 141312,
+				"friends_count": 2,
+				"listed_count": 202,
+				"created_at": "Wed Apr 18 09:05:37 +0000 2018",
+				"favourites_count": 358,
+				"utc_offset": null,
+				"time_zone": null,
+				"geo_enabled": false,
+				"verified": true,
+				"statuses_count": 2209,
+				"lang": null,
+				"contributors_enabled": false,
+				"is_translator": false,
+				"is_translation_enabled": false,
+				"profile_background_color": "F5F8FA",
+				"profile_background_image_url": null,
+				"profile_background_image_url_https": null,
+				"profile_background_tile": false,
+				"profile_image_url": "http://pbs.twimg.com/profile_images/1422023145968439300/399qg3vX_normal.jpg",
+				"profile_image_url_https": "https://pbs.twimg.com/profile_images/1422023145968439300/399qg3vX_normal.jpg",
+				"profile_banner_url": "https://pbs.twimg.com/profile_banners/986531180999667712/1640067747",
+				"profile_link_color": "1DA1F2",
+				"profile_sidebar_border_color": "C0DEED",
+				"profile_sidebar_fill_color": "DDEEF6",
+				"profile_text_color": "333333",
+				"profile_use_background_image": true,
+				"has_extended_profile": false,
+				"default_profile": true,
+				"default_profile_image": false,
+				"following": null,
+				"follow_request_sent": null,
+				"notifications": null,
+				"translator_type": "none",
+				"withheld_in_countries": []
+			},
+			"geo": null,
+			"coordinates": null,
+			"place": null,
+			"contributors": null,
+			"is_quote_status": false,
+			"retweet_count": 2557,
+			"favorite_count": 10512,
+			"favorited": false,
+			"retweeted": false,
+			"possibly_sensitive": false,
+			"lang": "en"
+		},
+		{
+			"created_at": "Mon Apr 04 13:09:13 +0000 2022",
+			"id": 1510967729603301376,
+			"id_str": "1510967729603301376",
+			"text": "If the sticky wheel's always gettin' the grease\nI'm totally devoted to disturbing the peace\n&amp; I'll do it all again\u2026 https://t.co/avUg0DULSr",
+			"truncated": true,
+			"entities": {
+				"hashtags": [],
+				"symbols": [],
+				"user_mentions": [],
+				"urls": [
+					{
+						"url": "https://t.co/avUg0DULSr",
+						"expanded_url": "https://twitter.com/i/web/status/1510967729603301376",
+						"display_url": "twitter.com/i/web/status/1\u2026",
+						"indices": [
+							120,
+							143
+						]
+					}
+				]
+			},
+			"metadata": {
+				"result_type": "popular",
+				"iso_language_code": "en"
+			},
+			"source": "<a href=\"http://twitter.com/download/iphone\" rel=\"nofollow\">Twitter for iPhone</a>",
+			"in_reply_to_status_id": null,
+			"in_reply_to_status_id_str": null,
+			"in_reply_to_user_id": null,
+			"in_reply_to_user_id_str": null,
+			"in_reply_to_screen_name": null,
+			"user": {
+				"id": 147023972,
+				"id_str": "147023972",
+				"name": "Lexi Kaufman",
+				"screen_name": "AlexaBliss_WWE",
+				"location": "My Instagram ",
+				"description": "Lives on caffeine & concealer \u2615\ufe0f Speaks sarcasm fluently \ud83d\udc44 Believes in Disney Magic \u2728",
+				"url": "https://t.co/6OLo6DtyEz",
+				"entities": {
+					"url": {
+						"urls": [
+							{
+								"url": "https://t.co/6OLo6DtyEz",
+								"expanded_url": "http://Instagram.com/alexa_bliss_wwe_",
+								"display_url": "Instagram.com/alexa_bliss_ww\u2026",
+								"indices": [
+									0,
+									23
+								]
+							}
+						]
+					},
+					"description": {
+						"urls": []
+					}
+				},
+				"protected": false,
+				"followers_count": 1768041,
+				"friends_count": 326,
+				"listed_count": 2347,
+				"created_at": "Sun May 23 01:05:37 +0000 2010",
+				"favourites_count": 9781,
+				"utc_offset": null,
+				"time_zone": null,
+				"geo_enabled": true,
+				"verified": true,
+				"statuses_count": 9310,
+				"lang": null,
+				"contributors_enabled": false,
+				"is_translator": false,
+				"is_translation_enabled": false,
+				"profile_background_color": "4D4B4D",
+				"profile_background_image_url": "http://abs.twimg.com/images/themes/theme9/bg.gif",
+				"profile_background_image_url_https": "https://abs.twimg.com/images/themes/theme9/bg.gif",
+				"profile_background_tile": true,
+				"profile_image_url": "http://pbs.twimg.com/profile_images/1271821102134833153/krgeswcX_normal.jpg",
+				"profile_image_url_https": "https://pbs.twimg.com/profile_images/1271821102134833153/krgeswcX_normal.jpg",
+				"profile_banner_url": "https://pbs.twimg.com/profile_banners/147023972/1507301695",
+				"profile_link_color": "3272BA",
+				"profile_sidebar_border_color": "FFFFFF",
+				"profile_sidebar_fill_color": "14020E",
+				"profile_text_color": "F0419E",
+				"profile_use_background_image": true,
+				"has_extended_profile": false,
+				"default_profile": false,
+				"default_profile_image": false,
+				"following": null,
+				"follow_request_sent": null,
+				"notifications": null,
+				"translator_type": "regular",
+				"withheld_in_countries": []
+			},
+			"geo": null,
+			"coordinates": null,
+			"place": null,
+			"contributors": null,
+			"is_quote_status": false,
+			"retweet_count": 407,
+			"favorite_count": 5157,
+			"favorited": false,
+			"retweeted": false,
+			"possibly_sensitive": false,
+			"lang": "en"
+		},
+		{
+			"created_at": "Sun Apr 03 16:24:19 +0000 2022",
+			"id": 1510654437559533571,
+			"id_str": "1510654437559533571",
+			"text": "GROUND REPORT: How Red Fort Is Seeing a Fresh Lease Of Life\n\nAir was heady with excitement in Delhi on weekend as b\u2026 https://t.co/4S8mll466k",
+			"truncated": true,
+			"entities": {
+				"hashtags": [],
+				"symbols": [],
+				"user_mentions": [],
+				"urls": [
+					{
+						"url": "https://t.co/4S8mll466k",
+						"expanded_url": "https://twitter.com/i/web/status/1510654437559533571",
+						"display_url": "twitter.com/i/web/status/1\u2026",
+						"indices": [
+							117,
+							140
+						]
+					}
+				]
+			},
+			"metadata": {
+				"result_type": "popular",
+				"iso_language_code": "en"
+			},
+			"source": "<a href=\"http://twitter.com/download/iphone\" rel=\"nofollow\">Twitter for iPhone</a>",
+			"in_reply_to_status_id": null,
+			"in_reply_to_status_id_str": null,
+			"in_reply_to_user_id": null,
+			"in_reply_to_user_id_str": null,
+			"in_reply_to_screen_name": null,
+			"user": {
+				"id": 3582554773,
+				"id_str": "3582554773",
+				"name": "Rohan Dua",
+				"screen_name": "rohanduaT02",
+				"location": "Chandigarh-J&K-Del-UP-US-UK-AU",
+				"description": "Journalist.Founder/Executive Editor @TheNewIndian_in. Ex @timesofindia, @Reuters. Writing gives me gratification.Earn my livelihood out of it.Fiercely fearless.",
+				"url": "https://t.co/7GmHA1n8v0",
+				"entities": {
+					"url": {
+						"urls": [
+							{
+								"url": "https://t.co/7GmHA1n8v0",
+								"expanded_url": "https://newindian.in/author/rohan-dua/",
+								"display_url": "newindian.in/author/rohan-d\u2026",
+								"indices": [
+									0,
+									23
+								]
+							}
+						]
+					},
+					"description": {
+						"urls": []
+					}
+				},
+				"protected": false,
+				"followers_count": 44868,
+				"friends_count": 2097,
+				"listed_count": 166,
+				"created_at": "Wed Sep 16 12:15:20 +0000 2015",
+				"favourites_count": 21869,
+				"utc_offset": null,
+				"time_zone": null,
+				"geo_enabled": true,
+				"verified": true,
+				"statuses_count": 49801,
+				"lang": null,
+				"contributors_enabled": false,
+				"is_translator": false,
+				"is_translation_enabled": false,
+				"profile_background_color": "000000",
+				"profile_background_image_url": "http://abs.twimg.com/images/themes/theme18/bg.gif",
+				"profile_background_image_url_https": "https://abs.twimg.com/images/themes/theme18/bg.gif",
+				"profile_background_tile": false,
+				"profile_image_url": "http://pbs.twimg.com/profile_images/1507289325943152641/gZn5u8JP_normal.jpg",
+				"profile_image_url_https": "https://pbs.twimg.com/profile_images/1507289325943152641/gZn5u8JP_normal.jpg",
+				"profile_banner_url": "https://pbs.twimg.com/profile_banners/3582554773/1643771014",
+				"profile_link_color": "E81C4F",
+				"profile_sidebar_border_color": "000000",
+				"profile_sidebar_fill_color": "000000",
+				"profile_text_color": "000000",
+				"profile_use_background_image": false,
+				"has_extended_profile": true,
+				"default_profile": false,
+				"default_profile_image": false,
+				"following": null,
+				"follow_request_sent": null,
+				"notifications": null,
+				"translator_type": "none",
+				"withheld_in_countries": []
+			},
+			"geo": null,
+			"coordinates": null,
+			"place": null,
+			"contributors": null,
+			"is_quote_status": false,
+			"retweet_count": 268,
+			"favorite_count": 317,
+			"favorited": false,
+			"retweeted": false,
+			"possibly_sensitive": false,
+			"lang": "en"
+		},
+		{
+			"created_at": "Sun Apr 03 17:36:19 +0000 2022",
+			"id": 1510672556919246850,
+			"id_str": "1510672556919246850",
+			"text": "Happy Palm Beach airport day to everyone celebrating. You just never know who you might see when you wheel your mom\u2026 https://t.co/YFqIrKIVs1",
+			"truncated": true,
+			"entities": {
+				"hashtags": [],
+				"symbols": [],
+				"user_mentions": [],
+				"urls": [
+					{
+						"url": "https://t.co/YFqIrKIVs1",
+						"expanded_url": "https://twitter.com/i/web/status/1510672556919246850",
+						"display_url": "twitter.com/i/web/status/1\u2026",
+						"indices": [
+							117,
+							140
+						]
+					}
+				]
+			},
+			"metadata": {
+				"result_type": "popular",
+				"iso_language_code": "en"
+			},
+			"source": "<a href=\"http://twitter.com/download/iphone\" rel=\"nofollow\">Twitter for iPhone</a>",
+			"in_reply_to_status_id": null,
+			"in_reply_to_status_id_str": null,
+			"in_reply_to_user_id": null,
+			"in_reply_to_user_id_str": null,
+			"in_reply_to_screen_name": null,
+			"user": {
+				"id": 64756008,
+				"id_str": "64756008",
+				"name": "Sue-Ann Levy",
+				"screen_name": "SueAnnLevy",
+				"location": "Toronto and Delray Beach",
+				"description": "Reformed journalist. Author of Underdog, gay, Jewish, mom to 2 boy doxies, avid Muckraker, runner and e-biker. Loving the \nnext chapter. #LevyUnleashed. #I/my",
+				"url": "https://t.co/fhtCJw5PgO",
+				"entities": {
+					"url": {
+						"urls": [
+							{
+								"url": "https://t.co/fhtCJw5PgO",
+								"expanded_url": "http://sueannlevy.ca",
+								"display_url": "sueannlevy.ca",
+								"indices": [
+									0,
+									23
+								]
+							}
+						]
+					},
+					"description": {
+						"urls": []
+					}
+				},
+				"protected": false,
+				"followers_count": 19175,
+				"friends_count": 488,
+				"listed_count": 317,
+				"created_at": "Tue Aug 11 16:21:47 +0000 2009",
+				"favourites_count": 368,
+				"utc_offset": null,
+				"time_zone": null,
+				"geo_enabled": true,
+				"verified": true,
+				"statuses_count": 30094,
+				"lang": null,
+				"contributors_enabled": false,
+				"is_translator": false,
+				"is_translation_enabled": false,
+				"profile_background_color": "C0DEED",
+				"profile_background_image_url": "http://abs.twimg.com/images/themes/theme1/bg.png",
+				"profile_background_image_url_https": "https://abs.twimg.com/images/themes/theme1/bg.png",
+				"profile_background_tile": false,
+				"profile_image_url": "http://pbs.twimg.com/profile_images/1461468257240731657/o1GzaNEn_normal.jpg",
+				"profile_image_url_https": "https://pbs.twimg.com/profile_images/1461468257240731657/o1GzaNEn_normal.jpg",
+				"profile_banner_url": "https://pbs.twimg.com/profile_banners/64756008/1488311643",
+				"profile_link_color": "1DA1F2",
+				"profile_sidebar_border_color": "C0DEED",
+				"profile_sidebar_fill_color": "DDEEF6",
+				"profile_text_color": "333333",
+				"profile_use_background_image": true,
+				"has_extended_profile": false,
+				"default_profile": true,
+				"default_profile_image": false,
+				"following": null,
+				"follow_request_sent": null,
+				"notifications": null,
+				"translator_type": "none",
+				"withheld_in_countries": []
+			},
+			"geo": null,
+			"coordinates": null,
+			"place": null,
+			"contributors": null,
+			"is_quote_status": false,
+			"retweet_count": 188,
+			"favorite_count": 592,
+			"favorited": false,
+			"retweeted": false,
+			"possibly_sensitive": false,
+			"lang": "en"
+		},
+		{
+			"created_at": "Mon Apr 04 16:24:17 +0000 2022",
+			"id": 1511016818630176769,
+			"id_str": "1511016818630176769",
+			"text": "Just one more week left in the Warriors Collection Event \u2694\ufe0f \n\nMake sure to complete your reward tracker to earn ite\u2026 https://t.co/eEij1MLNI8",
+			"truncated": true,
+			"entities": {
+				"hashtags": [],
+				"symbols": [],
+				"user_mentions": [],
+				"urls": [
+					{
+						"url": "https://t.co/eEij1MLNI8",
+						"expanded_url": "https://twitter.com/i/web/status/1511016818630176769",
+						"display_url": "twitter.com/i/web/status/1\u2026",
+						"indices": [
+							117,
+							140
+						]
+					}
+				]
+			},
+			"metadata": {
+				"result_type": "popular",
+				"iso_language_code": "en"
+			},
+			"source": "<a href=\"https://sproutsocial.com\" rel=\"nofollow\">Sprout Social</a>",
+			"in_reply_to_status_id": null,
+			"in_reply_to_status_id_str": null,
+			"in_reply_to_user_id": null,
+			"in_reply_to_user_id_str": null,
+			"in_reply_to_screen_name": null,
+			"user": {
+				"id": 1048018930785083392,
+				"id_str": "1048018930785083392",
+				"name": "Apex Legends",
+				"screen_name": "PlayApex",
+				"location": "The Outlands",
+				"description": "Apex Legends is a free-to-play hero shooter developed by @Respawn. Available on PlayStation, Xbox, PC & Switch. ESRB Rating T for Teen: Blood and Violence",
+				"url": "https://t.co/np2jIbYx1b",
+				"entities": {
+					"url": {
+						"urls": [
+							{
+								"url": "https://t.co/np2jIbYx1b",
+								"expanded_url": "http://playapex.com",
+								"display_url": "playapex.com",
+								"indices": [
+									0,
+									23
+								]
+							}
+						]
+					},
+					"description": {
+						"urls": []
+					}
+				},
+				"protected": false,
+				"followers_count": 3155359,
+				"friends_count": 167,
+				"listed_count": 4209,
+				"created_at": "Fri Oct 05 01:15:59 +0000 2018",
+				"favourites_count": 8658,
+				"utc_offset": null,
+				"time_zone": null,
+				"geo_enabled": false,
+				"verified": true,
+				"statuses_count": 4022,
+				"lang": null,
+				"contributors_enabled": false,
+				"is_translator": false,
+				"is_translation_enabled": false,
+				"profile_background_color": "000000",
+				"profile_background_image_url": "http://abs.twimg.com/images/themes/theme1/bg.png",
+				"profile_background_image_url_https": "https://abs.twimg.com/images/themes/theme1/bg.png",
+				"profile_background_tile": false,
+				"profile_image_url": "http://pbs.twimg.com/profile_images/1222942571376209920/raMKhiHq_normal.jpg",
+				"profile_image_url_https": "https://pbs.twimg.com/profile_images/1222942571376209920/raMKhiHq_normal.jpg",
+				"profile_banner_url": "https://pbs.twimg.com/profile_banners/1048018930785083392/1644344521",
+				"profile_link_color": "FAB81E",
+				"profile_sidebar_border_color": "000000",
+				"profile_sidebar_fill_color": "000000",
+				"profile_text_color": "000000",
+				"profile_use_background_image": false,
+				"has_extended_profile": false,
+				"default_profile": false,
+				"default_profile_image": false,
+				"following": null,
+				"follow_request_sent": null,
+				"notifications": null,
+				"translator_type": "none",
+				"withheld_in_countries": []
+			},
+			"geo": null,
+			"coordinates": null,
+			"place": null,
+			"contributors": null,
+			"is_quote_status": false,
+			"retweet_count": 133,
+			"favorite_count": 1609,
+			"favorited": false,
+			"retweeted": false,
+			"possibly_sensitive": false,
+			"lang": "en"
+		},
+		{
+			"created_at": "Mon Apr 04 14:16:00 +0000 2022",
+			"id": 1510984535806296070,
+			"id_str": "1510984535806296070",
+			"text": "Going wheel-to-wheel in Straya! \ud83e\udd18 Who's ready for some on-track action at Albert Park? \ud83c\udde6\ud83c\uddfa #AusGP \n\nhttps://t.co/AR4RgPZ29g",
+			"truncated": false,
+			"entities": {
+				"hashtags": [
+					{
+						"text": "AusGP",
+						"indices": [
+							90,
+							96
+						]
+					}
+				],
+				"symbols": [],
+				"user_mentions": [],
+				"urls": [],
+				"media": [
+					{
+						"id": 1494962204407480320,
+						"id_str": "1494962204407480320",
+						"indices": [
+							99,
+							122
+						],
+						"media_url": "http://pbs.twimg.com/amplify_video_thumb/1494962204407480320/img/Yiq3nnfpLpveSvd3.jpg",
+						"media_url_https": "https://pbs.twimg.com/amplify_video_thumb/1494962204407480320/img/Yiq3nnfpLpveSvd3.jpg",
+						"url": "https://t.co/AR4RgPZ29g",
+						"display_url": "pic.twitter.com/AR4RgPZ29g",
+						"expanded_url": "https://twitter.com/F1/status/1494982592998817794/video/1",
+						"type": "photo",
+						"sizes": {
+							"thumb": {
+								"w": 150,
+								"h": 150,
+								"resize": "crop"
+							},
+							"small": {
+								"w": 680,
+								"h": 680,
+								"resize": "fit"
+							},
+							"large": {
+								"w": 1080,
+								"h": 1080,
+								"resize": "fit"
+							},
+							"medium": {
+								"w": 1080,
+								"h": 1080,
+								"resize": "fit"
+							}
+						},
+						"source_status_id": 1494982592998817794,
+						"source_status_id_str": "1494982592998817794",
+						"source_user_id": 69008563,
+						"source_user_id_str": "69008563"
+					}
+				]
+			},
+			"extended_entities": {
+				"media": [
+					{
+						"id": 1494962204407480320,
+						"id_str": "1494962204407480320",
+						"indices": [
+							99,
+							122
+						],
+						"media_url": "http://pbs.twimg.com/amplify_video_thumb/1494962204407480320/img/Yiq3nnfpLpveSvd3.jpg",
+						"media_url_https": "https://pbs.twimg.com/amplify_video_thumb/1494962204407480320/img/Yiq3nnfpLpveSvd3.jpg",
+						"url": "https://t.co/AR4RgPZ29g",
+						"display_url": "pic.twitter.com/AR4RgPZ29g",
+						"expanded_url": "https://twitter.com/F1/status/1494982592998817794/video/1",
+						"type": "photo",
+						"sizes": {
+							"thumb": {
+								"w": 150,
+								"h": 150,
+								"resize": "crop"
+							},
+							"small": {
+								"w": 680,
+								"h": 680,
+								"resize": "fit"
+							},
+							"large": {
+								"w": 1080,
+								"h": 1080,
+								"resize": "fit"
+							},
+							"medium": {
+								"w": 1080,
+								"h": 1080,
+								"resize": "fit"
+							}
+						},
+						"source_status_id": 1494982592998817794,
+						"source_status_id_str": "1494982592998817794",
+						"source_user_id": 69008563,
+						"source_user_id_str": "69008563",
+						"additional_media_info": {
+							"title": "",
+							"description": "",
+							"embeddable": false,
+							"monetizable": true
+						}
+					}
+				]
+			},
+			"metadata": {
+				"result_type": "popular",
+				"iso_language_code": "en"
+			},
+			"source": "<a href=\"https://mobile.twitter.com\" rel=\"nofollow\">Twitter Web App</a>",
+			"in_reply_to_status_id": null,
+			"in_reply_to_status_id_str": null,
+			"in_reply_to_user_id": null,
+			"in_reply_to_user_id_str": null,
+			"in_reply_to_screen_name": null,
+			"user": {
+				"id": 226087776,
+				"id_str": "226087776",
+				"name": "Oracle Red Bull Racing",
+				"screen_name": "redbullracing",
+				"location": "Worldwide",
+				"description": "Home of the 2021 Formula 1 Drivers' World Champion \ud83c\udfc6 and the World's Fastest Pit Crew! \u23f1\ud83d\udcaa #ChargeOn \ud83e\udd18 #GivesYouWings",
+				"url": "https://t.co/cfS66aW2ZV",
+				"entities": {
+					"url": {
+						"urls": [
+							{
+								"url": "https://t.co/cfS66aW2ZV",
+								"expanded_url": "http://redbullracing.com",
+								"display_url": "redbullracing.com",
+								"indices": [
+									0,
+									23
+								]
+							}
+						]
+					},
+					"description": {
+						"urls": []
+					}
+				},
+				"protected": false,
+				"followers_count": 3803639,
+				"friends_count": 12528,
+				"listed_count": 34258,
+				"created_at": "Mon Dec 13 08:12:04 +0000 2010",
+				"favourites_count": 10328,
+				"utc_offset": null,
+				"time_zone": null,
+				"geo_enabled": true,
+				"verified": true,
+				"statuses_count": 31246,
+				"lang": null,
+				"contributors_enabled": false,
+				"is_translator": false,
+				"is_translation_enabled": false,
+				"profile_background_color": "E2003B",
+				"profile_background_image_url": "http://abs.twimg.com/images/themes/theme3/bg.gif",
+				"profile_background_image_url_https": "https://abs.twimg.com/images/themes/theme3/bg.gif",
+				"profile_background_tile": false,
+				"profile_image_url": "http://pbs.twimg.com/profile_images/1491441516568616972/F0dvwlIp_normal.jpg",
+				"profile_image_url_https": "https://pbs.twimg.com/profile_images/1491441516568616972/F0dvwlIp_normal.jpg",
+				"profile_banner_url": "https://pbs.twimg.com/profile_banners/226087776/1648463896",
+				"profile_link_color": "001E49",
+				"profile_sidebar_border_color": "FFFFFF",
+				"profile_sidebar_fill_color": "E3E2DE",
+				"profile_text_color": "634047",
+				"profile_use_background_image": false,
+				"has_extended_profile": false,
+				"default_profile": false,
+				"default_profile_image": false,
+				"following": null,
+				"follow_request_sent": null,
+				"notifications": null,
+				"translator_type": "regular",
+				"withheld_in_countries": []
+			},
+			"geo": null,
+			"coordinates": null,
+			"place": null,
+			"contributors": null,
+			"is_quote_status": false,
+			"retweet_count": 153,
+			"favorite_count": 2363,
+			"favorited": false,
+			"retweeted": false,
+			"possibly_sensitive": false,
+			"lang": "en"
+		},
+		{
+			"created_at": "Mon Apr 04 14:31:02 +0000 2022",
+			"id": 1510988316677656582,
+			"id_str": "1510988316677656582",
+			"text": "Elden Ring publisher Bandai Namco has expressed interest in working with Mistborn and Wheel of Time author Brandon\u2026 https://t.co/gkBMVQGNRT",
+			"truncated": true,
+			"entities": {
+				"hashtags": [],
+				"symbols": [],
+				"user_mentions": [],
+				"urls": [
+					{
+						"url": "https://t.co/gkBMVQGNRT",
+						"expanded_url": "https://twitter.com/i/web/status/1510988316677656582",
+						"display_url": "twitter.com/i/web/status/1\u2026",
+						"indices": [
+							116,
+							139
+						]
+					}
+				]
+			},
+			"metadata": {
+				"result_type": "popular",
+				"iso_language_code": "en"
+			},
+			"source": "<a href=\"https://sproutsocial.com\" rel=\"nofollow\">Sprout Social</a>",
+			"in_reply_to_status_id": null,
+			"in_reply_to_status_id_str": null,
+			"in_reply_to_user_id": null,
+			"in_reply_to_user_id_str": null,
+			"in_reply_to_screen_name": null,
+			"user": {
+				"id": 18927441,
+				"id_str": "18927441",
+				"name": "IGN",
+				"screen_name": "IGN",
+				"location": "",
+				"description": "We're all about video games, movies, TV, and comics! Play IGN 25: The Game now! https://t.co/wP9i2hy2Vv",
+				"url": "https://t.co/pmQRSNI5pm",
+				"entities": {
+					"url": {
+						"urls": [
+							{
+								"url": "https://t.co/pmQRSNI5pm",
+								"expanded_url": "https://www.ign.com/",
+								"display_url": "ign.com",
+								"indices": [
+									0,
+									23
+								]
+							}
+						]
+					},
+					"description": {
+						"urls": [
+							{
+								"url": "https://t.co/wP9i2hy2Vv",
+								"expanded_url": "http://ign.com/ign25thegame",
+								"display_url": "ign.com/ign25thegame",
+								"indices": [
+									80,
+									103
+								]
+							}
+						]
+					}
+				},
+				"protected": false,
+				"followers_count": 8761641,
+				"friends_count": 1383,
+				"listed_count": 25207,
+				"created_at": "Tue Jan 13 03:56:38 +0000 2009",
+				"favourites_count": 16428,
+				"utc_offset": null,
+				"time_zone": null,
+				"geo_enabled": true,
+				"verified": true,
+				"statuses_count": 163179,
+				"lang": null,
+				"contributors_enabled": false,
+				"is_translator": false,
+				"is_translation_enabled": false,
+				"profile_background_color": "000000",
+				"profile_background_image_url": "http://abs.twimg.com/images/themes/theme9/bg.gif",
+				"profile_background_image_url_https": "https://abs.twimg.com/images/themes/theme9/bg.gif",
+				"profile_background_tile": false,
+				"profile_image_url": "http://pbs.twimg.com/profile_images/1497323172609380355/vUFwUcKR_normal.jpg",
+				"profile_image_url_https": "https://pbs.twimg.com/profile_images/1497323172609380355/vUFwUcKR_normal.jpg",
+				"profile_banner_url": "https://pbs.twimg.com/profile_banners/18927441/1645824639",
+				"profile_link_color": "D3222A",
+				"profile_sidebar_border_color": "FFFFFF",
+				"profile_sidebar_fill_color": "252429",
+				"profile_text_color": "666666",
+				"profile_use_background_image": true,
+				"has_extended_profile": false,
+				"default_profile": false,
+				"default_profile_image": false,
+				"following": null,
+				"follow_request_sent": null,
+				"notifications": null,
+				"translator_type": "regular",
+				"withheld_in_countries": []
+			},
+			"geo": null,
+			"coordinates": null,
+			"place": null,
+			"contributors": null,
+			"is_quote_status": false,
+			"retweet_count": 71,
+			"favorite_count": 947,
+			"favorited": false,
+			"retweeted": false,
+			"possibly_sensitive": false,
+			"lang": "en"
+		},
+		{
+			"created_at": "Mon Apr 04 02:57:26 +0000 2022",
+			"id": 1510813768808337415,
+			"id_str": "1510813768808337415",
+			"text": "\"I figured maybe in a couple of decades or something they'd wheel me out, but I'm really happy to take it tonight.\"\u2026 https://t.co/T4hniKV9eK",
+			"truncated": true,
+			"entities": {
+				"hashtags": [],
+				"symbols": [],
+				"user_mentions": [],
+				"urls": [
+					{
+						"url": "https://t.co/T4hniKV9eK",
+						"expanded_url": "https://twitter.com/i/web/status/1510813768808337415",
+						"display_url": "twitter.com/i/web/status/1\u2026",
+						"indices": [
+							117,
+							140
+						]
+					}
+				]
+			},
+			"metadata": {
+				"result_type": "popular",
+				"iso_language_code": "en"
+			},
+			"source": "<a href=\"https://studio.twitter.com\" rel=\"nofollow\">Twitter Media Studio</a>",
+			"in_reply_to_status_id": null,
+			"in_reply_to_status_id_str": null,
+			"in_reply_to_user_id": null,
+			"in_reply_to_user_id_str": null,
+			"in_reply_to_screen_name": null,
+			"user": {
+				"id": 833612154,
+				"id_str": "833612154",
+				"name": "AP Entertainment",
+				"screen_name": "APEntertainment",
+				"location": "",
+				"description": "This is the official account of AP's Entertainment Department. Check here for the top stories in showbiz.",
+				"url": "https://t.co/K5qggqVYAa",
+				"entities": {
+					"url": {
+						"urls": [
+							{
+								"url": "https://t.co/K5qggqVYAa",
+								"expanded_url": "https://apnews.com/hub/entertainment",
+								"display_url": "apnews.com/hub/entertainm\u2026",
+								"indices": [
+									0,
+									23
+								]
+							}
+						]
+					},
+					"description": {
+						"urls": []
+					}
+				},
+				"protected": false,
+				"followers_count": 181974,
+				"friends_count": 1247,
+				"listed_count": 1486,
+				"created_at": "Wed Sep 19 15:53:14 +0000 2012",
+				"favourites_count": 385,
+				"utc_offset": null,
+				"time_zone": null,
+				"geo_enabled": true,
+				"verified": true,
+				"statuses_count": 51797,
+				"lang": null,
+				"contributors_enabled": false,
+				"is_translator": false,
+				"is_translation_enabled": false,
+				"profile_background_color": "C0DEED",
+				"profile_background_image_url": "http://abs.twimg.com/images/themes/theme1/bg.png",
+				"profile_background_image_url_https": "https://abs.twimg.com/images/themes/theme1/bg.png",
+				"profile_background_tile": false,
+				"profile_image_url": "http://pbs.twimg.com/profile_images/2627323149/jsve6poh0o7smaiaj3uo_normal.png",
+				"profile_image_url_https": "https://pbs.twimg.com/profile_images/2627323149/jsve6poh0o7smaiaj3uo_normal.png",
+				"profile_banner_url": "https://pbs.twimg.com/profile_banners/833612154/1644333011",
+				"profile_link_color": "1DA1F2",
+				"profile_sidebar_border_color": "C0DEED",
+				"profile_sidebar_fill_color": "DDEEF6",
+				"profile_text_color": "333333",
+				"profile_use_background_image": true,
+				"has_extended_profile": false,
+				"default_profile": true,
+				"default_profile_image": false,
+				"following": null,
+				"follow_request_sent": null,
+				"notifications": null,
+				"translator_type": "none",
+				"withheld_in_countries": []
+			},
+			"geo": null,
+			"coordinates": null,
+			"place": null,
+			"contributors": null,
+			"is_quote_status": false,
+			"retweet_count": 24,
+			"favorite_count": 154,
+			"favorited": false,
+			"retweeted": false,
+			"possibly_sensitive": false,
+			"lang": "en"
+		},
+		{
+			"created_at": "Mon Apr 04 00:01:41 +0000 2022",
+			"id": 1510769537838305283,
+			"id_str": "1510769537838305283",
+			"text": "The CDC has been a disastrous failure. They have repeatedly put politics ahead of science and moved the goalposts s\u2026 https://t.co/AZsWyZMaC4",
+			"truncated": true,
+			"entities": {
+				"hashtags": [],
+				"symbols": [],
+				"user_mentions": [],
+				"urls": [
+					{
+						"url": "https://t.co/AZsWyZMaC4",
+						"expanded_url": "https://twitter.com/i/web/status/1510769537838305283",
+						"display_url": "twitter.com/i/web/status/1\u2026",
+						"indices": [
+							117,
+							140
+						]
+					}
+				]
+			},
+			"metadata": {
+				"result_type": "popular",
+				"iso_language_code": "en"
+			},
+			"source": "<a href=\"https://mobile.twitter.com\" rel=\"nofollow\">Twitter Web App</a>",
+			"in_reply_to_status_id": null,
+			"in_reply_to_status_id_str": null,
+			"in_reply_to_user_id": null,
+			"in_reply_to_user_id_str": null,
+			"in_reply_to_screen_name": null,
+			"user": {
+				"id": 658643,
+				"id_str": "658643",
+				"name": "Steve Streza \ud83c\udff3\ufe0f\u200d\ud83c\udf08\ud83c\uddfa\ud83c\udde6",
+				"screen_name": "SteveStreza",
+				"location": "Seattle",
+				"description": "iOS/Mac/web dev, fianc\u00e9 of @Abby_Starling. Fandom fan, art supporter, pansexual programmer. Avatar by @projectTiGER_. FFXIV RDM/Faerie #ebfg (he/him/they/them)",
+				"url": "https://t.co/4c7KQ4CfcA",
+				"entities": {
+					"url": {
+						"urls": [
+							{
+								"url": "https://t.co/4c7KQ4CfcA",
+								"expanded_url": "https://stevestreza.com/",
+								"display_url": "stevestreza.com",
+								"indices": [
+									0,
+									23
+								]
+							}
+						]
+					},
+					"description": {
+						"urls": []
+					}
+				},
+				"protected": false,
+				"followers_count": 16098,
+				"friends_count": 3013,
+				"listed_count": 879,
+				"created_at": "Thu Jan 18 03:45:05 +0000 2007",
+				"favourites_count": 68896,
+				"utc_offset": null,
+				"time_zone": null,
+				"geo_enabled": true,
+				"verified": true,
+				"statuses_count": 194201,
+				"lang": null,
+				"contributors_enabled": false,
+				"is_translator": false,
+				"is_translation_enabled": false,
+				"profile_background_color": "6F428F",
+				"profile_background_image_url": "http://abs.twimg.com/images/themes/theme1/bg.png",
+				"profile_background_image_url_https": "https://abs.twimg.com/images/themes/theme1/bg.png",
+				"profile_background_tile": false,
+				"profile_image_url": "http://pbs.twimg.com/profile_images/1427300941275963393/YJh-bWVQ_normal.jpg",
+				"profile_image_url_https": "https://pbs.twimg.com/profile_images/1427300941275963393/YJh-bWVQ_normal.jpg",
+				"profile_banner_url": "https://pbs.twimg.com/profile_banners/658643/1533847512",
+				"profile_link_color": "6F428F",
+				"profile_sidebar_border_color": "000000",
+				"profile_sidebar_fill_color": "DDEEF6",
+				"profile_text_color": "333333",
+				"profile_use_background_image": false,
+				"has_extended_profile": true,
+				"default_profile": false,
+				"default_profile_image": false,
+				"following": null,
+				"follow_request_sent": null,
+				"notifications": null,
+				"translator_type": "regular",
+				"withheld_in_countries": []
+			},
+			"geo": null,
+			"coordinates": null,
+			"place": null,
+			"contributors": null,
+			"is_quote_status": true,
+			"quoted_status_id": 1510688298976440320,
+			"quoted_status_id_str": "1510688298976440320",
+			"quoted_status": {
+				"created_at": "Sun Apr 03 18:38:52 +0000 2022",
+				"id": 1510688298976440320,
+				"id_str": "1510688298976440320",
+				"text": "\"We\u2019re epidemiologists, nurses and physicians, artists and biologists. We have come together with a common anger at\u2026 https://t.co/m1RXlNrD4Z",
+				"truncated": true,
+				"entities": {
+					"hashtags": [],
+					"symbols": [],
+					"user_mentions": [],
+					"urls": [
+						{
+							"url": "https://t.co/m1RXlNrD4Z",
+							"expanded_url": "https://twitter.com/i/web/status/1510688298976440320",
+							"display_url": "twitter.com/i/web/status/1\u2026",
+							"indices": [
+								117,
+								140
+							]
+						}
+					]
+				},
+				"metadata": {
+					"result_type": "popular",
+					"iso_language_code": "en"
+				},
+				"source": "<a href=\"https://mobile.twitter.com\" rel=\"nofollow\">Twitter Web App</a>",
+				"in_reply_to_status_id": null,
+				"in_reply_to_status_id_str": null,
+				"in_reply_to_user_id": null,
+				"in_reply_to_user_id_str": null,
+				"in_reply_to_screen_name": null,
+				"user": {
+					"id": 208725869,
+					"id_str": "208725869",
+					"name": "Taylor Lorenz",
+					"screen_name": "TaylorLorenz",
+					"location": "Los Angeles, CA",
+					"description": "Columnist @washingtonpost writing about tech | Multimedia journalist | Bookings/interviews: postpr@washpost.com",
+					"url": "https://t.co/jOAEkMTUKB",
+					"entities": {
+						"url": {
+							"urls": [
+								{
+									"url": "https://t.co/jOAEkMTUKB",
+									"expanded_url": "https://linktr.ee/TaylorLorenz",
+									"display_url": "linktr.ee/TaylorLorenz",
+									"indices": [
+										0,
+										23
+									]
+								}
+							]
+						},
+						"description": {
+							"urls": []
+						}
+					},
+					"protected": false,
+					"followers_count": 278295,
+					"friends_count": 7471,
+					"listed_count": 3407,
+					"created_at": "Wed Oct 27 20:40:40 +0000 2010",
+					"favourites_count": 369458,
+					"utc_offset": null,
+					"time_zone": null,
+					"geo_enabled": false,
+					"verified": true,
+					"statuses_count": 2678,
+					"lang": null,
+					"contributors_enabled": false,
+					"is_translator": false,
+					"is_translation_enabled": false,
+					"profile_background_color": "000000",
+					"profile_background_image_url": "http://abs.twimg.com/images/themes/theme18/bg.gif",
+					"profile_background_image_url_https": "https://abs.twimg.com/images/themes/theme18/bg.gif",
+					"profile_background_tile": false,
+					"profile_image_url": "http://pbs.twimg.com/profile_images/1487520401731174404/SwXwcxuH_normal.jpg",
+					"profile_image_url_https": "https://pbs.twimg.com/profile_images/1487520401731174404/SwXwcxuH_normal.jpg",
+					"profile_banner_url": "https://pbs.twimg.com/profile_banners/208725869/1623738511",
+					"profile_link_color": "696969",
+					"profile_sidebar_border_color": "000000",
+					"profile_sidebar_fill_color": "000000",
+					"profile_text_color": "000000",
+					"profile_use_background_image": false,
+					"has_extended_profile": true,
+					"default_profile": false,
+					"default_profile_image": false,
+					"following": null,
+					"follow_request_sent": null,
+					"notifications": null,
+					"translator_type": "regular",
+					"withheld_in_countries": []
+				},
+				"geo": null,
+				"coordinates": null,
+				"place": null,
+				"contributors": null,
+				"is_quote_status": false,
+				"retweet_count": 611,
+				"favorite_count": 2062,
+				"favorited": false,
+				"retweeted": false,
+				"possibly_sensitive": false,
+				"lang": "en"
+			},
+			"retweet_count": 18,
+			"favorite_count": 29,
+			"favorited": false,
+			"retweeted": false,
+			"possibly_sensitive": false,
+			"lang": "en"
+		},
+		{
+			"created_at": "Sun Apr 03 09:14:43 +0000 2022",
+			"id": 1510546326244798465,
+			"id_str": "1510546326244798465",
+			"text": "We can talk at length about propaganda &amp; how soldiers follow orders but no one can pretend to be just a cog in a wh\u2026 https://t.co/hWtkxRtb3A",
+			"truncated": true,
+			"entities": {
+				"hashtags": [],
+				"symbols": [],
+				"user_mentions": [],
+				"urls": [
+					{
+						"url": "https://t.co/hWtkxRtb3A",
+						"expanded_url": "https://twitter.com/i/web/status/1510546326244798465",
+						"display_url": "twitter.com/i/web/status/1\u2026",
+						"indices": [
+							121,
+							144
+						]
+					}
+				]
+			},
+			"metadata": {
+				"result_type": "popular",
+				"iso_language_code": "en"
+			},
+			"source": "<a href=\"http://twitter.com/download/android\" rel=\"nofollow\">Twitter for Android</a>",
+			"in_reply_to_status_id": null,
+			"in_reply_to_status_id_str": null,
+			"in_reply_to_user_id": null,
+			"in_reply_to_user_id_str": null,
+			"in_reply_to_screen_name": null,
+			"user": {
+				"id": 2342106512,
+				"id_str": "2342106512",
+				"name": "Emmanuelle Chaze",
+				"screen_name": "EmmanuelleChaze",
+				"location": "\ud83c\udde9\ud83c\uddea, via \ud83c\uddeb\ud83c\uddf7 and \ud83c\uddee\ud83c\uddea : \ud83c\uddea\ud83c\uddfa",
+				"description": "Journalist FR-EN-DE-ES. Political correspondent/reporter @France24 @DeutscheWelle. Focus on the Mediterranean & EU borders, book on refugees in EU https://t.co/WKTfmcAWiM",
+				"url": null,
+				"entities": {
+					"description": {
+						"urls": [
+							{
+								"url": "https://t.co/WKTfmcAWiM",
+								"expanded_url": "http://amzn.to/32gZe",
+								"display_url": "amzn.to/32gZe",
+								"indices": [
+									147,
+									170
+								]
+							}
+						]
+					}
+				},
+				"protected": false,
+				"followers_count": 8323,
+				"friends_count": 6031,
+				"listed_count": 120,
+				"created_at": "Thu Feb 13 14:57:05 +0000 2014",
+				"favourites_count": 18098,
+				"utc_offset": null,
+				"time_zone": null,
+				"geo_enabled": true,
+				"verified": true,
+				"statuses_count": 11176,
+				"lang": null,
+				"contributors_enabled": false,
+				"is_translator": false,
+				"is_translation_enabled": false,
+				"profile_background_color": "352726",
+				"profile_background_image_url": "http://abs.twimg.com/images/themes/theme5/bg.gif",
+				"profile_background_image_url_https": "https://abs.twimg.com/images/themes/theme5/bg.gif",
+				"profile_background_tile": false,
+				"profile_image_url": "http://pbs.twimg.com/profile_images/1396408494845276163/HVMnXtMc_normal.jpg",
+				"profile_image_url_https": "https://pbs.twimg.com/profile_images/1396408494845276163/HVMnXtMc_normal.jpg",
+				"profile_banner_url": "https://pbs.twimg.com/profile_banners/2342106512/1647795455",
+				"profile_link_color": "138D75",
+				"profile_sidebar_border_color": "000000",
+				"profile_sidebar_fill_color": "000000",
+				"profile_text_color": "000000",
+				"profile_use_background_image": true,
+				"has_extended_profile": true,
+				"default_profile": false,
+				"default_profile_image": false,
+				"following": null,
+				"follow_request_sent": null,
+				"notifications": null,
+				"translator_type": "none",
+				"withheld_in_countries": []
+			},
+			"geo": null,
+			"coordinates": null,
+			"place": null,
+			"contributors": null,
+			"is_quote_status": false,
+			"retweet_count": 16,
+			"favorite_count": 62,
+			"favorited": false,
+			"retweeted": false,
+			"lang": "en"
+		},
+		{
+			"created_at": "Sun Apr 03 21:38:00 +0000 2022",
+			"id": 1510733378949156875,
+			"id_str": "1510733378949156875",
+			"text": "Get behind the wheel of this #Ferrari296GTB #AssettoFiorano.\n#MonteblancoCircuit #Ferrari https://t.co/MbioAzANTG",
+			"truncated": false,
+			"entities": {
+				"hashtags": [
+					{
+						"text": "Ferrari296GTB",
+						"indices": [
+							29,
+							43
+						]
+					},
+					{
+						"text": "AssettoFiorano",
+						"indices": [
+							44,
+							59
+						]
+					},
+					{
+						"text": "MonteblancoCircuit",
+						"indices": [
+							61,
+							80
+						]
+					},
+					{
+						"text": "Ferrari",
+						"indices": [
+							81,
+							89
+						]
+					}
+				],
+				"symbols": [],
+				"user_mentions": [],
+				"urls": [],
+				"media": [
+					{
+						"id": 1509178123740454915,
+						"id_str": "1509178123740454915",
+						"indices": [
+							90,
+							113
+						],
+						"media_url": "http://pbs.twimg.com/media/FPGtgfBXIAM6ELG.jpg",
+						"media_url_https": "https://pbs.twimg.com/media/FPGtgfBXIAM6ELG.jpg",
+						"url": "https://t.co/MbioAzANTG",
+						"display_url": "pic.twitter.com/MbioAzANTG",
+						"expanded_url": "https://twitter.com/FerrariUSA/status/1510733378949156875/photo/1",
+						"type": "photo",
+						"sizes": {
+							"thumb": {
+								"w": 150,
+								"h": 150,
+								"resize": "crop"
+							},
+							"medium": {
+								"w": 945,
+								"h": 1080,
+								"resize": "fit"
+							},
+							"small": {
+								"w": 595,
+								"h": 680,
+								"resize": "fit"
+							},
+							"large": {
+								"w": 945,
+								"h": 1080,
+								"resize": "fit"
+							}
+						}
+					}
+				]
+			},
+			"extended_entities": {
+				"media": [
+					{
+						"id": 1509178123740454915,
+						"id_str": "1509178123740454915",
+						"indices": [
+							90,
+							113
+						],
+						"media_url": "http://pbs.twimg.com/media/FPGtgfBXIAM6ELG.jpg",
+						"media_url_https": "https://pbs.twimg.com/media/FPGtgfBXIAM6ELG.jpg",
+						"url": "https://t.co/MbioAzANTG",
+						"display_url": "pic.twitter.com/MbioAzANTG",
+						"expanded_url": "https://twitter.com/FerrariUSA/status/1510733378949156875/photo/1",
+						"type": "photo",
+						"sizes": {
+							"thumb": {
+								"w": 150,
+								"h": 150,
+								"resize": "crop"
+							},
+							"medium": {
+								"w": 945,
+								"h": 1080,
+								"resize": "fit"
+							},
+							"small": {
+								"w": 595,
+								"h": 680,
+								"resize": "fit"
+							},
+							"large": {
+								"w": 945,
+								"h": 1080,
+								"resize": "fit"
+							}
+						}
+					},
+					{
+						"id": 1509178168019673093,
+						"id_str": "1509178168019673093",
+						"indices": [
+							90,
+							113
+						],
+						"media_url": "http://pbs.twimg.com/media/FPGtjD-WYAUn5wR.jpg",
+						"media_url_https": "https://pbs.twimg.com/media/FPGtjD-WYAUn5wR.jpg",
+						"url": "https://t.co/MbioAzANTG",
+						"display_url": "pic.twitter.com/MbioAzANTG",
+						"expanded_url": "https://twitter.com/FerrariUSA/status/1510733378949156875/photo/1",
+						"type": "photo",
+						"sizes": {
+							"thumb": {
+								"w": 150,
+								"h": 150,
+								"resize": "crop"
+							},
+							"small": {
+								"w": 680,
+								"h": 389,
+								"resize": "fit"
+							},
+							"large": {
+								"w": 2048,
+								"h": 1171,
+								"resize": "fit"
+							},
+							"medium": {
+								"w": 1200,
+								"h": 686,
+								"resize": "fit"
+							}
+						}
+					},
+					{
+						"id": 1509178197958660102,
+						"id_str": "1509178197958660102",
+						"indices": [
+							90,
+							113
+						],
+						"media_url": "http://pbs.twimg.com/media/FPGtkzgXEAYmuls.jpg",
+						"media_url_https": "https://pbs.twimg.com/media/FPGtkzgXEAYmuls.jpg",
+						"url": "https://t.co/MbioAzANTG",
+						"display_url": "pic.twitter.com/MbioAzANTG",
+						"expanded_url": "https://twitter.com/FerrariUSA/status/1510733378949156875/photo/1",
+						"type": "photo",
+						"sizes": {
+							"large": {
+								"w": 2048,
+								"h": 1171,
+								"resize": "fit"
+							},
+							"thumb": {
+								"w": 150,
+								"h": 150,
+								"resize": "crop"
+							},
+							"small": {
+								"w": 680,
+								"h": 389,
+								"resize": "fit"
+							},
+							"medium": {
+								"w": 1200,
+								"h": 686,
+								"resize": "fit"
+							}
+						}
+					}
+				]
+			},
+			"metadata": {
+				"result_type": "popular",
+				"iso_language_code": "en"
+			},
+			"source": "<a href=\"https://mobile.twitter.com\" rel=\"nofollow\">Twitter Web App</a>",
+			"in_reply_to_status_id": null,
+			"in_reply_to_status_id_str": null,
+			"in_reply_to_user_id": null,
+			"in_reply_to_user_id_str": null,
+			"in_reply_to_screen_name": null,
+			"user": {
+				"id": 558791314,
+				"id_str": "558791314",
+				"name": "Ferrari USA",
+				"screen_name": "FerrariUSA",
+				"location": "North America",
+				"description": "The official Twitter feed of Ferrari North America. Follow us for up-to-date news, events & information.",
+				"url": "http://t.co/1wfIL02zzZ",
+				"entities": {
+					"url": {
+						"urls": [
+							{
+								"url": "http://t.co/1wfIL02zzZ",
+								"expanded_url": "http://auto.ferrari.com",
+								"display_url": "auto.ferrari.com",
+								"indices": [
+									0,
+									22
+								]
+							}
+						]
+					},
+					"description": {
+						"urls": []
+					}
+				},
+				"protected": false,
+				"followers_count": 319606,
+				"friends_count": 149,
+				"listed_count": 1046,
+				"created_at": "Fri Apr 20 17:03:06 +0000 2012",
+				"favourites_count": 87,
+				"utc_offset": null,
+				"time_zone": null,
+				"geo_enabled": true,
+				"verified": true,
+				"statuses_count": 4127,
+				"lang": null,
+				"contributors_enabled": false,
+				"is_translator": false,
+				"is_translation_enabled": false,
+				"profile_background_color": "000000",
+				"profile_background_image_url": "http://abs.twimg.com/images/themes/theme1/bg.png",
+				"profile_background_image_url_https": "https://abs.twimg.com/images/themes/theme1/bg.png",
+				"profile_background_tile": false,
+				"profile_image_url": "http://pbs.twimg.com/profile_images/1399735192777113603/oA92K5g5_normal.jpg",
+				"profile_image_url_https": "https://pbs.twimg.com/profile_images/1399735192777113603/oA92K5g5_normal.jpg",
+				"profile_banner_url": "https://pbs.twimg.com/profile_banners/558791314/1622563571",
+				"profile_link_color": "D40000",
+				"profile_sidebar_border_color": "C0DEED",
+				"profile_sidebar_fill_color": "DDEEF6",
+				"profile_text_color": "333333",
+				"profile_use_background_image": true,
+				"has_extended_profile": false,
+				"default_profile": false,
+				"default_profile_image": false,
+				"following": null,
+				"follow_request_sent": null,
+				"notifications": null,
+				"translator_type": "none",
+				"withheld_in_countries": []
+			},
+			"geo": null,
+			"coordinates": null,
+			"place": null,
+			"contributors": null,
+			"is_quote_status": false,
+			"retweet_count": 21,
+			"favorite_count": 154,
+			"favorited": false,
+			"retweeted": false,
+			"possibly_sensitive": false,
+			"lang": "en"
+		},
+		{
+			"created_at": "Thu Mar 31 12:35:57 +0000 2022",
+			"id": 1509509803302871047,
+			"id_str": "1509509803302871047",
+			"text": "Probably worth examining how the Right was so asleep at the wheel that we allowed an entire army of freaks into the\u2026 https://t.co/cVCMJmiDh1",
+			"truncated": true,
+			"entities": {
+				"hashtags": [],
+				"symbols": [],
+				"user_mentions": [],
+				"urls": [
+					{
+						"url": "https://t.co/cVCMJmiDh1",
+						"expanded_url": "https://twitter.com/i/web/status/1509509803302871047",
+						"display_url": "twitter.com/i/web/status/1\u2026",
+						"indices": [
+							117,
+							140
+						]
+					}
+				]
+			},
+			"metadata": {
+				"result_type": "popular",
+				"iso_language_code": "en"
+			},
+			"source": "<a href=\"http://twitter.com/download/iphone\" rel=\"nofollow\">Twitter for iPhone</a>",
+			"in_reply_to_status_id": null,
+			"in_reply_to_status_id_str": null,
+			"in_reply_to_user_id": null,
+			"in_reply_to_user_id_str": null,
+			"in_reply_to_screen_name": null,
+			"user": {
+				"id": 34082620,
+				"id_str": "34082620",
+				"name": "Jesse Kelly",
+				"screen_name": "JesseKellyDC",
+				"location": "Houston, TX",
+				"description": "Host of \u2018I\u2019m Right\u2019 on The First. Host of the nationally syndicated Jesse Kelly Show. Anti-Communist. Community college credits.",
+				"url": "https://t.co/NGil0qkQCG",
+				"entities": {
+					"url": {
+						"urls": [
+							{
+								"url": "https://t.co/NGil0qkQCG",
+								"expanded_url": "https://www.jessekellyshow.com",
+								"display_url": "jessekellyshow.com",
+								"indices": [
+									0,
+									23
+								]
+							}
+						]
+					},
+					"description": {
+						"urls": []
+					}
+				},
+				"protected": false,
+				"followers_count": 406985,
+				"friends_count": 1010,
+				"listed_count": 2321,
+				"created_at": "Tue Apr 21 23:08:32 +0000 2009",
+				"favourites_count": 96927,
+				"utc_offset": null,
+				"time_zone": null,
+				"geo_enabled": false,
+				"verified": true,
+				"statuses_count": 1310,
+				"lang": null,
+				"contributors_enabled": false,
+				"is_translator": false,
+				"is_translation_enabled": false,
+				"profile_background_color": "16181D",
+				"profile_background_image_url": "http://abs.twimg.com/images/themes/theme9/bg.gif",
+				"profile_background_image_url_https": "https://abs.twimg.com/images/themes/theme9/bg.gif",
+				"profile_background_tile": false,
+				"profile_image_url": "http://pbs.twimg.com/profile_images/1268181440543559681/yBRyQxhc_normal.jpg",
+				"profile_image_url_https": "https://pbs.twimg.com/profile_images/1268181440543559681/yBRyQxhc_normal.jpg",
+				"profile_banner_url": "https://pbs.twimg.com/profile_banners/34082620/1591192979",
+				"profile_link_color": "4137F1",
+				"profile_sidebar_border_color": "181A1E",
+				"profile_sidebar_fill_color": "ACAAB6",
+				"profile_text_color": "100E0E",
+				"profile_use_background_image": true,
+				"has_extended_profile": false,
+				"default_profile": false,
+				"default_profile_image": false,
+				"following": null,
+				"follow_request_sent": null,
+				"notifications": null,
+				"translator_type": "none",
+				"withheld_in_countries": []
+			},
+			"geo": null,
+			"coordinates": null,
+			"place": null,
+			"contributors": null,
+			"is_quote_status": false,
+			"retweet_count": 4183,
+			"favorite_count": 20790,
+			"favorited": false,
+			"retweeted": false,
+			"lang": "en"
+		},
+		{
+			"created_at": "Mon Apr 04 03:59:57 +0000 2022",
+			"id": 1510829500833087489,
+			"id_str": "1510829500833087489",
+			"text": "Fully prepared to get blackout and scream \u201cWagon Wheel\u201d to the top of our lungs",
+			"truncated": false,
+			"entities": {
+				"hashtags": [],
+				"symbols": [],
+				"user_mentions": [],
+				"urls": []
+			},
+			"metadata": {
+				"result_type": "popular",
+				"iso_language_code": "en"
+			},
+			"source": "<a href=\"http://twitter.com/download/iphone\" rel=\"nofollow\">Twitter for iPhone</a>",
+			"in_reply_to_status_id": null,
+			"in_reply_to_status_id_str": null,
+			"in_reply_to_user_id": null,
+			"in_reply_to_user_id_str": null,
+			"in_reply_to_screen_name": null,
+			"user": {
+				"id": 2422274617,
+				"id_str": "2422274617",
+				"name": "NATIONAL CHAMPS Real USC",
+				"screen_name": "BarstoolUofSC",
+				"location": "Columbia, SC",
+				"description": "Direct Affiliate of @barstoolsports | IG: barstoolgamecocks | @uofscchicks",
+				"url": null,
+				"entities": {
+					"description": {
+						"urls": []
+					}
+				},
+				"protected": false,
+				"followers_count": 35476,
+				"friends_count": 402,
+				"listed_count": 80,
+				"created_at": "Tue Apr 01 15:27:36 +0000 2014",
+				"favourites_count": 1591,
+				"utc_offset": null,
+				"time_zone": null,
+				"geo_enabled": true,
+				"verified": true,
+				"statuses_count": 6656,
+				"lang": null,
+				"contributors_enabled": false,
+				"is_translator": false,
+				"is_translation_enabled": false,
+				"profile_background_color": "C0DEED",
+				"profile_background_image_url": "http://abs.twimg.com/images/themes/theme1/bg.png",
+				"profile_background_image_url_https": "https://abs.twimg.com/images/themes/theme1/bg.png",
+				"profile_background_tile": true,
+				"profile_image_url": "http://pbs.twimg.com/profile_images/1169976731048001536/sfkn66Pu_normal.jpg",
+				"profile_image_url_https": "https://pbs.twimg.com/profile_images/1169976731048001536/sfkn66Pu_normal.jpg",
+				"profile_banner_url": "https://pbs.twimg.com/profile_banners/2422274617/1649046826",
+				"profile_link_color": "0084B4",
+				"profile_sidebar_border_color": "000000",
+				"profile_sidebar_fill_color": "DDEEF6",
+				"profile_text_color": "333333",
+				"profile_use_background_image": true,
+				"has_extended_profile": false,
+				"default_profile": false,
+				"default_profile_image": false,
+				"following": null,
+				"follow_request_sent": null,
+				"notifications": null,
+				"translator_type": "none",
+				"withheld_in_countries": []
+			},
+			"geo": null,
+			"coordinates": null,
+			"place": null,
+			"contributors": null,
+			"is_quote_status": false,
+			"retweet_count": 18,
+			"favorite_count": 326,
+			"favorited": false,
+			"retweeted": false,
+			"lang": "en"
+		},
+		{
+			"created_at": "Sat Apr 02 17:14:29 +0000 2022",
+			"id": 1510304675102294016,
+			"id_str": "1510304675102294016",
+			"text": "The thinkers reinvent the wheel in different industries with their philosophy, executions and compatibility of the\u2026 https://t.co/Nf5niBipO4",
+			"truncated": true,
+			"entities": {
+				"hashtags": [],
+				"symbols": [],
+				"user_mentions": [],
+				"urls": [
+					{
+						"url": "https://t.co/Nf5niBipO4",
+						"expanded_url": "https://twitter.com/i/web/status/1510304675102294016",
+						"display_url": "twitter.com/i/web/status/1\u2026",
+						"indices": [
+							116,
+							139
+						]
+					}
+				]
+			},
+			"metadata": {
+				"result_type": "popular",
+				"iso_language_code": "en"
+			},
+			"source": "<a href=\"https://mobile.twitter.com\" rel=\"nofollow\">Twitter Web App</a>",
+			"in_reply_to_status_id": null,
+			"in_reply_to_status_id_str": null,
+			"in_reply_to_user_id": null,
+			"in_reply_to_user_id_str": null,
+			"in_reply_to_screen_name": null,
+			"user": {
+				"id": 1072795518567239680,
+				"id_str": "1072795518567239680",
+				"name": "Jay | OKX CEO",
+				"screen_name": "Jay_OKX",
+				"location": "\ud83c\udf0e",
+				"description": "Metaverse obsessed & crypto visionary.\nCEO of #OKX - the world\u2019s most powerful crypto exchange.\nOpinions are my own. Not financial advice.",
+				"url": "https://t.co/RVsxhfsqa3",
+				"entities": {
+					"url": {
+						"urls": [
+							{
+								"url": "https://t.co/RVsxhfsqa3",
+								"expanded_url": "http://www.okx.com",
+								"display_url": "okx.com",
+								"indices": [
+									0,
+									23
+								]
+							}
+						]
+					},
+					"description": {
+						"urls": []
+					}
+				},
+				"protected": false,
+				"followers_count": 109447,
+				"friends_count": 1174,
+				"listed_count": 630,
+				"created_at": "Wed Dec 12 10:09:17 +0000 2018",
+				"favourites_count": 16346,
+				"utc_offset": null,
+				"time_zone": null,
+				"geo_enabled": true,
+				"verified": true,
+				"statuses_count": 5896,
+				"lang": null,
+				"contributors_enabled": false,
+				"is_translator": false,
+				"is_translation_enabled": false,
+				"profile_background_color": "F5F8FA",
+				"profile_background_image_url": null,
+				"profile_background_image_url_https": null,
+				"profile_background_tile": false,
+				"profile_image_url": "http://pbs.twimg.com/profile_images/1489483114199977984/GNHhXhvw_normal.jpg",
+				"profile_image_url_https": "https://pbs.twimg.com/profile_images/1489483114199977984/GNHhXhvw_normal.jpg",
+				"profile_banner_url": "https://pbs.twimg.com/profile_banners/1072795518567239680/1642490132",
+				"profile_link_color": "1DA1F2",
+				"profile_sidebar_border_color": "C0DEED",
+				"profile_sidebar_fill_color": "DDEEF6",
+				"profile_text_color": "333333",
+				"profile_use_background_image": true,
+				"has_extended_profile": false,
+				"default_profile": true,
+				"default_profile_image": false,
+				"following": null,
+				"follow_request_sent": null,
+				"notifications": null,
+				"translator_type": "none",
+				"withheld_in_countries": []
+			},
+			"geo": null,
+			"coordinates": null,
+			"place": null,
+			"contributors": null,
+			"is_quote_status": false,
+			"retweet_count": 52,
+			"favorite_count": 159,
+			"favorited": false,
+			"retweeted": false,
+			"lang": "en"
+		}
+	],
+	"search_metadata": {
+		"completed_in": 0.053,
+		"max_id": 0,
+		"max_id_str": "0",
+		"next_results": "?max_id=1509509803302871046&q=wheel&include_entities=1&result_type=popular",
+		"query": "wheel",
+		"count": 15,
+		"since_id": 0,
+		"since_id_str": "0"
+	}
+}
