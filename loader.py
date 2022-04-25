@@ -16,9 +16,13 @@ class Twitter_Loader:
 			self.data_doors = json.load(f)
 	
 	def get_wheels_as_pandas_dataframe(self):
+		print("Length of data_wheels: ", len(self.data_wheels))
+		print("Length of data_wheels[statuses]: ", len(self.data_wheels["statuses"]))
 		return pd.DataFrame([x["text"] for x in self.data_wheels["statuses"]])
 
 	def get_doors_as_pandas_dataframe(self):
+		print("Length of data_doors: ", len(self.data_doors))
+		print("Length of data_doors[statuses]: ", len(self.data_doors["statuses"]))
 		return pd.DataFrame([x["text"] for x in self.data_doors["statuses"]])
 
 class Reddit_Loader:
@@ -72,13 +76,18 @@ class wiki_Loader:
 
 if __name__ == "__main__":
 	loader = Twitter_Loader('data/twitter')
-	print(loader.get_wheels_as_pandas_dataframe())
-	print(loader.get_doors_as_pandas_dataframe())
+	# print(loader.get_wheels_as_pandas_dataframe())
+	# print(loader.get_doors_as_pandas_dataframe())
+	print(loader.get_wheels_as_pandas_dataframe().shape)
+	print(loader.get_doors_as_pandas_dataframe().shape)
 
 	loader = Reddit_Loader('data/reddit')
-	print(loader.get_wheels_as_pandas_dataframe())
-	print(loader.get_doors_as_pandas_dataframe())
- 
+	# print(loader.get_wheels_as_pandas_dataframe())
+	# print(loader.get_doors_as_pandas_dataframe())
+	print(loader.get_wheels_as_pandas_dataframe().shape)
+	print(loader.get_doors_as_pandas_dataframe().shape)
 	loader = wiki_Loader('data/wiki')
-	print(loader.get_wheels_as_pandas_dataframe())
-	print(loader.get_doors_as_pandas_dataframe())
+	# print(loader.get_wheels_as_pandas_dataframe())
+	# print(loader.get_doors_as_pandas_dataframe())
+	print(loader.get_wheels_as_pandas_dataframe().shape)
+	print(loader.get_doors_as_pandas_dataframe().shape)
