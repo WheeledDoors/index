@@ -129,7 +129,6 @@ dmypy.json
 .pyre/
 
 *.bin
-*.model
 *.npy
 .idea/**
 
