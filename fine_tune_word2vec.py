@@ -2,8 +2,6 @@ from gensim.models import Word2Vec
 
 
 import loader
-import gensim.downloader
-import gensim.downloader as api
 
 def split_into_sentences(text):
 	out = []
