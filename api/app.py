@@ -4,27 +4,37 @@ import json
 import time
 import praw
 import glob
+import os
 from bs4 import BeautifulSoup
 
 
 def handler(event, context):
 	print("Received event: " + str(event))
-	tres1, rres1, wres1 = search(event['word1'])
-	tres2, rres2, wres2 = search(event['word2'])
+
+	print('## ENVIRONMENT VARIABLES')
+	print(os.environ)
+
+	print('## CHECK DIRS')
+	print("/tmp/: " + os.path.isdir('/tmp/'))
+	print("/tmp/data/: " + os.path.isdir('/tmp/data/'))
+	print("/tmp/data/wiki/: " + os.path.isdir('/tmp/data/wiki/'))
+
+	# tres1, rres1, wres1 = search(event['word1'])
+	# tres2, rres2, wres2 = search(event['word2'])
 
 	data = {}
 	data['word1'] = {}
 	data['word2'] = {}
 	
 	data['word1']['related_words'] = {}
-	data['word1']['related_words']['wiki'] = wres1
-	data['word1']['related_words']['twit'] = tres1
-	data['word1']['related_words']['redd'] = rres1
+	# data['word1']['related_words']['wiki'] = wres1
+	# data['word1']['related_words']['twit'] = tres1
+	# data['word1']['related_words']['redd'] = rres1
 	
 	data['word2']['related_words'] = {}
-	data['word2']['related_words']['wiki'] = wres2
-	data['word2']['related_words']['twit'] = tres2
-	data['word2']['related_words']['redd'] = rres2
+	# data['word2']['related_words']['wiki'] = wres2
+	# data['word2']['related_words']['twit'] = tres2
+	# data['word2']['related_words']['redd'] = rres2
 	
 	data['word1']['sentiment'] = [0.75,75,25]
 	data['word2']['sentiment'] = [0.25,25,75]
@@ -66,6 +76,7 @@ def split_into_sentences(text):
 	return out
 
 def search(word):
+	print('## SEARCHING FOR: ' + word)
 	# Get tweets
 	tweets_data = get_tweets(word, 100)
 	tweets_text = [x["text"] for x in tweets_data["statuses"]]
@@ -91,7 +102,7 @@ def search(word):
 		file_name = file_name.replace(' ', '_').replace(':', '_').replace('\\', '_').replace('"', '_').replace('?', '_').replace('*', '_').replace('|', '_').replace('<', '_').replace('>', '_')
 		with open(file_name, 'w') as f:
 			f.write(soup.get_text())
-		time.sleep(0.1)
+		time.sleep(0.01)
 
 		files_wiki = glob.glob('/tmp/data/wiki/*.txt')
 		text_wiki = []
@@ -112,10 +123,13 @@ def search(word):
 	# model_reddit = Word2Vec.load("models/glove_twitter.model")
 	# model_wiki = Word2Vec.load("models/glove_wiki_gigaword.model")
 
+	print("## LOADING MODELS")
 	model_twitter = Word2Vec.load("models/base.model")
 	model_reddit = Word2Vec.load("models/base.model")
 	model_wiki = Word2Vec.load("models/base.model")
 
+
+	print("## TRAINING MODELS")
 	# Train the model
 	model_twitter.train(tweets_text, total_examples=len(tweets_text), epochs=10)
 	model_reddit.train(reddit_text, total_examples=len(reddit_text), epochs=10)
@@ -124,8 +138,14 @@ def search(word):
 	twitter_top = model_reddit.wv.most_similar(word, topn=10)
 	reddit_top = model_reddit.wv.most_similar(word, topn=10)
 	wiki_top = model_wiki.wv.most_similar(word, topn=10)
-	print(word + " twitter: " + str(twitter_top))
-	print(word + " reddit: " + str(reddit_top))
-	print(word + " wiki: " + str(wiki_top))
+	# print(word + " twitter: " + str(twitter_top))
+	# print(word + " reddit: " + str(reddit_top))
+	# print(word + " wiki: " + str(wiki_top))
+
+	# Print the length of the results
+	print("## LENGTHS")
+	print("Twitter: " + str(len(twitter_top)))
+	print("Reddit: " + str(len(reddit_top)))
+	print("Wiki: " + str(len(wiki_top)))
 
 	return twitter_top, reddit_top, wiki_top
