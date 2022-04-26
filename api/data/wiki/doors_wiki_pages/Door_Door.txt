@@ -1,0 +1,335 @@
+
+
+
+
+Door Door - Wikipedia
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+Door Door
+
+From Wikipedia, the free encyclopedia
+
+
+
+Jump to navigation
+Jump to search
+1983 video game
+Not to be confused with Door, Door.
+
+
+8801 video gameDoor DoorDoor Door's Famicom cover shows the protagonist Chun leading the aliens Amechan, Invekun, and Namegon into a trapped door.Developer(s)EnixPublisher(s)EnixDesigner(s)Koichi NakamuraPlatform(s)NEC PC-8801, NEC PC-6001, FM-7, Sharp MZ-2000, Sharp X1, FM-77, MSX, FamicomReleaseNEC PC-8801JP: February 1983FamicomJP: 15 July 1985Genre(s)Puzzle-platformMode(s)Single player
+Door Door[a] is a 1983 single-screen platform video game developed and published by Enix in Japan. Originally released for the NEC PC-8801,[1] it was ported to a number of other platforms, including the Family Computer.[2] Controlling a small character named Chun, the player is tasked with completing each stage by trapping different kinds of aliens behind sliding doors. Chun can jump over the aliens and climb ladders, and must also avoid obstacles such as large nails and bombs.
+Door Door was designed by Koichi Nakamura, known as one of the creators of Dragon Quest. The game was the runner-up in the Enix-sponsored "First Game and Hobby Program Contest" in 1982, winning the Outstanding Program Award with a prize of 500,000 yen. Enix was given the rights to the game and ported it to several Japanese home computers. Chun, the name of the protagonist, was a nickname given to Nakamura by one of his friends. Door Door was a critical and commercial success— the PC-8801 port alone had sold 200,000 copies, and is considered a classic title for the Famicom.[3]
+
+Contents
+
+1 Gameplay
+2 Development and history
+3 Ports and expanded editions
+4 Notes
+5 See Also
+6 References
+7 External links
+
+
+Gameplay[edit]
+This section does not cite any sources. Please help improve this section by adding citations to reliable sources. Unsourced material may be challenged and removed. (April 2018) (Learn how and when to remove this template message)
+Players control Chun, a small, egg-shaped creature outfitted with a baseball cap. Chun is relentlessly pursued by a quartet of aliens traveling in deterministic algorithm paths. The most predictable aliens Namegon and Amechan follow Chun in the most direct path possible, Invekun deviates and follows roundabout paths using ladders, and Otapyon shadows Chun's jumps.[4]
+The player's objective is to trap the aliens behind sliding doors positioned throughout each level, courses composed of platforms conjoined by assorted ladders. To trap the aliens, players approach the door from the side its handle is on, open it by running across it, lure the advancing villains inside, and shut the door before they escape. Trapped doors cannot be opened again. Chun can jump to avoid the aliens, who can kill him on touch. Bombs and nails, which sometimes appear on the screen, are also lethal. When the player dies (provided they have continues) they restart the level with previously trapped aliens vanished, and all doors are accessible again.
+
+ This looped animation demonstrates the basics of the game as Chun leads two aliens into a trapped door.
+The status bar running along the top of the playing screen gives the player's score, the high score, the level number, and the number of lives remaining. Points are awarded for trapping aliens behind doors (with extra points going to players who corral multiple aliens behind one door) and collecting confectionery that intermittently appear and disappear on the playing screen, which include a striped piece of candy, an ice pop, a lollipop, a bowl of ice cream, a slice of cake, and a Mahjong tile. Players begin with three lives. Scoring 10,000 points awards the player an extra life; scoring intervals of 20,000 points thereafter awards the player more lives. If the player loses all lives, the game is over, forcing the player to restart from the first level.
+As players advance, the levels become more complicated, many requiring abstract strategies. The eighth level pits Chun against a lone Otapyon alien; the player's strategy requires purposely allowing the Otapyon to shadow his jumps with the intention of guiding the unsuspecting Otapyon across the level's myriad platforms and into the doorway.
+If an alien remains with all doors closed, the player is placed in a no-win situation. The tenth level, a flat expanse with two Namegon aliens and one door, illustrates this dilemma. Because the level begins with them spaced far apart, it is initially impossible to guide both aliens in the single door without one escaping. Allowing one to escape, however, places it closer to its counterpart, in turn enabling the player to trap both. If the player traps only one, then they must sacrifice one life as the stage will be impossible to complete.
+The 50th level requires such timing that failure at any part guarantees an impossible-to-win scenario. As in the previous case, the player's only option is to intentionally lose a life to continue play. This is not a programming error, but another aspect of the game's difficulty level. This is a unique trait of Door Door as most games prevent such a scenario with a time limit (such as Super Mario Bros.) or physical restriction (such as Tetris). There is no ending in Door Door; after completing the final level, the game simply restarts at the first level, although the player's accumulated score is retained for the player to build higher through continued play.
+
+Development and history[edit]
+Inspired by the popularity of personal computers in the United States, Yasuhiro Fukushima decided to set up Enix, going into the PC game business market, in 1982.[citation needed] Fukushima wasn't a programmer himself, and Enix, in a broad sense, was simply intended to be a publishing company.[5] To pool the talent of individual game designers, Enix sponsored a national programming contest.[5] Three hundred programs were entered into the contest, and the first prize went to programming prodigy and high school student[6] Koichi Nakamura for his puzzle game, Door Door.[5] Yuji Horii placed in the finals of the same contest with a computer tennis game;[5] both were subsequently hired by Enix and the rights to Door Door became property of Enix.[citation needed] Enix published the game on a wide range of Japanese computers, including NEC's PC-8801, Fujitsu's FM-7, and Sharp's MZ-2000. With sales exceeding 200,000 copies,[5] Door Door was a huge success. The popularity of the budding console market prompted a 1985 release on Nintendo's Famicom. In 1986, Enix's third Famicom production and first role-playing video game made Horii and Nakamura household names in Japan: Dragon Quest.[7]
+Enix's unique approach as a game company—contracting talent for game development, then publishing the games—started a new trend in the video game industry.[5] Like publishing companies and writers, Enix established the concept of royalties between them and their contractors. In 1984, Nakamura created a relatively exclusive contracting company, christened Chunsoft in honor of Door Door's diminutive hero.
+
+Ports and expanded editions[edit]
+
+
+Platform
+
+Media
+
+Release date
+
+
+NEC PC-8801
+
+51⁄4-inch DD floppy disk
+
+February 1983
+
+
+Sharp MZ-2000
+
+Cassette tape
+
+1983
+
+
+Fujitsu FM-7
+
+3.5-inch floppy disk
+
+1983
+
+
+NEC PC-6001
+
+Cassette tape
+
+1984
+
+
+Fujitsu FM-77
+
+3.5-inch floppy disk
+
+1984
+
+
+MSX computers
+
+Cartridge
+
+1984
+
+
+Famicom
+
+Cartridge
+
+18 July 1985[8]
+
+
+NTT DoCoMo FOMA 505i and 900i series of mobile phones
+
+Paid download
+
+1 March 2004[9]
+
+
+An expanded version of the game, branded Door Door mkII, was released three years after the original in February 1985. The game was ported to MSX computers, NEC's PC-6001, PC-6001mkII, PC-6601, PC-8801, PC-8801mkII, and PC-8801mkIISR models, Sharp's MZ-2000, and Fujitsu's FM-7. It features 100 levels and the option to start the game from the new set of levels (beginning with level 51). Encouraged by the rapidly increasing popularity of video game consoles in Japan, Enix also ported Door Door to Nintendo's Famicom. In March 2004, Chunsoft celebrated their 20th anniversary by releasing a version of Door Door for Japanese mobile phone networks. A faithful reproduction of the Famicom version, the application is available for the NTT DoCoMo FOMA 505i and 900i series phones, and can be downloaded from i-chunsoft for ¥300 per month.[9] To the right is a table of all licensed ports of Door Door. A modified version featuring Mean Clean(エコ吉, eco kichi, in japanese) as the main protgonist is also featured in the 2008 sound novel 428: Shibuya Scramble as an unlockable bonus.
+
+Notes[edit]
+
+
+^ Japanese: ドアドア, Hepburn: Doa Doa
+
+
+See Also[edit]
+Hotel Mario
+References[edit]
+
+
+^ "DoorDoor (Game)". Giant Bomb. Retrieved 17 December 2021.
+
+^ "Mind your manners and hold the door in Enix's Door Door". Destructoid. 2 May 2021. Retrieved 17 December 2021.
+
+^ Furuki (2006). "Famitsu Readers' All-time Favorite Famicom Games". Retrieved 15 September 2006.
+
+^ Well, Thomas (30 June 2019). "The Story Behind Dragon Quest". Medium. Retrieved 17 December 2021.
+
+^ a b c d e f Fujii (2003), p. 13
+
+^ tsr. "The Road to Dragon Quest". Retrieved 13 August 2006.
+
+^ Fujii (2003), p. 14
+
+^ Square Enix site staff. ドアドア (in Japanese). Retrieved 12 August 2006.
+
+^ a b Famitsu staff (27 March 2004). ""iチュンソフト"で懐かしの『ドアドア』が配信される！" (in Japanese). Retrieved 13 August 2006.
+
+
+External links[edit]
+Official website (in Japanese)
+
+
+
+
+Retrieved from "https://en.wikipedia.org/w/index.php?title=Door_Door&oldid=1078146367"
+Categories: 1983 video gamesEnix gamesJapan-exclusive video gamesMobile gamesMSX gamesNEC PC-6001 gamesNEC PC-8001 gamesNEC PC-8801 gamesSharp MZ gamesSharp X1 gamesFM-7 gamesNintendo Entertainment System gamesPuzzle-platform gamesVideo games developed in JapanSingle-player video gamesHidden categories: Articles containing Japanese-language textCS1 uses Japanese-language script (ja)CS1 Japanese-language sources (ja)Articles with short descriptionShort description matches WikidataUse dmy dates from March 2017Short description is different from WikidataArticles using Infobox video game using locally defined parametersArticles using Wikidata infoboxes with locally defined imagesArticles needing additional references from April 2018All articles needing additional referencesAll articles with unsourced statementsArticles with unsourced statements from December 2021Official website different in Wikidata and WikipediaArticles with Japanese-language sources (ja)
+
+
+
+
+
+
+Navigation menu
+
+
+
+Personal tools
+
+
+Not logged inTalkContributionsCreate accountLog in
+
+
+
+
+
+Namespaces
+
+
+ArticleTalk
+
+
+
+
+
+English
+
+
+
+
+
+
+
+
+
+Views
+
+
+ReadEditView history
+
+
+
+
+
+More
+
+
+
+
+
+
+
+
+Search
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+Navigation
+
+
+Main pageContentsCurrent eventsRandom articleAbout WikipediaContact usDonate
+
+
+
+
+Contribute
+
+
+HelpLearn to editCommunity portalRecent changesUpload file
+
+
+
+
+Tools
+
+
+What links hereRelated changesUpload fileSpecial pagesPermanent linkPage informationCite this pageWikidata item
+
+
+
+
+Print/export
+
+
+Download as PDFPrintable version
+
+
+
+
+Languages
+
+
+العربيةEspañolItalianoمصرى日本語Русский吴语中文
+Edit links
+
+
+
+
+
+
+ This page was last edited on 20 March 2022, at 03:20 (UTC).
+Text is available under the Creative Commons Attribution-ShareAlike License 3.0;
+additional terms may apply.  By using this site, you agree to the Terms of Use and Privacy Policy. Wikipedia® is a registered trademark of the Wikimedia Foundation, Inc., a non-profit organization.
+
+
+Privacy policy
+About Wikipedia
+Disclaimers
+Contact Wikipedia
+Mobile view
+Developers
+Statistics
+Cookie statement
+
+
+
+
+
+
+
+
+
+

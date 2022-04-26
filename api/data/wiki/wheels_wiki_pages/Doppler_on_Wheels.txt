@@ -1,0 +1,315 @@
+
+
+
+
+Doppler on Wheels - Wikipedia
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+Doppler on Wheels
+
+From Wikipedia, the free encyclopedia
+
+
+
+Jump to navigation
+Jump to search
+Fleet of X-band radar trucks maintained by the Center for Severe Weather Research (CSWR)
+ DOW 7 on display at the USA Science and Engineering Festival in 2010.
+
+
+ A Doppler on Wheels unit (DOW 3) observing a tornado near Attica, Kansas
+ Data gathered by a Doppler on Wheels unit showing a tornado near La Grange, Wyoming
+Doppler on Wheels (or DOW) is a fleet of X-band and C-band radar trucks managed by the University of Illinois Urbana-Champaign and previously maintained by the Center for Severe Weather Research (CSWR) in Boulder, Colorado, led by principal investigator (PI) Joshua Wurman, with the funding largely provided by the National Science Foundation (NSF). The DOW fleet and its associated Mobile Mesonets and deployable weather stations (Pods) were Lower Atmospheric Observing Facilities (LAOF) "National Facilities" supporting a wide variety NSF-sponsored research.[1] They are now included in the NSF's "Community Instruments and Facilities" (CIF) program led by PI Karen Kosiba.[2][3]
+
+Contents
+
+1 History and deployment
+2 Findings
+3 Future Instrumentation
+4 See also
+5 References
+6 External links
+
+
+History and deployment[edit]
+As of 2022, there are three operational DOWs out of a total of eight constructed since 1995. Two of the three, DOWs 6 and 7, are dual-polarization, dual-frequency, quick-scanning Doppler weather radars. These radars have the highest transmitting power of any mobile X-band system with dual 250kW transmitters. The third, referred to as the Rapid-Scan DOW (RSDOW), features a custom phased-array antenna that allows for multiple elevation scans to be completed simultaneously. The RSDOW can also be configured into a single beam, single frequency, single-polarization radar (fielded as DOW 8).[4] Each DOW is also equipped with a communication mast that hosts various weather instruments. Several instrumented mobile mesonet pickup trucks host in situ weather instrumentation on 3.5-metre (11 ft) masts to complement the remote sensing radars. These mobile mesonets also carry approximately twenty instrumented "PODS", which are ruggedized quickly deployable weather stations designed to survive inside tornadoes, tropical cyclones, and other adverse environments. The DOW fleet is sometimes accompanied by a Mobile Operations and Repair Center (MORC), a large van containing workstations for in-field coordination, data management, and equipment repair.[5]
+The DOW fleet has collected data in 200 tornadoes and inside the cores of thirteen hurricanes. DOWs have been deployed to Europe twice,[6] for the MAP and COPS field programs, and to Alaska twice for the JAWS-Juneau projects. DOWs have operated as high as 12,700 feet (3,900 m) on Bristol Head and at 10,000 feet (3,000 m) for the ASCII project at Battle Pass. Three DOWs, Mobile Mesonets and PODS were deployed for the OWLeS lake-effect snow study. The DOWs have participated in many field programs including VORTEX, VORTEX2, COPS, MAP, ASCII, IHOP, SCMS, CASES, ROTATE, PAMREX, SNOWD-UNDER, FLATLAND, HERO, UIDOW, UNDEO.[citation needed]
+The DOW fleet was deployed to the nocturnal convection study, PECAN, in June–July 2015.[citation needed]
+In late 2018, the DOW Facility debuted a new quickly-deployable C-band radar (or COW) featuring a larger antenna and 5cm wavelength (as compared to the 3cm wavelength of the DOWs). Due to the larger size of the antenna, the truck features a built-in crane allowing for the radar to be assembled on site. The COW was first deployed as part of the RELAMPAGO field campaign in Argentina in late 2018.[7]
+In November 2020, it was announced that the Department of Atmospheric Sciences at the University of Illinois Urbana-Champaign would become the managing partner of the DOW Facility.[8] The contract includes three DOWs, the COW, and three mobile mesonet vehicles as well as sounding systems and other instrumentation. The partnership was funded through department money and outside research grants from the NSF and other agencies.[9] After joining UIUC, the facility and its associated instrumentation were officially renamed the "FARM" (Flexible Array of Radars and Mesonets).[10]
+The FARM will participate in multiple field campaigns in 2022 including WINTRE-MIX[11] and PERiLS.[12]
+
+Findings[edit]
+DOW data led to the discovery of sub-kilometer hurricane boundary layer rolls, which likely modulate wind damage and may play a key role in hurricane intensification. DOW data revealed the most intense winds ever recorded (Bridge Creek tornado, 3 May 1999),[13] and the largest tornadic circulation ever documented (also 3 May 1999 in Mulhall, OK),[14] and made the first 3D maps of tornado winds and sub-tornadic vortex winds, and documented intense vortices within lake-effect snow bands. About 70 peer reviewed scientific publications have used DOW data.[citation needed]
+The DOW fleet, PODS, and mobile mesonets have been featured on television, including Discovery Channel's reality series Storm Chasers,[15] National Geographic Channel's specials Tornado Intercept and The True Face of Hurricanes, and PBS's Nova episode "The Hunt for the Supertwister," and others.[citation needed]
+
+Future Instrumentation[edit]
+There are currently two major projects planned to expand the FARM's capabilities. The first is the creation of an S-band on Wheels Network (SOWNET) featuring four quickly-deployable S-band radars with 10cm wavelengths capable of seeing through intense precipitation. These smaller truck-mounted radars would replace a single large S-band radar, allowing for dual-Doppler analyses and quicker deployment times. The second planned project is the Bistatic Adaptable Radar Network (BARN) which will be integrated with existing DOWs and the COW to provide high resolution wind vector observations without the need for multiple, expensive transmitters. These bistatic receivers will consist of small antennas that can be deployed like Pods or mounted onto a Mobile Mesonet or similar vehicle.[16]
+
+See also[edit]
+Bistatic radar
+Pulse-Doppler radar
+Storm chasing
+References[edit]
+
+
+^ "Doppler on Wheels – Science Nation – National Science Foundation". www.nsf.gov.
+
+^ "GEO AGS Facilities for Atmospheric Research and Education-FARE | NSF - National Science Foundation". www.nsf.gov. Retrieved 13 January 2022.
+
+^ "NSF Award Search: Award # 2113207 - CIF: Community Instruments and Facilities: Mobile and Quickly Deployable Radars". nsf.gov. Retrieved 13 January 2022.
+
+^ "FARM: The DOW Network". farm.atmos.illinois.edu. Retrieved 13 January 2022.
+
+^ "Observation". NOAA National Severe Storms Laboratory.
+
+^ "Archived copy". Archived from the original on 11 December 2016. Retrieved 3 February 2017.{{cite web}}:  CS1 maint: archived copy as title (link)
+
+^ "New Colorado-designed 'Doppler on Wheels' chasing storms in Argentina". KUSA.com. Retrieved 13 January 2022.
+
+^ "https://twitter.com/atms_illinois/status/1331688145478426625". Twitter. Retrieved 13 January 2022. {{cite web}}: External link in |title= (help)
+
+^ ""Doppler on wheels" coming to University of Illinois". WCIA.com. 6 February 2021. Retrieved 13 January 2022.
+
+^ "FARM: Home". farm.atmos.illinois.edu. Retrieved 13 January 2022.
+
+^ "WINTRE-MIX | Earth Observing Laboratory". www.eol.ucar.edu. Retrieved 13 January 2022.
+
+^ "https://twitter.com/dowfacility/status/1450522095331459076". Twitter. Retrieved 15 January 2022. {{cite web}}: External link in |title= (help)
+
+^ "Usatoday.Com". Usatoday30.usatoday.com. 17 May 2005. Retrieved 3 May 2019.
+
+^ "Archived copy". Archived from the original on 7 May 2013. Retrieved 2 February 2017.{{cite web}}:  CS1 maint: archived copy as title (link)
+
+^ "Archived copy". Archived from the original on 21 April 2017. Retrieved 3 February 2017.{{cite web}}:  CS1 maint: archived copy as title (link)
+
+^ Wurman, Joshua; Kosiba, Karen (1 August 2021). "The Flexible Array of Radars and Mesonets (FARM)". Bulletin of the American Meteorological Society. 102: E1499–E1525.
+
+
+External links[edit]
+
+
+
+Wikimedia Commons has media related to DOW (radar).
+
+Information on Doppler on Wheels and Rapid DOW
+vteUS weather radarsMilitary weather radars
+SCR-658 radar
+AN/APQ-13
+AN/APS-2F
+AN/CPS-9
+AN/FPS-41
+Weather surveillance radars
+WSR-1, 1A, 3 and 4
+WSR-57
+WSR-74C and -74S
+WSR-88D (NEXRAD)
+TDWR
+Research radars
+ADRAD
+ARMOR
+CASA
+DOW
+NSSL Doppler
+SMART-R
+CSU-CHILL
+OU-PRIME
+Multifunction Phased Array Radar at NSSL
+TOGA
+Joint Polarization Experiment
+
+
+
+
+
+Retrieved from "https://en.wikipedia.org/w/index.php?title=Doppler_on_Wheels&oldid=1065871009"
+Categories: Weather radarsMeteorology research and field projectsSevere weather and convectionStorm chasingBistatic radarsScience and technology in the United StatesHidden categories: CS1 maint: archived copy as titleCS1 errors: external linksArticles with short descriptionShort description matches WikidataUse dmy dates from July 2013All articles with unsourced statementsArticles with unsourced statements from May 2019Commons category link from WikidataAC with 0 elements
+
+
+
+
+
+
+Navigation menu
+
+
+
+Personal tools
+
+
+Not logged inTalkContributionsCreate accountLog in
+
+
+
+
+
+Namespaces
+
+
+ArticleTalk
+
+
+
+
+
+English
+
+
+
+
+
+
+
+
+
+Views
+
+
+ReadEditView history
+
+
+
+
+
+More
+
+
+
+
+
+
+
+
+Search
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+Navigation
+
+
+Main pageContentsCurrent eventsRandom articleAbout WikipediaContact usDonate
+
+
+
+
+Contribute
+
+
+HelpLearn to editCommunity portalRecent changesUpload file
+
+
+
+
+Tools
+
+
+What links hereRelated changesUpload fileSpecial pagesPermanent linkPage informationCite this pageWikidata item
+
+
+
+
+Print/export
+
+
+Download as PDFPrintable version
+
+
+
+
+In other projects
+
+
+Wikimedia Commons
+
+
+
+
+Languages
+
+
+Français
+Edit links
+
+
+
+
+
+
+ This page was last edited on 15 January 2022, at 18:34 (UTC).
+Text is available under the Creative Commons Attribution-ShareAlike License 3.0;
+additional terms may apply.  By using this site, you agree to the Terms of Use and Privacy Policy. Wikipedia® is a registered trademark of the Wikimedia Foundation, Inc., a non-profit organization.
+
+
+Privacy policy
+About Wikipedia
+Disclaimers
+Contact Wikipedia
+Mobile view
+Developers
+Statistics
+Cookie statement
+
+
+
+
+
+
+
+
+
+

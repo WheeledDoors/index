@@ -1,0 +1,280 @@
+
+
+
+
+Mecanum wheel - Wikipedia
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+Mecanum wheel
+
+From Wikipedia, the free encyclopedia
+
+
+
+Jump to navigation
+Jump to search
+This article needs additional citations for verification. Please help improve this article by adding citations to reliable sources. Unsourced material may be challenged and removed.Find sources: "Mecanum wheel" – news · newspapers · books · scholar · JSTOR (September 2011) (Learn how and when to remove this template message)
+ A wheelchair using Mecanum wheels
+ URANUS: First Mecanum wheeled omni-directional mobile robot
+ Container loader with numerous powered Mecanum wheels for shifting and rotation of containers.
+The mecanum wheel is an omnidirectional wheel design for a land-based vehicle to move in any direction. It is sometimes called the Swedish wheel or Ilon wheel after its inventor, Bengt Erland Ilon (1923-2008),[1] who conceived of the concept while working as an engineer with the Swedish company Mecanum AB, and patented it in the United States on November 13, 1972.[2]
+
+Contents
+
+1 Design
+2 Use
+3 See also
+4 References
+5 External links
+
+
+Design[edit]
+The mecanum wheel is a form of tireless wheel, with a series of rubberized external rollers obliquely attached to the whole circumference of its rim.  These rollers typically each have an axis of rotation at 45° to the wheel plane and at 45° to the axle line.[3]  Each Mecanum wheel is an independent non-steering drive wheel with its own powertrain, and when spinning generates a propelling force perpendicular to the roller axle, which can be vectored into a longitudinal and a transverse component in relation to the vehicle.
+
+ Movements to any directions:blue: wheel drive direction; red: vehicle moving directiona) Moving straight ahead, b) Moving sideways, c) Moving diagonally, d) Moving around a bend, e) Rotation, f) Rotation around the central point of one axle
+The typical Mecanum design is the four-wheel configuration as demonstrated by one of the URANUS omni-directional mobile robot[4] (pictured) or a wheelchair with Mecanum wheels (similar to that pictured).,[5] with an alternating with left- and right-handed rollers whose axles at the top of the wheel are parallel to the diagonal of the vehicle frame (and hence perpendicular to the diagonal when at where the bottom of the wheel contacts the ground).  In such a way, each wheel will generate a thrust roughly parallel to the corresponding frame diagonal.  By varying the rotational speed and direction of each wheel, the summation of the force vectors from each of the wheels will create both linear motions and/or rotations of the vehicle, allowing it to maneuver around with minimal need for space.  For example:
+
+Running all four wheels in the same direction at the same speed will result in a forward/backward movement, as the longitudinal force vectors add up but the transverse vectors cancel each other out;
+Running (all at the same speed) both wheels on one side in one direction while the other side in the opposite direction, will result in a stationary rotation of the vehicle, as the transverse vectors cancel out but the longitudinal vectors couple to generate a torque around the central vertical axis of the vehicle;
+Running (all at the same speed) the diagonal wheels in one direction while the other diagonal in the opposite direction will result in a sideways movement, as the transverse vectors add up but the longitudinal vectors cancel out.
+A mix of differential wheel motions will allow for vehicle motion in almost any direction with any rotation.
+
+Use[edit]
+The US Navy bought the patent from Ilon and put researchers to work on it in the 1980s in Panama City, Florida. The US Navy has used it for transporting items around ships. In 1997, Airtrax Incorporated and several other companies each paid the US Navy $2,500 for rights to the technology, including old drawings of how the motors and controllers worked, to build an omnidirectional forklift truck that could maneuver in tight spaces such as the deck of an aircraft carrier. These vehicles are now in production.
+Tracked vehicles and skid steer vehicles utilize similar methods for turning. However, these vehicles typically drag across the ground while turning and may do considerable damage to a soft or fragile surface. The high friction against the ground while turning also requires high-torque engines to overcome the friction. By comparison, the design of the Mecanum wheel allows for in-place rotation with minimal ground friction and low torque.
+One of the most prominent youth robotics organizations in the world, FIRST Tech Challenge, is one of the most wide use cases for Mecanum wheels. FTC teams need to move efficiently on the field in order to score the most points possible, so many teams have adapted Mecanum wheels from suppliers such as Nexus and GoBilda. 
+
+ FTC Team 506 Pandara's Mechanum Drivetrain from Palm Harbor University High School
+See also[edit]
+Ball transfer unit
+Omni wheel
+References[edit]
+
+
+^ DE 2354404, Ilon Bengt Erland, "Rad Fuer Ein Laufstabiles, Selbstfahrendes Fahrzeug", issued 1974-05-16 
+
+^ US 3876255, Ilon Bengt Erland, "Wheels for a Course Stable Selfpropelling Vehicle Movable in any Desired Direction on the Ground or Some Other Base", issued 1975-04-08 
+
+^ "Improved Mecanum Wheel Design for Omni-Directional Robots" (PDF). Institute of Technology and Engineering, Massey University. November 2002. Retrieved 22 September 2011.
+
+^ Podnar, Gregg. ""Uranus"". www.cs.cmu.edu.
+
+^ "Electric Wheel Chair". Planetary Engineering Group. Retrieved 2019-01-13.
+
+
+External links[edit]
+
+
+
+Wikimedia Commons has media related to Mecanum wheels.
+
+Airtrax video
+Orlando Business Journal article Omnics' wheel of fortune rolls into production by Chad Eric Watt, 31 May 2002.
+The Wall Street Journal online Make It by Paulette Thomas, 9 May 2005.
+Video of a wheel chair with Mecanum wheels (WMV).[1] The wheel chair was presented at the 2006 EVER Monaco.
+Segway RMP Photos of a 2008 Segway robot with Mecanum wheels.
+CMU's "Tessellator" robot designed in 1992 for servicing Space Shuttle tiles used Mecanum wheels.[2]
+CMU URANUS Mobile Robot, the first mobile robot with Mecanum wheels built in 1985 and used for two decades for autonomous navigation research.[3]
+
+^ "Electric wheel chair with mecanum wheels". Planetary Engineering Group. Archived from the original on 2006-06-13.
+
+^ Kim, Jin-Oh; Khosla, Pradeep (May 1993). "Design of Space Shuttle Tile Servicing Robot: An Application of Task Based Kinematic Design (Conference Paper)". IEEE International Conference on Robotics and Automation. 3 (1): 867–874. doi:10.1109/ROBOT.1993.292253.
+
+^ Podnar, Gregg W. (1985). "The URANUS Mobile Robot" (PDF). Autonomous Mobile Robots Annual Report 1985, Mobile Robot Laboratory (CM U-KI-TK-86-4): 127–129. Archived (PDF) from the original on 2008-12-03.
+
+
+
+
+
+
+Retrieved from "https://en.wikipedia.org/w/index.php?title=Mecanum_wheel&oldid=1079789749"
+Categories: Swedish inventionsMechanisms (engineering)Wheels1973 introductionsHidden categories: Articles needing additional references from September 2011All articles needing additional referencesCommons category link is on Wikidata
+
+
+
+
+
+
+Navigation menu
+
+
+
+Personal tools
+
+
+Not logged inTalkContributionsCreate accountLog in
+
+
+
+
+
+Namespaces
+
+
+ArticleTalk
+
+
+
+
+
+English
+
+
+
+
+
+
+
+
+
+Views
+
+
+ReadEditView history
+
+
+
+
+
+More
+
+
+
+
+
+
+
+
+Search
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+Navigation
+
+
+Main pageContentsCurrent eventsRandom articleAbout WikipediaContact usDonate
+
+
+
+
+Contribute
+
+
+HelpLearn to editCommunity portalRecent changesUpload file
+
+
+
+
+Tools
+
+
+What links hereRelated changesUpload fileSpecial pagesPermanent linkPage informationCite this pageWikidata item
+
+
+
+
+Print/export
+
+
+Download as PDFPrintable version
+
+
+
+
+In other projects
+
+
+Wikimedia Commons
+
+
+
+
+Languages
+
+
+DeutschFrançaisItalianoNederlandsРусскийSvenskaУкраїнська中文
+Edit links
+
+
+
+
+
+
+ This page was last edited on 28 March 2022, at 16:45 (UTC).
+Text is available under the Creative Commons Attribution-ShareAlike License 3.0;
+additional terms may apply.  By using this site, you agree to the Terms of Use and Privacy Policy. Wikipedia® is a registered trademark of the Wikimedia Foundation, Inc., a non-profit organization.
+
+
+Privacy policy
+About Wikipedia
+Disclaimers
+Contact Wikipedia
+Mobile view
+Developers
+Statistics
+Cookie statement
+
+
+
+
+
+
+
+
+
+

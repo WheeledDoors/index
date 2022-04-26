@@ -1,0 +1,379 @@
+
+
+
+
+Fire door - Wikipedia
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+Fire door
+
+From Wikipedia, the free encyclopedia
+
+
+
+Jump to navigation
+Jump to search
+Fire resistant door
+The examples and perspective in this article may not represent a worldwide view of the subject. You may improve this article, discuss the issue on the talk page, or create a new article, as appropriate. (February 2012) (Learn how and when to remove this template message)
+ Fire-resistance rated door, with wire mesh glass vision panel
+ Industrial grade fire door rated to hydrocarbon curve and blast resistance.
+ Double fire door immediately after 3 hour fire test inside a 4-hour rated Durasteel wall.
+ Double fire door after 3 hour fire test in a 4-hour Durasteel wall, during successful 45PSI (3.1 bar) hose stream test leading to a UL Listing.[1]
+A fire door is a door with a fire-resistance rating (sometimes referred to as a fire protection rating for closures) used as part of a passive fire protection system to reduce the spread of fire and smoke between separate compartments of a structure and to enable safe egress from a building or structure or ship.  In North American building codes, it, along with fire dampers, is often referred to as a closure, which can be derated compared against the fire separation that contains it, provided that this barrier is not a firewall or an occupancy separation.  In Europe national standards for fire doors have been harmonised with the introduction of the new standard EN 16034, which refers to fire doors as fire-resisting door sets.  Starting September 2016, a common CE marking procedure was available abolishing trade barriers within the European Union for these types of products.  In the UK, it is Part B of the Building Regulations that sets out the minimum requirements for the fire protection that must be implemented in all dwellings this includes the use of fire doors.  All fire doors must be installed with the appropriate fire resistant fittings, such as the frame and door hardware, for it to fully comply with any fire regulations.[citation needed]
+In the UK the British Woodworking Federation outline the difference between a 'Fire Doorset' and a 'Fire Door Assembly'.[2]
+
+Contents
+
+1 Components
+
+1.1 Door hardware
+1.2 Seals
+1.3 Windows
+
+
+2 Regulations
+
+2.1 Combustibility
+
+
+3 Fire door failure
+4 Normal operation
+5 Installation
+6 Annual inspection
+7 Modifications
+8 See also
+9 References
+10 External links
+
+
+Components[edit]
+Fire doors may be made of a combination of materials, such as:
+
+Glass sections (including vision panels)
+Gypsum (as an endothermic fill)
+Steel
+Timber
+Vermiculite-boards
+Aluminium
+GI
+Both the door leaf (the swinging panel of the door) and the door frame are required to meet the guidelines of the testing agency which provides the product listing.  The door frame includes the fire or smoke seals, door hardware, and the structure that holds the fire door assembly in place.  Together, these components form an assembly, typically called a "doorset" which holds a numerical rating, quantified in minutes or hours of resistance to a test fire.  All of the components of the fire door assembly must bear a listing agencies label (with the exception of ball-bearing hinges which meet the basic build requirements of ANSI 156.2 and NFPA 80) to ensure the components have been tested to meet the fire rating requirements.
+
+Door hardware[edit]
+Door hardware includes:
+
+Automatic closing devices or objects
+Ball-bearing hinges
+Gas seals
+Positive latching mechanisms
+Smoke seals
+Seals[edit]
+Edges of a fire door usually need to have fire rated seals which can be composed of:
+
+An intumescent strip, which expands when exposed to heat
+Gaskets to prevent the passage of smoke
+Neoprene weatherstripping
+When intumescent seals are used in the door design, use of the correct seal is crucial in the fire rating performance the door assembly.  Seals may vary in chemical composition, expansion rate, expansion volume, and/or charring characteristics.
+
+Windows[edit]
+Some fire doors are equipped with integral windows which also have a rating, or have been incorporated at the time of the door test and be subject to the overall door's product certification. Fire-resistive windows must remain intact under fire conditions and hose stream impact resistance, and can include:
+
+Wire mesh glass - usually Georgian wired
+Liquid sodium silicate fills between two window panes
+Ceramic glasses
+Borosilicate glass
+Wired glass typically withstands the fire, whereas the sodium silicate liquid also acts to insulate heat transfer, due to the endothermic action of this chemical.
+
+ Fire door rating label  In the United States, wire glass must pass the requirements of 16 CFR 1201 and be "labeled" to be used in a door.  Laminate and ceramic glasses are now more likely to be used, as they more readily meet the requirements of 16 CFR 2101.  
+Regulations[edit]
+All components are required to adhere to product certification requirements that are acceptable to the local Authority Having Jurisdiction (AHJ) by meeting the requirements of the local building code and fire code. The regulatory requirement change from country to country. For example, in Australia, the National Construction Code dictates that all fire doors must be tested to certain specifications in order to meet resistance approvals and certification.[3]
+In the United Kingdom a fire resisting doorset should be subjected to either a British Standard Fire Test BS 476 Part 22 1987, or a BS/EN 1634-1 2000 test.  The results are recorded by the test agency and provided in a report which detail such things as constructional details, distortion data and pressure readings. The numerical fire resistance rating that is required to be installed in a particular building is provided in the Building Regulations approved Document B, or British Standards such as the BS 5588 series (e.g., 30 minutes FD30, or FD30(S) if cold smoke resistance is also required). Classifications in use which reflect the number of minutes of fire resistance offered are FD30, FD60, FD90 and FD120.[4]
+Similar technical guidance documents and building regulations are in effect in other countries.
+
+Combustibility[edit]
+Fire doors are not necessarily noncombustible. It is acceptable for portions of the door to be destroyed by combustion during exposure to fire as long as the door assembly meets the fire test criteria of limiting temperature on the non-fire side of the assembly. This is in accordance with the overall performance goal of a fire-rated door to slow fire propagation from one fire rated compartment to another for only a limited amount of time, during which automatic or manual fire fighting may be employed to limit fire spread, or occupants can exit the building. Fire doors are made from a range of different materials such as timber or steel. Despite not being fire resistant, timber is used as it has a very predictable char rate, depending on the density and the moisture content timber generally has a char rate of 0.5mm per minute for hardwood and 0.7mm per minute for softwood.[5]
+
+Fire door failure[edit]
+Fire doors are sometimes rendered unable to provide their listed fire resistance by ignorance of the intended use and associated restrictions and requirements, or by improper use.  For example, fire doors are sometimes blocked open, or carpets are run through them, which would allow the fire to travel past the fire barrier in which the door is placed.  The door's certification markings are displayed both on the door leaves and the fire door frames, and should not be removed or painted over during the life of the building.
+Sometimes fire doors have apparently very large gaps at the foot of them, an inch or two even, allowing air movement, such as in dormitory facilities.  This can lead the occupants of a building to question their status as 'real' fire doors.  NFPA 80 allows a maximum door undercut of 3/4 inch however fire doors are tested with smaller clearances in accordance with NFPA 252.[6]  Corridors have a fire rating of one hour or less, and the fire doors in them are required by code to have a fire rating of 1/2 or 1/3 hour, the intent of which is mainly to restrict smoke travel.[7]
+
+Normal operation[edit]
+ Fire door held open by an electromagnet
+Most fire doors are designed to be kept closed at all times. Some doors are designed to stay open under normal circumstances, and close automatically in the event of a fire.  Whichever method is used, the door's movement should never be impaired by a doorstop or other obstacle.  The intumescent and smoke-seal bounding of fire doors should be routinely checked, as should the action of the door closer and latch.
+Some fire doors are held open by an electromagnet, which is typically wired to a fire alarm system.  If the power fails or the fire alarm is activated, the coil is de-energized, and the door closes.  Wireless, battery-operated, fire door retainers can also be used to safely and legally hold fire doors open.
+Rated fire doors are tested to withstand an ASTM E119 standard time-temperature curve for a specified period.[8]  There are 20, 30, 45, 60, and 90-minute-rated fire doors that are certified by an approved laboratory designated as a Nationally Recognized Testing Laboratory (NRTL, e.g., Underwriters Laboratories).  The certification only applies if all parts of the installation are correctly specified and installed.  For example, fitting the wrong kind of glazing may severely reduce the door's fire resistance period.
+
+Installation[edit]
+As well as ensuring the door is hung properly and squarely, it is also very important that where a fire door is installed, any gaps left in the opening between the wall and the door frame must be properly filled with fire resisting material. Fire doors are normally installed by a carpenter. In the UK the British Standard for timber fire door installation is BS 8214: 2016.[9]
+
+Annual inspection[edit]
+In the United States, the NFPA requires annual inspections of fire-resistance rated door and frame assemblies.[10] Local Authorities Having Jurisdiction must adopt the new edition for this requirement to take effect. Most jurisdictions in the US will be adopting the IBC (International Building Code) model code, which references the NFPA 80 2007 edition requirement, as their local codes.
+NFPA 80 5.2.4.requires the following items shall be verified, at minimum:
+
+No open holes or breaks exist in surfaces of either the door or frame.
+Glazing, vision light frames & glazing beads are intact and securely fastened in place, if so equipped.
+The door, frame, hinges, hardware, and noncombustible threshold are secured, aligned, and in working order with no visible signs of damage.
+No parts are missing or broken.
+Door clearances at the door edge of the door frame (Wood Door), on the pull side of the door, do not exceed clearances listed in 4.8.4 (the clearance under the bottom of the door shall be a maximum of 3/4") and 6.3.1 (top & edges 1/8") Metal door (top & edges up to 3/16")
+The self-closing device is operational; that is, the active door completely closes when operated from the full open position.
+If a coordinator is installed, the inactive leaf closes before the active leaf.
+Latching hardware operates and secures the door when it is in the closed position.
+Auxiliary hardware items that interfere or prohibit operation are not installed on the door or frame.
+No field modifications to the door assembly have been performed that void the label.
+Gasketing and edge seals, where required, are inspected to verify their presence and integrity.
+According to building and fire codes, annual fire door inspections is the responsibility of the building owner. However, as with other mandatory fire inspections, such as the inspection of fire dampers, the fire door inspections are often omitted and many facilities are out of compliance.[citation needed]
+The final say on the acceptance of any inspection requires the approval of the AHJ (Authority Having Jurisdiction).
+
+Modifications[edit]
+NFPA 80 includes guidelines concerning field modifications of listed hardware, including frames, builder's hardware, doors, thresholds etc. The growing field of access control and electronic entry systems has resulted in some fire doors being field modified without proper listing agency approval. Field modifications of fire listed assemblies must either be inspected by a listing agency representative, or the modification must be performed by personnel certified to perform such work.[11]
+
+See also[edit]
+
+
+
+Wikimedia Commons has media related to Fire doors.
+
+Certification listing
+Fire protection
+Fire test
+Fire-resistance rating
+Passive fire protection
+EN 16034
+References[edit]
+
+
+^ "GSNN.SP-2-003 - Fire Door Assemblies and Window Assemblies". Database.ul.com. 2011-04-22. Retrieved 2013-05-17.
+
+^ https://firedoors.bwf.org.uk/knowledge-centre/fire-doors/ here
+
+^ "Fire Doors | The Range from FSE Special Purpose Doors". FSE Special Purpose Doors. 2016-10-25. Retrieved 2016-11-15.
+
+^ Enfield Doors, FD Fire Doors, accessed 9 December 2020
+
+^ What are fire doors made from?https://ajmfiresafety.com/2021/06/16/fire-doors-made-from/
+
+^ NFPA 80 Standard for Fire Doors and Other Opening Protectives 2007 Edition, section 4.8.4.1
+
+^ NFPA 80 Standard for Fire Doors and Other Opening Protectives 2007 Edition, Annex D Fire Door and Fire Window Classifications, section D.5
+
+^ http://www.astm.org/Standards/E119.htm, "ASTM E119 - 12 Standard Test Methods for Fire Tests of Building Construction and Materials," Retrieved 9/21/12
+
+^ BS 8214:2016 Timber-based fire door assemblies. Code of practice, [1]
+
+^ NFPA 80, 2007 Edition, Standard for Fire Doors, Frames and Other Opening Protectives (5.2.4)
+
+^ "NFPA article on door modifications". Nfpa.org. 2008-01-03. Archived from the original on 2013-05-23. Retrieved 2010-11-17.
+
+
+External links[edit]
+UL treatise on fire door, hardware and window testing
+Scope for Fire Tests of Door Assemblies UL 10B
+Scope for Positive Pressure Fire Tests of Door Assemblies UL 10C
+Scope for Air Leakage Tests of Door Assemblies UL 1784
+ULC Treatise on Fire Door & Fire Window Testing
+UK regulations for fire doors. A guide about fire doors
+Door and Hardware Institute
+The Fire Door Inspection Scheme
+UK Fire Door Training
+NFPA 80 Standard For Fire Doors And Other Opening Protectives, 2019 Edition
+Fire Door Knowledge Hub
+Authority control: National libraries 
+Germany
+Israel
+United States
+Japan
+
+
+
+
+
+Retrieved from "https://en.wikipedia.org/w/index.php?title=Fire_door&oldid=1056780402"
+Categories: DoorsPassive fire protectionHidden categories: Articles with short descriptionShort description matches WikidataArticles with limited geographic scope from February 2012All articles with unsourced statementsArticles with unsourced statements from May 2019Articles with unsourced statements from June 2010Commons category link is on WikidataArticles with GND identifiersArticles with J9U identifiersArticles with LCCN identifiersArticles with NDL identifiers
+
+
+
+
+
+
+Navigation menu
+
+
+
+Personal tools
+
+
+Not logged inTalkContributionsCreate accountLog in
+
+
+
+
+
+Namespaces
+
+
+ArticleTalk
+
+
+
+
+
+English
+
+
+
+
+
+
+
+
+
+Views
+
+
+ReadEditView history
+
+
+
+
+
+More
+
+
+
+
+
+
+
+
+Search
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+Navigation
+
+
+Main pageContentsCurrent eventsRandom articleAbout WikipediaContact usDonate
+
+
+
+
+Contribute
+
+
+HelpLearn to editCommunity portalRecent changesUpload file
+
+
+
+
+Tools
+
+
+What links hereRelated changesUpload fileSpecial pagesPermanent linkPage informationCite this pageWikidata item
+
+
+
+
+Print/export
+
+
+Download as PDFPrintable version
+
+
+
+
+In other projects
+
+
+Wikimedia Commons
+
+
+
+
+Languages
+
+
+БългарскиCatalàDeutschEestiEspañol한국어ItalianoעבריתNederlands日本語PortuguêsRomânăРусскийSlovenščinaTürkçe粵語中文
+Edit links
+
+
+
+
+
+
+ This page was last edited on 23 November 2021, at 14:08 (UTC).
+Text is available under the Creative Commons Attribution-ShareAlike License 3.0;
+additional terms may apply.  By using this site, you agree to the Terms of Use and Privacy Policy. Wikipedia® is a registered trademark of the Wikimedia Foundation, Inc., a non-profit organization.
+
+
+Privacy policy
+About Wikipedia
+Disclaimers
+Contact Wikipedia
+Mobile view
+Developers
+Statistics
+Cookie statement
+
+
+
+
+
+
+
+
+
+

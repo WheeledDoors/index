@@ -1,0 +1,342 @@
+
+
+
+
+Reaction wheel - Wikipedia
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+Reaction wheel
+
+From Wikipedia, the free encyclopedia
+
+
+
+Jump to navigation
+Jump to search
+ A small reaction wheel viewed in profile
+ A momentum/reaction wheel comprising part of a high-accuracy Conical Earth Sensor to maintain a satellite's precise attitude
+A reaction wheel (RW) is a type of flywheel used primarily by spacecraft for three-axis attitude control, which does not require rockets or external applicators of torque. They provide a high pointing accuracy,[1]: 362  and are particularly useful when the spacecraft must be rotated by very small amounts, such as keeping a telescope pointed at a star.
+A reaction wheel is sometimes operated as (and referred to as) a momentum wheel, by operating it at a constant (or near-constant) rotation speed, to provide a satellite with a large amount of stored angular momentum. Doing so alters the spacecraft's rotational dynamics so that disturbance torques perpendicular to one axis of the satellite (the axis parallel to the wheel's spin axis) do not result directly in spacecraft angular motion about the same axis as the disturbance torque; instead, they result in (generally smaller) angular motion (precession) of that spacecraft axis about a perpendicular axis. This has the effect of tending to stabilize that spacecraft axis to point in a nearly-fixed direction,[1]: 362  allowing for a less-complicated attitude control system. Satellites using this "momentum-bias" stabilization approach include SCISAT-1; by orienting the momentum wheel's axis to be parallel to the orbit-normal vector, this satellite is in a "pitch momentum bias" configuration.
+A control moment gyroscope (CMG) is a related but different type of attitude actuator, generally consisting of a momentum wheel mounted in a one-axis or two-axis gimbal.[1]: 362  When mounted to a rigid spacecraft, applying a constant torque to the wheel using one of the gimbal motors causes the spacecraft to develop a constant angular velocity about a perpendicular axis, thus allowing control of the spacecraft's pointing direction. CMGs are generally able to produce larger sustained torques than RWs with less motor heating, and are preferentially used in larger or more-agile (or both) spacecraft, including Skylab, Mir, and the International Space Station.
+
+Contents
+
+1 Theory
+2 Implementation
+3 Examples of spacecraft using reaction wheels
+
+3.1 Beresheet
+3.2 James Webb Space Telescope
+3.3 LightSail 2
+
+
+4 Failures and mission impact
+
+4.1 Hubble
+4.2 Hayabusa
+4.3 Kepler
+4.4 Dawn
+4.5 Swift Observatory
+
+
+5 See also
+6 References
+7 External links
+
+
+Theory[edit]
+Reaction wheels are used to control the attitude of a satellite without the use of thrusters, which reduces the mass fraction needed for fuel.
+They work by equipping the spacecraft with an electric motor attached to a flywheel, which, when its rotation speed is changed, causes the spacecraft to begin to counter-rotate proportionately through conservation of angular momentum.[2] Reaction wheels can rotate a spacecraft only around its center of mass (see torque); they are not capable of moving the spacecraft from one place to another (see translational force).
+
+Implementation[edit]
+For three-axis control, reaction wheels must be mounted along at least three directions, with extra wheels providing redundancy to the attitude control system. A redundant mounting configuration could consist of four wheels along tetrahedral axes,[3] or a spare wheel carried in addition to a three axis configuration.[1]: 369  Changes in speed (in either direction) are controlled electronically by computer. The strength of the materials used in a reaction wheel determine the speed at which the wheel would come apart, and therefore how much angular momentum it can store.
+Since the reaction wheel is a small fraction of the spacecraft's total mass, easily controlled, temporary changes in its speed result in small changes in angle. The wheels therefore permit very precise changes in a spacecraft's attitude. For this reason, reaction wheels are often used to aim spacecraft carrying cameras or telescopes.
+Over time, reaction wheels may build up enough stored momentum to exceed the maximum speed of the wheel, called saturation, which will need to be canceled. Designers therefore supplement reaction wheel systems with other attitude control mechanisms. In the presence of a magnetic field (as in low Earth orbit), a spacecraft can employ magnetorquers (better known as torque rods) to transfer angular momentum to Earth through its planetary magnetic field.[1]: 368  In the absence of a magnetic field, the most efficient practice is to use either high-efficiency attitude jets such as ion thrusters, or small, lightweight solar sails placed in locations away from the spacecraft's center of mass, such as on solar cell arrays or projecting masts.
+
+Examples of spacecraft using reaction wheels[edit]
+Beresheet[edit]
+Beresheet was launched on a Falcon 9 rocket on 22 February 2019 1:45 UTC,[4] with the goal of landing on the moon. Beresheet uses the low-energy transfer technique to save fuel. Since its fourth maneuver[5] in its elliptical orbit, to prevent shakes when the amount of liquid fuel ran low, there was a need to use a reaction wheel.
+
+James Webb Space Telescope[edit]
+The James Webb Space Telescope has six reaction wheels built by Rockwell Collins Deutschland.[6]
+
+LightSail 2[edit]
+LightSail 2 was launched on 25 June 2019, focused around the concept of a solar sail. LightSail 2 uses a reaction wheel system to change orientation by very small amounts, allowing it to receive different amounts of momentum from the light across the sail, resulting in a higher altitude. 
+[7]
+
+Failures and mission impact[edit]
+The failure of one or more reaction wheels can cause a spacecraft to lose its ability to maintain attitude (orientation) and thus potentially cause a mission failure. Recent studies conclude that these failures can be correlated with space weather effects. These events probably caused failures by inducing electrostatic discharge in the steel ball bearings of Ithaco wheels, compromising the smoothness of the mechanism.[8]
+
+Hubble[edit]
+Two servicing missions to the Hubble Space Telescope have replaced a reaction wheel. In February 1997, the Second Servicing Mission (STS-82) replaced one[9] after 'electrical anomalies', rather than any mechanical problem.[10] Study of the returned mechanism provided a rare opportunity to study equipment that had undergone long-term service (seven years) in space, particularly for the effects of vacuum on lubricants. The lubricating compound was found to be in 'excellent condition'.[10] In 2002, during Servicing Mission 3B (STS-109), astronauts from the shuttle Columbia replaced another reaction wheel.[9] Neither of these wheels had failed and Hubble was designed with four redundant wheels, and maintained pointing ability so long as three were functional.[11]
+
+Hayabusa[edit]
+In 2004, during the mission of the Hayabusa spacecraft, an X-axis reaction wheel failed. The Y-axis wheel failed in 2005, causing the craft to rely on chemical thrusters to maintain attitude control.[12]
+
+Kepler[edit]
+From July 2012 to May 11, 2013, two out of the four reaction wheels in the Kepler telescope failed. This loss severely affected Kepler's ability to maintain a sufficiently precise orientation to continue its original mission.[13] On August 15, 2013, engineers concluded that Kepler's reaction wheels cannot be recovered and that planet-searching using the transit method (measuring changes in star brightness caused by orbiting planets) could not continue.[14][15][16][17] Although the failed reaction wheels still function, they are experiencing friction exceeding acceptable levels, and consequently hindering the ability of the telescope to properly orient itself. The Kepler telescope was returned to its "point rest state", a stable configuration that uses small amounts of thruster fuel to compensate for the failed reaction wheels, while the Kepler team considered alternative uses for Kepler that do not require the extreme accuracy in its orientation needed by the original mission.[18] On May 16, 2014, NASA extended the Kepler mission to a new mission named K2, which uses Kepler differently, but allows it to continue searching for exoplanets.[19] On October 30, 2018, NASA announced the end of the Kepler mission after it was determined that the fuel supply had been exhausted.[20]
+
+Dawn[edit]
+The NASA space probe Dawn had excess friction in one reaction wheel in June 2010. It was originally scheduled to depart Vesta and begin its two-and-a-half-year journey to Ceres on August 26, 2012;[21] however, a problem with another of the spacecraft's reaction wheels forced Dawn to briefly delay its departure from Vesta's gravity until September 5, 2012, and it planned to use thruster jets instead of the reaction wheels during the three-year journey  to Ceres.[21] The loss of the reaction wheels limited the camera observations on the approach to Ceres.
+
+Swift Observatory[edit]
+On the evening of Tuesday, January 18, 2022, a possible failure of one of Swift Observatory's reaction wheels[22] caused the mission control team to power off the suspected wheel, putting the observatory in safe mode as a precaution. This is the first time a reaction wheel has experienced a failure in Swift's 17 years of operations.
+
+See also[edit]
+Control Moment Gyroscope
+Reaction control system
+Spacecraft propulsion
+ROSAT, a satellite lost when limitations in its control envelope were exceeded
+UTC Aerospace Systems, the owner of Ithaco Space Systems, Inc., which built the ill-fated reaction wheels for (among others) the Kepler, Dawn and Hayabusa spacecraft
+References[edit]
+
+
+^ a b c d e Wiley J Larson and James R Wertz (January 1999). Space Mission Analysis and Design (3 ed.). Microcosm Press. ISBN 1-881883-10-8.
+
+^ "Reaction/Momentum Wheel". NASA. Retrieved 15 June 2018.
+
+^ "Attitude Control". Universität Stuttgart Institut für Raumfahrtsysteme. Retrieved 12 August 2016.
+
+^ "israels-moon-mission-launched-successfully". Globes. 22 February 2019.
+
+^ "spaceil-conducts-another-successful-maneuver". Globes. 19 March 2019.
+
+^ [1] Spacecraft Gyroscopes And Reaction Wheels. You Can Never Have Enough | Fraser Cain | Universe Today | Aug, 2019
+
+^ "crowdfunded-spacecraft-lightsail-2-prepares-to-go-sailing-on-sunlight".
+
+^ W. Bialke, E. Hansell "A Newly Discovered Branch of the Fault Tree Explaining Systemic Reaction Wheel Failures And Anomalies", 2017
+
+^ a b "Team Hubble: Servicing Missions -- Servicing Mission 3B". Astronauts replaced one of the four Reaction Wheel Assemblies that make up Hubble's Pointing Control System.
+
+^ a b Carré, D. J.; Bertrand, P. A. (1999). "Analysis of Hubble Space Telescope Reaction Wheel Lubricant". Journal of Spacecraft and Rockets. 36 (1): 109–113. Bibcode:1999JSpRo..36..109C. doi:10.2514/2.3422.
+
+^ "Gyroscopes". ESA. Retrieved 8 April 2016.
+
+^ "Hayabusa". NASA. Archived from the original on June 1, 2013. Retrieved May 15, 2013.
+
+^ Mike Wall (May 15, 2013). "Planet-Hunting Kepler Spacecraft Suffers Major Failure, NASA Says". Space.com. Retrieved May 15, 2013.
+
+^ "NASA Ends Attempts to Fully Recover Kepler Spacecraft, Potential New Missions Considered". August 15, 2013. Retrieved August 15, 2013.
+
+^ Overbye, Dennis (August 15, 2013). "NASA's Kepler Mended, but May Never Fully Recover". New York Times. Retrieved August 15, 2013.
+
+^ Wall, Mike (August 15, 2013). "Planet-Hunting Days of NASA's Kepler Spacecraft Likely Over". Space.com. Retrieved August 15, 2013.
+
+^ "Kepler: NASA retires prolific telescope from planet-hunting duties". BBC News. 16 August 2013.
+
+^ Hunter, Roger. "Kepler Mission Manager Update: Pointing Test Results". NASA.gov. NASA. Retrieved 24 September 2013.
+
+^ Sobeck, Charlie (May 16, 2014).  Johnson, Michele (ed.). "Kepler Mission Manager Update: K2 Has Been Approved!". nasa.gov. NASA Official: Brian Dunbar; Image credit(s): NASA Ames/W. Stenzel. NASA. Archived from the original on May 17, 2014. Retrieved May 17, 2014.
+
+^ Chou, Felicia (2018-10-30). "NASA Retires Kepler Space Telescope, Passes Planet-Hunting Torch". NASA. Retrieved 2018-11-16.
+
+^ a b Cook, Jia-Rui C. (August 18, 2012). "Dawn Engineers Assess Reaction Wheel". NASA / Jet Propulsion Laboratory. Archived from the original on March 15, 2015. Retrieved January 22, 2015.
+
+^ [2] NASA's Swift Observatory in Safe Mode, Team Investigating Reaction Wheel | Nasa | Nasa news | January 2022]
+
+
+External links[edit]
+
+
+
+Wikimedia Commons has media related to Reaction wheels.
+
+Sinclair, Doug; Grant, C. Cordell; Zee, Robert E. (2007). "Enabling Reaction Wheel Technology for High Performance Nanosatellite Attitude Control" (PDF).
+"Reaction Wheel at Wolfram Research". June 2008.
+Markley, F. Landis; Reid G. Reynolds; Frank X. Liu; Kenneth L. Lebsock (2009). "Maximum Torque and Momentum Envelopes for Reaction Wheel Arrays" (PDF).
+
+
+
+
+Retrieved from "https://en.wikipedia.org/w/index.php?title=Reaction_wheel&oldid=1067022683"
+Categories: Spacecraft attitude controlSpacecraft propulsionGyroscopesHidden categories: Commons category link is on Wikidata
+
+
+
+
+
+
+Navigation menu
+
+
+
+Personal tools
+
+
+Not logged inTalkContributionsCreate accountLog in
+
+
+
+
+
+Namespaces
+
+
+ArticleTalk
+
+
+
+
+
+English
+
+
+
+
+
+
+
+
+
+Views
+
+
+ReadEditView history
+
+
+
+
+
+More
+
+
+
+
+
+
+
+
+Search
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+Navigation
+
+
+Main pageContentsCurrent eventsRandom articleAbout WikipediaContact usDonate
+
+
+
+
+Contribute
+
+
+HelpLearn to editCommunity portalRecent changesUpload file
+
+
+
+
+Tools
+
+
+What links hereRelated changesUpload fileSpecial pagesPermanent linkPage informationCite this pageWikidata item
+
+
+
+
+Print/export
+
+
+Download as PDFPrintable version
+
+
+
+
+In other projects
+
+
+Wikimedia Commons
+
+
+
+
+Languages
+
+
+CatalàDeutschEspañolFrançaisBahasa IndonesiaItaliano日本語PolskiTiếng Việt
+Edit links
+
+
+
+
+
+
+ This page was last edited on 21 January 2022, at 08:58 (UTC).
+Text is available under the Creative Commons Attribution-ShareAlike License 3.0;
+additional terms may apply.  By using this site, you agree to the Terms of Use and Privacy Policy. Wikipedia® is a registered trademark of the Wikimedia Foundation, Inc., a non-profit organization.
+
+
+Privacy policy
+About Wikipedia
+Disclaimers
+Contact Wikipedia
+Mobile view
+Developers
+Statistics
+Cookie statement
+
+
+
+
+
+
+
+
+
+
