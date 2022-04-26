@@ -1,0 +1,395 @@
+
+
+
+
+Door closer - Wikipedia
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+Door closer
+
+From Wikipedia, the free encyclopedia
+
+
+
+Jump to navigation
+Jump to search
+Mechanical device that closes a door in a controlled manner
+This article needs additional citations for verification. Please help improve this article by adding citations to reliable sources. Unsourced material may be challenged and removed.Find sources: "Door closer" – news · newspapers · books · scholar · JSTOR (August 2010) (Learn how and when to remove this template message)
+ Modern manual door closer
+ Eclipse door spring and separate checking mechanism
+A door closer is defined as any mechanical device that closes a door in a controlled manner, preventing it from slamming, in general after someone opens it,[1] or after it was automatically opened. The force used to open the door is stored in some type of spring and when released this energy is then used to return the door to a closed position. Door closers can be linked to a building's fire alarm system.  Where doors need to be held open for the majority of the time they are held back with an electromagnetic device.[2] When the fire alarm is triggered it cuts power to the electromagnetic hold-open device allowing the doors to close. These hold-open devices can be separate from the door closer or part of its design.[3]
+
+Contents
+
+1 Early history
+2 Closer development
+3 Types
+
+3.1 Manual
+3.2 Automatic
+
+
+4 Control of closing force and speed
+5 Usage
+
+5.1 Fire safety
+5.2 Maintaining room temperatures
+5.3 Security
+5.4 Noise control
+5.5 Privacy
+5.6 Hygiene
+
+
+6 See also
+7 References
+8 External links
+
+
+Early history[edit]
+ Single action floor spring with pneumatic check. The brass decor plate and shoe are removed to show the internal workings.
+Gravity alone may be considered to be the first "door closer". Before any mechanical devices were attached to doors to close them, the way in which the door was hung automatically closed the door once opened. This technique to hang doors may have originated with gates because of the need for them to remain closed once traffic has passed through. The method involves an intentional misalignment of the hooks or pintles that traditional strap hinges rest on, the bottom pintle protruding from the door post further than the top one. This configuration ensures the weight of the door and gravity will always close any gate or door opened. It is best used on doors only opening one way, many old church doors for instance can still be seen to be hung in this manner.[4]
+One of the first references concerning a device to close a door can be found in the writings of Hero of Alexandria who describes his "automata" which controlled the doors of temples, both opening and closing them automatically.[5] Weights and levers have also been used to close doors,[6] Another device for smaller domestic doors used a loop of rope or skein fixed to the door frame, that was twisted, with a piece of wood placed in between the twists to push the door. The opening of the door twists the skein further, when the door is released the rope's torsional force pushes the arm back against the door, thereby closing it.[7][8]
+In more modern times the clock manufacturers Thwaites and Reed in 1850 claimed to be the original inventors of the spiral door spring.[9] The earliest English patent for a door closing device consisting of weights and pulleys was issued in 1786 to Francis Moore [10] The first English patent issued that mentions a spring can be traced to a few years later to that of Henry Downer.[11] (Ironmonger) of Fleet Street, London recognised for the invention of a "spring to shut a door" (1790),[12] There were even earlier devices invented to close a door,[13] for instance, Mr Delevitz's model of a door with spiral spring hinges (1768) [14] Earlier still is reference by way of a letter between Sir Edward Filmer (3rd Bart.) and his brother, Beversham Filmer dated 1748, in which they discuss a door spring.[15] Whilst not a door closer, there was a mechanical statue, reported in the Stamford Gazette and displayed by a Monsieur Delanois at the White Swan in Stamford, December 21, 1736, that opened and closed his own door.[16][17][18]
+
+Closer development[edit]
+The first door closers consisted of just a spring mechanism only, as time went on the rate at which the door closed was arrested or checked by adding an additional checking device. Door closers at this time were known as a door spring and check. Later these two devices were combined into one unit that both closed the door and slowed the speed at which this was done. These early "door closers" used a pneumatic piston to check the speed, later models used a hydraulic or oil filled device for the same effect.
+The first patent for a pneumatic device to prevent the sudden slamming of a door was given to William Bullock and James Boaz, on May 13, 1813 (Patent Number 3695).[19] An improved hydraulic device to prevent the "clapping" (slamming) of doors was patented by William Overden Snr and William Overden Jnr in 1864.[20] Door closers that utilize the properties of vulcanised Indian rubber have also been patented and used.
+The use of door closers expanded during the Victorian era.[21] Companies such as William Tonks and Son, James Cartland and Sons and William Newman and Son and were all based in and around Birmingham.[22][23] receiving in 1974 an award for their one millionth door closer produced.[24] 
+In 1907 the Briton B was first placed on the market.[25]
+In the United States, Lewis. C. Norton started his business in 1877, entering the door closer market in 1880 with a door check for the Boston Trinity Church.[26] Eugene Blount, Francis Richards and Joseph Bardsley also played important parts in the development, improvement and commercialization of door closers along with other companies, including Yale, Norton, Rixson and The Shelby Spring Hinge Company.
+Since the 1970s/1980s Dorma and GEZE have pushed to dominate the door closer business, with Ingersol Rand, ASSA ABLOY, RIXSON having large portions of the American market.
+
+Types[edit]
+ A concealed jamb-mounted door closer
+There are seven styles of interior door-closer:
+
+Surface-mounted
+Concealed in frame (jamb)
+Concealed in header (transom)
+Concealed in floor[27]
+Concealed in door
+Concealed in shoe
+Integral to hinge
+Spring Hinge
+Self-Closing Hinge
+Overhead or surface-mounted door closers come in four variations: slide-track arm, regular arm surface mounted, parallel arm surface mounted, and top jamb mounted, most are surface mounted although some manufacturers offer concealed models too.
+Another type of surface mounted door closer is attached to the door frame behind the door (where the hinges are) next to the middle hinge. The "arm" (tail) rests against the door, and a spring that is twisted by the user opening the door closes the door by returning to its pre-twisted shape. This type of door closer is referred to as a "tail" spring [28] and is one of the more simple mechanisms, having no damping control.
+There is also the storm door and screen door variation of the door closer: As the name implies, these piston type closers are used on storm doors, security, and screen doors which give the home an extra line of defense against weather, intruders, and insects.  Whereas interior closers typically use hydraulics, storm door closers are more typically pneumatic, using air and springs to close the door.  Storm door closers often have a small metal square washer on the rod that is used to lock the closer in the open position if required, more recent models have a button to actuate the hold open feature to make this process easier. Concealed, jamb-mounted type door closers, mounted in morticed recesses in the door and door frame, are concealed when the door is closed. These are available in controlled and uncontrolled versions, selected according to the application for which they are intended. Such concealed closers when mounted inside a pocket in the door frame (door jamb) are commonly known as "perco's" or perkomatic closers
+When door closers are mounted in the header they are known as transom closers.[29] These can be HO (hold open) or NHO (none hold open).
+Door closers that are mounted in the floor directly under the pivot point beneath a decor plate are referred to as floor springs and come in two variations, single action for doors opening one way (right and left hand) and double action for doors that open inward and outward, both types can either be none hold open (NHO) or hold open (HO). They consist of a pivot which protrudes from the top of the device and mates to a shoe (or strap) that the door is connected to, some kind of spring and a damping device to control the rate at which the door closes (very early ones had no damping), these damping devices are either pneumatic (known as an air spring or air check) or hydraulic in nature. When a floor spring is used to control a door, they can be used in conjunction with hinges but generally have a single pivot point at the top of the door, this pivot point is known as a top centre.[30] Floor springs are usually the most expensive and most hard wearing of all the door closing devices in use.
+The shoe door closer, known as a heel spring,[31] is housed entirely in the 'heel' of the door, inside a shoe. This shoe looks very much like the shoe used in conjunction with floor springs.
+Spring hinge uses a spring mounted in a hinge and is integral to its design. The spring can be either visible or hidden within a tube and can be found more commonly on interior doors. When used on doors that open both ways they are known as double action spring hinges.
+
+ Self Closer Hinges eliminate the cost and complexity of using overhead or in-floor closers.
+A self-closing hinge combines door closers and spring hinges with an optional hold open feature into one component. These closer hinges eliminate the visual and physical clutter of using additional devices, as well as reduce maintenance problems associated with overhead and in-floor door closers. They are especially useful where other types of closers are difficult to use. The most durable self-closing hinge can handle doors up to 440 lb.
+
+Manual[edit]
+ Old type of manual door closer (made by BKS)
+ Friction-based mechanical speed control mechanism
+A manual door closer stores the energy used in the opening of the door in a spring, either a compression, torsion, tension, volute or leaf.[32] and releases it to close the door. Some closers allow for adjustment of the strength of the spring, making it easier or more difficult to push the door open along with providing more closing force. To limit the door's closing speed, most door closers use oil-filled hydraulic dampers. This provides soft closing.  Other types use a friction-based mechanical speed control mechanism.[33] The absence of an oil damper makes mechanical closers more resistant to drastic temperature changes.
+Some closers incorporate a back-check facility which prevents the door from being opened too fast; this is useful for exterior doors where there is a danger of wind catching and blowing it open, potentially damage to the door, nearby objects, or people near it. The speed at which the door closer closes the door may be adjustable by up to three adjustment valves. These valves often adjust the sweep speed and the latch speed of the door and some closers are optioned with a delayed action valve. The latch speed is the speed that the door travels in the last 10 to 15 degrees of it closing cycle and is often set faster than the "sweep" so that the door can properly latch closed. The sweep speed is the speed which the door travels along the majority of its travel, before reaching the final 10 to 15 degrees, and is often set slower than the latch speed. For openings where a much longer close time is desired,  a delayed action closer may be appropriate. The delayed action valve slows the sweep speed dramatically for roughly the first half of the sweep range. Door closers which provide this two or three-stage action and close doors at a determined rate are called 'controlled' door closers.[34]
+
+Automatic[edit]
+An automatic door closer, more often called a "door opener", opens the door itself, typically under the control of a push button, motion detector or other device, and then closes it as well, employing a motion or proximity detector to determine when it is safe to close the door. These types of door mechanisms can also be used for security purposes, keeping the door locked on an electromagnetic device (mag-lock)[35]  until either a code is entered into a key pad or a swipe card is presented. High security areas may opt for a biometric system, using a retinal scanner or some sort of electronic finger print device in place of the key pad or card method.[36]
+
+Control of closing force and speed[edit]
+Hydraulic and pneumatic closers often feature dampers that offer control over the closing force and speed. Hydraulic closers are known for providing soft closing.  Mechanical closers, on the other hand, also provide closing force and speed control but by using object friction rather than oil.  The absence of an oil damper makes mechanical closers more resistant to drastic temperature changes.
+
+Usage[edit]
+Fire safety[edit]
+Door closers are most commonly installed on bathroom doors, fire doors, and exit doors in commercial buildings. During a fire, any door that penetrates a firewall must be fire-rated. Fire doors need to be closed in case of fire to help prevent the spread of fire and smoke. Any fire doors which are normally held open must automatically close and lock when a fire is present in the building. The function of an emergency exit rim device (crash bar or panic bar) will permit escape through a fire door, however it must re-latch once released. (A fire door must not be "dogged" to disable its latch.) In most countries fire door performance will be governed by national standards.
+
+Maintaining room temperatures[edit]
+Door closers also play a role in maintaining desired interior temperatures, reducing air movement in and out of conditioned space.
+
+Security[edit]
+Door closers also play a role in security at building entrance doors, closing doors once somebody has passed through and re-latching the door lock.
+
+Noise control[edit]
+In buildings that require noise control (Studios) door closers play an important part in the suppression of unwanted noise both in and out rooms and the buildings themselves.
+
+Privacy[edit]
+Door closers are often used to ensure privacy in toilets and washrooms.
+
+Hygiene[edit]
+Door closers can also play a part in keeping buildings and rooms free from dirt, debris and pests.
+
+See also[edit]
+Door loop, a method for providing electric cabling to a door
+References[edit]
+
+
+^ Estates, N. H. S. (2005). Ironmongery. The Stationery Office. ISBN 9780113226979.
+
+^ Cote, Arthur E. (2003). Operation of Fire Protection Systems. Jones & Bartlett Learning. p. 50. ISBN 9780877655848.
+
+^ Tobias, Scott (2015-04-13). Illustrated Guide to Door Hardware: Design, Specification, Selection. John Wiley & Sons. p. 323. ISBN 9781118112618.
+
+^ agriculture, Repertory of arts, manufactures and (1805). The Repertory of arts and manufactures [afterw.] arts, manufactures and agriculture. p. 227.
+
+^ Lloyd, G. E. R. (1973). Greek science after Aristotle. New York: Norton. ISBN 0393043711. OCLC 514642.
+
+^ English Patents of Inventions, Specifications: 1859, 2676 - 2744. H.M. Stationery Office. 1860.
+
+^ Vallancey, Charles (1812). Account of the Ancient Stone Amphitheatre Lately Discovered in the County of Kerry: With Fragments of Irish History Relating Thereto. Graisberry and Campbell. p. 33.
+
+^ repository, Gill's scientific, technological and microscopic (1829). Gill's technological [afterw.] Gill's scientific, technological & microscopic repository; or, Discoveries and improvements in the useful arts, a continuation of his Technical repository, by T. Gill. pp. 230–231.
+
+^ Martin, Robert Montgomery (1850). The British Colonies: Their History, Extent, Condition and Resources. Ceylon, East India, and Mediterranean Settlements. Tallis. p. 11.
+
+^ Woodcroft, Bennet (1854). Titles of Patents of Invention, Chronologically Arranged: From March 2, 1617 (14 James I.) to October 1, 1852 (16 Victoriae). 1617–1823. The Queen's Printing Office.
+
+^ "Floor Spring Door Closers". www.buildingconservation.com. Retrieved 2019-04-06.
+
+^ Woodcroft, Bennet (1854). Subject-matter Index (made from Titles Only) of Patents of Invention: From March 2, 1617 (14 James I.) to October 1, 1852 (16 Victoriae). A to M. The Queen's Printing Office. p. 128.
+
+^ Fathers, Rod (2016). "Floor Spring door closers". buildingconservation.com.
+
+^ A catalogue of the machines, models, and other articles, in the repository of the society instituted for the encouragement of the arts, manufactures, and commerce. Society for the Encouragement of Arts, Manufactures, and Commerce (Great Britain), Society of Arts (Great Britain). R. Wilks. 1814. p. 18.{{cite book}}:  CS1 maint: others (link)
+
+^ Orr, Timothy J. (2015-09-04). "Newsome, HamptonRichmond Must Fall: The Richmond-Petersburg Campaign, October 1864". History: Reviews of New Books. 43 (4): 123–124. doi:10.1080/03612759.2015.1032182. ISSN 0361-2759.
+
+^  https://www.britishnewspaperarchive.co.uk/viewer/bl/0000254/17381221/006/0003 – via British Newspaper Archive. {{cite news}}: Missing or empty |title= (help)
+
+^ "The Dawn of the door closer..." Midlands Floor Springs Limited. Retrieved 2019-07-27.
+
+^ New essays by Henry Fielding. 1989. p. 251. ISBN 9780813912219.
+
+^ English Patents of Inventions, Specifications. H.M. Stationery Office. 1856.
+
+^ Great Britain Patent Office (1873). Patents for inventions : abridgments of specifications relating to hinges, hinge joints, and door springs. A.D. 1775-1866. George E. Eyre and William Spottiswoode. p. 111. OCLC 54199007.
+
+^ The British Trade Journal. 1880. p. 347.
+
+^ Whiteside, R. M.; Wilson, A.; Blackburn, S.; Hörnig, S. E.; Wilson, C. P. (2012-12-06). Major Companies of Europe 1990/91: Volume 2 Major Companies of the United Kingdom. Springer Science & Business Media. index. ISBN 9789400907997.
+
+^  https://www.britishnewspaperarchive.co.uk/viewer/bl/0002135/19731128/753/0028 – via British Newspaper Archive. {{cite news}}: Missing or empty |title= (help)
+
+^  https://www.britishnewspaperarchive.co.uk/viewer/bl/0002135/19741126/039/0003 – via British Newspaper Archive. {{cite news}}: Missing or empty |title= (help)
+
+^ "Spotted Briton". allegionuk. Retrieved 2019-05-12.
+
+^ "How I Discovered Door Checks (Part 1), by L.C. Norton". I Dig Hardware. 2011-08-23. Retrieved 2019-05-11.
+
+^ Michael Panish. "Concealed Door Closers". Michael Panish: Construction Expert Witness and Consultant. Retrieved January 21, 2014.
+
+^ Kay, Norman William (1955). The Modern building encyclopaedia. Odhams. p. 325. OCLC 219759402.
+
+^ AJ Focus, Volume 10. Architectural Press. 1996. p. 239.
+
+^ Building construction and drawings, 
+Charles Frederick Mitchell, George Arthur Mitchell, B.T. Batsford, 1906 Page 355
+
+^ The Architects' Journal, volume 171. The University of Virginia: Architectural Press. April 1980.
+
+^ "Blog". Midlands Floor Springs Limited. Retrieved 2019-04-26.
+
+^ "Door Closer hinge mechanism". www.watersonusa.com. Retrieved 2021-02-19.
+
+^ "Manual Door Closer Injury and How door closers work". www.constructionwitness.com. Retrieved 2019-04-06.
+
+^ en:Electromagnetic_lock,   oldid 870482438[circular reference]
+
+^ Obaidat, Mohammad S.; Traore, Issa; Woungang, Isaac (2018-10-24). Biometric-Based Physical and Cybersecurity Systems. Springer. p. 490. ISBN 9783319987347.
+
+
+External links[edit]
+
+
+
+Wikimedia Commons has media related to Door closers.
+
+
+
+
+
+Retrieved from "https://en.wikipedia.org/w/index.php?title=Door_closer&oldid=1055128485"
+Categories: AutomationIronmongeryDoor furnitureHidden categories: CS1 maint: othersCS1 errors: missing titleCS1 errors: bare URLAll articles lacking reliable referencesArticles lacking reliable references from July 2021Articles with short descriptionShort description matches WikidataArticles needing additional references from August 2010All articles needing additional referencesCommons category link is on Wikidata
+
+
+
+
+
+
+Navigation menu
+
+
+
+Personal tools
+
+
+Not logged inTalkContributionsCreate accountLog in
+
+
+
+
+
+Namespaces
+
+
+ArticleTalk
+
+
+
+
+
+English
+
+
+
+
+
+
+
+
+
+Views
+
+
+ReadEditView history
+
+
+
+
+
+More
+
+
+
+
+
+
+
+
+Search
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+Navigation
+
+
+Main pageContentsCurrent eventsRandom articleAbout WikipediaContact usDonate
+
+
+
+
+Contribute
+
+
+HelpLearn to editCommunity portalRecent changesUpload file
+
+
+
+
+Tools
+
+
+What links hereRelated changesUpload fileSpecial pagesPermanent linkPage informationCite this pageWikidata item
+
+
+
+
+Print/export
+
+
+Download as PDFPrintable version
+
+
+
+
+In other projects
+
+
+Wikimedia Commons
+
+
+
+
+Languages
+
+
+DeutschفارسیFrançaisMagyarNederlands日本語Norsk bokmålРусскийSuomiSvenskaTürkçe
+Edit links
+
+
+
+
+
+
+ This page was last edited on 14 November 2021, at 01:41 (UTC).
+Text is available under the Creative Commons Attribution-ShareAlike License 3.0;
+additional terms may apply.  By using this site, you agree to the Terms of Use and Privacy Policy. Wikipedia® is a registered trademark of the Wikimedia Foundation, Inc., a non-profit organization.
+
+
+Privacy policy
+About Wikipedia
+Disclaimers
+Contact Wikipedia
+Mobile view
+Developers
+Statistics
+Cookie statement
+
+
+
+
+
+
+
+
+
+
