@@ -102,7 +102,10 @@ def search(word):
 		# file_name = file_name.replace(' ', '_').replace(':', '_').replace('\\', '_').replace('"', '_').replace('?', '_').replace('*', '_').replace('|', '_').replace('<', '_').replace('>', '_')
 		# with open(file_name, 'w') as f:
 		# 	f.write(soup.get_text())
-		text_wiki.append(soup.get_text())
+		text = soup.get_text()
+		for _ in range(100):
+			text = text.replace('\n\n', '\n')
+		text_wiki.append(text)
 		time.sleep(0.01)
 
 		# files_wiki = glob.glob('/tmp/data/wiki/*.txt')
