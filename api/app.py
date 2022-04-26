@@ -108,9 +108,13 @@ def search(word):
 	reddit_text = split_into_sentences(reddit_text)
 	text_wiki = split_into_sentences(text_wiki)
 
-	model_twitter = Word2Vec.load("models/glove_twitter.model")
-	model_reddit = Word2Vec.load("models/glove_twitter.model")
-	model_wiki = Word2Vec.load("models/glove_wiki_gigaword.model")
+	# model_twitter = Word2Vec.load("models/glove_twitter.model")
+	# model_reddit = Word2Vec.load("models/glove_twitter.model")
+	# model_wiki = Word2Vec.load("models/glove_wiki_gigaword.model")
+
+	model_twitter = Word2Vec.load("models/base.model")
+	model_reddit = Word2Vec.load("models/base.model")
+	model_wiki = Word2Vec.load("models/base.model")
 
 	# Train the model
 	model_twitter.train(tweets_text, total_examples=len(tweets_text), epochs=10)
