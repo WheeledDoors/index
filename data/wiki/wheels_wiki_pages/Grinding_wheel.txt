@@ -1,0 +1,562 @@
+
+
+
+
+Grinding wheel - Wikipedia
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+Grinding wheel
+
+From Wikipedia, the free encyclopedia
+
+
+
+Jump to navigation
+Jump to search
+This article is about the abrasive cutting tool. For the 2017 Overkill album, see The Grinding Wheel.
+This article needs additional citations for verification. Please help improve this article by adding citations to reliable sources. Unsourced material may be challenged and removed.Find sources: "Grinding wheel" – news · newspapers · books · scholar · JSTOR (January 2018) (Learn how and when to remove this template message)
+ Various types of grinding wheels are hanged on a surface
+Grinding wheels contains abrasive compounds for grinding and abrasive machining operations. Such wheels are also used in grinding machines.
+The wheels are generally made with composite material . This consists of coarse-particle aggregate pressed and bonded together by a cementing matrix (called the bond in grinding wheel terminology) to form a solid, circular shape. Various profiles and cross sections are available depending on the intended usage for the wheel. They may also be made from a solid steel or aluminium disc with particles bonded to the surface. Today most grinding wheels are artificial composites made with artificial aggregates, but the history of grinding wheels began with natural composite stones, such as those used for millstones.
+The manufacture of these wheels is a precise and tightly controlled process, due not only to the inherent safety risks of a spinning disc, but also the composition and uniformity required to prevent that disc from exploding due to the high stresses produced on rotation.
+Grinding wheels are consumables, although the life span can vary widely depending on the use case, from less than a day to many years. As the wheel cuts, it periodically releases individual grains of abrasive, typically because they grow dull and the increased drag pulls them out of the bond. Fresh grains are exposed in this wear process, which begin the next cycle. The rate of wear in this process is usually very predictable for a given application, and is necessary for good performance.
+
+Contents
+
+1 Characteristics
+
+1.1 Abrasive Material
+1.2 Grain size
+1.3 Wheel grade
+1.4 Grain spacing
+1.5 Wheel bond
+
+
+2 Types
+
+2.1 Straight wheel
+2.2 Cylinder or wheel ring
+2.3 Tapered wheel
+2.4 Straight cup
+2.5 Dish cup
+2.6 Saucer wheel
+2.7 Diamond wheels
+2.8 Mounted points
+2.9 Cut off wheels
+
+
+3 Use
+
+3.1 Dressing
+
+
+4 Testing for grinding tools
+5 See also
+6 References
+
+
+Characteristics[edit]
+There are five characteristics of a cutting wheel: abrasive material, grain size, wheel grade, grain spacing, and bond type. They are indicated by codes on the wheel's label.
+
+Abrasive Material[edit]
+The abrasive aggregate is selected primarily according to the hardness of the material being cut. Chemical compatibility is also a concern. For example because carbon alloys with iron, silicon carbide is not suitable for use with iron-based metals like steel.
+
+Aluminum oxide (A)
+Silicon carbide (S)
+Ceramic (C)
+Diamond (D, MD, SD)
+Cubic boron nitride (CBN)
+Grinding wheels with diamond or CBN grains are called superabrasives. Grinding wheels with aluminum oxide (corundum), silicon carbide, or ceramic grains are called conventional abrasives.
+
+Grain size[edit]
+From 10 (coarsest) to 600 (finest), determines the average physical size of the abrasive grains in the wheel. A larger grain will cut freely, allowing fast cutting but poor surface finish. Ultra-fine grain sizes are for precision finish work.
+generally grain size of grinding wheel are 10-24(coarse),30-60(medium),80-200(fine) and 220-600(very fine).
+
+Wheel grade[edit]
+From A (soft) to Z (hard), determines how tightly the bond holds the abrasive. 
+A to H for softer structure,
+I to P for moderately hard structure and
+Q to Z for hard structure. Grade affects almost all considerations of grinding, such as wheel speed, coolant flow, maximum and minimum feed rates, and grinding depth.
+
+Grain spacing[edit]
+Spacing or structure, from 1 (densest) to 17 (least dense). Density is the ratio of bond and abrasive to air space. A less-dense wheel will cut freely, and has a large effect on surface finish. It is also able to take a deeper or wider cut with less coolant, as the chip clearance on the wheel is greater.
+
+Wheel bond[edit]
+How the wheel holds the abrasives; affects finish, coolant, and minimum/maximum wheel speed.
+
+
+
+Bond name
+Bond symbol
+Bond description
+
+
+Vitrified
+V
+Glass-based; made via vitrification of clays and feldspars
+
+
+Resinoid
+B
+Resin-based; made from plants or petroleum distillates
+
+
+Silicate
+S
+Silicate-based
+
+
+Shellac
+E
+Shellac-based
+
+
+Rubber
+R
+Made from natural rubber or synthetic rubber
+
+
+Metal
+M
+Made from various alloys
+
+
+Oxychloride
+O
+Made from an oxohalide
+
+
+Plated
+
+P
+
+Made by Electro / Electroless bonding of metal to hold abrasive
+
+
+Types[edit]
+Straight wheel[edit]
+ Straight wheel
+To the right is an image of a straight wheel. These are by far the most common style of wheel and can be found on bench or pedestal grinders. They are used on the periphery only and therefore produce a slightly concave surface (hollow ground) on the part. This can be used to advantage on many tools such as chisels.
+Straight Wheels are generally used for cylindrical, centreless, and surface grinding operations. Wheels of this form vary greatly in size, the diameter and width of face naturally depending upon the class of work for which is used and the size and power of the grinding machine.
+
+Cylinder or wheel ring[edit]
+Cylinder wheels provide a large, wide surface with no center mounting support (hollow). They can be very large, up to 12" in width. They are used only in vertical or horizontal spindle grinders.
+Cylinder or wheel ring is used for producing flat surfaces, the grinding being done with the end face of the wheel.
+
+Tapered wheel[edit]
+A straight wheel that tapers outward towards the center of the wheel. This arrangement is stronger than straight wheels and can accept higher lateral loads.
+Tapered face straight wheel is primarily used for grinding thread, gear teeth ...
+
+Straight cup[edit]
+Straight cup wheels are an alternative to cup wheels in tool and cutter grinders, where having an additional radial grinding surface is beneficial.
+
+Dish cup[edit]
+A very shallow cup-style grinding wheel. The thinness allows grinding in slots and crevices. It is used primarily in cutter grinding and jig grinding.
+
+Saucer wheel[edit]
+A special grinding profile that is used to grind milling cutters and twist drills. It is most common in non-machining areas, as sawfilers use saucer wheels in the maintenance of saw blades.
+
+Diamond wheels[edit]
+ Diamond wheel
+Diamond wheels are grinding wheels with industrial diamonds bonded to the periphery.
+They are used for grinding extremely hard materials such as carbide cutting tips, gemstones or concrete. The saw pictured to the right is a slitting saw and is designed for slicing hard materials, typically gemstones.
+
+Mounted points[edit]
+Mounted points are small grinding wheels bonded onto a mandrel. Diamond mounted points are tiny diamond rasps for use in a jig grinder doing profiling work in hard material. Resin and vitrified bonded mounted points with conventional grains are used for deburring applications, especially in the foundry industry.
+Mounted points is a small handle with a general name, used in electric mill, hanging mill, hand drill. Many of the main types of ceramic mounted points, rubber mounted points, diamond mounted points, emery cloth and so on.
+Ceramic mounted points: granular sand (usually corundum, white jade, chrome corundum, silicon carbide) made of ceramic binder sintering, the central supplemented by metal handle. Mainly grinding all kinds of metal, for the diameter of the inner wall of the grinding, mold correction.
+Rubber mounted points: finer particle size sand combined by rubber binder
+Into, for the polishing of the mold.
+sandpaper mounted points:
+Multi-piece rectangular sand cloth, bonding around the metal handle. Granularity is generally in the 60 # -320 #, for the diameter of the inner wall of the polishing.
+Diamond mounted points: A grinding tool for non-metallic materials such as stone, porcelain and the like, and more particularly to a grinding tool using a diamond alloy as a grinding body comprising a substrate and a plurality of grinding bodies, And the substrate is preferably made of an adhesive material having a certain toughness, and the grinding body is preferably made of a diamond alloy material, and the substrate is preferably made of a diamond alloy material, The utility model has the characteristics of high grinding performance, simple manufacture and low cost, high grinding quality and can be applied to large-scale grinding.
+
+Cut off wheels[edit]
+Cut off wheels, also known as parting wheels, are self-sharpening wheels that are thin in width and often have radial fibres reinforcing them. They are often used in the construction industry for cutting reinforcement bars (rebar), protruding bolts or anything that needs quick removal or trimming. Most handymen would recognise an angle grinder and the discs they use.
+
+Use[edit]
+ Grinding produces sparks and little fragments of metal, called swarf.
+To use the grinding wheel it must first be clamped to the grinding machine. The wheel type (e.g. cup or plain wheel below) fit freely on their supporting arbors, the necessary clamping force to transfer the rotary motion being applied to the wheels side by identically sized flanges (metal discs). The paper blotter shown in the images is intended to distribute this clamping force evenly across the wheels surface.
+
+Dressing[edit]
+Main article: Grinding dresser
+Grinding wheels are self-sharpening to a small degree; for optimal use they may be dressed and trued by the use of wheel or grinding dressers. Dressing the wheel refers to removing the current layer of abrasive, so that a fresh and sharp surface is exposed to the work surface. Trueing the wheel makes the grinding surface parallel to the grinding table or other reference plane, so that the entire grinding wheel is even and produces an accurate surface.
+
+Testing for grinding tools[edit]
+Grinding wheels and grinding tools are used extensively in industry and manual trades for treating surfaces and for separating and cutting objects and have to withstand massive mechanical stress. Mostly centrifugal forces can cause a break, but also flexural and shear forces. Since a break or failure of the grinding tool can present a severe hazard to people and machinery due to the high levels of energy released, high standards are placed on the mechanical and breaking strength of grinding tools in the European safety standards. The Institute for Occupational Safety and Health of the German Social Accident Insurance conducts tests based on the "Rules of Procedure for Testing and Certification carried out by the Testing and Certification Bodies in DGUV Test".[1]
+
+See also[edit]
+Diamond tool
+Diamond grinding cup wheel
+Sharpening stone
+References[edit]
+
+^ Institute for Occupational Safety and Health of the German Social Accident Insurance. "Institute for Occupational Safety and Health of the German Social Accident Insurance".
+
+
+vteCutting and abrasive tools
+Abrasive saw
+Axe
+Blade
+Bandsaw
+Bolt cutter
+Broach
+Ceramic tile cutter
+Chainsaw
+Circular saw
+Chisel
+Coping saw
+Countersink
+Cutting tool
+Diagonal pliers
+Diamond blade
+Diamond tool
+Drawknife
+Drill bit
+Emery cloth
+File
+Fretsaw
+Froe
+Glass cutter
+Grater
+Grinding wheel
+Hacksaw
+Hand saw
+Hole saw
+Knife
+Laser
+Lawn mower
+Machete
+Meat slicer
+Mezzaluna
+Milling cutter
+Miter saw
+Nail clipper
+Nibbler
+Oxy-fuel cutting torch
+Pencil sharpener
+Pipecutter
+Pizza cutter
+Plasma cutter
+Plane
+Pocket knife
+Rasp
+Razor
+Reamer
+Sandpaper
+Saw
+Scalpel
+Scissors
+Snips
+Steel wool
+Surform
+Switchblade
+Tool bit
+Utility knife
+Water jet cutter
+Wire brush
+Wire stripper
+
+Types of tools
+Cleaning
+Cutting and abrasive
+Forestry
+Garden
+Hand
+Kitchen
+Machine and metalworking
+Measuring and alignment
+Power
+Woodworking
+
+vteMetalworkingvteMachining and computingComputer-aidedengineering
+2.5D
+CAD
+CAM
+G-code
+Numerical control (NC and CNC)
+Stewart platform
+Drilling andthreading
+Die head
+Drill
+Drill bit
+Drill bit shank
+Drill bit sizes
+Drilling
+List of drill and tap sizes
+Tap and die
+Tap wrench
+Threading
+Grinding andlapping
+Abrasive
+Abrasive machining
+Angle grinder
+Bench grinder
+Coated abrasive
+Cylindrical grinder
+Diamond plate
+Flick grinder
+Grinding
+Grinding dresser
+Grinding machine
+Grinding wheel
+Jig grinder
+Lapping
+Sanding
+Sharpening stone
+Spark testing
+Surface grinder
+Tool and cutter grinder
+Machining
+Boring
+Broaching
+Electrical discharge machining
+Electrochemical machining
+Electron-beam machining
+End mill
+Engraving
+Facing
+Hobbing
+Jig borer
+Machine tool
+Machining
+Metal lathe
+Milling
+Milling cutter
+Pantograph
+Photochemical machining
+Planer
+Reamer
+Rotary transfer machine
+Shaper
+Skiving
+Turning
+Ultrasonic machining
+Machine tools
+Angle plate
+Chuck
+Collet
+Fixture
+Indexing head
+Jig
+Lathe center
+Machine taper
+Magnetic switchable device
+Mandrel
+Rotary table
+Wiggler
+Terminology
+Cutting fluid
+Machining vibrations
+Speeds and feeds
+Swarf
+Tolerance
+Tool and die making
+Tramp oil
+Workpiece
+
+Casting
+Fabrication
+Forming
+Jewellery
+Machining
+Metallurgy
+Smithing
+Tools and terminology
+Welding
+
+
+
+
+
+Retrieved from "https://en.wikipedia.org/w/index.php?title=Grinding_wheel&oldid=1082685255"
+Categories: Grinding and lappingMetalworking toolsHidden categories: Articles needing additional references from January 2018All articles needing additional references
+
+
+
+
+
+
+Navigation menu
+
+
+
+Personal tools
+
+
+Not logged inTalkContributionsCreate accountLog in
+
+
+
+
+
+Namespaces
+
+
+ArticleTalk
+
+
+
+
+
+English
+
+
+
+
+
+
+
+
+
+Views
+
+
+ReadEditView history
+
+
+
+
+
+More
+
+
+
+
+
+
+
+
+Search
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+Navigation
+
+
+Main pageContentsCurrent eventsRandom articleAbout WikipediaContact usDonate
+
+
+
+
+Contribute
+
+
+HelpLearn to editCommunity portalRecent changesUpload file
+
+
+
+
+Tools
+
+
+What links hereRelated changesUpload fileSpecial pagesPermanent linkPage informationCite this pageWikidata item
+
+
+
+
+Print/export
+
+
+Download as PDFPrintable version
+
+
+
+
+In other projects
+
+
+Wikimedia Commons
+
+
+
+
+Languages
+
+
+AzərbaycancaDeutschEestiفارسیFrançaisHrvatskiעבריתPolski中文
+Edit links
+
+
+
+
+
+
+ This page was last edited on 14 April 2022, at 13:33 (UTC).
+Text is available under the Creative Commons Attribution-ShareAlike License 3.0;
+additional terms may apply.  By using this site, you agree to the Terms of Use and Privacy Policy. Wikipedia® is a registered trademark of the Wikimedia Foundation, Inc., a non-profit organization.
+
+
+Privacy policy
+About Wikipedia
+Disclaimers
+Contact Wikipedia
+Mobile view
+Developers
+Statistics
+Cookie statement
+
+
+
+
+
+
+
+
+
+

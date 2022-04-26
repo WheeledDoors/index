@@ -1,0 +1,504 @@
+
+
+
+
+18 Wheels of Steel - Wikipedia
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+18 Wheels of Steel
+
+From Wikipedia, the free encyclopedia
+
+
+
+Jump to navigation
+Jump to search
+Truck-simulation video game series
+
+
+This article needs additional citations for verification. Please help improve this article by adding citations to reliable sources. Unsourced material may be challenged and removed.Find sources: "18 Wheels of Steel" – news · newspapers · books · scholar · JSTOR (January 2012) (Learn how and when to remove this template message)
+18 Wheels of Steel is a series of trucking simulators developed by SCS Software and published by ValuSoft from 2002 to 2011, as a spin-off of Hard Truck, with the first game becoming the third Hard Truck game released.
+
+Contents
+
+1 Games
+
+1.1 Hard Truck: 18 Wheels of Steel [15 Aug 2002]
+1.2 18 Wheels of Steel: Across America [23 Sep 2003]
+1.3 18 Wheels of Steel: Pedal to the Metal [30 Aug 2004]
+1.4 18 Wheels of Steel: Convoy [1 Sep 2005]
+1.5 18 Wheels of Steel: Haulin' [8 Dec 2006]
+1.6 18 Wheels of Steel: American Long Haul [3 Dec 2007]
+1.7 18 Wheels of Steel: Extreme Trucker [23 Sep 2009]
+1.8 18 Wheels of Steel: Extreme Trucker 2 [6 Jan 2011]
+
+
+2 Sales
+3 References
+
+
+Games[edit]
+Release timeline2002Hard Truck: 18 Wheels of Steel200318 Wheels of Steel: Across America200418 Wheels of Steel: Pedal to the Metal200518 Wheels of Steel: Convoy200618 Wheels of Steel: Haulin'200718 Wheels of Steel: American Long Haul2008200918 Wheels of Steel: Extreme Trucker2010201118 Wheels of Steel: Extreme Trucker 2
+Hard Truck: 18 Wheels of Steel [15 Aug 2002][edit]
+Main article: Hard Truck: 18 Wheels of Steel
+The first installment in the series, released in 2002.[1]
+
+18 Wheels of Steel: Across America [23 Sep 2003][edit]
+This installment is very similar to Hard Truck: 18 Wheels of Steel except that the graphics were updated, more trucks and cargo were added, and a new map was created that enables users to travel across the entire continental U.S., through 30 cities. In this version, players can choose from 30 trucks and 40+ trailers. Time is made up of a total of 24 minutes in a day in the clock. This game focuses on the delivery of cargo. Players also go against three AI drivers. Unlike Hard Truck: 18 Wheels of Steel, Across America does not feature a sleep timer. There is an improved traffic model as well as airplanes, helicopters, and trains with authentic sounds.[2]
+
+18 Wheels of Steel: Pedal to the Metal [30 Aug 2004][edit]
+In this installment, released in 2004, the user can travel across the entire continental US, and also through northern Mexico and southern Canada, through 30 cities. The sleep timer was brought back in this version. It has an improved traffic model. 18 Wheels of Steel: Pedal to the Metal requires OpenGL. It also has the fastest map to date besides Haulin' and is the first trucking game to feature more than one country.[3]
+
+18 Wheels of Steel: Convoy [1 Sep 2005][edit]
+In this updated installment, the player can travel through the United States, as well as southern Canada, though it differs from 18 Wheels of Steel: Pedal to the Metal in that Mexican cities are not present. The player can travel through 30+ cities and choose from 35+ rigs, 45+ cargoes and 47+ trailers. The player has to use the mouse to look outside of the cab at the mirrors. The graphics are also much improved in this version, and users can see drivers in other vehicles and when the trucks are "lugged" under 1500 RPM, they emit black exhaust much like older non-computerized trucks do. However, other graphical features such as dynamic dashboard gauges were replaced with simple inanimate textures, although this and minor bugs were fixed with a patch released by SCS Software in 2008. Players can also buy things to protect themselves.[4]
+
+18 Wheels of Steel: Haulin' [8 Dec 2006][edit]
+This installment adds more cities and has more realistic graphics, but Mexico is gone from this installment, as in Convoy. The ability to use custom soundtracks and save games during deliveries was also added. Users can choose from 32 rigs, 45+ cargoes and 47+ trailers in the game, including double trailers. The game does not require a very powerful computer to operate properly since it can run on most older PCs. The game's engine, Prism3d, may not respond on older graphic cards resulting in a game crash on the game's start-up. Countries include the United States and Canada.[5]
+
+18 Wheels of Steel: American Long Haul [3 Dec 2007][edit]
+This installment of the game is very similar to and has the same gameplay as Haulin' but features newly renamed companies, 2 new trucks, and 3 cities in Mexico added. The previous 9 cities [Chihuahua, Guaymas, Monterrey, etc.] from 18 Wheels of Steel: Pedal to the Metal have returned but the map for each was slightly updated.[6]
+
+18 Wheels of Steel: Extreme Trucker [23 Sep 2009][edit]
+Extreme Trucker lets the player deliver cargoes in any of the three main areas of the game: Yungas Road (also known as Road of Death), Tuktoyaktuk Winter Road, and the Australian Outback. This game is quite different from the previous installments as the whole concept was changed. The player can no longer drive around in free roam unless they decide to go around the map during a delivery, but they can only pick a job offer from the selection menu if users have met its requirements of having multiple new trucks and accomplished deliveries. The trucks and cars are modeled after real brands, although users can not own any vehicles through the game and are simply truck drivers seeking various jobs. Still, today's low to mediocre range computer will be able to run the game without getting low FPS. The game was mostly poorly received by critics. Game was criticised mostly for change of series concept, but was well received by players and some reviews were positive towards the game and praised the game for its graphics and gameplay.[7]
+
+18 Wheels of Steel: Extreme Trucker 2 [6 Jan 2011][edit]
+Released in 2011, Extreme Trucker 2 is a sequel to 18 Wheels of Steel: Extreme Trucker. The game has two additional locations: Montana and Bangladesh, and a few new types of cargo.[8]
+
+Sales[edit]
+The series sold in excess of 580,000  units by 2003.[9]
+
+References[edit]
+
+
+^ "Hard Truck: 18 Wheels of Steel Critic Reviews for PC". Metacritic. CBS Interactive. Archived from the original on 28 September 2021. Retrieved 1 June 2016.
+
+^ "18 Wheels of Steel: Across America Critic Reviews for PC". Metacritic. CBS Interactive. Archived from the original on 28 September 2021. Retrieved 1 June 2016.
+
+^ "18 Wheels of Steel: Pedal to the Metal Critic Reviews for PC". Metacritic. CBS Interactive. Archived from the original on 28 September 2021. Retrieved 1 June 2016.
+
+^ "18 Wheels of Steel: Convoy Critic Reviews for PC". Metacritic. CBS Interactive. Archived from the original on 28 September 2021. Retrieved 1 June 2016.
+
+^ "18 Wheels of Steel: Haulin' Critic Reviews for PC". Metacritic. CBS Interactive. Archived from the original on 28 September 2021. Retrieved 1 June 2016.
+
+^ "18 Wheels of Steel: American Long Haul Critic Reviews for PC". Metacritic. CBS Interactive. Archived from the original on 28 September 2021. Retrieved 1 June 2016.
+
+^ "18 Wheels of Steel: Extreme Trucker Critic Reviews for PC". Metacritic. CBS Interactive. Retrieved 1 June 2016.
+
+^ "18 Wheels of Steel: Extreme Trucker 2 Critic Reviews for PC". Metacritic. CBS Interactive. Archived from the original on 28 September 2021. Retrieved 1 June 2016.
+
+^ "Go From Trucker To Tycoon With 18 Wheels Of Steel: Across America For PC From ValuSoft". valusoft.com. 23 September 2003. Archived from the original on 24 March 2006. Retrieved 16 April 2022.
+
+
+vteTrucking industry in the United StatesRegulated by the Federal Motor Carrier Safety AdministrationEconomy of the United StatesRegulations
+Commercial driver's license
+Electronic on-board recorder
+Federal Bridge Gross Weight Formula
+Hours of service
+International Registration Plan
+Motor Carrier Act of 1980
+Motor carrier safety rating
+National Network
+ManufacturersTruck manufacturers
+AM General
+American LaFrance
+Autocar
+Bering
+Bremach
+Brockway
+Caterpillar
+Chase
+Chevrolet
+CCC
+CNH Industrial
+Dart
+Diamond Reo
+Diamond T
+REO
+Dina
+F650 Supertruck
+Freightliner
+Ford
+GMC
+Hayes
+Fuso
+Hino
+Hyzon
+Isuzu
+Marmon-Herrington
+Mercedes-Benz
+Moreland
+International
+Kenworth
+Mack
+Nissan
+Oshkosh
+Peterbilt
+Ram Trucks
+Selden
+Schacht
+Shyft Group
+Smith
+Spartan
+Sterling
+Tesla
+Tiger Truck
+Toyota
+Traffic
+UD Trucks
+VIA
+Volvo
+Ward LaFrance
+Western Star
+White
+Workhorse Group
+Engine manufacturers
+Caterpillar
+Cummins
+Detroit Diesel
+Mack
+MaxxForce
+Mercedes-Benz
+Paccar
+Volvo
+Trailer manufacturers
+Fontaine
+Fruehauf
+Great Dane
+Hyundai Translead
+Lufkin Trailers
+Utility Trailer Manufacturing Company
+Vanguard
+Wabash National
+Wilson
+Motor carriersTruckload carriers
+Averitt Express
+Celadon
+CFI
+Covenant
+CRST
+FFE Transportation
+J. B. Hunt
+Knight-Swift
+Landstar System
+PAM Transport
+Patriot Transportation
+Roehl Transport
+Schneider
+Swift
+Werner
+WTI Transport
+Less than truckload (LTL)
+ABF
+Averitt Express
+Con-way Freight
+Consolidated Freightways
+Estes Express Lines
+FedEx Freight
+New England Motor Freight
+Old Dominion Freight Line
+R+L Carriers
+Saia
+Southeastern
+TForce Freight
+XPO Logistics
+Yellow Corporation
+Third-party logistics providers
+Access America Transport
+American Lamprecht Transport
+C. H. Robinson
+Freightquote
+CaseStack
+Ryder
+Total Quality Logistics
+Trailer Bridge
+XPO Logistics
+National parcel carriers
+DHL
+FedEx
+Greyhound
+UPS
+United States Postal Service
+Regional parcel carriers
+GLS
+LaserShip
+LSO
+OnTrac
+Moving companies
+Allied
+Atlas
+Bekins
+Gentle Giant Moving Company
+Global
+Interstate
+Mayflower
+National
+North American
+PODS
+Two Men and a Truck
+United
+Wheaton
+Truck stops
+Bowlin Travel Centers
+Dixie Travel Plaza
+Iowa 80
+Love's
+Pilot Flying J
+Road Ranger
+Roady's
+T/A & Petro
+Town Pump
+People
+Frederick W. Smith
+Iyman Faris
+J. Harwood Cochrane
+Jimmy Hoffa
+John Hunt
+Keith Jesperson
+Kelly Reno
+Reginald Denny
+Organizations
+American Moving & Storage Association
+American Trucking Associations
+DAT Solutions (Dial-A-Truck)
+International Brotherhood of Teamsters
+National Motor Freight Classification
+National Motor Freight Traffic Association
+National Private Truck Council
+SmartWay Transport Partnership
+
+Glossary of the American trucking industry
+Popular cultureFilm
+Black Dog
+Breakdown
+Breaker! Breaker!
+Convoy
+Duel
+F.I.S.T.
+High-Ballin'
+Joy Ride
+Maximum Overdrive
+Over The Top
+Smokey & the Bandit
+They Drive by Night
+The Gang's All Here
+The Great Smokey Roadblock
+Trucker
+White Line Fever
+Television
+American Loggers
+American Trucker
+B. J. and the Bear
+Ice Road Truckers
+Movin' On
+Trick My Truck
+Music
+A Tombstone Every Mile
+Big Wheels in the Moonlight
+Bonnie Jean (Little Sister)
+Convoy
+Drivin' My Life Away
+East Bound and Down
+Eighteen Wheels and a Dozen Roses
+Giddyup Go
+Girl on the Billboard
+Movin' On
+Papa Loved Mama
+Phantom 309
+Roll On Big Mama
+Roll On (Eighteen Wheeler)
+Six Days on the Road
+Teddy Bear
+The White Knight
+Radio
+Dale Sommers
+Red Eye (Bill Mack)
+Road Dog Trucking (Dave Nemo)
+Video games
+18 Wheels of Steel
+American Truck Simulator
+Rig 'n' Roll
+Big Rigs: Over the Road Racing
+Other
+Citizens band radio
+The Rolling Memorial
+
+Note: Defunct companies are shown in italics
+
+
+
+
+
+Retrieved from "https://en.wikipedia.org/w/index.php?title=18_Wheels_of_Steel&oldid=1082999817"
+Categories: SCS Software gamesTrade simulation gamesTruck racing video gamesVideo game franchises introduced in 2002Video games developed in the Czech RepublicVideo games featuring protagonists of selectable genderVideo games set in AustraliaVideo games set in BangladeshVideo games set in BoliviaVideo games set in CanadaVideo games set in MexicoVideo games set in the United StatesWindows gamesWindows-only gamesHidden categories: Articles with short descriptionShort description is different from WikidataUse dmy dates from June 2016Articles needing additional references from January 2012All articles needing additional references
+
+
+
+
+
+
+Navigation menu
+
+
+
+Personal tools
+
+
+Not logged inTalkContributionsCreate accountLog in
+
+
+
+
+
+Namespaces
+
+
+ArticleTalk
+
+
+
+
+
+English
+
+
+
+
+
+
+
+
+
+Views
+
+
+ReadEditView history
+
+
+
+
+
+More
+
+
+
+
+
+
+
+
+Search
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+Navigation
+
+
+Main pageContentsCurrent eventsRandom articleAbout WikipediaContact usDonate
+
+
+
+
+Contribute
+
+
+HelpLearn to editCommunity portalRecent changesUpload file
+
+
+
+
+Tools
+
+
+What links hereRelated changesUpload fileSpecial pagesPermanent linkPage informationCite this pageWikidata item
+
+
+
+
+Print/export
+
+
+Download as PDFPrintable version
+
+
+
+
+Languages
+
+
+ČeštinaDanskDeutschEspañolFrançaisItalianoעבריתNederlandsNorsk bokmålPolskiPortuguêsRomânăРусскийSlovenščinaSvenskaTürkçeУкраїнськаTiếng ViệtŽemaitėška
+Edit links
+
+
+
+
+
+
+ This page was last edited on 16 April 2022, at 11:01 (UTC).
+Text is available under the Creative Commons Attribution-ShareAlike License 3.0;
+additional terms may apply.  By using this site, you agree to the Terms of Use and Privacy Policy. Wikipedia® is a registered trademark of the Wikimedia Foundation, Inc., a non-profit organization.
+
+
+Privacy policy
+About Wikipedia
+Disclaimers
+Contact Wikipedia
+Mobile view
+Developers
+Statistics
+Cookie statement
+
+
+
+
+
+
+
+
+
+

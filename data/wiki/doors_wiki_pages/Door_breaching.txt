@@ -1,0 +1,535 @@
+
+
+
+
+Door breaching - Wikipedia
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+Door breaching
+
+From Wikipedia, the free encyclopedia
+
+
+
+Jump to navigation
+Jump to search
+ A U.S. Marine performs a ballistic breach of a padlocked door using a combat shotgun
+Door breaching is a process used by military, police, or emergency services to force open closed or locked doors. A wide range of methods are available, one or more of which may be used in any given situation.[1] Regarding the use of specified tools for forcible entry, there are several other methods of door breaching. These methods may be divided up into mechanical breaching, ballistic breaching, hydraulic breaching, explosive breaching, and thermal breaching.[2]
+
+Contents
+
+1 Common methods
+2 Types
+
+2.1 Mechanical
+2.2 Ballistic
+2.3 Explosive
+2.4 Thermal
+
+
+3 Examples of tools and operations
+4 See also
+5 References
+
+
+Common methods[edit]
+This section does not cite any sources. Please help improve this section by adding citations to reliable sources. Unsourced material may be challenged and removed. (December 2019) (Learn how and when to remove this template message)
+ Back kicking a door
+Where no tools are available, it is usually possible to force open most inward-opening doors with a strong kick that breaks through the door frame. This can be a common method of entry for many trained police officers who are conducting searches, most interior doors can be forced by kicking. Converse to most movies, the safest method to kick a door is back kicking, with your back to the door. This method reduces the chance of injury to the breacher. Kicking in a locked door is also sometimes attempted or performed by neighbors and ordinary passers-by who witness an emergency situation such as a house that is on fire (though the first step should always be to call emergency services) in order to ensure that everyone is out of the house or to notify/assist anyone who is not. Kicking in doors is less commonly used in burglary attempts since the process requires a great deal of energy and makes a lot of noise.
+
+Types[edit]
+Mechanical[edit]
+ A battering ram is used to breach a training door
+Mechanical breaching can be minimally destructive, through the use of lock picks.[3] This method is relatively slow and requires a trained operator, but does not damage the lock or door. Using specialized tools (i.e.: A-tool, K-tool), a lock cylinder can also be quickly dismantled and unlocked without removing it from the door; this method also allows the door to be closed and re-locked. Mechanical breaching also includes hydraulic breaching, which uses a special hydraulic ram to overcome the lock. The hydraulic ram may be powered manually, pneumatically, or electrically. More dynamic methods (kinetic breaching) use force to break the lock or door. The common methods are to use a lever, such as a Halligan bar or crowbar, or to use a tool to concentrate a large amount of force on the door, such as a sledgehammer, hydraulic jack, or battering ram.[4][5]
+
+Ballistic[edit]
+ Suggested target locations for breaching a door at the latch (left) and the hinges (right)
+Ballistic breaching uses a projectile weapon to breach an opening. Weapons used can range from small arms to the 120 mm cannon of a main battle tank with a HEAT round, which will breach most obstacles easily, though the force involved may violate the rules of engagement.[6] A less damaging ballistic breach needs to destroy either the latch and lock, or the hinges of the door, and the ideal choice for this is the shotgun. While in theory other firearms can be used, handguns are usually underpowered[7] and rifles are less effective than the shotgun and pose a far higher risk of ricochet and collateral injury.[6] Most shotgun ammunition can be used for breaching, though the risk of injury varies with type. Of the available shotgun ammunition, shotgun slugs pose the highest risk, as they will retain significant energy to cause lethal wounds well after they have penetrated the door. Buckshot is far safer and birdshot even more so, as the multiple small projectiles disperse quickly after penetration, reducing the chances of causing a lethal wound. The safest option is a frangible round such as the TESAR or Hatton round, which turns to dust upon penetrating the door, and disperses completely upon exit.[2]
+Breaching a door with the fewest shots possible both is faster and reduces the chance of collateral damage. Attacking the latch and lock is easiest, as it requires fewer shots and is easiest to target, whereas attacking the hinges requires more shots, and the hinges may be hidden from the outside. Careful aim is required; shots to the lock side are fired at a point halfway between the lock or handle and the door frame in order to hit the bolt holding the door shut. According to US urban warfare doctrine, the breaching operation is performed with the muzzle in contact with the door, or as close as possible, and angled downwards at a 45 degree angle. This process provides the best chance of hitting the desired point, while minimizing risk to occupants of the room being breached. Muzzle attachments are available on some specialized breaching shotguns to facilitate this operation, by holding the barrel securely in place while providing a slight standoff to allow powder gases to escape.[2][8]
+Magazine capacity and operating mechanism are also important considerations in a breaching shotgun, because to quickly breach a door requires the ability to quickly fire multiple shots. For a breach on the latch side, US doctrine calls for two shots to be fired, and then an attempt made to open the door. If the door cannot be opened, the process would need to be quickly repeated. If the hinges must be breached, then doctrine calls for a total of three shots, one per hinge followed by an attempt to open the door.[2]
+
+Explosive[edit]
+Explosive breaching can be the fastest method, though it is also the most dangerous, to both the breachers and the room occupants. Depending on the situation, explosive breaching is potentially slower than a ballistic breach due to the large standoff required when using explosives, if there is no cover available.[6] Breaching can be performed with a specially formed breaching charge placed in contact with the door, or with various standoff breaching devices, such as specialized rifle grenades like the SIMON breach grenade.[9]
+Breaching using explosives is primarily an operation performed by highly trained explosives experts. Explosive breaching charges can range from highly focused methods, such as detcord, plastic explosives, or strip shaped charges that explosively cut through doors or latches, to large satchel charges, containing 20 pounds (9 kg) of C-4, that can breach even reinforced concrete bunkers.[10]
+Explosive method of entry can be a safe and effective tool in the hands of qualified breachers.  It is the mission of the explosive breacher to use the least amount of explosive needed to secure penetration to a target.  This can often be accomplished using less than a quarter of a pound of explosives when used correctly.
+In addition to the tactical use, explosives have been used for search and rescue or other critical access situations.
+
+Thermal[edit]
+Thermal breaching is one of the least common techniques and also one of the slowest. It involves the use of a cutting torch to cut through metal doors.[11]
+
+Examples of tools and operations[edit]
+
+Mechanical breaching
+
+
+
+The adze and pick end of a typical Halligan bar
+
+
+
+
+
+
+A manually operated hydraulic spreader-cutter of a type used by rescue workers to force open doors
+
+
+
+
+
+
+An externally powered spreader-cutter tool
+
+
+
+
+
+
+A Halligan tool and an axe, both common tools used by firefighters to breach doors to fight a fire
+
+
+
+
+
+Ballistic breaching
+
+
+
+A ballistic breach at night of a padlocked door; this shotgun has a pistol grip rather than a full stock to make it more compact
+
+
+
+
+
+
+The breaching shotgun can be carried on a long sling, to allow easy transition to a primary weapon
+
+
+
+
+
+
+KAC Masterkey is a system that consists of a Remington 870 12 gauge pump-action shotgun mounted on a M16 or M4 assault rifle in an underbarrel configuration. This removes the need to carry a separate breaching shotgun.
+
+
+
+
+Explosive breaching
+
+
+
+U.S. Marines place an explosive breaching charge on a door, positioned to separate the door from its hinges
+
+
+
+
+
+
+U.S. Marines take cover behind a protective shield during an explosive breach of a door
+
+
+
+
+
+
+
+
+
+
+
+A US M100 Grenade Rifle Entry Munition (a SIMON derivative) detonates against a door
+
+
+
+
+
+
+Preparing an explosive charge – Coiled det cord taped to an IV bag.
+
+
+
+
+
+Thermal breaching
+
+
+
+Crewmembers from a U.S. Coast Guard cutter practice exothermal breaching techniques
+
+
+
+
+
+
+A member of the U.S. Coast Guard Maritime security Response Team uses a torch to cut through a ship's watertight door
+
+
+
+
+See also[edit]
+Hydraulic rescue tools
+Mouse-holing
+No-knock warrant
+Petard
+References[edit]
+
+
+^ west, phil (2014). Survival Weapons: Optimizing Your Arsenal. Lulu.com. ISBN 978-1-291-46098-8.
+
+^ a b c d "Section 3-20, Breaching". FM 3-06-11. US Army.
+
+^ Haris, Hofelner (2019-12-05). "Door Knobs in 2019 Guide and Review". Household Professor. Retrieved 2019-12-07.
+
+^ Don Munson. "Action Target's Tactical Breach Door". Tactical Response Magazine.
+
+^ LaFemina, Fred. "Back to Basics: Forcible Entry". FireRescue1. Retrieved 11 September 2016.
+
+^ a b c US Army. FM 7-8 INFANTRY RIFLE PLATOON AND SQUAD. Chapter 6, Urban Operations
+
+^ See Mythbusters Special 9
+
+^ The "Mossberg 500 Tactical Cruiser". Archived from the original on 2008-02-16.is equipped with a standoff door breaching barrel
+
+^ Scott R. Gourley (April 2007). "M100 Grenade Rifle Entry Munition" (PDF). Archived from the original (PDF) on 2011-02-18. Retrieved 2015-05-15. {{cite journal}}: Cite journal requires |journal= (help)
+
+^ FM 3-06-11. US Army. Table 8-7, Summary of breaching charges
+
+^ "Special Ops Breaching". Tactical Life Gun Magazine: Gun News and Gun Reviews. 2008-03-01. Retrieved 2019-12-07.
+
+
+vteFirefightingPersonnel and organization
+Battalion chief
+Chief firefighter
+Fire captain
+Fire chief
+Station officer
+Retained firefighter
+Fire marshal
+Fire police
+Firefighter assist and search team
+Handcrew
+Special operations firefighters
+Volunteer fire department
+Women in firefighting
+Fire department ranks by country
+Facilities
+Fire department
+list
+Fire lookout tower
+Fire station
+Apparatus
+Airport crash tender
+Fire bike
+Fire car
+Fire engine
+Fireboat
+Firefighting apparatus
+Hazardous materials apparatus
+Light and air unit
+Quint
+Rescue vehicle
+Water tender
+Equipment
+Bunker gear
+Escape chair
+Fire extinguisher
+Fire hose
+Fire hydrant
+Fire proximity suit
+Fire retardant
+Fire shelter
+Fireman's pole
+Fireman's switch
+Flame retardant
+Fog nozzle
+Halligan bar
+Hard suction hose
+Hazmat suit
+Heat detector
+Hose bridge
+Hydraulic rescue tools ("Jaws of life")
+Nomex
+PASS device
+Portable water tank
+Rotary saw
+Self-contained breathing apparatus
+Siren
+Smoke detector
+Thermal imaging camera
+Terminology
+Backdraft
+Dead man zone
+Deluge gun
+Door breaching
+Draft
+Fire class
+Fire control
+Fire safety
+Fire triangle
+Fireman's carry
+Firewall
+Flash fire
+Gaseous fire suppression
+Stop, drop and roll
+Structure fire
+barn fire
+Two-in, two-out
+Ventilation
+Miscellaneous
+Candidate Physical Ability Test
+Fire camp
+Fire engine red
+Fire photography
+Fire protection engineering
+Geography of firefighting
+History of firefighting
+International Association of Fire Fighters
+International Firefighters' Day
+List of firefighting films
+Muster
+Saint Florian
+World Firefighters Games
+World Police and Fire Games
+WildfiresGeneral
+Wildfire emergency management
+Wildfire suppression
+Equipment and tactics
+Aerial firefighting
+Controlled burn
+Driptorch
+Fire flapper
+Fire hose
+Fire lookout tower
+Fire rake
+Fire retardant
+Fire retardant gel
+Fire trail
+Firebreak
+Firefighting apparatus
+Firefighting foam
+Helicopter bucket
+Hose pack
+McLeod
+Modular Airborne FireFighting System
+Pulaski
+Wildfire suppression equipment and personnel
+Wildland fire engine
+Wildland water tender
+Personnel
+Fire lookout
+Handcrew
+Helitack
+Hotshot crew
+Smokejumper
+Wildland fire module
+By location
+Ancient Rome
+Australia
+United States
+History
+California
+Washington
+Lists
+Glossary of wildfire terms
+List of wildfires
+
+ Category
+ Commons
+ Glossary
+ Index
+ Outline
+
+
+
+
+
+Retrieved from "https://en.wikipedia.org/w/index.php?title=Door_breaching&oldid=1077871541"
+Categories: FirefightingLaw enforcement techniquesHidden categories: CS1 errors: missing periodicalArticles needing additional references from December 2019All articles needing additional references
+
+
+
+
+
+
+Navigation menu
+
+
+
+Personal tools
+
+
+Not logged inTalkContributionsCreate accountLog in
+
+
+
+
+
+Namespaces
+
+
+ArticleTalk
+
+
+
+
+
+English
+
+
+
+
+
+
+
+
+
+Views
+
+
+ReadEditView history
+
+
+
+
+
+More
+
+
+
+
+
+
+
+
+Search
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+Navigation
+
+
+Main pageContentsCurrent eventsRandom articleAbout WikipediaContact usDonate
+
+
+
+
+Contribute
+
+
+HelpLearn to editCommunity portalRecent changesUpload file
+
+
+
+
+Tools
+
+
+What links hereRelated changesUpload fileSpecial pagesPermanent linkPage informationCite this pageWikidata item
+
+
+
+
+Print/export
+
+
+Download as PDFPrintable version
+
+
+
+
+In other projects
+
+
+Wikimedia Commons
+
+
+
+
+Languages
+
+
+DeutschEspañol
+Edit links
+
+
+
+
+
+
+ This page was last edited on 18 March 2022, at 17:04 (UTC).
+Text is available under the Creative Commons Attribution-ShareAlike License 3.0;
+additional terms may apply.  By using this site, you agree to the Terms of Use and Privacy Policy. Wikipedia® is a registered trademark of the Wikimedia Foundation, Inc., a non-profit organization.
+
+
+Privacy policy
+About Wikipedia
+Disclaimers
+Contact Wikipedia
+Mobile view
+Developers
+Statistics
+Cookie statement
+
+
+
+
+
+
+
+
+
+

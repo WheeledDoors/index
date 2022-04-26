@@ -127,4 +127,8 @@ dmypy.json
 
 # Pyre type checker
 .pyre/
+
+
 .idea/**
+
+data/wiki/doors_wiki_pages/Butterfly_Doors.txt

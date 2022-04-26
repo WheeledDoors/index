@@ -1,0 +1,280 @@
+
+
+
+
+Happy Wheels - Wikipedia
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+Happy Wheels
+
+From Wikipedia, the free encyclopedia
+
+This is the latest accepted revision, reviewed on 7 March 2022.
+
+
+
+
+
+Jump to navigation
+Jump to search
+
+
+2010 video gameHappy WheelsDeveloper(s)Fancy ForcePublisher(s)Fancy ForceDesigner(s)Jim BonacciProgrammer(s)Jim BonacciArtist(s)Jim BonacciComposer(s)Jack ZankowskiPlatform(s)Web browser, iOS, AndroidReleaseBrowserJune 4, 2010iOSAugust 20, 2015AndroidJanuary 25, 2020Genre(s)PlatformMode(s)Single-player
+Happy Wheels is a ragdoll physics-based platform browser game developed and published by Fancy Force. Created by video game designer Jim Bonacci in 2010, the game features several player characters, who use different, sometimes atypical, vehicles to traverse the game's many levels. The game is best known for its graphic violence and the amount of user-generated content its players produce on a regular basis, with game maps shared on a public server.
+
+Contents
+
+1 Gameplay
+2 Development
+3 Reception
+4 References
+5 External links
+
+
+Gameplay[edit]
+ Screenshot of gameplay
+Happy Wheels' tagline is "Choose your inadequately prepared racer, and ignore severe consequences in your desperate search for victory!"[1] The actual mechanics of gameplay vary because of character choice and level design;[2] the game includes characters such as a businessman on a Segway.[3]
+The goal of the game also differs depending on the level. In most levels, the goal is to reach a finish line or to collect tokens. Many levels feature alternate or nonexistent goals for the player.[2][4]
+Reviewers have noted that Happy Wheels exhibits graphic violence in its gameplay.[1][2][4][5] For instance, characters can be decapitated, shot, or crushed by different obstacles.[5] Loss of limbs and animated blood loss are also graphic elements.[1][2]
+Players also have the choice to upload instant replays of their level attempts, which can then be viewed.[2]
+Happy Wheels features a level editor, which allows players to create custom levels of their own. It contains a plethora of tools and objects for level building. Users can upload their maps to a public server where they are accessible.[5]
+
+Development[edit]
+Indie game developer Jim Bonacci, largely the programmer and artist for the game,[4] began work on the game in 2006.[6] Bonacci has said that his inspiration for the game came from other ragdoll physics-based games in the browser games community,[4] as his friend and former boss, Alec Cove, had made a Verlet physics engine for flash.[6] Bonacci said that "[he] was messing around with it, and eventually created a guy in a wheelchair that would endlessly fall down a random hill. [He] thought it was funny and stupid, so [he] kept expanding on it. It was only meant to be a very small game, but eventually it became [his] main focus."[6]
+In addition, he explained the violent nature of the game in terms of his frustration with how consequences of certain actions were not treated realistically in other game titles, as he stated that "it always bothered [him] when... you'd fall off your vehicle and harmlessly bounce around. In other cases, you would have the same canned animation over and over. [He's] not sure if it was a lack of detail or concern on the part of the developer, but the consequences of your in-game actions were often improperly illustrated. For [him], half of the fun of playing a game that imitates life (sort of), is making mistakes and seeing the end result."[4]
+Bonacci also noted that, because gameplay would often involve the player dying repeatedly, he put a great deal of effort into making that part of the game enjoyable.[4]
+The full version of Happy Wheels is only available on Bonacci's original website,[6] and demo versions of the game are licensed to other websites. These demo versions only include a limited number of featured maps and selectable characters.
+There are approximately 5 million user-generated levels. The total count of level plays is over 13 billion.
+Currently, Jason Schymick helps Bonacci work on the game programming, although different people have contributed. "The others who helped are all amazing", says Bonacci.[6][failed verification] Alec Cove joined Fancy Force in 2013 and handles all serverside architecture and development.[7]
+On September 30, 2014, Schymick announced that iOS and Android ports of the game have been in development.[8] The iOS version was released as a free download through the App Store on August 20, 2015.[9] For the Android version, Fancy Force began accepting beta test applications in October 2019.[10] Following a beta testing phase, the finished version was released on January 25, 2020.[11]
+On January 9, 2020, Bonacci posted on his website that a JavaScript port by Goodboy Digital was in development and the game will continue to function after Adobe Flash ends at the end of 2020.[12]
+On December 28, 2020, the JavaScript port was released, continuing the existence of the game after the end of Flash.[13][14]
+
+Reception[edit]
+ReceptionAggregate scoreAggregatorScoreMetacriticiOS: 73/100[15]Review scorePublicationScoreGamezebo[16]
+Happy Wheels has received generally positive reviews. It was recommended by GameSetWatch[1] and considered one of the "Best Free Games" by IGN.[2] Its level editor and amount of user-generated content have received praise from reviewers.[1][17] The over-the-top nature of the violence is a central theme of the game,[3] and some reviewers have considered it humorous;[2] one review stated that "It is so genuinely difficult to play Happy Wheels and not just laugh and laugh at the ridiculous ways in which your character can be torn into pieces."[5]
+
+References[edit]
+
+
+^ a b c d e Caoili, Eric (October 25, 2010). "Happy Wheels: Bloody, 'Severe Consequences'". GameSetWatch. UBM TechWeb. Archived from the original on October 29, 2010. Retrieved October 31, 2015.
+
+^ a b c d e f g Meunier, Nathan (June 2, 2011). "Best Free Games - Page 10 of 17". IGN. IGN Entertainment. Archived from the original on March 23, 2013. Retrieved October 31, 2015.
+
+^ a b Thier, Dave. "Gruesome 'Happy Wheels' Shoots To The Top Of The App Store". Forbes. Archived from the original on 24 January 2021. Retrieved 6 August 2017.
+
+^ a b c d e f Holmes, Kevin (October 28, 2010). "Severed Limbs and Slam-Dunked Toddlers: An Interview With The Creator of "Happy Wheels"". The Creators Project. Vice Media. Archived from the original on July 27, 2013. Retrieved October 31, 2015.
+
+^ a b c d Chadwick, Gareth (February 1, 2012). "Cheap PC Gaming: Three More Cheap Distractions". TheSixthAxis. Oscar Mike Media. Archived from the original on February 3, 2012. Retrieved October 31, 2015.
+
+^ a b c d e 456jerkface (March 21, 2012). "Interview: JIM BONACCI". TjfToday. Archived from the original on June 22, 2013. Retrieved October 31, 2015.
+
+^ Bonacci, Jim (March 13, 2015). "NEW SITE, YAY". Totaljerkface.com. Fancy Force. Archived from the original on September 26, 2015. Retrieved October 31, 2015.
+
+^ Schymick, Jason (September 30, 2014). "Happy Wheels iOS In Progress…". Totaljerkface.com. Fancy Force. Archived from the original on October 20, 2015. Retrieved October 31, 2015.
+
+^ Valentin, Christian (August 20, 2015). "Popular flash game Happy Wheels makes its iOS debut". Pocket Gamer. Archived from the original on December 31, 2019. Retrieved December 31, 2019.
+
+^ Gregson-Wood, Stephen (October 14, 2019). "Happy Wheels developer Fancy Force is bringing their popular game to Android and you can sign up to be part of the beta now". Pocket Gamer. Archived from the original on December 31, 2019. Retrieved December 31, 2019.
+
+^ Gregson-Wood, Stephen (January 27, 2020). "Happy Wheels is available now for Android following a brief stint in beta last year". Pocket Gamer. Archived from the original on January 27, 2020. Retrieved January 30, 2020.
+
+^ Bonacci, Jim (January 9, 2020). "Happy Wheels is not dying". Totaljerkface.com. Archived from the original on October 26, 2020. Retrieved October 28, 2020.
+
+^ Bonacci, Jim (December 28, 2020). "Happy Wheels Javascript is UP". Totaljerkface.com. Archived from the original on January 1, 2021. Retrieved January 1, 2021.
+
+^ Celebrityegy (January 1, 2021). "The JavaScript port of Happy Wheels is now out, preventing its death after the shutdown of Adobe Flash". Celebrityegy. Medium. Archived from the original on January 24, 2021. Retrieved January 1, 2021.
+
+^ "Happy Wheels for iPhone/iPad Reviews". Metacritic. CBS Interactive. Archived from the original on October 16, 2015. Retrieved July 19, 2018.
+
+^ "Happy Wheels Review: A Bloody Fun Time". GameZebo. Archived from the original on August 28, 2015. Retrieved August 9, 2020.
+
+^ Alam, Shafiq (August 4, 2012). "'LittleBigPlanet' Vita dated for September". Hindustan Times. HT Media. Archived from the original on November 18, 2015. Retrieved October 31, 2015.
+
+
+External links[edit]
+Official website ( Page will play audio when loaded)
+Retrieved from "https://en.wikipedia.org/w/index.php?title=Happy_Wheels&oldid=1075809752"
+Categories: 2010 video gamesAndroid (operating system) gamesBrowser gamesIOS gamesPlatform gamesVideo games developed in the United StatesBlood in fictionHidden categories: Wikipedia pending changes protected pagesArticles with short descriptionShort description matches WikidataArticles using Infobox video game using locally defined parametersArticles using Wikidata infoboxes with locally defined imagesAll articles with failed verificationArticles with failed verification from December 2017Articles using Video game reviews template in single platform modeOfficial website different in Wikidata and Wikipedia
+
+
+
+
+
+
+Navigation menu
+
+
+
+Personal tools
+
+
+Not logged inTalkContributionsCreate accountLog in
+
+
+
+
+
+Namespaces
+
+
+ArticleTalk
+
+
+
+
+
+English
+
+
+
+
+
+
+
+
+
+Views
+
+
+ReadEditView history
+
+
+
+
+
+More
+
+
+
+
+
+
+
+
+Search
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+Navigation
+
+
+Main pageContentsCurrent eventsRandom articleAbout WikipediaContact usDonate
+
+
+
+
+Contribute
+
+
+HelpLearn to editCommunity portalRecent changesUpload file
+
+
+
+
+Tools
+
+
+What links hereRelated changesUpload fileSpecial pagesPermanent linkPage informationCite this pageWikidata item
+
+
+
+
+Print/export
+
+
+Download as PDFPrintable version
+
+
+
+
+Languages
+
+
+العربيةCatalàČeštinaEspañolEuskaraFrançaisGalego한국어ItalianoMagyarمصرى日本語Norsk bokmålPolskiPortuguêsRomânăРусскийSimple EnglishSuomiSvenskaTürkçe中文
+Edit links
+
+
+
+
+
+
+ This page was last edited on 7 March 2022, at 20:16 (UTC).
+Text is available under the Creative Commons Attribution-ShareAlike License 3.0;
+additional terms may apply.  By using this site, you agree to the Terms of Use and Privacy Policy. Wikipedia® is a registered trademark of the Wikimedia Foundation, Inc., a non-profit organization.
+
+
+Privacy policy
+About Wikipedia
+Disclaimers
+Contact Wikipedia
+Mobile view
+Developers
+Statistics
+Cookie statement
+
+
+
+
+
+
+
+
+
+
