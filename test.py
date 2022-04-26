@@ -1,12 +1,12 @@
 
 import gensim.downloader as api
 from gensim.models import Word2Vec
-corpus = api.load('wiki-english-20171001')
-model = Word2Vec(sentences=corpus, vector_size=200, window=5, min_count=1, workers=4)
+corpus = api.load('text8')
+model = Word2Vec(sentences=corpus, vector_size=100, window=5, min_count=1, workers=14)
 
-model.save("models/base-wiki-english-20171001.model")
+model.save("models/base.model")
 
-model = Word2Vec.load("models/base-wiki-english-20171001.model")
+model = Word2Vec.load("models/base.model")
 
 model.train([["hello", "world"]], total_examples=1, epochs=1)
 
