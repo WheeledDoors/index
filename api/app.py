@@ -14,27 +14,22 @@ def handler(event, context):
 	print('## ENVIRONMENT VARIABLES')
 	print(os.environ)
 
-	print('## CHECK DIRS')
-	print("/tmp/: " + os.path.isdir('/tmp/'))
-	print("/tmp/data/: " + os.path.isdir('/tmp/data/'))
-	print("/tmp/data/wiki/: " + os.path.isdir('/tmp/data/wiki/'))
-
-	# tres1, rres1, wres1 = search(event['word1'])
-	# tres2, rres2, wres2 = search(event['word2'])
+	tres1, rres1, wres1 = search(event['word1'])
+	tres2, rres2, wres2 = search(event['word2'])
 
 	data = {}
 	data['word1'] = {}
 	data['word2'] = {}
 	
 	data['word1']['related_words'] = {}
-	# data['word1']['related_words']['wiki'] = wres1
-	# data['word1']['related_words']['twit'] = tres1
-	# data['word1']['related_words']['redd'] = rres1
+	data['word1']['related_words']['wiki'] = wres1
+	data['word1']['related_words']['twit'] = tres1
+	data['word1']['related_words']['redd'] = rres1
 	
 	data['word2']['related_words'] = {}
-	# data['word2']['related_words']['wiki'] = wres2
-	# data['word2']['related_words']['twit'] = tres2
-	# data['word2']['related_words']['redd'] = rres2
+	data['word2']['related_words']['wiki'] = wres2
+	data['word2']['related_words']['twit'] = tres2
+	data['word2']['related_words']['redd'] = rres2
 	
 	data['word1']['sentiment'] = [0.75,75,25]
 	data['word2']['sentiment'] = [0.25,25,75]
