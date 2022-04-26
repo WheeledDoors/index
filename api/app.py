@@ -92,27 +92,28 @@ def search(word):
 
 	# Get wikipedia
 	wiki_search = get_wikipedia_data(word, 100)
-
+	text_wiki = []
 	for page in wiki_search['query']['search']:
 		url = 'https://en.wikipedia.org/wiki/' + page['title']
 		response = requests.get(url)
 		soup = BeautifulSoup(response.text, 'html.parser')
-		file_name = '/tmp/data/wiki/' + page['title'] + '.txt'
+		# file_name = '/tmp/data/wiki/' + page['title'] + '.txt'
 		# Make file name compatible with windows
-		file_name = file_name.replace(' ', '_').replace(':', '_').replace('\\', '_').replace('"', '_').replace('?', '_').replace('*', '_').replace('|', '_').replace('<', '_').replace('>', '_')
-		with open(file_name, 'w') as f:
-			f.write(soup.get_text())
+		# file_name = file_name.replace(' ', '_').replace(':', '_').replace('\\', '_').replace('"', '_').replace('?', '_').replace('*', '_').replace('|', '_').replace('<', '_').replace('>', '_')
+		# with open(file_name, 'w') as f:
+		# 	f.write(soup.get_text())
+		text_wiki.append(soup.get_text())
 		time.sleep(0.01)
 
-		files_wiki = glob.glob('/tmp/data/wiki/*.txt')
-		text_wiki = []
-		for f in files_wiki:
-			with open(f, 'r') as f:
-				text = f.read()
-				# remove duplicate \n
-				for _ in range(100):
-					text = text.replace('\n\n', '\n')
-				text_wiki.append(text)
+		# files_wiki = glob.glob('/tmp/data/wiki/*.txt')
+		# text_wiki = []
+		# for f in files_wiki:
+		# 	with open(f, 'r') as f:
+		# 		text = f.read()
+		# 		# remove duplicate \n
+		# 		for _ in range(100):
+		# 			text = text.replace('\n\n', '\n')
+		# 		text_wiki.append(text)
 
 	# Split into sentences
 	tweets_text = split_into_sentences(tweets_text)
