@@ -1,0 +1,237 @@
+
+
+
+
+Plug door - Wikipedia
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+Plug door
+
+From Wikipedia, the free encyclopedia
+
+
+
+Jump to navigation
+Jump to search
+For bus and train doors known as "sliding plug doors", see Sliding door (car) and Bus doors § Sliding plug doors.
+
+
+This article needs additional citations for verification. Please help improve this article by adding citations to reliable sources. Unsourced material may be challenged and removed.Find sources: "Plug door" – news · newspapers · books · scholar · JSTOR (September 2013) (Learn how and when to remove this template message)
+ Plug door with cross-section
+A plug door is a door designed to seal itself by taking advantage of pressure difference on its two sides and is typically used on aircraft with cabin pressurization. The higher pressure on one side forces the usually wedge-shaped door into its socket, making a good seal and preventing it from being opened until the pressure is released. Conversely, a non-plug door relies on the strength of the locking mechanism to keep the door shut.
+
+Contents
+
+1 Aircraft
+2 Spacecraft
+3 Deep-sea vehicles
+4 References
+
+
+Aircraft[edit]
+The plug door is often seen on aircraft with pressurized cabins.[1] Due to the air pressure within the aircraft cabin being higher than that of the surrounding atmosphere, the door seals itself closed as the aircraft climbs and the pressure differential increases. This prevents accidental opening of the door. In the event of a decompression, with there no longer being a pressure differential, the doors may be opened, and as such most airlines' operating procedures require cabin crew to keep passengers away from the doors until the aircraft has safely landed.  On some aircraft the plug door opens partially inward, and through a complex hinge design can be tilted to fit through the fuselage opening, or the door may have locking hinged panels at the top and bottom edges that can make it smaller than the opening, so that it may be swung outward.
+Plug doors are used on most modern airliners, particularly for the small passenger doors. However, since plug doors must open inward, the design is disadvantageous for cargo doors. Due to its large area, the cargo door on an airliner cannot be swung inside the fuselage without taking up a considerable amount of valuable cargo space. For this reason, these doors often open outward and use a locking mechanism with multiple pins or hatch dogs to prevent opening while in flight.
+
+Spacecraft[edit]
+ Apollo 1 plug hatch in place, with external heat shield hatch open
+An inward opening plug hatch design was used on the Block I Apollo Command Module, because the explosive-release hatch of Gus Grissom's Mercury capsule Liberty Bell 7 prematurely blew at the end of the flight, causing the capsule to sink in the Atlantic Ocean and nearly resulting in Grissom's drowning. The Apollo cabin was pressurized at launch to 2 pounds per square inch (14 kPa) above standard sea level pressure, which sealed the hatch. A cabin fire during a 1967 Apollo 1 ground test raised the pressure even higher (29 pounds per square inch (200 kPa)), and made the hatch impossible to remove for the crew to escape. This killed Grissom along with his entire crew, Edward H. White and Roger Chaffee. Because of this, NASA decided to change to a quick-release, outward opening hatch on the Command Module.
+Plug hatches were retained for the CM docking hatch and the two hatches on the Apollo Lunar Module, as the risk of fire in the low-pressure (5 pounds per square inch (34 kPa)) in-space atmosphere was much lower. Plug hatches were also used for the inner airlock hatch on the Space Shuttle. Currently, they are used on the International Space Station, as well as on the hatch between the Orbital Module and Descent Module of the Russian Soyuz spacecraft.
+
+Deep-sea vehicles[edit]
+Deep-submergence vehicles such as the Alvin use a plug hatch which is sealed inward by the pressure of the ocean water.[2]
+
+References[edit]
+
+
+^ "Relax, Passengers: Aircraft Doors Can't Open In Flight". Forbes. 2013-05-28. Retrieved 2013-09-25.
+
+^ "Alvin Specifications". Woods Hole Oceanographic Institution. 2012. Archived from the original on 3 June 2019. Retrieved 5 August 2012.
+
+
+
+
+
+
+Retrieved from "https://en.wikipedia.org/w/index.php?title=Plug_door&oldid=1075155479"
+Categories: Vehicle doorsAircraft doorsHidden categories: Use American English from October 2019All Wikipedia articles written in American EnglishArticles needing additional references from September 2013All articles needing additional references
+
+
+
+
+
+
+Navigation menu
+
+
+
+Personal tools
+
+
+Not logged inTalkContributionsCreate accountLog in
+
+
+
+
+
+Namespaces
+
+
+ArticleTalk
+
+
+
+
+
+English
+
+
+
+
+
+
+
+
+
+Views
+
+
+ReadEditView history
+
+
+
+
+
+More
+
+
+
+
+
+
+
+
+Search
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+Navigation
+
+
+Main pageContentsCurrent eventsRandom articleAbout WikipediaContact usDonate
+
+
+
+
+Contribute
+
+
+HelpLearn to editCommunity portalRecent changesUpload file
+
+
+
+
+Tools
+
+
+What links hereRelated changesUpload fileSpecial pagesPermanent linkPage informationCite this pageWikidata item
+
+
+
+
+Print/export
+
+
+Download as PDFPrintable version
+
+
+
+
+Languages
+
+
+Bahasa Indonesia日本語中文
+Edit links
+
+
+
+
+
+
+ This page was last edited on 4 March 2022, at 06:37 (UTC).
+Text is available under the Creative Commons Attribution-ShareAlike License 3.0;
+additional terms may apply.  By using this site, you agree to the Terms of Use and Privacy Policy. Wikipedia® is a registered trademark of the Wikimedia Foundation, Inc., a non-profit organization.
+
+
+Privacy policy
+About Wikipedia
+Disclaimers
+Contact Wikipedia
+Mobile view
+Developers
+Statistics
+Cookie statement
+
+
+
+
+
+
+
+
+
+

@@ -1,0 +1,450 @@
+
+
+
+
+Nine Hours, Nine Persons, Nine Doors - Wikipedia
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+Nine Hours, Nine Persons, Nine Doors
+
+From Wikipedia, the free encyclopedia
+
+
+
+Jump to navigation
+Jump to search
+2009 Japanese visual novel video game.
+
+
+2009 video gameNine Hours, Nine Persons, Nine DoorsNorth American first-print cover art, featuring the main charactersDeveloper(s)ChunsoftPublisher(s)JP: SpikeNA/EU: Aksys GamesWW: Spike Chunsoft[a]Director(s)Kotaro UchikoshiProducer(s)Jiro IshiiArtist(s)Kinu NishimuraWriter(s)Kotaro UchikoshiComposer(s)Shinji HosoeSeriesZero EscapePlatform(s)Nintendo DSiOSMicrosoft WindowsPlayStation 4PlayStation VitaXbox OneRelease
+December 10, 2009
+
+Nintendo DSJP: December 10, 2009NA: November 16, 2010
+iOSJP: May 29, 2013WW: March 17, 2014
+Microsoft WindowsNA/EU: March 24, 2017JP: March 25, 2017
+PlayStation 4NA/EU: March 24, 2017JP: April 13, 2017
+PlayStation VitaNA: March 24, 2017JP: April 13, 2017EU: December 15, 2017
+Xbox OneWW: March 22, 2022
+Genre(s)Adventure, visual novelMode(s)Single-player
+Nine Hours, Nine Persons, Nine Doors[b] is a visual novel and adventure video game developed by Chunsoft. It is the first installment in the Zero Escape series, and was released in Japan in December 2009 and in North America in November 2010 for the Nintendo DS. The story follows Junpei, a college student who is abducted along with eight other people and forced to play the "Nonary Game", which puts its participants in a life-or-death situation, to escape from a sinking cruise liner. The gameplay alternates between two types of sections: Escape sections, where the player completes puzzles in escape-the-room scenarios; and Novel sections, where the player reads the game's narrative and makes decisions that influence the story toward one of six different endings.
+Development of the game began after Uchikoshi joined Chunsoft to write a visual novel for them that could reach a wider audience; Uchikoshi suggested adding puzzle elements that are integrated with the game's story. The inspiration for the story was the question of where inspiration comes from; while researching it, Uchikoshi came across Rupert Sheldrake's morphic resonance hypothesis, which became the main focus of the game's science fiction elements. The music was composed by Shinji Hosoe, while the characters were designed by Kinu Nishimura. The localization was handled by Aksys Games; they worked by the philosophy of keeping true to the spirit of the original Japanese version, aiming for natural-sounding English rather than following the original's exact wording.
+Nine Hours, Nine Persons, Nine Doors was positively received, with reviewers praising the story, writing and puzzles, but criticizing the game's tone and how the player is required to re-do the puzzles every time they play through the game (which is necessary in order to obtain the true ending). While the Japanese release was a commercial failure, the game sold better than expected for the genre in the United States. Although Nine Hours, Nine Persons, Nine Doors was developed as a stand-alone title, its unexpected critical success in North America prompted the continuation of the series.
+The sequel, Zero Escape: Virtue's Last Reward, was released in 2012, which was followed by Zero Time Dilemma, released in 2016. An updated version of Nine Hours, Nine Persons, Nine Doors, with voice acting and higher resolution graphics, was released alongside a port of Virtue's Last Reward as part of the Zero Escape: The Nonary Games. This bundle was released for PlayStation 4, PlayStation Vita, and Microsoft Windows via Steam in March 2017, and for Xbox One and Xbox Game Pass in March 2022.
+
+Contents
+
+1 Gameplay
+2 Plot
+
+2.1 Characters and setting
+2.2 Story
+
+
+3 Development
+
+3.1 Localization
+
+
+4 Release
+5 Reception
+6 Sequels
+7 Notes
+8 References
+9 External links
+
+
+Gameplay[edit]
+ A screenshot of an Escape section; an inventory of collected items is shown on the bottom screen.
+Nine Hours, Nine Persons, Nine Doors is an adventure game in which the player assumes the role of a college student named Junpei.[2] The gameplay is divided into two types of sections: Novel and Escape. In the Novel sections, the player progresses through the branching storyline and converses with non-playable characters through visual novel segments.[3] These sections require little interaction from the player as they are spent reading the text that appears on the screen, which represents either dialogue between the various characters or Junpei's thoughts.[4] During Novel sections, the player will sometimes be presented with decision options that affect the course of the game,[5] resulting in one of six endings.[6] The whole plot is not revealed in just one playthrough; the player needs to reach the "true" ending to get all the information behind the mystery,[7] which in turn requires another specific ending to be reached beforehand.[8] Some endings contain hints to how to reach further endings.[7]
+In between Novel sections are Escape sections, which occur when the player finds themselves in a room from which they need to find the means of escape.[7] These are presented from a first-person perspective, with the player being able to move between different pre-determined positions in each room.[4] To escape, the player is tasked with finding various items and solving puzzles, reminiscent of escape-the-room games.[3] At some points, the player may need to combine objects with each other to create the necessary tool to complete a puzzle.[6] The puzzles include various brain teasers, such as baccarat and magic squares.[4][5] An in-game calculator is provided for math-related problems,[6] and the player can ask characters for hints if they find an Escape room too difficult.[9] All Escape sections are self-contained, with all items required to solve the puzzles being available within that section; items are not carried over between Escape sections.[5] After finishing an Escape section, it becomes available to replay from the game's main menu.[6]
+
+Plot[edit]
+Characters and setting[edit]
+Nine Hours, Nine Persons, Nine Doors features nine main characters, who are forced to participate in the Nonary Game by an unknown person named Zero.[2] The characters adopt code names to protect their identities due to the stakes of the Nonary Game.[10] The player-controlled Junpei is joined by June, a nervous girl and an old friend of Junpei whom he knows as Akane; Lotus, a self-serving woman with unknown skills; Seven, a large and muscular man; Santa, a punk with a negative attitude; Ace, an  older and wiser man; Snake, a blind man with a princely demeanor; Clover, a girl prone to mood swings and Snake's younger sister; and the 9th Man, a fidgety individual.[11]
+The events of the game occur within a cruise ship, though all of the external doors and windows have been sealed, and many of the internal doors are locked.[10] The game's nine characters learn that they have been kidnapped and brought to the ship to play the Nonary Game, with the challenge to find the door marked with a "9" within nine hours before the ship sinks.[12] To do this, they are forced to work in separate teams to make their way through the ship and solve puzzles to find this door.[3] This is set in part by special locks on numbered doors that are based on digital roots; each player has a bracelet with a different digit on it, and only groups of three to five with the total of their bracelet's number with the same digital root as marked on the door can pass through.[10]
+
+Story[edit]
+Junpei wakes up in a cabin inside a cruise liner, wearing a bracelet displaying the number "5". He escapes the room, and encounters the eight other passengers. Zero announces over a loudspeaker that all nine are participants in the Nonary Game. Zero explains the rules, and states each carry an explosive in their stomach that will go off if they try to bypass the digital root door locks. The 9th Man still goes through a door by himself, and is killed. Fearing what harm might come to them, the group adopts code names, and splits up to explore the ship. The player has the option to select which group that Junpei travels with, which affects the story; several choices lead to Junpei's death. Through various choices, Junpei learns of a previous Nonary Game, played nine years earlier, and the connections of the other characters through that, as well as studies about morphic resonance and stories of the Egyptian priestess Alice, who is frozen in Ice IX.[10]
+In one ending, Junpei learns that the first Nonary Game was run by Cradle Pharmaceutical, of which Ace is the CEO. Zero was a participant of this game, and had set up the second Nonary Game as revenge towards Ace. The surviving players confront Ace and learn he manipulated the 9th Man to violate the rules and get himself killed in order to both cover his identity and obtain the 9th Man's bracelet. As they find the door with the 9, Akane becomes weak. Santa watches over her while the others enter the door, leading to an incinerator, where Ace grabs Lotus and holds her at gunpoint. Discovering the incinerator is about to activate, Snake tackles Ace, and Lotus and Seven pull Junpei out of the incinerator before it goes off, consuming Snake and Ace. Junpei returns to Akane, finding her nearly dead. Zero says over the loudspeakers that the game's loser has been determined; Junpei acts defiant, but Zero clarifies that he is referring to himself. Junpei investigates a nearby room, and returns to find Akane and Santa have disappeared, after which he is knocked out by a gas grenade.[10] After the player views this ending, they can then access the "true" ending.
+In the true ending, Junpei learns that the previous Nonary Game consisted of nine pairs of kidnapped siblings separated onto the ocean-bound Gigantic and in a mock-up in Building Q in a Nevada desert. The game was designed to explore morphic fields; the research anticipated that the stress of the game would activate the fields between siblings, allowing solutions solved by one to be sent via these fields to their counterpart at the other location. This research was to help Ace cure his prosopagnosia. This Nonary Game went awry: Akane and her brother Santa were placed at the same location instead of being separated, and Seven discovered the kidnappings and rescued the children from the ship. Ace grabbed Akane before they could escape, and forced her into the incinerator room, and threatened her with death were she unable to solve a puzzle. Unable to solve the puzzle, Akane was apparently burnt to death while the other children escaped with Seven.[10]
+Junpei and the others reach the incinerator; Akane disappears and Santa escapes with Ace hostage, trapping the others inside. It is then revealed that the portion of the game's narrative portrayed on the bottom screen of the Nintendo DS is presented from a 12-year-old Akane's point of view during the first Nonary Game (in the game's 2017 re-release, Akane's perspective is actually the "NVL Mode" that displays narrative text unlike the "ADV Mode"). Through morphic fields, she connected to Junpei in the future, witnessing several possible realities and directing Junpei to help him survive. Junpei then faces the same puzzle Akane did, and relays the solution back to Akane in the past, allowing her to escape with Seven and the other children. Junpei realizes that Akane was Zero and, with assistance from Santa, had recreated the game and all the events she had witnessed in order to ensure her survival and avoid a temporal paradox. As Junpei and the others escape, they discover that the game had taken place in Building Q the entire time, and that Akane and Santa have fled, leaving behind a car with Ace restrained in the trunk. In the game's epilogue, they drive away hoping to catch up to them and, shortly after, pick up a hitchhiker whom Junpei recognizes as Alice.[10]
+
+Development[edit]
+ Nine Hours, Nine Persons, Nine Doors was directed by Kotaro Uchikoshi.
+Nine Hours, Nine Persons, Nine Doors was developed by the Japanese game studio Chunsoft and directed by Kotaro Uchikoshi,[13] and produced by Jiro Ishii.[14] Chunsoft had made successful visual novels in the past, such as Kamaitachi no Yoru (1994), but wanted to create a new type of visual novel that could be received by a wider audience;[13] they contacted Uchikoshi, who at the time was working on a mobile game based on Kamaitachi no Yoru, and asked him to serve as a writer for the then upcoming visual novel 428: Shibuya Scramble. Uchikoshi did not join the company in time to work on 428, but came up with the idea to include puzzles that are integrated within a story, and need to be solved for the player to make progress: he enjoyed playing browser-based escape-the-room games, but thought that they would be more interesting if they had a larger focus on telling a story.[14] This idea served as the basis for Nine Hours, Nine Persons, Nine Doors, and Uchikoshi was named director of the project.[13][14]
+Development of Nine Hours, Nine Persons, Nine Doors began in 2008.[15] The inspiration for the story was the question "where do mankind's inspirations come from?"; Uchikoshi researched it, and found the British biochemist Rupert Sheldrake's theories of morphogenetic fields, which became the main theme of the game. The theory is similar to telepathy, which answers the question of how organisms are able to simultaneously communicate ideas to each other, without physical or social interaction. Uchikoshi used the theory to develop the concept of esper characters, which are able to either transmit or receive information from another individual. Because of the vital role of the number 9 in the plot, each of the characters was based on one of the nine personality types from the Enneagram of Personality.[16] Another source of inspiration was Kamaitachi no Yoru, which, like Nine Hours, Nine Persons, Nine Doors, begins with putting the characters in a state of discomfort.[17]
+Uchikoshi started writing the script by working on the ending first. From there, he would continue to work backwards, in order to not get confused when writing the plot.[18] The game's setting, with characters who are trapped and try to escape, was meant to embody two of humanity's instinctive desires: the unconscious desire to return to one's mother's womb and shut oneself away, and the desire to escape and overcome one's current condition. This was a theme Uchikoshi had used before, when writing the visual novel Ever 17: The Out of Infinity (2002).[16] The illustrations by character designer Kinu Nishimura influenced the script, as certain scenes were altered to match the character illustrations.[14] Among scrapped story elements were the use of hands as a major part of the story; in the final stages of production, Uchikoshi's higher-ups did not accept this focus, forcing him to re-write the story. The characters were originally supposed to be handcuffed to each other as they try to escape, but the idea was scrapped as it was seen as overused, with appearances in light novels such as Mahou Shoujo Riska (2004).[19]
+The Escape sequences were created to appeal to players' innate desires: Uchikoshi wanted them to feel the instinctive pleasure that he described as "I found it!".[16] For the puzzles, he would consider the details within the story, and the props and gimmicks found in the game; after deciding on them, they were integrated with the puzzles.[18] He also used puzzle websites as reference.[16] He did not design the puzzles himself, instead leaving the puzzle direction to other staff, while checking it multiple times.[20]
+Shinji Hosoe, the president of the game music production company SuperSweep, was chosen to compose the game's soundtrack for being skilled in a wide range of music genres, ensuring that he could compose music that would fit a lot of different types of moods and scenes. He described his work on the game as the most straightforward music project he had had, due to receiving concise reference material that answered all his questions about the game; he made a few test tracks, after which everything went smoothly. The music was written using the Nintendo DS's internal synth, and Hosoe worked together with fellow SuperSweep composer Yousuke Yasui to make this less obvious.[21]
+
+Localization[edit]
+The North American localization of the game was handled by Aksys Games; Chunsoft was introduced to Aksys by Spike while looking for a company that could publish the game in North America. When Aksys evaluated Nine Hours, Nine Persons, Nine Doors, many at the company did not believe in its commercial viability and at first turned it down; as many of the people who evaluate games at Aksys do not speak Japanese, it was difficult for them to gauge whether a game was good or not. In the end they decided to localize it, which was considered a big risk for the company.[22]
+The localization was done by the philosophy of keeping true to the spirit of the original Japanese, making dialogue sound like what a native speaker of English would say instead of strictly adhering the original's exact wording. The localization editor, Ben Bateman, did this by looking at the writing from a wider view, line by line or scene by scene rather than word by word or sentence by sentence, and thinking about how to convey the same ideas in English. Most parts of the game that include a joke in the localization also have a joke in the Japanese version, but a different one; Bateman did however try to make similar types of jokes, with similar contents and ideas.[22] The game's use of Japanese language puns led to problems, as many of them relied on Japanese dialects to function; for these, Bateman replaced them with new puns in English.[23] He was given mostly free rein in what he could change or add, as long as it did not disrupt the plot.[22]
+During the localization, Bateman had to keep track of the numerous plot points throughout the game, as the script had not been written in chronological order due to the numerous endings.[23] Localizing the game took roughly two months. Another challenge was getting the localization done in time: Nobara Nakayama, the game's translator, worked on it for 30 days, and the editing process took two months. Because of this, Bateman had to do most of the work "on the fly". Nakayama had started playing the game prior to starting work on the localization, but did not finish playing it until she was more than halfway through translating it; after learning that the plot hinged on a Japanese pun, they had to halt the localization to discuss it with Uchikoshi and come up with a solution, after which they went through the whole game to make sure that it still made sense.[22] Another problem Bateman ran into was related to the game's first person narration. A plot twist regarding the narration relied on the use of gender-specific first person pronouns at specific points in the story. As this would not work in English, the narration was made to instead be in the third person, and the twist's effect was replicated by shifting from third to first person at a specific story point. However, Bateman admits that the twist is "more mindblowing in Japanese".[24]
+During a scene related to an abstract painting of a dog, one of the localized answers for what the painting depicts is "Funyarinpa", a nonsense word, and picking it prompts a humorous exchange between Junpei and Lotus. This became a highly popular meme within Zero Escape circles, to the point where the Nonary Games remaster included the joke in the Japanese dub.[25][26]
+
+Release[edit]
+Nine Hours, Nine Persons, Nine Doors was originally released in Japan by Spike on December 10, 2009, for the Nintendo DS.[1] An American release followed on November 16, 2010.[27] In the United States, a replica of the in-game bracelets was included with pre-orders at GameStop;[28] due to low pre-orders, Aksys made these available on their website's shop, both separately and bundled with the game.[29] Upon release, Nine Hours, Nine Persons, Nine Doors became the eleventh Nintendo DS game to be rated M by the ESRB.[30] It was a commercial failure in Japan,[31] with 27,762 copies sold in 2009 and an additional 11,891 in 2010, reaching a total of 39,653 copies sold.[32][33] Meanwhile, American sales were described as being strong; according to Uchikoshi, this was a surprise, as the visual novel genre was seen as being particular to Japan and unlikely to be accepted overseas.[34]
+In addition to the game, other Nine Hours, Nine Persons, Nine Doors media was released. The game's soundtrack was published by SuperSweep on December 23, 2009.[35] A novelization of the game, Kyokugen Dasshutsu 9 Jikan 9 Nin 9 no Tobira Alterna,[c] was written by Kenji Kuroda and released by Kodansha in 2010 in two volumes, titled Ue and Shita.[d][36][37] Coinciding with the release of the game's sequel, Zero Escape: Virtue's Last Reward (2012), Nine Hours, Nine Persons, Nine Doors was reprinted under the title Zero Escape: Nine Hours, Nine Persons, Nine Doors, with new box art featuring the Zero Escape brand.[38]
+An iOS version of the game, 999: The Novel, was developed by Spike Chunsoft as the second entry in their Smart Sound Novel series. It was released in Japan on May 29, 2013,[39] and worldwide in English on March 17, 2014. This version lacks the Escape sections of the Nintendo DS version, and features high resolution graphics and an added flowchart that helps players keep track of which narrative paths they have experienced; additionally, dialogue is presented through speech bubbles,[40][41] and an extra ending is included.[42] This version has since been removed from the App Store.[43]
+Zero Escape: The Nonary Games, a bundle that contains remastered versions of Nine Hours, Nine Persons, Nine Doors and Virtue's Last Reward, was released for Microsoft Windows, PlayStation 4 and PlayStation Vita in the West on March 24, 2017.[44] People who purchased the Windows version through Steam in its first week of release received a complimentary soundtrack, with songs from Nine Hours, Nine Persons, Nine Doors and Virtue's Last Reward.[45] In Japan, the Microsoft Windows version launched on March 25 and the console versions on April 13.[46][42] The European PlayStation Vita version was released on December 15.[47] The Nonary Games was later released for Xbox One on March 22, 2022, and was added to the Xbox Game Pass service for console, PC and cloud on the same date.[48] The Nine Hours, Nine Persons, Nine Doors remaster retained most of the features from The Novel, but the new ending was not included.[42]
+
+Reception[edit]
+ReceptionAggregate scoreAggregatorScoreMetacritic82/100[49]Review scoresPublicationScoreDestructoid10/10[6]Eurogamer7/10[50]Famitsu36/40[1]GameSpot8.5/10[4]GamesRadar+[51]IGN9/10[3]Nintendo Life[9]Nintendo World Report9/10[7]The Escapist[5]Wired8/10[12]
+Nine Hours, Nine Persons, Nine Doors was well received by critics, according to the review aggregator Metacritic.[49] Polygon included it on a list of the best games of all time, crediting it with popularizing the visual novel genre in America.[52]
+Reviewers enjoyed the writing and narrative,[3][6][7][51] with Andy Goergen of Nintendo World Report labeling it as "a strong argument for video games as a new medium of storytelling".[7] Reviewers at Famitsu called the story enigmatic and thrilling.[1] Carolyn Petit at GameSpot felt that the lengthy Novel sections amplified the fear and tension throughout the game,[4] while Heidi Kemps of GamesRadar compared them to "high-quality thriller novels".[51] Jason Schreier of Wired criticized the prose for being inconsistent, but said that the use of the narrator was clever and unusual.[12] Susan Arendt at The Escapist called the story multi-layered and horrifying.[5] Zach Kaplan at Nintendo Life liked the dialogue, but found the third-person narration to be dull and slow, with out-of-place or clichéd metaphors and similes.[9] Both Chris Schilling at Eurogamer and Lucas M. Thomas at IGN felt that the urgency portrayed in the game's story sometimes was at odds with the tone or timing of the dialogue, such as lengthy conversations while trapped inside a freezer, or lighthearted dialogue and jokes.[3][50] Thomas called the premise gripping, and said that the mythology, conspiracies and character backgrounds were engrossing.[3] Tony Ponce at Destructoid said that the characters initially seemed like a "stock anime cast", but that the player discovers more complexity in them after moving past first impressions.[6] Kaplan felt that each character was well developed, fleshed out and unique, and could pass for real people.[9]
+A Famitsu writer said that they enjoyed solving puzzles, and that it gave them a sense of accomplishment;[1] similarly, Goergen, Petit, Schilling and Arendt called the puzzles satisfying to solve.[4][5][7][50] Goergen found some puzzles to be cleverly done, but said that some were esoteric.[7] Ponce and Petit liked that the puzzles never became "pixel hunts", and how everything is visible as long as the player looks carefully;[4][6] because of this and the lack of red herrings, time limits and dead ends, Ponce found it to be better than other escape-the-room games. He applauded the large amount of content, saying that even someone only buying the game for the puzzles would be satisfied.[6] Schilling and Thomas appreciated the puzzles, but found some solutions and hints to be too obvious or explanatory.[3][50] Kemps found the puzzles excellently done and challenging, but disliked how difficult it was to reach the true ending.[51] Kemps and Schreier appreciated how the puzzles felt logical, while they, along with Thomas and Arendt, criticized how the player has to re-do puzzle sequences upon subsequent playthroughs.[3][5][51][12] Goergen, Schreier, Thomas and Arendt all appreciated the fast-forward function, as it made repeated playthroughs more bearable,[3][5][7][12] but Thomas felt that it didn't go far enough in speeding up the process.[3]
+Goergen found the sound designs to be unmemorable, saying that the music does not add much and that players would be likely to mute the game after hearing the "beeping" sound effect used for dialogue for too long.[7] Meanwhile, Ponce and Petit liked it:[4][6] Ponce called the score "masterful" and said that it "gets under your skin at the right moments",[6] while Petit said that she appreciated the sound, which she called atmospheric and "[sending] shivers up your spine". She was unimpressed with the environments, but said that they were clear and easy to look at. She liked the character portraits, calling them expressive and, paired with the dialogue, enough to make the player not care about the lack of voice acting.[4] Ponce, too, felt that the game did not need voice acting. He felt that the way the game favored textual narration over animated cutscenes made it more immersive, allowing the player to imagine the scenes.[6] Goergen said that the graphics were well done, but that they did not do much for the atmosphere.[7] Kaplan called the presentation "awesome", saying that it looked great and that the artwork stood on its own despite the simplicity of the animations, and that the soundtrack was "fantastic".[9]
+Nine Hours, Nine Persons, Nine Doors received some awards from gaming publications, including: Best Story of 2010 from IGN,[53] Best Graphic Adventure of 2010 on a Handheld System from RPGFan,[54] and an Editor's Choice Award from Destructoid.[6] Bob Mackey at 1UP.com featured Nine Hours, Nine Persons, Nine Doors on a list of "must-play" Nintendo DS visual novels, citing its story, themes and "zany narrative experimentation",[55] and Jason Schreier at Kotaku included it on a list of "must-play" visual novels worth playing even for people who do not like anime tropes.[56] RPGFan listed it as one of the thirty essential role-playing video games from the years 2010 to 2015.[57]
+
+Sequels[edit]
+Main articles: Zero Escape: Virtue's Last Reward and Zero Time Dilemma
+Nine Hours, Nine Persons, Nine Doors is the first game in the Zero Escape series, and was originally intended to be a stand-alone game. The development for the sequel began after the first game got positive reviews.[18] Zero Escape: Virtue's Last Reward, the successor to Nine Hours, Nine Persons, Nine Doors, was announced in August 2011.[58] Developed by Chunsoft for the Nintendo 3DS and PlayStation Vita, the game was first released on February 16, 2012 in Japan,[59] and later that year in North America and Europe.[60][61] Virtue's Last Reward also follows a group of nine people,[62] and focuses on game theory, specifically the prisoner's dilemma.[63] Zero Time Dilemma is set between the events of the previous two games,[64] and has morality as its main theme.[65]
+
+Notes[edit]
+
+
+^ Published The Nonary Games on all platforms in Japan, and on Xbox One and Windows worldwide
+
+^ Known in Japan as Kyokugen Dasshutsu 9 Jikan 9 Nin 9 no Tobira (極限脱出 9時間9人9の扉, "Extreme Escape: 9 Hours, 9 Persons, 9 Doors").[1]
+
+^ Kyokugen Dasshutsu 9 Jikan 9 Nin 9 no Tobira Orutana (極限脱出 9時間9人9の扉 オルタナ, "Extreme Escape: 9 Hours, 9 Persons, 9 Doors Alterna")
+
+^ Ue (上, "Above") and Shita (下, "Below")
+
+
+References[edit]
+
+
+^ a b c d e "極限脱出 9時間9人9の扉 まとめ (DS)". Famitsu (in Japanese). Enterbrain. Archived from the original on January 22, 2016. Retrieved January 22, 2016.
+
+^ a b Schreier, Jason (October 11, 2012). "2010's Best Adventure Game Is On Sale For Under $20". Kotaku. Gizmodo Media Group. Archived from the original on April 2, 2016. Retrieved May 4, 2016.
+
+^ a b c d e f g h i j k Thomas, Lucas M. (December 16, 2010). "999: 9 Hours, 9 Persons, 9 Doors Review". IGN. Ziff Davis. Archived from the original on October 15, 2014. Retrieved May 13, 2015.
+
+^ a b c d e f g h i Petit, Carolyn (December 7, 2010). "Nine Hours, Nine Persons, Nine Doors Review". GameSpot. CBS Interactive. Archived from the original on December 7, 2013. Retrieved May 13, 2015.
+
+^ a b c d e f g h Arendt, Susan (January 12, 2011). "Review: 9 Hours 9 Persons 9 Doors". The Escapist. Defy Media. Archived from the original on October 2, 2014. Retrieved May 13, 2015.
+
+^ a b c d e f g h i j k l m Ponce, Tony (November 17, 2010). "Review: Nine Hours, Nine Persons, Nine Doors". Destructoid. Modern Method. Archived from the original on March 25, 2015. Retrieved May 13, 2015.
+
+^ a b c d e f g h i j k Goergen, Andy (May 9, 2011). "Nine Hours, Nine Persons, Nine Doors Review". Nintendo World Report. NINWR LLC. Archived from the original on August 30, 2015. Retrieved August 30, 2015.
+
+^ Davison, Pete (November 27, 2013). "JPgamer: In Search of Door Number 9". USgamer. Gamer Network. Archived from the original on August 9, 2016. Retrieved August 29, 2016.
+
+^ a b c d e Kaplan, Zach (October 21, 2011). "999: Nine Hours, Nine Persons, Nine Doors (DS) Review". Nintendo Life. Gamer Network. Archived from the original on January 19, 2016. Retrieved October 31, 2015.
+
+^ a b c d e f g Moen, Jessica (May 25, 2011). "Spoiler Alert: 999: 9 Hours, 9 Persons, 9 Doors". Technology Tell. NAPCO Media. Archived from the original on February 28, 2016. Retrieved July 24, 2016.
+
+^ "Zero Escape Series". Aksys Games. Archived from the original on March 26, 2015. Retrieved February 24, 2016.
+
+^ a b c d e Schreier, Jason (January 10, 2011). "Review: 'Visual Novel' Nine Hours Mixes Gripping Drama, Spotty Prose". Wired. Condé Nast. Archived from the original on August 30, 2015. Retrieved August 30, 2015.
+
+^ a b c Parish, Jeremy (February 13, 2014). "Inside the Genesis of Virtue's Last Reward and the Challenges of Visual Novels". USgamer. Gamer Network. Archived from the original on July 1, 2015. Retrieved August 31, 2015.
+
+^ a b c d "『428 ～封鎖された渋谷で～』と『極限脱出 9時間9人9の扉』について聞く、ロングインタビュー完全版". Famitsu (in Japanese). Enterbrain. July 15, 2009. Archived from the original on May 17, 2013. Retrieved March 17, 2018.
+
+^ De Bont, Christophe (June 29, 2016). "Kotaro Uchikoshi, creator of the Zero Escape series (interview)". Geekster.de. Archived from the original on June 30, 2016. Retrieved June 30, 2016.
+
+^ a b c d Yip, Spencer (September 3, 2010). "999: 9 Hours, 9 Persons, 9 Doors Interview Gets Philosophical, Then Personal". Siliconera. Curse, Inc. Archived from the original on June 10, 2015. Retrieved July 10, 2015.
+
+^ Yip, Spencer (April 1, 2013). "Virtue's Last Reward Creator Talks About The Essence Of Visual Novels At GDC Panel". Siliconera. Curse, Inc. Archived from the original on September 18, 2015. Retrieved March 1, 2016.
+
+^ a b c Chapman, Jacob Hope (August 13, 2015). "Interview: Zero Escape series creator Kotaro Uchikoshi". Anime News Network. Archived from the original on February 21, 2016. Retrieved September 28, 2015.
+
+^ "Chunsoft Blog: Nine Hours, Nine Persons, Nine Doors The Untold Story". Siliconera. Curse, Inc. December 24, 2010. Archived from the original on November 7, 2015. Retrieved July 10, 2015.
+
+^ "AX 2015 Uchikoshi/Zero Escape panel". Aksys Games. July 5, 2015. Archived from the original on October 26, 2015. Retrieved August 25, 2015 – via YouTube.
+
+^ Kotowski, Don (2016-07-30). "Shinji Hosoe and Kotaro Uchikoshi Interview: Zero Times". VGMO. Archived from the original on 2016-10-01. Retrieved 2018-04-23.
+
+^ a b c d Lada, Jenni (April 5, 2013). "999 and Zero Escape: Virtue's Last Reward Interview: Aksys gets things done". Technology Tell. NAPCO Media. Archived from the original on April 9, 2013. Retrieved May 14, 2021.
+
+^ a b Love, Jamie (August 10, 2010). "Q&A – Aksys Talks 999". Gamesugar. Archived from the original on January 19, 2012. Retrieved August 30, 2015.
+
+^ "Media Meltdown Interviews Ben Bateman". Channel Zero. 2014-07-11. Archived from the original on 2015-11-26. Retrieved 2021-05-14.
+
+^ DeCoster, Christian (22 March 2017). "Funyarinpa for the whole family: Zero Escape: The Nonary Games – GAMING TREND". gamingtrend.com. Retrieved 2018-05-28.
+
+^ Quiton, Christopher. "What the Zero Escape games teach us about science". RHS Arrow. Retrieved 2018-05-28.
+
+^ Makuch, Eddie (November 14, 2010). "Shippin' Out Nov. 14-20: Assassin's Creed: Brotherhood, Need for Speed: Hot Pursuit". GameSpot. CBS Interactive. Archived from the original on September 20, 2015. Retrieved October 25, 2015.
+
+^ Fahey, Mike (September 20, 2010). "Nine Hours, Nine Persons, Nine Doors, One Watch". Kotaku. Gizmodo Media Group. Archived from the original on September 26, 2015. Retrieved December 26, 2010.
+
+^ "Best of the Best (In This Particular Category, at Least)". Aksys Games. December 14, 2010. Archived from the original on July 14, 2015. Retrieved December 26, 2010.
+
+^ "999: Nine Hours, Nine Persons, Nine Doors Is The Eleventh M-Rated Game On DS". Siliconera. Curse, Inc. August 30, 2010. Archived from the original on July 11, 2015. Retrieved July 10, 2015.
+
+^ Tach, David (February 14, 2014). "Zero Escape's third entry is stalled, but director has hope". Polygon. Vox Media. Archived from the original on July 15, 2015. Retrieved January 22, 2016.
+
+^ "GEIMIN.NET／2009年テレビゲームソフト売り上げTOP1000（ファミ通版）". Geimin.net (in Japanese). Archived from the original on January 30, 2016. Retrieved February 21, 2016.
+
+^ "GEIMIN.NET／2010年テレビゲームソフト売り上げTOP1000（ファミ通版）". Geimin.net (in Japanese). Archived from the original on January 30, 2016. Retrieved February 21, 2016.
+
+^ Szczepaniak, John (August 11, 2014). The Untold History of Japanese Game Developers. Vol. 1. SMG Szczepaniak. pp. 298–313. ISBN 978-0-9929260-0-7.
+
+^ Gann, Patrick. "Extreme Escape 9 Hours 9 Persons 9 Doors Soundtrack". RPGFan. Archived from the original on April 14, 2015. Retrieved October 30, 2015.
+
+^ 極限脱出 9時間9人9の扉 オルタナ(上) (講談社BOX) (in Japanese). ASIN 4062837366.
+
+^ 極限脱出 9時間9人9の扉 オルタナ(下) (講談社BOX) (in Japanese). ASIN 4062837374.
+
+^ ""999" With New Box Art Ships Today!". Aksys Games. September 27, 2012. Archived from the original on July 14, 2015. Retrieved December 1, 2014.
+
+^ Sarkar, Samit (May 29, 2013). "999: Nine Hours, Nine Persons, Nine Doors released on iOS in Japan, coming stateside this fall". Polygon. Vox Media. Archived from the original on July 12, 2015. Retrieved May 29, 2013.
+
+^ Sarkar, Samit (March 10, 2014). "999: Nine Hours, Nine Persons, Nine Doors hits iOS March 17". Polygon. Vox Media. Archived from the original on July 12, 2015. Retrieved March 11, 2014.
+
+^ Matulef, Jeffrey (March 11, 2014). "999 is coming to iOS without puzzles". Eurogamer. Gamer Network. Archived from the original on September 29, 2015. Retrieved September 27, 2015.
+
+^ a b c Jenni (February 3, 2017). "Zero Escape: The Nonary Games Will Come To North America On March 24, 2017". Siliconera. Curse, Inc. Archived from the original on February 4, 2017. Retrieved February 4, 2017.
+
+^ "999: The Novel on the iOS App Store". iTunes.
+
+^ Jackson, Gita (March 24, 2017). "The New 'Nonary Games' Remake Makes 999 Way Better". Kotaku. Gizmodo Media Group. Archived from the original on March 24, 2017. Retrieved March 24, 2017.
+
+^ Lada, Jenni (March 2, 2017). "Kotaro Uchikoshi Teases Project Psync, The Nonary Games Includes A Soundtrack". Siliconera. Curse, Inc. Archived from the original on August 3, 2017. Retrieved August 3, 2017.
+
+^ Glagowski, Peter (February 3, 2017). "The Zero Escape collection will release in March for the US". Destructoid. Modern Method. Archived from the original on February 4, 2017. Retrieved February 4, 2017.
+
+^ Romano, Sal (November 9, 2017). "Zero Escape: The Nonary Games for PS Vita launches December 15 in Europe". Gematsu. Archived from the original on November 9, 2017. Retrieved November 9, 2017.
+
+^ Romano, Sal (March 15, 2022). "Xbox Game Pass adds Zero Escape: The Nonary Games, Shredders, Weird West, more in late March". Gematsu. Retrieved March 15, 2022.
+
+^ a b "Nine Hours, Nine Persons, Nine Doors for DS Reviews". Metacritic. CBS Interactive. Archived from the original on April 27, 2015. Retrieved August 30, 2015.
+
+^ a b c d Schilling, Chris (January 18, 2011). "999: Nine Hours, Nine Persons, Nine Doors - Emergency exits". Eurogamer. Gamer Network. Archived from the original on September 16, 2014. Retrieved May 13, 2015.
+
+^ a b c d e "999:Nine Hours, Nine Persons, 9 Doors Review". GamesRadar. Future plc. December 2, 2010. Archived from the original on April 23, 2015. Retrieved May 13, 2015.
+
+^ "The 500 best games of all time: 500-401". Polygon. Vox Media. November 27, 2017. Archived from the original on March 3, 2018. Retrieved April 18, 2018.
+
+^ "Best Story". IGN. Ziff Davis. Archived from the original on December 6, 2014. Retrieved December 26, 2011.
+
+^ "Best Graphic Adventure: Handheld - Nine Hours, Nine Persons, Nine Doors". RPGFan. Archived from the original on September 23, 2015. Retrieved February 22, 2016.
+
+^ Mackey, Bob (December 12, 2011). "Six Must-Play DS Visual Novels". 1UP.com. Ziff Davis. p. 2. Archived from the original on November 17, 2015. Retrieved November 15, 2015.
+
+^ Schreier, Jason (August 20, 2014). "Five Visual Novels You Must Play, Even If You Don't Like Anime". Kotaku. Gizmodo Media Group. Archived from the original on September 26, 2015. Retrieved November 15, 2015.
+
+^ "The 30 Essential RPGs of 2010-2015". RPGFan. 2016. p. 2. Archived from the original on June 1, 2016. Retrieved June 1, 2016.
+
+^ Gantayat, Anoop (August 25, 2011). "First Look: Team 999's New Vita/3DS Adventure". Andriasang. Archived from the original on September 30, 2015. Retrieved September 27, 2015.
+
+^ "極限脱出ADV 善人シボウデス". Famitsu (in Japanese). Enterbrain. Archived from the original on November 23, 2014. Retrieved September 16, 2015.
+
+^ "Zero Escape: Virtue's Last Reward for Nintendo 3DS". Nintendo of America. Archived from the original on September 5, 2015. Retrieved September 16, 2015.
+
+^ "Virtue's Last Reward". Nintendo of Europe. Archived from the original on July 31, 2015. Retrieved July 26, 2015.
+
+^ Ponce, Tony (October 11, 2012). "Review: Zero Escape: Virtue's Last Reward". Destructoid. Modern Method. Archived from the original on September 5, 2015. Retrieved October 26, 2015.
+
+^ Schreier, Jason (July 14, 2015). "Why People Are Freaking Out Over Zero Escape 3". Kotaku. Gizmodo Media Group. Archived from the original on September 23, 2015. Retrieved October 30, 2015.
+
+^ Ishaan (March 27, 2013). "Zero Escape 3 Will Take Place Between 999 And Virtue's Last Reward". Siliconera. Curse, Inc. Archived from the original on October 1, 2015. Retrieved December 3, 2015.
+
+^ Sanchez, Miranda (July 7, 2015). "Zero Escape 3 'More Philosophical Than Past Volumes'". IGN. Ziff Davis. Archived from the original on August 25, 2015. Retrieved October 27, 2015.
+
+
+External links[edit]
+Official website
+Nine Hours, Nine Persons, Nine Doors at The Visual Novel Database
+vteZero EscapeGames
+Nine Hours, Nine Persons, Nine Doors
+Virtue's Last Reward
+Zero Time Dilemma
+Related
+Kotaro Uchikoshi
+Shinji Hosoe
+Spike Chunsoft
+
+ Category
+
+
+
+
+
+Retrieved from "https://en.wikipedia.org/w/index.php?title=Nine_Hours,_Nine_Persons,_Nine_Doors&oldid=1078526670"
+Categories: 2009 video gamesChunsoft gamesIOS gamesNintendo DS gamesPlayStation 4 gamesPlayStation Vita gamesSingle-player video gamesSpike Chunsoft video gamesVideo games about death gamesVideo games about telepathyVideo games about time travelVideo games developed in JapanVideo games featuring female protagonistsVideo games scored by Shinji HosoeVideo games set in the 2020sVideo games set in the United StatesVideo games with alternate endingsVisual novelsWindows gamesXbox Cloud Gaming gamesXbox One gamesZero EscapeHidden categories: Articles containing Japanese-language textCS1 Japanese-language sources (ja)Articles with short descriptionShort description is different from WikidataGood articlesPages using collapsible list with both background and text-align in titlestyleArticles using Infobox video game using locally defined parametersArticles using Wikidata infoboxes with locally defined imagesArticles using Video game reviews template in single platform modeOfficial website different in Wikidata and Wikipedia
+
+
+
+
+
+
+Navigation menu
+
+
+
+Personal tools
+
+
+Not logged inTalkContributionsCreate accountLog in
+
+
+
+
+
+Namespaces
+
+
+ArticleTalk
+
+
+
+
+
+English
+
+
+
+
+
+
+
+
+
+Views
+
+
+ReadEditView history
+
+
+
+
+
+More
+
+
+
+
+
+
+
+
+Search
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+Navigation
+
+
+Main pageContentsCurrent eventsRandom articleAbout WikipediaContact usDonate
+
+
+
+
+Contribute
+
+
+HelpLearn to editCommunity portalRecent changesUpload file
+
+
+
+
+Tools
+
+
+What links hereRelated changesUpload fileSpecial pagesPermanent linkPage informationCite this pageWikidata item
+
+
+
+
+Print/export
+
+
+Download as PDFPrintable version
+
+
+
+
+Languages
+
+
+العربيةEspañolFrançaisItalianoBahasa Melayu日本語PolskiPortuguêsSuomiSvenska中文
+Edit links
+
+
+
+
+
+
+ This page was last edited on 22 March 2022, at 01:21 (UTC).
+Text is available under the Creative Commons Attribution-ShareAlike License 3.0;
+additional terms may apply.  By using this site, you agree to the Terms of Use and Privacy Policy. Wikipedia® is a registered trademark of the Wikimedia Foundation, Inc., a non-profit organization.
+
+
+Privacy policy
+About Wikipedia
+Disclaimers
+Contact Wikipedia
+Mobile view
+Developers
+Statistics
+Cookie statement
+
+
+
+
+
+
+
+
+
+

@@ -1,0 +1,604 @@
+
+
+
+
+Open-wheel car - Wikipedia
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+Open-wheel car
+
+From Wikipedia, the free encyclopedia
+
+
+
+Jump to navigation
+Jump to search
+Type of automobile
+This article needs additional citations for verification. Please help improve this article by adding citations to reliable sources. Unsourced material may be challenged and removed.Find sources: "Open-wheel car" – news · newspapers · books · scholar · JSTOR (September 2014) (Learn how and when to remove this template message)
+Open-wheel car2018 Formula One car (McLaren MCL33) driven by Fernando AlonsoClassificationVehicleApplicationRecreation, sportsFuel sourceGasoline, electric, hydrogenPoweredYesSelf-propelledYesWheels4–6Axles2–4InventorRay Harroun
+An open-wheel car (formula car, or often single-seater car in British English) is a car with the wheels outside the car's main body, and usually having only one seat. Open-wheel cars contrast with street cars, sports cars, stock cars, and touring cars, which have their wheels below the body or inside fenders. Open-wheel cars are built both for road racing and oval track racing. Street-legal open-wheel cars, such as the Ariel Atom, are very scarce as they are often impractical for everyday use.[1]
+
+Contents
+
+1 History
+2 Design
+3 Driving
+4 Advantages
+5 Gallery
+6 Safety
+7 References
+8 See also
+
+
+History[edit]
+This section needs expansion. You can help by adding to it.  (April 2015)
+American racecar driver and constructor Ray Harroun was an early pioneer of the concept of a lightweight single-seater, open-wheel "monoposto" racecar.[2] After working as a mechanic in the automotive industry, Harroun began competitive professional racing in 1906, winning the AAA National Championship in 1910. He was then hired by the Marmon Motor Car Company as chief engineer, charged with building a racecar intended to race at the first Indianapolis 500, which he went on to win. He developed a revolutionary concept which would become the originator and forefather of the single-seater (i.e. monoposto) racecar design.[3][4] Harroun has also been credited by some as pioneering the rear-view mirror which appeared on his 1911 Indianapolis 500 winning car, though he himself claimed he got the idea from seeing a mirror used for a similar purpose on a horse-drawn vehicle in 1904.[5]
+
+Design[edit]
+A typical open-wheeler has a minimal cockpit, sufficient only to enclose the driver's body, with the head exposed to the air. In the Whelen Modified Tour and other short track modified series, the driver's head is contained in the car. In modern cars, the engine is often located directly behind the driver and drives the rear wheels; except in asphalt modified cars, such as the Whelen Modified Tour, where the engine is in front of the driver. Depending on the rules of the class, many types of open-wheelers have wings at the front and rear of the vehicle, as well as a very low and virtually flat undertray that helps achieve additional aerodynamic downforce pushing the car onto the road.  While many other categories of racing cars produce downforce, the top categories of open-wheel racing cars (particularly Formula One and Indycar) produce far more downforce relative to their mass than any other racing category, allowing much higher corner speeds on comparable tracks.
+Some major races, such as the Singapore Grand Prix, Monaco Grand Prix (sanctioned by Formula One) and the Long Beach Grand Prix (sanctioned by IndyCar), are held on temporary street circuits. However, most open-wheel races are on dedicated road courses, such as Watkins Glen in the US, Nürburgring in Germany, Spa-Francorchamps in Belgium and Silverstone in Great Britain. In the United States, some top-level open-wheel events are held on ovals, of both short track and superspeedway variety, with an emphasis being placed more on speed and endurance than the maneuverability inherently required by road and street course events. The Whelen Modified Tour is the only opened wheeled race car series endorsed by NASCAR. This series races on most of NASCAR's most famous tracks in the United States. Other asphalt modified series race on short tracks in the United States and Canada, such as Wyoming County International Speedway in New York. The best-attended oval race in the world is the annual Indianapolis 500 (Indy 500) in Speedway, Indiana, sanctioned by IndyCar; in the United States, it is quite common to refer to open-wheel cars as IndyCars, or Champ Cars, because of their recognizable appearance and widespread popularity across America at the Indy 500.
+Compared to covered-wheel race cars, open-wheeled cars allow more precise placement of the front wheels on the race course, as the tires are clearly visible to the driver. This allows the maximum potential of the cars to be wrung out during cornering and passing maneuvers. Furthermore, open-wheeled cars are less tolerant of vehicle-to-vehicle contact, which usually results in vehicle damage and retiring, whereas some level of contact is expected in covered-wheel racing, as for example in NASCAR. Open-wheeled drivers must be extremely precise to avoid contact.
+Minimum weight requirements tend to be much lower than in categories that more closely resemble street-legal vehicles, such as sports cars, touring cars, and stock cars.  For instance, a Formula One must weigh 798 kilograms (1,759 lb);[6] the minimum weight for NASCAR is 1,500 kilograms (3,200 lb).[7]
+
+Driving[edit]
+Open-wheeled racing is among the fastest in the world. Formula One cars can reach speeds in excess of 360 kilometres per hour (220 mph). At Autodromo Nazionale Monza, Antônio Pizzonia of BMW Williams F1 team recorded a top speed of 369.9 kilometres per hour (229.8 mph) (over 102 m/s) in the 2004 Italian Grand Prix. Since the end of the V10 era in 2006, speeds like this have not been reached, with contemporary machinery reaching around 360 kilometres per hour (220 mph).[8] It is difficult to give precise figures for the absolute top speeds of Formula One cars, as the cars do not have speedometers as such and the data are not generally released by teams.  The 'speed traps' on fast circuits such as Monza give a good indication, but are not necessarily located at the point on the track where the car is travelling at its fastest. BAR Honda team recorded an average top speed of 400 kilometres per hour (250 mph) in 2006 at Bonneville Salt Flats with unofficial top speed reaching 413 kilometres per hour (257 mph) using their modified BAR 007 Formula One car. Speeds on ovals can range in constant excess of 210–220 miles per hour (340–350 km/h), and at Indianapolis in excess of 230 miles per hour (370 km/h). In 2000, Gil de Ferran set the one-lap qualifying record of 241.428 miles per hour (388.541 km/h) at California Speedway.[9] Even on tight non-oval street circuits such as the Grand Prix of Toronto, open-wheel Indy Cars attain speeds of 190 miles per hour (310 km/h).
+Regardless of top speeds, Formula One open-wheel race cars hold the outright lap record at the circuits which they race due to their combination of top speed, acceleration, and cornering abilities.  For example, at the Monza Circuit the fastest lap in the 2021 Grand Prix (Daniel Ricciardo 1:24.812) is more than six seconds per lap faster than the fastest closed-wheel racing car, an LMP1 sports car, and more than 20 seconds per lap faster than the DTM touring car lap record.
+Driving an open-wheel car is substantially different from driving a car with fenders. Virtually all Formula One and Indycar drivers spend some time in various open-wheel categories before joining either top series. Open-wheel vehicles, due to their light weight, aerodynamic capabilities, and powerful engines, are often considered the fastest racing vehicles available and among the most challenging to master. Wheel-to-wheel contact is dangerous, particularly when the forward edge of one tire contacts the rear of another tire: since the treads are moving in opposite directions (one upward, one downward) at the point of contact, both wheels rapidly decelerate, torquing the chassis of both cars and often causing one or both vehicles to be suddenly and powerfully flung upwards (the rear car tends to pitch forward, and the front car tends to pitch backward.) An example of this is the 2005 Chicagoland crash of Ryan Briscoe with Alex Barron.
+
+Advantages[edit]
+The lower weight of an open-wheel racecar allows for better performance. While the exposure of the wheels to the airstream causes a very high aerodynamic drag at high speeds, it allows improved cooling of the brakes, which is important on road courses with their frequent changes of pace.
+
+Gallery[edit]
+
+
+
+
+Caterham open wheeled sports car, derived from Lotus 7
+
+
+
+
+
+
+Electric Formula E racing car (Spark SRT05e) racing for HWA Racelab
+
+
+
+
+
+
+2010 Mercedes-Benz Formula One car
+
+
+
+
+
+
+1994 Penske Indy Car
+
+
+
+
+
+
+Ariel Atom sports car from UK
+
+
+
+
+
+
+KTM X-Bow, road legal open wheeled sportscar
+
+
+
+
+
+
+Asphalt Modified Short Track Race Car
+
+
+
+
+
+
+Sprint cars
+
+
+
+
+
+
+A Barlotti go-kart: a low-end open-wheel car
+
+
+
+
+
+
+Nigel Mansell in a CART car at Mid-Ohio Sports Car Course, 1993
+
+
+
+
+Safety[edit]
+In 2018, several single seater series such as Formula One, Formula 2 (with their new Dallara F2 2018 chassis), and Formula E (with their new Spark SRT05e chassis) introduced a protection system to the cockpit called the "halo", a wishbone-shaped frame aimed to deflect debris away from a driver's head. Despite initial criticism, including for the reason of obstructing the driver's vision, it showed some praise in the Formula 2 sprint race in Catalunya when Nirei Fukuzumi spun and had the back of his car land on fellow countryman Tadasuke Makino's halo. In the Formula 1 Belgian Grand Prix, McLaren driver Fernando Alonso was sent airborne after being hit from behind by the Renault of Nico Hülkenberg and struck the halo of Sauber driver Charles Leclerc, thereby saving the Monegasque driver from a visor strike.[10]
+In 2019, the newly-formed FIA Formula 3 Championship introduced a halo to their new chassis which was unveiled at the 2018 Abu Dhabi Grand Prix.
+In 2020, the Indycar Series adopted a halo combined with an aeroscreen, built by Red Bull Advanced Technologies. 
+At the start of the 2020 Bahrain Grand Prix, Romain Grosjean collided with Daniil Kvyat in which his car broke in two and burst into flames as it split the barrier. The halo helped prevent Grosjean from possible decapitation while it allowed him to escape from the fire.
+
+References[edit]
+
+
+^ Eric Brandt (11 July 2018). "Ariel Atom 4 Roadster Unveiled Packing 320-HP Honda Type R Engine". The Drive. Retrieved 9 August 2018.
+
+^ swatson. "Harroun, Ray - Historic - 2000". Retrieved 17 April 2016.
+
+^ "Ray Harroun Checks his Rear View Mirror". Retrieved 17 April 2016.
+
+^ "1911 Marmon Wasp - Conceptcarz". conceptcarz.com. Retrieved 17 April 2016.
+
+^ Davidson, Donald The Talk of Gasoline Alley (radio program). Accessed via WIBC (FM), 28 May 200
+
+^ Koch, Matt (2022-03-17). "Minimum weight increase for 2022 F1 cars". Speedcafe. Retrieved 2022-04-20.
+
+^ Weaver, Matt (2021-05-06). "Everything You Need to Know About NASCAR Next Gen". Autoweek. Retrieved 2022-04-20.
+
+^ "Drivers hit record speeds in Mexico". Formula One Digital Media. Formula1.com. Oct 30, 2015. Retrieved 4 June 2016.
+
+^ "De Ferran wins pole, sets record". Las Vegas Sun. October 28, 2000. Archived from the original on November 10, 2013.
+
+^ Noble, Jonathan. "Halo saved Charles Leclerc from visor strike in Spa start crash". Autosport.com. Retrieved 2019-09-25.
+
+
+See also[edit]
+vteClasses of auto racingActive Formula racing
+F1
+F2
+F3
+F4
+F500
+Formula 1000
+Formula Atlantic
+Formula Car Challenge
+Formula Continental
+Formula E
+Formula Ford
+FF1600
+Formula Regional
+Formula Vee
+IndyCar
+Super Formula
+Supermodified
+BOSS GP
+Tasman Series
+Monoposto Racing Club
+V de V Challenge Monoplace
+Defunct Formula racing
+F3000
+F5000
+Formula A (SCCA)
+Formula B (SCCA)
+Formula C (SCCA)
+FCJ
+Formula Dream
+Formula Holden
+Formula Junior
+Formula Libre
+Formula Mondial
+Formula Pacific
+Formula Super Vee
+Australian National Formula
+Grand Prix Masters
+Active one-make formulae
+CFGP
+Ferrari Challenge
+Formula Car Challenge
+Formula Enterprise
+Formula Renault
+2.0L
+Global MX-5 Cup
+Indy Lights
+Lamborghini Super Trofeo
+MRF Challenge
+Porsche Carrera Cup
+SRF
+Toyota Racing Series
+Trofeo Maserati
+USF2000
+USF Juniors
+FIA Formula 2 Championship
+FIA Formula 3 Championship
+S5000
+W Series
+Defunct one-make formulae
+A1GP
+ADAC Formel Masters
+Audi R8 LMS Cup
+Auto GP
+Barber Pro
+Formula Abarth
+FA1
+Formula Alfa
+Formula Asia
+Formula BMW
+FC Euro Series
+Formula König
+Formula LGB
+Swift
+Hyundai
+Formula Lightning
+Formula Maruti
+Formula Masters
+China
+Russia
+Formula Mazda
+Formula Nissan
+3.5L
+Formula Opel/Vauxhall
+Formula Palmer Audi
+Formula RUS
+Formula Rolon
+Grand Prix Masters
+GP2
+GP3
+International Formula Master
+Superleague Formula
+World Series Formula V8 3.5
+Karting
+KF1
+KF2
+KF3
+KZ1
+KZ2
+Superkart
+Electric
+Active touring car racing
+WTCR
+BTCC
+Group F
+Group G
+Group H
+Super 2000
+Diesel 2000
+NGTC (TCN-1)
+TCR (TCN-2)
+Stock Car Brasil
+Stock Car Light
+Supercars
+Súper TC 2000
+Defunct touring car racing
+Appendix J
+BTC-T
+DTM
+Group 1
+Group 2
+Group 5
+Group A
+Group C (Australia)
+Group E
+Group N
+Group N (Australia)
+Group S
+Class 1
+Super Touring (Class 2)
+Superstars
+V8Star
+WTCC
+Active stock car racing
+ARCA
+Allison Legacy Series
+IMCA Sport Compact
+Late model
+Legends
+Modifieds
+NASCAR
+Cup
+Xfinity
+Truck
+Pinty's
+Whelen Euro Series
+PEAK Mexico
+Super Stock
+Street Stock
+Superstar Racing Experience
+Turismo Carretera
+Defunct stock car racing
+ASCAR Racing Series
+AUSCAR
+Oval racing
+BriSCA F1
+BriSCA F2
+V8 Hotstox
+Hot Rods
+Superstocks
+Sprint car racing
+Midget car racing
+Quarter Midget racing
+Active rallying
+Groups Rally
+Group R-GT
+Group N
+Super 2000
+Defunct rallying
+Group 1
+Group 2
+Group 4
+Group A
+Group B
+Group S
+Group R
+R5
+Super 1600
+World Rally Car
+Active sports prototypes
+DPi
+LMDh
+LMH
+LMP
+LMP2
+LMP3
+Clubmans
+Group CN
+Defunct sports prototypes
+DP
+Group 3
+Group 4
+Group 5
+Group 6
+Group 7
+Group A Sports Cars
+Group C
+GC
+GC-21
+IMSA GTP
+LMP
+LMP1
+LMPC
+S2000
+Active grand touring
+LM GTE
+GT3
+GT2
+GT4
+GT500
+GT300
+Trans-Am
+Defunct grand touring
+Group 3
+Group 4
+Group 5
+Group B
+Group D Production Sports Cars
+GT1 (1993–99)
+GT2 (1993–99)
+FIA GT1 (2000-12)
+IMSA AAGT
+IMSA GTO/GTS
+IMSA GTU
+IMSA GTX
+Appendix K
+Group D GT Cars
+Active drag racing
+Top Fuel Dragster (TF/D)
+Top Alcohol Dragster (TA/D)
+Top Fuel Funny Car (TF/FC)
+Top Alcohol Funny Car (TA/FC)
+Pro Stock (PS)
+Pro Modified (Pro Mod)
+Pro FWD
+Super Comp/Quick Rod
+Top Doorslammer
+Defunct drag racing
+A/FX (Factory Experimental)
+Altered
+Top Gas
+Modified
+Competition
+Gas
+Super Stock
+Off-road racing
+Baja Bug
+Dune buggy
+Rallycross
+Autocross
+Trophy truck
+Group T4
+Truggy
+Side by Side (UTV)
+
+
+
+
+
+Retrieved from "https://en.wikipedia.org/w/index.php?title=Open-wheel_car&oldid=1084128286"
+Categories: Open wheel racingOpen wheel racing carsHidden categories: Articles with short descriptionShort description matches WikidataArticles needing additional references from September 2014All articles needing additional referencesArticles to be expanded from April 2015All articles to be expandedArticles using small message boxes
+
+
+
+
+
+
+Navigation menu
+
+
+
+Personal tools
+
+
+Not logged inTalkContributionsCreate accountLog in
+
+
+
+
+
+Namespaces
+
+
+ArticleTalk
+
+
+
+
+
+English
+
+
+
+
+
+
+
+
+
+Views
+
+
+ReadEditView history
+
+
+
+
+
+More
+
+
+
+
+
+
+
+
+Search
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+Navigation
+
+
+Main pageContentsCurrent eventsRandom articleAbout WikipediaContact usDonate
+
+
+
+
+Contribute
+
+
+HelpLearn to editCommunity portalRecent changesUpload file
+
+
+
+
+Tools
+
+
+What links hereRelated changesUpload fileSpecial pagesPermanent linkPage informationCite this pageWikidata item
+
+
+
+
+Print/export
+
+
+Download as PDFPrintable version
+
+
+
+
+In other projects
+
+
+Wikimedia Commons
+
+
+
+
+Languages
+
+
+العربيةČeštinaDanskDeutschEspañolفارسیGalegoBahasa IndonesiaItalianoLietuviųBahasa Melayu日本語Norsk bokmålNorsk nynorskPortuguêsРусскийSimple EnglishSuomiSvenskaதமிழ்TürkçeУкраїнськаاردو中文
+Edit links
+
+
+
+
+
+
+ This page was last edited on 22 April 2022, at 18:04 (UTC).
+Text is available under the Creative Commons Attribution-ShareAlike License 3.0;
+additional terms may apply.  By using this site, you agree to the Terms of Use and Privacy Policy. Wikipedia® is a registered trademark of the Wikimedia Foundation, Inc., a non-profit organization.
+
+
+Privacy policy
+About Wikipedia
+Disclaimers
+Contact Wikipedia
+Mobile view
+Developers
+Statistics
+Cookie statement
+
+
+
+
+
+
+
+
+
+
