@@ -13,7 +13,7 @@ CURSOR PARKING LOT
 
 <head>
     <title>WheeledDoorsAPI</title>
-    <style>
+    <style>rgb(191, 243, 240)
         body {
             margin: 0;
             overflow: hidden;
@@ -77,6 +77,9 @@ CURSOR PARKING LOT
             console.log({ datajson })
         }
         ftch("a", "b");
+        
+        console.log(datajson["word1"]["related_words"])
+
 
         // TESTING FAKE DATA//
         const s_1 = [0.75, 0.25, 15, 20, 18, 22];
@@ -157,98 +160,60 @@ CURSOR PARKING LOT
                 'product',
             ],
         };
-        const w_1_t = [
-            ['wheels', 0.7774049639701843],
-            ['brakes', 0.6446653604507446],
-            ['steering', 0.6232441067695618],
-            ['brake', 0.5632343292236328],
-            ['rear', 0.5525266528129578],
-            ['car', 0.5081983804702759],
-            ['tire', 0.5005371570587158],
-            ['axle', 0.49684619903564453],
-            ['braking', 0.48656943440437317],
-            ['gear', 0.4825408458709717],
-        ];
-        const w_1_w = [
-            ['steering', 0.6776399612426758],
-            ['wheels', 0.6603336930274963],
-            ['bicycle', 0.586100697517395],
-            ['rear', 0.562150776386261],
-            ['wagon', 0.559565007686615],
-            ['bike', 0.5568479895591736],
-            ['chair', 0.5540367960929871],
-            ['truck', 0.5437824726104736],
-            ['cart', 0.5416857004165649],
-            ['ride', 0.5348616242408752],
-        ];
-
-        const w_2_t = [
-            ['I', 0.7774049639701843],
-            ['hate', 0.6446653604507446],
-            ['coding', 0.6232441067695618],
-            ['brake', 0.5632343292236328],
-            ['rear', 0.5525266528129578],
-            ['car', 0.5081983804702759],
-            ['tire', 0.5005371570587158],
-            ['axle', 0.49684619903564453],
-            ['braking', 0.48656943440437317],
-            ['gear', 0.4825408458709717],
-        ];
-        const w_2_w = [
-            ['still', 0.6776399612426758],
-            ['hate', 0.6603336930274963],
-            ['coding', 0.586100697517395],
-            ['rear', 0.562150776386261],
-            ['wagon', 0.559565007686615],
-            ['bike', 0.5568479895591736],
-            ['chair', 0.5540367960929871],
-            ['truck', 0.5437824726104736],
-            ['cart', 0.5416857004165649],
-            ['ride', 0.5348616242408752],
-        ];
 
         /////////////HELPER FUNCTIONS//////////////
 
         const sentiment_label_color = (d) => {
-            if (d < 0.45) {
-                return 'red';
-            } else if (d > 0.55) {
-                return 'seagreen';
-            } else {
-                return 'grey';
+            if (d< 0.25) {
+                return "red";
+            } else if (d<0.45){
+                return "salmon";
+            } else if (d < 0.55){
+                return "grey";
+            } else if (d< 0.75){
+                return "lightgreen";
             }
-        };
+            else {return "lime";}
+        }
 
         const sentiment_label_mouth = (d) => {
-            if (d < 0.45) {
-                return -15;
-            } else if (d > 0.55) {
-                return 15;
-            } else {
+            if (d< 0.25) {
+                return -30;
+            } else if (d<0.45){
+                return -10;
+            } else if (d < 0.55){
                 return 0;
+            } else if (d< 0.75){
+                return 10;
             }
+            else {return 30;}
         };
 
         const sentiment_label = (d) => {
-            if (d < 0.45) {
-                return 'Negative';
-            } else if (d > 0.55) {
-                return 'Positive';
-            } else {
-                return 'Neutral';
+            if (d< 0.25) {
+                return "Very Negative";
+            } else if (d<0.45){
+                return "Sorta Negative";
+            } else if (d < 0.55){
+                return "Neutral";
+            } else if (d< 0.75){
+                return "Sorta Positive";
             }
+            else {return "Very Positive";}
         };
 
         const word_printer = (word_corpus) => {
             if (word_corpus === 'Twitter') {
-                d = w_1_t;
-            } else d = w_1_w;
+                d = datajson["word1"]["related_words"]["twit"];
+            } else if (word_corpus === 'Reddit') 
+            {d = datajson["word1"]["related_words"]["redd"]}
+            else d = datajson["word1"]["related_words"]["wiki"];
             for (let i = 0; i < d.length; i++) {
                 svg_1
                     .append('text')
                     .attr('x', width / 2 / 2)
-                    .attr('y', height / 2 + 110 + i * 20)
-                    .attr('font-size', '15px')
+                    .attr('y', height / 2 + 0.10*height + i * (0.022*height))
+                    .attr('font-size', other_text_size)
                     .text(
                         d[i][0] +
                         ', ' +
@@ -260,14 +225,16 @@ CURSOR PARKING LOT
 
         const word_printer_2 = (word_corpus) => {
             if (word_corpus === 'Twitter') {
-                d = w_2_t;
-            } else d = w_2_w;
+                d = datajson["word2"]["related_words"]["twit"];
+            } else if (word_corpus === 'Reddit') 
+            {d = datajson["word2"]["related_words"]["redd"]}
+            else d = datajson["word2"]["related_words"]["wiki"];
             for (let i = 0; i < d.length; i++) {
                 svg_2
                     .append('text')
                     .attr('x', width / 2 / 2)
-                    .attr('y', height / 2 + 110 + i * 20)
-                    .attr('font-size', '15px')
+                    .attr('y', height / 2 + 0.10*height + i * (0.022*height))
+                    .attr('font-size', other_text_size)
                     .text(
                         d[i][0] +
                         ', ' +
@@ -291,8 +258,8 @@ CURSOR PARKING LOT
                 svg_1
                     .append('text')
                     .attr('x', width / 2 + width / 2 / 2)
-                    .attr('y', height / 2 + 110 + i * 20)
-                    .attr('font-size', '15px')
+                    .attr('y', height / 2 + 0.10*height + i * (0.022*height))
+                    .attr('font-size', other_text_size)
                     .text(d[i])
                     .attr('text-anchor', 'middle');
             }
@@ -311,8 +278,8 @@ CURSOR PARKING LOT
                 svg_2
                     .append('text')
                     .attr('x', width / 2 + width / 2 / 2)
-                    .attr('y', height / 2 + 110 + i * 20)
-                    .attr('font-size', '15px')
+                    .attr('y', height / 2 + 0.10*height + i * (0.022*height))
+                    .attr('font-size', other_text_size)
                     .text(d[i])
                     .attr('text-anchor', 'middle');
             }
@@ -364,6 +331,10 @@ CURSOR PARKING LOT
             {
                 value: 'Wikipedia',
                 text: 'Wikipedia',
+            },
+            {
+                value: 'Reddit',
+                text: 'Reddit',
             },
         ];
 
@@ -429,24 +400,22 @@ CURSOR PARKING LOT
             return my;
         };
 
-        /////////////////////DEFINING SVG/////////////////////
+///////////////////// Gloabl Variables for Editing Layout /////////////////////
         const width = window.innerWidth / 2;
         const height = window.innerHeight;
 
+        const background_color = "Azure";
+
+        const section_header_size = "1.7vw";
+        const other_text_size = "1.2vw"
+
+
+/////////////////////DEFINING SVG/////////////////////
         const svg_1 = d3
             .select('body')
             .append('svg')
             .attr('width', width)
             .attr('height', height);
-
-        svg_1
-            .append('text')
-            .attr('x', width / 2)
-            .attr('y', height / 2 - 200)
-            .attr('font-size', '25px')
-            .text('Word One:')
-            .attr('text-anchor', 'middle');
-
 
         const svg_2 = d3
             .select('body')
@@ -454,50 +423,80 @@ CURSOR PARKING LOT
             .attr('width', width)
             .attr('height', height);
 
+/////////////////////Header Text/////////////////////
+
+        svg_1
+            .append('text')
+            .attr('x', width / 2)
+            .attr('y', height / 2 - 0.4*height)
+            .attr('font-size', section_header_size)
+            .text('Enter Search Term One:')
+            .attr('text-anchor', 'middle');
+
+
         svg_2
             .append('text')
             .attr('x', width / 2)
-            .attr('y', height / 2 - 200)
-            .attr('font-size', '25px')
-            .text('Word Two:')
+            .attr('y', height / 2 - 0.4*height)
+            .attr('font-size', section_header_size)
+            .text('Enter Search Term Two:')
             .attr('text-anchor', 'middle');
 
+        
+
         /////////////SENTIMENT SECTION/////////////////////////
+
         svg_1
             .append('text')
-            .attr('x', width / 2 / 2)
-            .attr('y', height / 2 - 100)
-            .attr('font-size', '20px')
-            .text('Twitter Sentiment is: ')
+            .attr('x', width / 2)
+            .attr('y', height / 2 - 0.27*height)
+            .attr('font-size', section_header_size)
+            .text('Sentiment')
             .attr('font-weight', 'bold')
             .attr('text-anchor', 'middle');
 
+
+        svg_2
+            .append('text')
+            .attr('x', width / 2)
+            .attr('y', height / 2 - 0.27*height)
+            .attr('font-size', section_header_size)
+            .text('Sentiment')
+            .attr('font-weight', 'bold')
+            .attr('text-anchor', 'middle');
+
+
+        svg_1.append("svg:image")
+            .attr('x',  width / 2 / 2 - 0.12*width)
+            .attr('y', height / 2 - 0.24*height)
+            .attr('width', String(0.11*width) + "px")
+            .attr('height', String(0.11*width) + "px")
+            .attr("xlink:href", "twitter-logo.png")
+
         svg_1
             .append('text')
             .attr('x', width / 2 / 2)
-            .attr('y', height / 2 - 80)
-            .attr('font-size', '20px')
+            .attr('y', height / 2 - 0.07*height)
+            .attr('font-size', section_header_size)
             .text(sentiment_label(s_1[0]))
             .attr('text-anchor', 'middle')
             .attr(
                 'fill',
                 sentiment_label_color(s_1[0])
             );
-
+         
+        svg_2.append("svg:image")
+            .attr('x',  width / 2 / 2 - 0.12*width)
+            .attr('y', height / 2 - 0.24*height)
+            .attr('width',String(0.11*width) + "px")
+            .attr('height', String(0.11*width) + "px")
+            .attr("xlink:href", "twitter-logo.png")
+        
         svg_2
             .append('text')
             .attr('x', width / 2 / 2)
-            .attr('y', height / 2 - 100)
-            .attr('font-size', '20px')
-            .text('Twitter Sentiment is: ')
-            .attr('font-weight', 'bold')
-            .attr('text-anchor', 'middle');
-
-        svg_2
-            .append('text')
-            .attr('x', width / 2 / 2)
-            .attr('y', height / 2 - 80)
-            .attr('font-size', '20px')
+            .attr('y', height / 2 - 0.07*height)
+            .attr('font-size', section_header_size)
             .text(sentiment_label(s_2[0]))
             .attr('text-anchor', 'middle')
             .attr(
@@ -505,41 +504,38 @@ CURSOR PARKING LOT
                 sentiment_label_color(s_2[0])
             );
 
-        svg_1
-            .append('text')
-            .attr('x', width / 2 / 2 + width / 2)
-            .attr('y', height / 2 - 100)
-            .attr('font-size', '20px')
-            .text('Reddit Sentiment is: ')
-            .attr('font-weight', 'bold')
-            .attr('text-anchor', 'middle');
+        svg_1.append("svg:image")
+            .attr('x',  width / 2 / 2  + width / 2 - 0.12*width)
+            .attr('y', height / 2 - 0.24*height)
+            .attr('width', String(0.11*width) + "px")
+            .attr('height', String(0.11*width) + "px")
+            .attr("xlink:href", "reddit-logo.png")   
 
         svg_1
             .append('text')
             .attr('x', width / 2 / 2 + width / 2)
-            .attr('y', height / 2 - 80)
-            .attr('font-size', '20px')
+            .attr('y', height / 2 - 0.07*height)
+            .attr('font-size', section_header_size)
             .text(sentiment_label(s_1[1]))
             .attr('text-anchor', 'middle')
             .attr(
                 'fill',
                 sentiment_label_color(s_1[1])
             );
+        
+        svg_2.append("svg:image")
+            .attr('x',  width / 2 / 2  + width / 2 - 0.12*width)
+            .attr('y', height / 2 - 0.24*height)
+            .attr('width', String(0.11*width) + "px")
+            .attr('height', String(0.11*width) + "px")
+            .attr("xlink:href", "reddit-logo.png")  
+
 
         svg_2
             .append('text')
             .attr('x', width / 2 / 2 + width / 2)
-            .attr('y', height / 2 - 100)
-            .attr('font-size', '20px')
-            .text('Reddit Sentiment is: ')
-            .attr('font-weight', 'bold')
-            .attr('text-anchor', 'middle');
-
-        svg_2
-            .append('text')
-            .attr('x', width / 2 / 2 + width / 2)
-            .attr('y', height / 2 - 80)
-            .attr('font-size', '20px')
+            .attr('y', height / 2 - 0.07*height)
+            .attr('font-size', section_header_size)
             .text(sentiment_label(s_2[1]))
             .attr('text-anchor', 'middle')
             .attr(
@@ -547,16 +543,117 @@ CURSOR PARKING LOT
                 sentiment_label_color(s_2[1])
             );
 
+   ////// Sentiment Counts //////
+        svg_1
+            .append('text')
+            .attr('x', width / 2)
+            .attr('y', height / 2 - 0.215*height)
+            .attr('font-size', other_text_size)
+            .text('From Twitter:')
+            .attr('font-weight', 'bold')
+            .attr('text-anchor', 'middle');
+        svg_1
+            .append('text')
+            .attr('x', width / 2)
+            .attr('y', height / 2 - 0.194*height)
+            .attr('font-size', other_text_size)
+            .text(s_1[2] + ' posts were positive')
+            .attr('text-anchor', 'middle');
+        svg_1
+            .append('text')
+            .attr('x', width / 2)
+            .attr('y', height / 2 - 0.172*height)
+            .attr('font-size', other_text_size)
+            .text(s_1[3] + ' posts were negative')
+            .attr('text-anchor', 'middle');
+
+
+        svg_2
+            .append('text')
+            .attr('x', width / 2)
+            .attr('y', height / 2 - 0.215*height)
+            .attr('font-size', other_text_size)
+            .text('From Twitter:')
+            .attr('font-weight', 'bold')
+            .attr('text-anchor', 'middle');
+        svg_2
+            .append('text')
+            .attr('x', width / 2)
+            .attr('y', height / 2 - 0.194*height)
+            .attr('font-size', other_text_size)
+            .text(s_2[2] + ' posts were positive')
+            .attr('text-anchor', 'middle');
+        svg_2
+            .append('text')
+            .attr('x', width / 2)
+            .attr('y', height / 2 - 0.172*height)
+            .attr('font-size', other_text_size)
+            .text(s_2[3] + ' posts were negative')
+            .attr('text-anchor', 'middle');
+
+        svg_1
+            .append('text')
+            .attr('x', width / 2)
+            .attr('y', height / 2 - 0.12*height)
+            .attr('font-size', other_text_size)
+            .text('From Reddit:')
+            .attr('font-weight', 'bold')
+            .attr('text-anchor', 'middle');
+        svg_1
+            .append('text')
+            .attr('x', width / 2)
+            .attr('y', height / 2 - 0.096*height)
+            .attr('font-size', other_text_size)
+            .text(s_1[4] + ' posts were positive')
+            .attr('text-anchor', 'middle');
+        svg_1
+            .append('text')
+            .attr('x', width / 2)
+            .attr('y', height / 2 - 0.075*height)
+            .attr('font-size', other_text_size)
+            .text(s_1[5] + ' posts were negative')
+            .attr('text-anchor', 'middle');
+        
+        svg_2
+            .append('text')
+            .attr('x', width / 2)
+            .attr('y', height / 2 - 0.12*height)
+            .attr('font-size', other_text_size)
+            .text('From Reddit:')
+            .attr('font-weight', 'bold')
+            .attr('text-anchor', 'middle');
+        svg_2
+            .append('text')
+            .attr('x', width / 2)
+            .attr('y', height / 2 - 0.096*height)
+            .attr('font-size', other_text_size)
+            .text(s_2[4] + ' posts were positive')
+            .attr('text-anchor', 'middle');
+        svg_2
+            .append('text')
+            .attr('x',  width / 2)
+            .attr('y', height / 2 - 0.075*height)
+            .attr('font-size', other_text_size)
+            .text(s_2[5] + ' posts were negative')
+            .attr('text-anchor', 'middle');
+
         //////TWITTER SMILE//////
-        const circle_start_y = height / 2 - 40;
-        const cirlce_start_x_1 = width / 2 / 2;
+        const circle_start_y = height / 2 - .18*height;
+        const cirlce_start_x_1 = width / 2 / 2 + 0.0625*width;
         const cirlce_start_x_2 =
-            width / 2 / 2 + width / 2;
-        const y_mouth_start = circle_start_y + 10;
+            width / 2 / 2 + width / 2 + 0.0625*width;
+        const y_mouth_start = circle_start_y + 0.016*height;
+
+        const radius = 0.052*width;
+        const eye_radis = 0.008*width;
+        const eye_height = 0.0156*width;
+        const eye_seperation = 0.021*width;
+
+        const smile_lenght = 0.031*width;
 
         svg_1
             .append('circle')
-            .attr('r', 25)
+            .attr('r', radius)
             .attr('cx', cirlce_start_x_1)
             .attr('cy', circle_start_y)
             .attr(
@@ -567,17 +664,17 @@ CURSOR PARKING LOT
 
         svg_1
             .append('circle')
-            .attr('r', 3)
-            .attr('cx', cirlce_start_x_1 - 8)
-            .attr('cy', circle_start_y - 5)
+            .attr('r', eye_radis)
+            .attr('cx', cirlce_start_x_1 - eye_seperation)
+            .attr('cy', circle_start_y - eye_height)
             .attr('fill', 'black')
             .attr('stroke', 'black');
 
         svg_1
             .append('circle')
-            .attr('r', 3)
-            .attr('cx', cirlce_start_x_1 + 8)
-            .attr('cy', circle_start_y - 5)
+            .attr('r', eye_radis)
+            .attr('cx', cirlce_start_x_1 + eye_seperation)
+            .attr('cy', circle_start_y - eye_height)
             .attr('fill', 'black')
             .attr('stroke', 'black');
 
@@ -587,7 +684,7 @@ CURSOR PARKING LOT
             .attr(
                 'd',
                 'M' +
-                String(cirlce_start_x_1 - 12) +
+                String(cirlce_start_x_1 - smile_lenght) +
                 ',' +
                 String(y_mouth_start) +
                 ' Q' +
@@ -598,34 +695,20 @@ CURSOR PARKING LOT
                     sentiment_label_mouth(s_1[0])
                 ) +
                 ' ' +
-                String(cirlce_start_x_1 + 12) +
+                String(cirlce_start_x_1 + smile_lenght) +
                 ',' +
                 String(y_mouth_start)
             )
             .attr('stroke', 'black')
             .attr('stroke-width', '3px')
             .attr('fill', 'none')
-            .attr('cx', width / 2 + 8)
-            .attr('cy', height / 2 - 55);
+            .attr('cx', width / 2 + 0.008*width)
+            .attr('cy', height / 2 - 0.059*height);
 
-        svg_1
-            .append('text')
-            .attr('x', width / 2 / 2)
-            .attr('y', height / 2 + 5)
-            .attr('font-size', '18px')
-            .text(s_1[2] + ' posts were positive')
-            .attr('text-anchor', 'middle');
-        svg_1
-            .append('text')
-            .attr('x', width / 2 / 2)
-            .attr('y', height / 2 + 25)
-            .attr('font-size', '18px')
-            .text(s_1[3] + ' posts were negative')
-            .attr('text-anchor', 'middle');
 
         svg_2
             .append('circle')
-            .attr('r', 25)
+            .attr('r', radius)
             .attr('cx', cirlce_start_x_1)
             .attr('cy', circle_start_y)
             .attr(
@@ -636,17 +719,17 @@ CURSOR PARKING LOT
 
         svg_2
             .append('circle')
-            .attr('r', 3)
-            .attr('cx', cirlce_start_x_1 - 8)
-            .attr('cy', circle_start_y - 5)
+            .attr('r', eye_radis)
+            .attr('cx', cirlce_start_x_1 - eye_seperation)
+            .attr('cy', circle_start_y - eye_height)
             .attr('fill', 'black')
             .attr('stroke', 'black');
 
         svg_2
             .append('circle')
-            .attr('r', 3)
-            .attr('cx', cirlce_start_x_1 + 8)
-            .attr('cy', circle_start_y - 5)
+            .attr('r', eye_radis)
+            .attr('cx', cirlce_start_x_1 + eye_seperation)
+            .attr('cy', circle_start_y - eye_height)
             .attr('fill', 'black')
             .attr('stroke', 'black');
 
@@ -656,7 +739,7 @@ CURSOR PARKING LOT
             .attr(
                 'd',
                 'M' +
-                String(cirlce_start_x_1 - 12) +
+                String(cirlce_start_x_1 - smile_lenght) +
                 ',' +
                 String(y_mouth_start) +
                 ' Q' +
@@ -667,36 +750,20 @@ CURSOR PARKING LOT
                     sentiment_label_mouth(s_2[0])
                 ) +
                 ' ' +
-                String(cirlce_start_x_1 + 12) +
+                String(cirlce_start_x_1 + smile_lenght) +
                 ',' +
                 String(y_mouth_start)
             )
             .attr('stroke', 'black')
             .attr('stroke-width', '3px')
             .attr('fill', 'none')
-            .attr('cx', width / 2 + 8)
-            .attr('cy', height / 2 - 55);
-
-        svg_2
-            .append('text')
-            .attr('x', width / 2 / 2)
-            .attr('y', height / 2 + 5)
-            .attr('font-size', '18px')
-            .text(s_2[2] + ' posts were positive')
-            .attr('text-anchor', 'middle');
-        svg_2
-            .append('text')
-            .attr('x', width / 2 / 2)
-            .attr('y', height / 2 + 25)
-            .attr('font-size', '18px')
-            .text(s_2[3] + ' posts were negative')
-            .attr('text-anchor', 'middle');
-
+            .attr('cx', width / 2 + 0.008*width)
+            .attr('cy', height / 2 - 0.059*height);
 
         //////REDDIT SMILE//////
         svg_1
             .append('circle')
-            .attr('r', 25)
+            .attr('r', radius)
             .attr('cx', cirlce_start_x_2)
             .attr('cy', circle_start_y)
             .attr(
@@ -707,17 +774,17 @@ CURSOR PARKING LOT
 
         svg_1
             .append('circle')
-            .attr('r', 3)
-            .attr('cx', cirlce_start_x_2 - 8)
-            .attr('cy', circle_start_y - 5)
+            .attr('r', eye_radis)
+            .attr('cx', cirlce_start_x_2 - eye_seperation)
+            .attr('cy', circle_start_y - eye_height)
             .attr('fill', 'black')
             .attr('stroke', 'black');
 
         svg_1
             .append('circle')
-            .attr('r', 3)
-            .attr('cx', cirlce_start_x_2 + 8)
-            .attr('cy', circle_start_y - 5)
+            .attr('r', eye_radis)
+            .attr('cx', cirlce_start_x_2 + eye_seperation)
+            .attr('cy', circle_start_y - eye_height)
             .attr('fill', 'black')
             .attr('stroke', 'black');
 
@@ -726,7 +793,7 @@ CURSOR PARKING LOT
             .attr(
                 'd',
                 'M' +
-                String(cirlce_start_x_2 - 12) +
+                String(cirlce_start_x_2 - smile_lenght) +
                 ',' +
                 String(y_mouth_start) +
                 ' Q' +
@@ -737,34 +804,19 @@ CURSOR PARKING LOT
                     sentiment_label_mouth(s_1[1])
                 ) +
                 ' ' +
-                String(cirlce_start_x_2 + 12) +
+                String(cirlce_start_x_2 + smile_lenght) +
                 ',' +
                 String(y_mouth_start)
             )
             .attr('stroke', 'black')
             .attr('stroke-width', '3px')
             .attr('fill', 'none')
-            .attr('cx', width / 2 + 8)
+            .attr('cx', width / 2 + 0.008*width)
             .attr('cy', height / 2 - 55);
-
-        svg_1
-            .append('text')
-            .attr('x', width / 2 / 2 + width / 2)
-            .attr('y', height / 2 + 5)
-            .attr('font-size', '18px')
-            .text(s_1[4] + ' posts were positive')
-            .attr('text-anchor', 'middle');
-        svg_1
-            .append('text')
-            .attr('x', width / 2 / 2 + width / 2)
-            .attr('y', height / 2 + 25)
-            .attr('font-size', '18px')
-            .text(s_1[5] + ' posts were negative')
-            .attr('text-anchor', 'middle');
 
         svg_2
             .append('circle')
-            .attr('r', 25)
+            .attr('r', radius)
             .attr('cx', cirlce_start_x_2)
             .attr('cy', circle_start_y)
             .attr(
@@ -775,17 +827,17 @@ CURSOR PARKING LOT
 
         svg_2
             .append('circle')
-            .attr('r', 3)
-            .attr('cx', cirlce_start_x_2 - 8)
-            .attr('cy', circle_start_y - 5)
+            .attr('r', eye_radis)
+            .attr('cx', cirlce_start_x_2 - eye_seperation)
+            .attr('cy', circle_start_y - eye_height)
             .attr('fill', 'black')
             .attr('stroke', 'black');
 
         svg_2
             .append('circle')
-            .attr('r', 3)
-            .attr('cx', cirlce_start_x_2 + 8)
-            .attr('cy', circle_start_y - 5)
+            .attr('r', eye_radis)
+            .attr('cx', cirlce_start_x_2 + eye_seperation)
+            .attr('cy', circle_start_y - eye_height)
             .attr('fill', 'black')
             .attr('stroke', 'black');
 
@@ -794,7 +846,7 @@ CURSOR PARKING LOT
             .attr(
                 'd',
                 'M' +
-                String(cirlce_start_x_2 - 12) +
+                String(cirlce_start_x_2 - smile_lenght) +
                 ',' +
                 String(y_mouth_start) +
                 ' Q' +
@@ -805,30 +857,16 @@ CURSOR PARKING LOT
                     sentiment_label_mouth(s_2[1])
                 ) +
                 ' ' +
-                String(cirlce_start_x_2 + 12) +
+                String(cirlce_start_x_2 + smile_lenght) +
                 ',' +
                 String(y_mouth_start)
             )
             .attr('stroke', 'black')
             .attr('stroke-width', '3px')
             .attr('fill', 'none')
-            .attr('cx', width / 2 + 8)
-            .attr('cy', height / 2 - 55);
+            .attr('cx', width / 2 + 0.008*width)
+            .attr('cy', height / 2 - 0.059*height);
 
-        svg_2
-            .append('text')
-            .attr('x', width / 2 / 2 + width / 2)
-            .attr('y', height / 2 + 5)
-            .attr('font-size', '18px')
-            .text(s_2[4] + ' posts were positive')
-            .attr('text-anchor', 'middle');
-        svg_2
-            .append('text')
-            .attr('x', width / 2 / 2 + width / 2)
-            .attr('y', height / 2 + 25)
-            .attr('font-size', '18px')
-            .text(s_2[5] + ' posts were negative')
-            .attr('text-anchor', 'middle');
 
         /////////// Menu Stuff ///////
         const words_Container_1 = d3
@@ -877,8 +915,8 @@ CURSOR PARKING LOT
         svg_1
             .append('text')
             .attr('x', width / 2 / 2)
-            .attr('y', height / 2 + 60)
-            .attr('font-size', '18px')
+            .attr('y', height / 2)
+            .attr('font-size', section_header_size)
             .text('Related Words')
             .attr('font-weight', 'bold')
             .attr('text-anchor', 'middle');
@@ -898,11 +936,11 @@ CURSOR PARKING LOT
                     svg_1
                         .append('rect')
                         .attr('x', 0)
-                        .attr('y', height / 2 + 90)
+                        .attr('y', height / 2 + 0.022*height)
                         .attr('width', width)
                         .attr('height', height / 3)
-                        .attr('stroke', 'white')
-                        .attr('fill', 'white');
+                        .attr('stroke', background_color)
+                        .attr('fill', background_color);
                     word_printer(word_corpus, svg_1);
                     topic_printer(
                         topic_corpus_1,
@@ -914,8 +952,8 @@ CURSOR PARKING LOT
         svg_2
             .append('text')
             .attr('x', width / 2 / 2)
-            .attr('y', height / 2 + 60)
-            .attr('font-size', '18px')
+            .attr('y', height / 2 )
+            .attr('font-size', section_header_size)
             .text('Related Words')
             .attr('font-weight', 'bold')
             .attr('text-anchor', 'middle');
@@ -935,11 +973,11 @@ CURSOR PARKING LOT
                     svg_2
                         .append('rect')
                         .attr('x', 0)
-                        .attr('y', height / 2 + 90)
+                        .attr('y', height / 2 + 0.022*height)
                         .attr('width', width)
                         .attr('height', height / 3)
-                        .attr('stroke', 'white')
-                        .attr('fill', 'white');
+                        .attr('stroke', background_color)
+                        .attr('fill', background_color);
                     word_printer_2(word_corpus_2);
                     topic_printer_2(
                         topic_corpus_2,
@@ -952,8 +990,8 @@ CURSOR PARKING LOT
         svg_1
             .append('text')
             .attr('x', width / 2 + width / 2 / 2)
-            .attr('y', height / 2 + 60)
-            .attr('font-size', '18px')
+            .attr('y', height / 2)
+            .attr('font-size', section_header_size)
             .text('Common Topics')
             .attr('font-weight', 'bold')
             .attr('text-anchor', 'middle');
@@ -976,11 +1014,11 @@ CURSOR PARKING LOT
                     svg_1
                         .append('rect')
                         .attr('x', 0)
-                        .attr('y', height / 2 + 90)
+                        .attr('y', height / 2 + 0.022*height)
                         .attr('width', width)
                         .attr('height', height / 3)
-                        .attr('stroke', 'white')
-                        .attr('fill', 'white');
+                        .attr('stroke', background_color)
+                        .attr('fill', background_color);
                     word_printer(word_corpus)
                     topic_printer(
                         topic_corpus_1,
@@ -1000,11 +1038,11 @@ CURSOR PARKING LOT
                     svg_1
                         .append('rect')
                         .attr('x', 0)
-                        .attr('y', height / 2 + 90)
+                        .attr('y', height / 2 + 0.022*height)
                         .attr('width', width)
                         .attr('height', height / 3)
-                        .attr('stroke', 'white')
-                        .attr('fill', 'white');
+                        .attr('stroke', background_color)
+                        .attr('fill', background_color);
                     word_printer(word_corpus);
                     topic_printer(
                         topic_corpus_1,
@@ -1016,8 +1054,8 @@ CURSOR PARKING LOT
         svg_2
             .append('text')
             .attr('x', width / 2 + width / 2 / 2)
-            .attr('y', height / 2 + 60)
-            .attr('font-size', '18px')
+            .attr('y', height / 2)
+            .attr('font-size', section_header_size)
             .text('Common Topics')
             .attr('font-weight', 'bold')
             .attr('text-anchor', 'middle');
@@ -1040,11 +1078,11 @@ CURSOR PARKING LOT
                     svg_2
                         .append('rect')
                         .attr('x', 0)
-                        .attr('y', height / 2 + 90)
+                        .attr('y', height / 2 + 0.022*height)
                         .attr('width', width)
                         .attr('height', height / 3)
-                        .attr('stroke', 'white')
-                        .attr('fill', 'white');
+                        .attr('stroke', background_color)
+                        .attr('fill', background_color);
                     word_printer_2(word_corpus_2)
                     topic_printer_2(
                         topic_corpus_2,
@@ -1064,11 +1102,11 @@ CURSOR PARKING LOT
                     svg_2
                         .append('rect')
                         .attr('x', 0)
-                        .attr('y', height / 2 + 90)
+                        .attr('y', height / 2 + 0.022*height)
                         .attr('width', width)
                         .attr('height', height / 3)
-                        .attr('stroke', 'white')
-                        .attr('fill', 'white');
+                        .attr('stroke', background_color)
+                        .attr('fill', background_color);
                     word_printer_2(word_corpus_2);
                     topic_printer_2(
                         topic_corpus_2,

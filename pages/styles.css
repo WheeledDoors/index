@@ -1,7 +1,7 @@
 body {
     margin: 0px;
     overflow: hidden;
-    background-color: white;
+    background-color: Azure;
   }
   
   .points{
@@ -15,11 +15,12 @@ body {
     
   }
   
+
   .grid-container {
     position: absolute;
-    top: 70px;
-    left: 200px;
-    right: 0;
+    top: 6vw;
+    left: 21vw;
+    right: -21vw;
     display: flex;
   }
   .box-container{
@@ -28,8 +29,8 @@ body {
   
   .words_Container_1 {
     position: absolute;
-    top: 320px;
-    left: 30px;
+    top: 25vw;
+    left: 9vw;
     right: 0;
     display: flex;
   }
@@ -37,17 +38,17 @@ body {
   
   .topic_Container_1 {
     position: absolute;
-    top: 320px;
-    left: -10px;
+    top: 25vw;
+    left: 31vw;
     right: 0;
     display: flex;
-    margin-left: 235px;
+    margin-left: 0px;
   }
   
   .words_Container_2 {
     position: absolute;
-    top: 320px;
-    left: 525px;
+    top: 25vw;
+    left: 59vw;
     right: 0;
     display: flex;
   }
@@ -55,11 +56,11 @@ body {
   
   .topic_Container_2 {
     position: absolute;
-    top: 320px;
-    left: 500px;
+    top: 25vw;
+    left: 81vw;
     right: 0;
     display: flex;
-    margin-left: 200px;
+    margin-left: 0px;
   }
   
   
