@@ -1,0 +1,71 @@
+body {
+    margin: 0px;
+    overflow: hidden;
+    background-color: white;
+  }
+  
+  .points{
+      fill:grey;
+    opacity: 0.2;
+    stroke: black;
+  }
+  .points:hover{
+      fill:blue;
+    opacity: 1.0;
+    
+  }
+  
+  .grid-container {
+    position: absolute;
+    top: 70px;
+    left: 200px;
+    right: 0;
+    display: flex;
+  }
+  .box-container{
+      flex: 1;
+  }
+  
+  .words_Container_1 {
+    position: absolute;
+    top: 320px;
+    left: 30px;
+    right: 0;
+    display: flex;
+  }
+  
+  
+  .topic_Container_1 {
+    position: absolute;
+    top: 320px;
+    left: -10px;
+    right: 0;
+    display: flex;
+    margin-left: 235px;
+  }
+  
+  .words_Container_2 {
+    position: absolute;
+    top: 320px;
+    left: 525px;
+    right: 0;
+    display: flex;
+  }
+  
+  
+  .topic_Container_2 {
+    position: absolute;
+    top: 320px;
+    left: 500px;
+    right: 0;
+    display: flex;
+    margin-left: 200px;
+  }
+  
+  
+  
+  
+  
+  
+  
+  

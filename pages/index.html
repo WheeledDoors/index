@@ -1,0 +1,1077 @@
+<!DOCTYPE html>
+<!-- 
+CURSOR PARKING LOT
++ ------------------------ +
+|                          |
+|                          |
+|                          |
+|                          |
+|                          |
++ ------------------------ +
+-->
+<html>
+  <head>
+    <title>WheeledDoorsAPI</title>
+    <style>
+      body {
+        margin: 0;
+        overflow: hidden;
+      }
+      .tick text {
+        font-size: 24px;
+      }
+    </style>
+    <link rel="stylesheet" href="styles.css" />
+    <script src="https://unpkg.com/d3@6.7.0/dist/d3.min.js"></script>
+  </head>
+
+  <div id="grid-container" class="grid-container">
+    <div class="inputoutput box-container">
+      <div id="word1">
+        <input
+          type="text"
+          id="word1_id"
+          name="word1_n"
+          value="enter word 1"
+        />
+      </div>
+    </div>
+    <div class="inputoutput box-container">
+      <div id="word2">
+        <input
+          type="text"
+          id="word2_id"
+          name="word2_n"
+          value="enter word 2"
+        />
+      </div>
+    </div>
+  </div>
+
+  <body>
+    <script>
+        // Call the API to get the json of words
+    function ftch(word1, word2) {
+      console.log("Fetching");
+        let data = { "word1": "popsicle", "word2": "donut" };
+        fetch('https://bzopsstu2k.execute-api.us-east-2.amazonaws.com/deploy/getwheels', {
+            method: 'POST', // or 'PUT'
+            headers: {
+                'Content-Type': 'application/json',
+            },
+            body: JSON.stringify(data),
+        })
+            .then(response => response.json())
+            .then(data => {
+                console.log('Success:', data)
+                datajson = JSON.parse(data.body)
+            })
+            .catch((error) => {
+                console.error('Error:', error);
+            });
+    }
+      
+      ftch("a","b");
+      
+      // TESTING FAKE DATA//
+      const s_1 = [0.75, 0.25, 15, 20, 18, 22];
+      const s_2 = [0.12, 0.5, 12, 12, 15, 15];
+      const t_1 = {
+        Topic_0: [
+          'like',
+          'tea',
+          'taste',
+          'br',
+          'love',
+          'food',
+          'flavor',
+          'make',
+          'coffee',
+          'product',
+        ],
+        Topic_1: [
+          'br',
+          'product',
+          'good',
+          'like',
+          'make',
+          'one',
+          'also',
+          'well',
+          'taste',
+          'flavor',
+        ],
+        Topic_2: [
+          'br',
+          'coffee',
+          'like',
+          'dog',
+          'food',
+          'love',
+          'would',
+          'flavor',
+          'one',
+          'product',
+        ],
+      };
+      const t_2 = {
+        Topic_0: [
+          'like',
+          'tea',
+          'taste',
+          'br',
+          'love',
+          'food',
+          'flavor',
+          'make',
+          'coffee',
+          'product',
+        ],
+        Topic_1: [
+          'br',
+          'product',
+          'good',
+          'like',
+          'make',
+          'one',
+          'also',
+          'well',
+          'taste',
+          'flavor',
+        ],
+        Topic_2: [
+          'br',
+          'coffee',
+          'like',
+          'dog',
+          'food',
+          'love',
+          'would',
+          'flavor',
+          'one',
+          'product',
+        ],
+      };
+      const w_1_t = [
+        ['wheels', 0.7774049639701843],
+        ['brakes', 0.6446653604507446],
+        ['steering', 0.6232441067695618],
+        ['brake', 0.5632343292236328],
+        ['rear', 0.5525266528129578],
+        ['car', 0.5081983804702759],
+        ['tire', 0.5005371570587158],
+        ['axle', 0.49684619903564453],
+        ['braking', 0.48656943440437317],
+        ['gear', 0.4825408458709717],
+      ];
+      const w_1_w = [
+        ['steering', 0.6776399612426758],
+        ['wheels', 0.6603336930274963],
+        ['bicycle', 0.586100697517395],
+        ['rear', 0.562150776386261],
+        ['wagon', 0.559565007686615],
+        ['bike', 0.5568479895591736],
+        ['chair', 0.5540367960929871],
+        ['truck', 0.5437824726104736],
+        ['cart', 0.5416857004165649],
+        ['ride', 0.5348616242408752],
+      ];
+
+      const w_2_t = [
+        ['I', 0.7774049639701843],
+        ['hate', 0.6446653604507446],
+        ['coding', 0.6232441067695618],
+        ['brake', 0.5632343292236328],
+        ['rear', 0.5525266528129578],
+        ['car', 0.5081983804702759],
+        ['tire', 0.5005371570587158],
+        ['axle', 0.49684619903564453],
+        ['braking', 0.48656943440437317],
+        ['gear', 0.4825408458709717],
+      ];
+      const w_2_w = [
+        ['still', 0.6776399612426758],
+        ['hate', 0.6603336930274963],
+        ['coding', 0.586100697517395],
+        ['rear', 0.562150776386261],
+        ['wagon', 0.559565007686615],
+        ['bike', 0.5568479895591736],
+        ['chair', 0.5540367960929871],
+        ['truck', 0.5437824726104736],
+        ['cart', 0.5416857004165649],
+        ['ride', 0.5348616242408752],
+      ];
+
+      /////////////HELPER FUNCTIONS//////////////
+
+      const sentiment_label_color = (d) => {
+        if (d < 0.45) {
+          return 'red';
+        } else if (d > 0.55) {
+          return 'seagreen';
+        } else {
+          return 'grey';
+        }
+      };
+
+      const sentiment_label_mouth = (d) => {
+        if (d < 0.45) {
+          return -15;
+        } else if (d > 0.55) {
+          return 15;
+        } else {
+          return 0;
+        }
+      };
+
+      const sentiment_label = (d) => {
+        if (d < 0.45) {
+          return 'Negative';
+        } else if (d > 0.55) {
+          return 'Positive';
+        } else {
+          return 'Neutral';
+        }
+      };
+
+      const word_printer = (word_corpus) => {
+        if (word_corpus === 'Twitter') {
+          d = w_1_t;
+        } else d = w_1_w;
+        for (let i = 0; i < d.length; i++) {
+          svg_1
+            .append('text')
+            .attr('x', width / 2 / 2)
+            .attr('y', height / 2 + 110 + i * 20)
+            .attr('font-size', '15px')
+            .text(
+              d[i][0] +
+                ', ' +
+                Math.round(d[i][1] * 1000) / 1000
+            )
+            .attr('text-anchor', 'middle');
+        }
+      };
+      
+      const word_printer_2 = (word_corpus) => {
+        if (word_corpus === 'Twitter') {
+          d = w_2_t;
+        } else d = w_2_w;
+        for (let i = 0; i < d.length; i++) {
+          svg_2
+            .append('text')
+            .attr('x', width / 2 / 2)
+            .attr('y', height / 2 + 110 + i * 20)
+            .attr('font-size', '15px')
+            .text(
+              d[i][0] +
+                ', ' +
+                Math.round(d[i][1] * 1000) / 1000
+            )
+            .attr('text-anchor', 'middle');
+        }
+      };
+      
+      
+      const topic_printer = (
+        topic_corpus,
+        topic_num
+      ) => {
+        if (topic_corpus === 'Twitter') {
+          d = t_1[topic_num];
+        } else if (topic_corpus == 'Reddit') {
+          d = t_1[topic_num];
+        } else d = t_1[topic_num];
+        for (let i = 0; i < d.length; i++) {
+          svg_1
+            .append('text')
+            .attr('x', width / 2 + width / 2 / 2)
+            .attr('y', height / 2 + 110 + i * 20)
+            .attr('font-size', '15px')
+            .text(d[i])
+            .attr('text-anchor', 'middle');
+        }
+      };
+      
+      const topic_printer_2 = (
+        topic_corpus,
+        topic_num
+      ) => {
+        if (topic_corpus === 'Twitter') {
+          d = t_2[topic_num];
+        } else if (topic_corpus == 'Reddit') {
+          d = t_2[topic_num];
+        } else d = t_2[topic_num];
+        for (let i = 0; i < d.length; i++) {
+          svg_2
+            .append('text')
+            .attr('x', width / 2 + width / 2 / 2)
+            .attr('y', height / 2 + 110 + i * 20)
+            .attr('font-size', '15px')
+            .text(d[i])
+            .attr('text-anchor', 'middle');
+        }
+      };
+      
+      topic_corpus_options = [
+        {
+          value: 'Twitter',
+          text: 'Twitter',
+        },
+        {
+          value: 'Reddit',
+          text: 'Reddit',
+        },
+        {
+          value: 'Wikipedia',
+          text: 'Wikipedia',
+        },
+      ];
+
+      topic_number_options = [
+        {
+          value: 'Topic_0',
+          text: 'Topic_0',
+        },
+        {
+          value: 'Topic_1',
+          text: 'Topic_1',
+        },
+        {
+          value: 'Topic_2',
+          text: 'Topic_2',
+        },
+        {
+          value: 'Topic_3',
+          text: 'Topic_3',
+        },
+        {
+          value: 'Topic_4',
+          text: 'Topic_4',
+        },
+      ];
+      
+      related_word_options = [
+        {
+          value: 'Twitter',
+          text: 'Twitter',
+        },
+        {
+          value: 'Wikipedia',
+          text: 'Wikipedia',
+        },
+      ];
+      
+ const menu = () => {
+        let id;
+        let labelText;
+        let options;
+        const listeners = d3.dispatch('change');
+
+        const my = (selection) => {
+          selection
+            .selectAll('label')
+            .data([null])
+            .join('label')
+            .attr('for', id)
+            .text(labelText);
+
+          selection
+            .selectAll('select')
+            .data([null])
+            .join('select')
+            .attr('id', id)
+            .on('change', (event) => {
+              listeners.call(
+                'change',
+                null,
+                event.target.value
+              );
+            })
+            .selectAll('option')
+            .data(options)
+            .join('option')
+            .attr('value', (d) => d.value)
+            .text((d) => d.text);
+        };
+
+        my.id = function (_) {
+          return arguments.length
+            ? ((id = _), my)
+            : id;
+        };
+
+        my.labelText = function (_) {
+          return arguments.length
+            ? ((labelText = _), my)
+            : labelText;
+        };
+
+        my.options = function (_) {
+          return arguments.length
+            ? ((options = _), my)
+            : options;
+        };
+
+        my.on = function () {
+          var value = listeners.on.apply(
+            listeners,
+            arguments
+          );
+          return value === listeners ? my : value;
+        };
+
+        return my;
+      };
+      
+      /////////////////////DEFINING SVG/////////////////////
+      const width = window.innerWidth / 2;
+      const height = window.innerHeight;
+
+      const svg_1 = d3
+        .select('body')
+        .append('svg')
+        .attr('width', width)
+        .attr('height', height);
+
+      svg_1
+        .append('text')
+        .attr('x', width / 2)
+        .attr('y', height / 2 - 200)
+        .attr('font-size', '25px')
+        .text('Word One:')
+        .attr('text-anchor', 'middle');
+      
+      
+      const svg_2 = d3
+        .select('body')
+        .append('svg')
+        .attr('width', width)
+        .attr('height', height);
+
+      svg_2
+        .append('text')
+        .attr('x', width / 2)
+        .attr('y', height / 2 - 200)
+        .attr('font-size', '25px')
+        .text('Word Two:')
+        .attr('text-anchor', 'middle');
+
+      /////////////SENTIMENT SECTION/////////////////////////
+      svg_1
+        .append('text')
+        .attr('x', width / 2 / 2)
+        .attr('y', height / 2 - 100)
+        .attr('font-size', '20px')
+        .text('Twitter Sentiment is: ')
+        .attr('font-weight', 'bold')
+        .attr('text-anchor', 'middle');
+
+      svg_1
+        .append('text')
+        .attr('x', width / 2 / 2)
+        .attr('y', height / 2 - 80)
+        .attr('font-size', '20px')
+        .text(sentiment_label(s_1[0]))
+        .attr('text-anchor', 'middle')
+        .attr(
+          'fill',
+          sentiment_label_color(s_1[0])
+        );
+      
+      svg_2
+        .append('text')
+        .attr('x', width / 2 / 2)
+        .attr('y', height / 2 - 100)
+        .attr('font-size', '20px')
+        .text('Twitter Sentiment is: ')
+        .attr('font-weight', 'bold')
+        .attr('text-anchor', 'middle');
+
+      svg_2
+        .append('text')
+        .attr('x', width / 2 / 2)
+        .attr('y', height / 2 - 80)
+        .attr('font-size', '20px')
+        .text(sentiment_label(s_2[0]))
+        .attr('text-anchor', 'middle')
+        .attr(
+          'fill',
+          sentiment_label_color(s_2[0])
+        );
+
+      svg_1
+        .append('text')
+        .attr('x', width / 2 / 2 + width / 2)
+        .attr('y', height / 2 - 100)
+        .attr('font-size', '20px')
+        .text('Reddit Sentiment is: ')
+        .attr('font-weight', 'bold')
+        .attr('text-anchor', 'middle');
+
+      svg_1
+        .append('text')
+        .attr('x', width / 2 / 2 + width / 2)
+        .attr('y', height / 2 - 80)
+        .attr('font-size', '20px')
+        .text(sentiment_label(s_1[1]))
+        .attr('text-anchor', 'middle')
+        .attr(
+          'fill',
+          sentiment_label_color(s_1[1])
+        );
+      
+      svg_2
+        .append('text')
+        .attr('x', width / 2 / 2 + width / 2)
+        .attr('y', height / 2 - 100)
+        .attr('font-size', '20px')
+        .text('Reddit Sentiment is: ')
+        .attr('font-weight', 'bold')
+        .attr('text-anchor', 'middle');
+
+      svg_2
+        .append('text')
+        .attr('x', width / 2 / 2 + width / 2)
+        .attr('y', height / 2 - 80)
+        .attr('font-size', '20px')
+        .text(sentiment_label(s_2[1]))
+        .attr('text-anchor', 'middle')
+        .attr(
+          'fill',
+          sentiment_label_color(s_2[1])
+        );
+
+      //////TWITTER SMILE//////
+      const circle_start_y = height / 2 - 40;
+      const cirlce_start_x_1 = width / 2 / 2;
+      const cirlce_start_x_2 =
+        width / 2 / 2 + width / 2;
+      const y_mouth_start = circle_start_y + 10;
+
+      svg_1
+        .append('circle')
+        .attr('r', 25)
+        .attr('cx', cirlce_start_x_1)
+        .attr('cy', circle_start_y)
+        .attr(
+          'fill',
+          sentiment_label_color(s_1[0])
+        )
+        .attr('stroke', 'black');
+
+      svg_1
+        .append('circle')
+        .attr('r', 3)
+        .attr('cx', cirlce_start_x_1 - 8)
+        .attr('cy', circle_start_y - 5)
+        .attr('fill', 'black')
+        .attr('stroke', 'black');
+
+      svg_1
+        .append('circle')
+        .attr('r', 3)
+        .attr('cx', cirlce_start_x_1 + 8)
+        .attr('cy', circle_start_y - 5)
+        .attr('fill', 'black')
+        .attr('stroke', 'black');
+
+
+      svg_1
+        .append('path')
+        .attr(
+          'd',
+          'M' +
+            String(cirlce_start_x_1 - 12) +
+            ',' +
+            String(y_mouth_start) +
+            ' Q' +
+            String(cirlce_start_x_1) +
+            ',' +
+            String(
+              y_mouth_start +
+                sentiment_label_mouth(s_1[0])
+            ) +
+            ' ' +
+            String(cirlce_start_x_1 + 12) +
+            ',' +
+            String(y_mouth_start)
+        )
+        .attr('stroke', 'black')
+        .attr('stroke-width', '3px')
+        .attr('fill', 'none')
+        .attr('cx', width / 2 + 8)
+        .attr('cy', height / 2 - 55);
+
+      svg_1
+        .append('text')
+        .attr('x', width / 2 / 2)
+        .attr('y', height / 2 + 5)
+        .attr('font-size', '18px')
+        .text(s_1[2] + ' posts were positive')
+        .attr('text-anchor', 'middle');
+      svg_1
+        .append('text')
+        .attr('x', width / 2 / 2)
+        .attr('y', height / 2 + 25)
+        .attr('font-size', '18px')
+        .text(s_1[3] + ' posts were negative')
+        .attr('text-anchor', 'middle');
+
+      svg_2
+        .append('circle')
+        .attr('r', 25)
+        .attr('cx', cirlce_start_x_1)
+        .attr('cy', circle_start_y)
+        .attr(
+          'fill',
+          sentiment_label_color(s_2[0])
+        )
+        .attr('stroke', 'black');
+
+      svg_2
+        .append('circle')
+        .attr('r', 3)
+        .attr('cx', cirlce_start_x_1 - 8)
+        .attr('cy', circle_start_y - 5)
+        .attr('fill', 'black')
+        .attr('stroke', 'black');
+
+      svg_2
+        .append('circle')
+        .attr('r', 3)
+        .attr('cx', cirlce_start_x_1 + 8)
+        .attr('cy', circle_start_y - 5)
+        .attr('fill', 'black')
+        .attr('stroke', 'black');
+
+
+      svg_2
+        .append('path')
+        .attr(
+          'd',
+          'M' +
+            String(cirlce_start_x_1 - 12) +
+            ',' +
+            String(y_mouth_start) +
+            ' Q' +
+            String(cirlce_start_x_1) +
+            ',' +
+            String(
+              y_mouth_start +
+                sentiment_label_mouth(s_2[0])
+            ) +
+            ' ' +
+            String(cirlce_start_x_1 + 12) +
+            ',' +
+            String(y_mouth_start)
+        )
+        .attr('stroke', 'black')
+        .attr('stroke-width', '3px')
+        .attr('fill', 'none')
+        .attr('cx', width / 2 + 8)
+        .attr('cy', height / 2 - 55);
+
+      svg_2
+        .append('text')
+        .attr('x', width / 2 / 2)
+        .attr('y', height / 2 + 5)
+        .attr('font-size', '18px')
+        .text(s_2[2] + ' posts were positive')
+        .attr('text-anchor', 'middle');
+      svg_2
+        .append('text')
+        .attr('x', width / 2 / 2)
+        .attr('y', height / 2 + 25)
+        .attr('font-size', '18px')
+        .text(s_2[3] + ' posts were negative')
+        .attr('text-anchor', 'middle');
+
+      
+      //////REDDIT SMILE//////
+      svg_1
+        .append('circle')
+        .attr('r', 25)
+        .attr('cx', cirlce_start_x_2)
+        .attr('cy', circle_start_y)
+        .attr(
+          'fill',
+          sentiment_label_color(s_1[1])
+        )
+        .attr('stroke', 'black');
+
+      svg_1
+        .append('circle')
+        .attr('r', 3)
+        .attr('cx', cirlce_start_x_2 - 8)
+        .attr('cy', circle_start_y - 5)
+        .attr('fill', 'black')
+        .attr('stroke', 'black');
+
+      svg_1
+        .append('circle')
+        .attr('r', 3)
+        .attr('cx', cirlce_start_x_2 + 8)
+        .attr('cy', circle_start_y - 5)
+        .attr('fill', 'black')
+        .attr('stroke', 'black');
+
+      svg_1
+        .append('path')
+        .attr(
+          'd',
+          'M' +
+            String(cirlce_start_x_2 - 12) +
+            ',' +
+            String(y_mouth_start) +
+            ' Q' +
+            String(cirlce_start_x_2) +
+            ',' +
+            String(
+              y_mouth_start +
+                sentiment_label_mouth(s_1[1])
+            ) +
+            ' ' +
+            String(cirlce_start_x_2 + 12) +
+            ',' +
+            String(y_mouth_start)
+        )
+        .attr('stroke', 'black')
+        .attr('stroke-width', '3px')
+        .attr('fill', 'none')
+        .attr('cx', width / 2 + 8)
+        .attr('cy', height / 2 - 55);
+
+      svg_1
+        .append('text')
+        .attr('x', width / 2 / 2 + width / 2)
+        .attr('y', height / 2 + 5)
+        .attr('font-size', '18px')
+        .text(s_1[4] + ' posts were positive')
+        .attr('text-anchor', 'middle');
+      svg_1
+        .append('text')
+        .attr('x', width / 2 / 2 + width / 2)
+        .attr('y', height / 2 + 25)
+        .attr('font-size', '18px')
+        .text(s_1[5] + ' posts were negative')
+        .attr('text-anchor', 'middle');
+      
+       svg_2
+        .append('circle')
+        .attr('r', 25)
+        .attr('cx', cirlce_start_x_2)
+        .attr('cy', circle_start_y)
+        .attr(
+          'fill',
+          sentiment_label_color(s_2[1])
+        )
+        .attr('stroke', 'black');
+
+      svg_2
+        .append('circle')
+        .attr('r', 3)
+        .attr('cx', cirlce_start_x_2 - 8)
+        .attr('cy', circle_start_y - 5)
+        .attr('fill', 'black')
+        .attr('stroke', 'black');
+
+      svg_2
+        .append('circle')
+        .attr('r', 3)
+        .attr('cx', cirlce_start_x_2 + 8)
+        .attr('cy', circle_start_y - 5)
+        .attr('fill', 'black')
+        .attr('stroke', 'black');
+
+      svg_2
+        .append('path')
+        .attr(
+          'd',
+          'M' +
+            String(cirlce_start_x_2 - 12) +
+            ',' +
+            String(y_mouth_start) +
+            ' Q' +
+            String(cirlce_start_x_2) +
+            ',' +
+            String(
+              y_mouth_start +
+                sentiment_label_mouth(s_2[1])
+            ) +
+            ' ' +
+            String(cirlce_start_x_2 + 12) +
+            ',' +
+            String(y_mouth_start)
+        )
+        .attr('stroke', 'black')
+        .attr('stroke-width', '3px')
+        .attr('fill', 'none')
+        .attr('cx', width / 2 + 8)
+        .attr('cy', height / 2 - 55);
+
+      svg_2
+        .append('text')
+        .attr('x', width / 2 / 2 + width / 2)
+        .attr('y', height / 2 + 5)
+        .attr('font-size', '18px')
+        .text(s_2[4] + ' posts were positive')
+        .attr('text-anchor', 'middle');
+      svg_2
+        .append('text')
+        .attr('x', width / 2 / 2 + width / 2)
+        .attr('y', height / 2 + 25)
+        .attr('font-size', '18px')
+        .text(s_2[5] + ' posts were negative')
+        .attr('text-anchor', 'middle');
+
+      /////////// Menu Stuff ///////
+      const words_Container_1 = d3
+        .select('body')
+        .append('div')
+        .attr('class', 'words_Container_1')
+        .attr('width', width / 2)
+        .attr('height', height);
+
+      const topic_Container_1 = d3
+        .select('body')
+        .append('div')
+        .attr('class', 'topic_Container_1')
+        .attr('width', width / 2)
+        .attr('height', height);
+
+      const ttMenu_1 = topic_Container_1.append(
+        'div'
+      );
+      const tcMenu_1 = topic_Container_1.append(
+        'div'
+      ); 
+      
+      const words_Container_2 = d3
+        .select('body')
+        .append('div')
+        .attr('class', 'words_Container_2')
+        .attr('width', width / 2)
+        .attr('height', height);
+
+      const topic_Container_2 = d3
+        .select('body')
+        .append('div')
+        .attr('class', 'topic_Container_2')
+        .attr('width', width / 2)
+        .attr('height', height);
+
+      const ttMenu_2 = topic_Container_2.append(
+        'div'
+      );
+      const tcMenu_2 = topic_Container_2.append(
+        'div'
+      ); 
+      //////////////////Related Words///////////////////////
+
+      svg_1
+        .append('text')
+        .attr('x', width / 2 / 2)
+        .attr('y', height / 2 + 60)
+        .attr('font-size', '18px')
+        .text('Related Words')
+        .attr('font-weight', 'bold')
+        .attr('text-anchor', 'middle');
+
+      var word_corpus = 'Twitter';
+
+      word_printer(word_corpus, svg_1);
+
+      words_Container_1.call(
+        menu()
+          .id('w-menu')
+          .labelText('Corpus:')
+          .options(related_word_options)
+          .on('change', (word_list) => {
+            word_corpus = word_list;
+            svg_1.selectAll('rect').remove();
+            svg_1
+              .append('rect')
+              .attr('x', 0)
+              .attr('y', height / 2 + 90)
+              .attr('width', width)
+              .attr('height', height / 3)
+              .attr('stroke', 'white')
+              .attr('fill', 'white');
+            word_printer(word_corpus, svg_1);
+            topic_printer(
+              topic_corpus_1,
+              topic_num_1, svg_1
+            );
+          })
+      );
+      
+      svg_2
+        .append('text')
+        .attr('x', width / 2 / 2)
+        .attr('y', height / 2 + 60)
+        .attr('font-size', '18px')
+        .text('Related Words')
+        .attr('font-weight', 'bold')
+        .attr('text-anchor', 'middle');
+
+      var word_corpus_2 = 'Twitter';
+
+      word_printer_2(word_corpus_2);
+
+      words_Container_2.call(
+        menu()
+          .id('w-2-menu')
+          .labelText('Corpus:')
+          .options(related_word_options)
+          .on('change', (word_list) => {
+            word_corpus_2 = word_list;
+            svg_2.selectAll('rect').remove();
+            svg_2
+              .append('rect')
+              .attr('x', 0)
+              .attr('y', height / 2 + 90)
+              .attr('width', width)
+              .attr('height', height / 3)
+              .attr('stroke', 'white')
+              .attr('fill', 'white');
+            word_printer_2(word_corpus_2);
+            topic_printer_2(
+              topic_corpus_2,
+              topic_num_2
+            );
+          })
+      );
+      //////////////////Related Topics///////////////////////
+
+      svg_1
+        .append('text')
+        .attr('x', width / 2 + width / 2 / 2)
+        .attr('y', height / 2 + 60)
+        .attr('font-size', '18px')
+        .text('Common Topics')
+        .attr('font-weight', 'bold')
+        .attr('text-anchor', 'middle');
+
+      
+      var topic_corpus_1 = 'Twitter';
+      var topic_num_1 = 'Topic_0';
+
+
+      topic_printer(topic_corpus_1, topic_num_1);
+
+      ttMenu_1.call(
+        menu()
+          .id('tt-menu')
+          .labelText('Corpus:')
+          .options(topic_corpus_options)
+          .on('change', (corpus) => {
+            topic_corpus_1 = corpus;
+            svg_1.selectAll('rect').remove();
+            svg_1
+              .append('rect')
+              .attr('x', 0)
+              .attr('y', height / 2 + 90)
+              .attr('width', width)
+              .attr('height', height / 3)
+              .attr('stroke', 'white')
+              .attr('fill', 'white');
+            word_printer(word_corpus)
+            topic_printer(
+              topic_corpus_1,
+              topic_num_1
+            );
+          })
+      );
+
+      tcMenu_1.call(
+        menu()
+          .id('tc-menu')
+          .labelText('Topic:')
+          .options(topic_number_options)
+          .on('change', (topic) => {
+            topic_num_1 = topic;
+            svg_1.selectAll('rect').remove();
+            svg_1
+              .append('rect')
+              .attr('x', 0)
+              .attr('y', height / 2 + 90)
+              .attr('width', width)
+              .attr('height', height / 3)
+              .attr('stroke', 'white')
+              .attr('fill', 'white');
+            word_printer(word_corpus);
+            topic_printer(
+              topic_corpus_1,
+              topic_num_1
+            );
+          })
+      );
+      
+      svg_2
+        .append('text')
+        .attr('x', width / 2 + width / 2 / 2)
+        .attr('y', height / 2 + 60)
+        .attr('font-size', '18px')
+        .text('Common Topics')
+        .attr('font-weight', 'bold')
+        .attr('text-anchor', 'middle');
+
+      
+      var topic_corpus_2 = 'Twitter';
+      var topic_num_2 = 'Topic_0';
+
+
+      topic_printer_2(topic_corpus_2, topic_num_2);
+
+      ttMenu_2.call(
+        menu()
+          .id('tt-menu')
+          .labelText('Corpus:')
+          .options(topic_corpus_options)
+          .on('change', (corpus) => {
+            topic_corpus_2 = corpus;
+            svg_2.selectAll('rect').remove();
+            svg_2
+              .append('rect')
+              .attr('x', 0)
+              .attr('y', height / 2 + 90)
+              .attr('width', width)
+              .attr('height', height / 3)
+              .attr('stroke', 'white')
+              .attr('fill', 'white');
+            word_printer_2(word_corpus_2)
+            topic_printer_2(
+              topic_corpus_2,
+              topic_num_2
+            );
+          })
+      );
+
+      tcMenu_2.call(
+        menu()
+          .id('tc-menu')
+          .labelText('Topic:')
+          .options(topic_number_options)
+          .on('change', (topic) => {
+            topic_num_2 = topic;
+            svg_2.selectAll('rect').remove();
+            svg_2
+              .append('rect')
+              .attr('x', 0)
+              .attr('y', height / 2 + 90)
+              .attr('width', width)
+              .attr('height', height / 3)
+              .attr('stroke', 'white')
+              .attr('fill', 'white');
+            word_printer_2(word_corpus_2);
+            topic_printer_2(
+              topic_corpus_2,
+              topic_num_2
+            );
+          })
+      );
+      
+    </script>
+  </body>
+</html>
