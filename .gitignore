@@ -132,3 +132,4 @@ dmypy.json
 *.npy
 .idea/**
 
+data/wiki/doors_wiki_pages/Butterfly_Doors.txt
