@@ -162,6 +162,18 @@ def setup_nltk_dir():
     nltk.data.path.append(cwd + '/nltk_data')
 
 
+def setup_df_clean(text_list):
+    # df = pd.DataFrame(index=range(len(text_list)))
+    # print(df.describe())
+    # for i in range(len(text_list)):
+    #     df.iloc[i] = text_list[i]
+    #     print(i)
+    #     pass
+    # print(df.head())
+    df = pd.DataFrame(text_list, dtype="string")
+    return df
+
+
 def search(word):
     print('## SEARCHING FOR: ' + word)
     # Get tweets
@@ -179,7 +191,7 @@ def search(word):
 
     # Get wikipedia
     wiki_search = get_wikipedia_data(word, 100)
-    text_wiki = []
+    wiki_text = []
     for page in wiki_search['query']['search']:
         url = 'https://en.wikipedia.org/wiki/' + page['title']
         response = requests.get(url)
@@ -192,37 +204,38 @@ def search(word):
         text = soup.get_text()
         for _ in range(100):
             text = text.replace('\n\n', '\n')
-        text_wiki.append(text)
+        wiki_text.append(text)
         time.sleep(0.01)
 
         # files_wiki = glob.glob('/tmp/data/wiki/*.txt')
-        # text_wiki = []
+        # wiki_text = []
         # for f in files_wiki:
         # 	with open(f, 'r') as f:
         # 		text = f.read()
         # 		# remove duplicate \n
         # 		for _ in range(100):
         # 			text = text.replace('\n\n', '\n')
-        # 		text_wiki.append(text)
+        # 		wiki_text.append(text)
+
+    ### SETUP SENTIMENT ANALYSIS ###
+
+    print('## SENTIMENT ANALYSIS')
+    twit_df = setup_df_clean(tweets_text)
+    # reddit_df = setup_df_clean(reddit_text) # TODO Bring back
+    wiki_df = setup_df_clean(wiki_text)
+
+    print('## DFs')
+    print(twit_df)
+    # print(reddit_df) # TODO Bring back
+    print(wiki_df)
 
     # Split into sentences
     tweets_text = split_into_sentences(tweets_text)
     # reddit_text = split_into_sentences(reddit_text) # TODO Bring back
-    text_wiki = split_into_sentences(text_wiki)
+    wiki_text = split_into_sentences(wiki_text)
 
-    ### RUN SENTIMENT ANALYSIS ###
 
-    print('## SENTIMENT ANALYSIS')
-    twit_df = pd.DataFrame(index=range(len(tweets_text)), columns=range(len(1)))
-    twit_df = twit_df.assign(C=[tweets_text[i] for i in twit_df.index])
-
-    # redd_df = pd.DataFrame(reddit_text) # TODO Bring back
-    wiki_df = pd.DataFrame(text_wiki)
-
-    print('## TWIT DF - WIKI DF')
-    print(twit_df)
-    print(wiki_df)
-
+    ### RUN SENTIMENT THINGS ###
     twit_nb = NB_BOW(twit_df)
     # redd_nb = NB_BOW(redd_df) # TODO Bring back
     wiki_nb = NB_BOW(wiki_df)
@@ -247,7 +260,7 @@ def search(word):
     model_twitter.train(
         tweets_text, total_examples=len(tweets_text), epochs=10)
     # model_reddit.train(reddit_text, total_examples=len(reddit_text), epochs=10) # TODO Bring back
-    model_wiki.train(text_wiki, total_examples=len(text_wiki), epochs=10)
+    model_wiki.train(wiki_text, total_examples=len(wiki_text), epochs=10)
 
     twitter_top = model_twitter.wv.most_similar(word, topn=10)
     # reddit_top = model_reddit.wv.most_similar(word, topn=10) # TODO Bring back
