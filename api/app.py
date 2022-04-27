@@ -163,14 +163,9 @@ def setup_nltk_dir():
 
 
 def setup_df_clean(text_list):
-    # df = pd.DataFrame(index=range(len(text_list)))
-    # print(df.describe())
-    # for i in range(len(text_list)):
-    #     df.iloc[i] = text_list[i]
-    #     print(i)
-    #     pass
-    # print(df.head())
     df = pd.DataFrame(text_list, dtype="string")
+    print(df)
+    # Remove any rows with NA values
     return df
 
 
@@ -220,6 +215,9 @@ def search(word):
     ### SETUP SENTIMENT ANALYSIS ###
 
     print('## SENTIMENT ANALYSIS')
+    print(tweets_text)
+    # print(wiki_text)
+
     twit_df = setup_df_clean(tweets_text)
     # reddit_df = setup_df_clean(reddit_text) # TODO Bring back
     wiki_df = setup_df_clean(wiki_text)
@@ -227,13 +225,12 @@ def search(word):
     print('## DFs')
     print(twit_df)
     # print(reddit_df) # TODO Bring back
-    print(wiki_df)
+    # print(wiki_df)
 
     # Split into sentences
     tweets_text = split_into_sentences(tweets_text)
     # reddit_text = split_into_sentences(reddit_text) # TODO Bring back
     wiki_text = split_into_sentences(wiki_text)
-
 
     ### RUN SENTIMENT THINGS ###
     twit_nb = NB_BOW(twit_df)
