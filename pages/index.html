@@ -44,9 +44,9 @@ CURSOR PARKING LOT
     <script>
         // Call the API to get the json of words
 
-        // datajson = ""
-        // dummy_data = {"statusCode": 200, "body": "{"word1": {"related_words": {"wiki": [["gears", 0.7980747222900391], ["valves", 0.7678099870681763], ["brakes", 0.7573990821838379], ["traction", 0.751986563205719], ["leds", 0.7466593384742737], ["cartridges", 0.7430613040924072], ["tires", 0.7399558424949646], ["bricks", 0.7373794913291931], ["blades", 0.7372403144836426], ["cylinders", 0.7330774664878845]], "twit": [["wire", 0.8297888040542603], ["gears", 0.8179692029953003], ["gear", 0.8154082894325256], ["brakes", 0.811357319355011], ["pedals", 0.8080511689186096], ["valves", 0.8070498704910278], ["shafts", 0.8066985607147217], ["loading", 0.805283784866333], ["wheel", 0.8048087358474731], ["piston", 0.8034244179725647]], "redd": [["wheel", 0.8259243965148926], ["carts", 0.8083067536354065], ["carriage", 0.7992109656333923], ["gears", 0.795360267162323], ["pedals", 0.7935513854026794], ["wire", 0.7927584052085876], ["shafts", 0.7860286235809326], ["brakes", 0.7857897281646729], ["ropes", 0.7842543125152588], ["decks", 0.7835836410522461]]}, "sentiment": [0.8, 0.44, 3, 12, 112, 88], "topic": {"redd": {"Topic_0": ["wheel", "car", "like", "hot", "new", "time", "need", "ever", "game", "anyone"], "Topic_1": ["wheel", "behind", "time", "got", "hot", "drive", "get", "chair", "one", "car"], "Topic_2": ["wheel", "car", "steering", "without", "say", "new", "woman", "u", "finally", "police"]}, "twit": {"Topic_0": ["http", "wheel", "amp", "carriage", "gardnerremy", "led", "jerez", "essence", "discovering", "ride"], "Topic_1": ["http", "wheel", "getting", "hot", "special", "one", "magic", "feature", "mattel", "many"], "Topic_2": ["http", "wheel", "slower", "bambam1a", "model", "world", "put", "amp", "autumn", "featured"]}}}}", "{"word2": {"related_words": {"wiki": [["panels", 0.7336917519569397], ["door", 0.7004720568656921], ["hinged", 0.6763746738433838], ["beams", 0.6745975613594055], ["slots", 0.6681550741195679], ["rails", 0.6677663326263428], ["escalators", 0.6665881276130676], ["bricks", 0.6638079881668091], ["wheels", 0.6561943888664246], ["gears", 0.6560437083244324]], "twit": [["door", 0.7714901566505432], ["lights", 0.7192178964614868], ["walls", 0.7154451012611389], ["roof", 0.7080064415931702], ["gates", 0.702456533908844], ["rooms", 0.6802121996879578], ["stones", 0.6764234900474548], ["stairs", 0.653492271900177], ["streets", 0.6529234647750854], ["window", 0.6502050161361694]], "redd": [["door", 0.772105872631073], ["lights", 0.7553457617759705], ["walls", 0.7159619331359863], ["roof", 0.7003452181816101], ["stones", 0.6942639946937561], ["rooms", 0.6798733472824097], ["gates", 0.6707389950752258], ["digging", 0.6663965582847595], ["boxes", 0.6621222496032715], ["hearths", 0.6570422053337097]]}, "sentiment": [0.5333333333333333, 0.205, 7, 8, 159, 41], "topic": {"redd": {"Topic_0": ["door", "open", "woman", "opening", "dash", "delivery", "note", "use", "police", "could"], "Topic_1": ["door", "lock", "leave", "outside", "bathroom", "got", "apartment", "help", "aita", "year"], "Topic_2": ["door", "open", "front", "car", "one", "like", "right", "home", "found", "people"]}, "twit": {"Topic_0": ["http", "door", "every", "address", "name", "wallet", "11", "year", "week", "ago"], "Topic_1": ["http", "door", "train", "voter", "movement", "read", "paw", "labor", "cheerleader", "furry"], "Topic_2": ["door", "open", "http", "flight", "attendant", "god", "focus", "wish", "someone", "one"]}}}}"}
-
+        datajson = ""
+        dummy_data = {"statusCode": 200, "body": '{"word1":{"related_words":{"wiki":[["gears",0.797394871711731],["valves",0.7537927627563477],["bricks",0.7405878305435181],["blades",0.7388498187065125],["tires",0.7339442372322083],["bicycles",0.733440101146698],["traction",0.7291010618209839],["brakes",0.7274909019470215],["leds",0.7244308590888977],["cartridges",0.7243816256523132]],"twit":[["wire",0.8275941610336304],["gears",0.8201673030853271],["gear",0.8189351558685303],["pedals",0.8160164952278137],["brakes",0.8144809603691101],["wheel",0.8075740933418274],["loading",0.8075551986694336],["tires",0.8072112202644348],["valves",0.8066216111183167],["shafts",0.8066083788871765]],"redd":[["wheel",0.8241376876831055],["gears",0.807155191898346],["carts",0.8061560988426208],["carriage",0.8042669892311096],["pedals",0.8008826971054077],["tires",0.7986927628517151],["wire",0.7986742258071899],["brakes",0.7949035167694092],["gear",0.7936975359916687],["shafts",0.793511152267456]]},"sentiment":[0.8,0.44,3,12,112,88],"topic":{"redd":{"Topic_0":["wheel","new","time","need","like","get","got","max","take","opinion"],"Topic_1":["wheel","car","steering","found","anyone","hot","think","one","ferris","spinning"],"Topic_2":["wheel","behind","hot","police","door","car","woman","one","crash","first"]},"twit":{"Topic_0":["http","wheel","getting","amp","slower","two","gardnerremy","property","mattel","magic"],"Topic_1":["http","model","world","put","wheel","plant","grandfather","ford","early","employee"],"Topic_2":["wheel","http","bambam1a","special","mayzin","featuring","first","arrived","state","single"]}}},"word2":{"related_words":{"wiki":[["panels",0.7336917519569397],["door",0.7004720568656921],["hinged",0.6763746738433838],["beams",0.6745975613594055],["slots",0.6681550741195679],["rails",0.6677663326263428],["escalators",0.6665881276130676],["bricks",0.6638079881668091],["wheels",0.6561943888664246],["gears",0.6560437083244324]],"twit":[["door",0.7714901566505432],["lights",0.7192178964614868],["walls",0.7154451012611389],["roof",0.7080064415931702],["gates",0.702456533908844],["rooms",0.6802121996879578],["stones",0.6764234900474548],["stairs",0.653492271900177],["streets",0.6529234647750854],["window",0.6502050161361694]],"redd":[["door",0.772105872631073],["lights",0.7553457617759705],["walls",0.7159619331359863],["roof",0.7003452181816101],["stones",0.6942639946937561],["rooms",0.6798733472824097],["gates",0.6707389950752258],["digging",0.6663965582847595],["boxes",0.6621222496032715],["hearths",0.6570422053337097]]},"sentiment":[0.5333333333333333,0.205,7,8,159,41],"topic":{"redd":{"Topic_0":["door","open","woman","opening","dash","delivery","note","use","police","could"],"Topic_1":["door","lock","leave","outside","bathroom","got","apartment","help","aita","year"],"Topic_2":["door","open","front","car","one","like","right","home","found","people"]},"twit":{"Topic_0":["http","door","every","address","name","wallet","11","year","week","ago"],"Topic_1":["http","door","train","voter","movement","read","paw","labor","cheerleader","furry"],"Topic_2":["door","open","http","flight","attendant","god","focus","wish","someone","one"]}}}}'}
+        
         // function ftch(word1, word2) {
         //   console.log("Fetching");
         //     let data = { "word1": "wheels", "word2": "doors" };
@@ -75,86 +75,9 @@ CURSOR PARKING LOT
         }
         ftch("a", "b");
         
-        console.log(datajson["word1"]["topic"])
+        console.log(datajson["word1"]["sentiment"])
 
-        
 
-        const t_1 = {
-            Topic_0: [
-                'like',
-                'tea',
-                'taste',
-                'br',
-                'love',
-                'food',
-                'flavor',
-                'make',
-                'coffee',
-                'product',
-            ],
-            Topic_1: [
-                'br',
-                'product',
-                'good',
-                'like',
-                'make',
-                'one',
-                'also',
-                'well',
-                'taste',
-                'flavor',
-            ],
-            Topic_2: [
-                'br',
-                'coffee',
-                'like',
-                'dog',
-                'food',
-                'love',
-                'would',
-                'flavor',
-                'one',
-                'product',
-            ],
-        };
-        const t_2 = {
-            Topic_0: [
-                'like',
-                'tea',
-                'taste',
-                'br',
-                'love',
-                'food',
-                'flavor',
-                'make',
-                'coffee',
-                'product',
-            ],
-            Topic_1: [
-                'br',
-                'product',
-                'good',
-                'like',
-                'make',
-                'one',
-                'also',
-                'well',
-                'taste',
-                'flavor',
-            ],
-            Topic_2: [
-                'br',
-                'coffee',
-                'like',
-                'dog',
-                'food',
-                'love',
-                'would',
-                'flavor',
-                'one',
-                'product',
-            ],
-        };
 
         /////////////HELPER FUNCTIONS//////////////
 
@@ -245,8 +168,8 @@ CURSOR PARKING LOT
             topic_num
         ) => {
             if (topic_corpus === 'Twitter') {
-                d = datajson["word2"]["topic"]["twit"][topic_num];
-            } else d = datajson["word2"]["topic"]["redd"][topic_num];
+                d = datajson["word1"]["topic"]["twit"][topic_num];
+            } else d = datajson["word1"]["topic"]["redd"][topic_num];
             for (let i = 0; i < d.length; i++) {
                 svg_1
                     .append('text')
@@ -263,10 +186,8 @@ CURSOR PARKING LOT
             topic_num
         ) => {
             if (topic_corpus === 'Twitter') {
-                d = t_2[topic_num];
-            } else if (topic_corpus == 'Reddit') {
-                d = t_2[topic_num];
-            } else d = t_2[topic_num];
+                d = datajson["word2"]["topic"]["twit"][topic_num];
+            } else d = datajson["word2"]["topic"]["redd"][topic_num];
             for (let i = 0; i < d.length; i++) {
                 svg_2
                     .append('text')
@@ -301,15 +222,7 @@ CURSOR PARKING LOT
             {
                 value: 'Topic_2',
                 text: 'Topic_2',
-            },
-            {
-                value: 'Topic_3',
-                text: 'Topic_3',
-            },
-            {
-                value: 'Topic_4',
-                text: 'Topic_4',
-            },
+            }
         ];
 
         related_word_options = [
