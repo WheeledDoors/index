@@ -8,6 +8,7 @@ import os
 from bs4 import BeautifulSoup
 import pickle
 import numpy as np
+import nltk
 from nltk.stem import WordNetLemmatizer
 from nltk.tokenize import word_tokenize
 from gensim import corpora
@@ -19,6 +20,8 @@ def handler(event, context):
     # print('## ENVIRONMENT VARIABLES')
     # print(os.environ)
 
+    setup_nltk_dir()
+
     tres1, rres1, wres1 = search(event['word1'])
     tres2, rres2, wres2 = search(event['word2'])
 
@@ -29,15 +32,18 @@ def handler(event, context):
     data['word1']['related_words'] = {}
     data['word1']['related_words']['wiki'] = wres1
     data['word1']['related_words']['twit'] = tres1
-    data['word1']['related_words']['redd'] = rres1
+    # data['word1']['related_words']['redd'] = rres1
+    data['word1']['related_words']['redd'] = [('dummy', 0.5)]  # TODO Remove
 
     data['word2']['related_words'] = {}
     data['word2']['related_words']['wiki'] = wres2
     data['word2']['related_words']['twit'] = tres2
-    data['word2']['related_words']['redd'] = rres2
+    # data['word2']['related_words']['redd'] = rres2
+    data['word2']['related_words']['redd'] = [('dummy', 0.5)]  # TODO Remove
 
-    data['word1']['sentiment'] = [0.75, 75, 25]
-    data['word2']['sentiment'] = [0.25, 25, 75]
+    # TODO Change placeholder
+    data['word1']['sentiment'] = [0.75, 0.25, 75, 25, 25, 75]
+    data['word2']['sentiment'] = [0.25, 0.75, 25, 75, 75, 25]
 
     dummy_topics = {'Topic_0': ['br',
                                 'product',
@@ -149,20 +155,27 @@ def split_into_sentences(text):
     return out
 
 
+def setup_nltk_dir():
+    print('## SETUP NLTK DIR')
+    cwd = os.getcwd()
+    print(cwd)
+    nltk.data.path.append(cwd + '/nltk_data')
+
+
 def search(word):
     print('## SEARCHING FOR: ' + word)
     # Get tweets
     tweets_data = get_tweets(word, 100)
     tweets_text = [x["text"] for x in tweets_data["statuses"]]
 
-    # Get reddit
-    reddit = praw.Reddit(
-        client_id="r3dlLRYKcBN9-JRoyvi1Xw",
-        client_secret="YfKwRqhLjS1darC2TL5QnrzDe0S_sQ",
-        user_agent="hiiiiiiiiii",
-    )
-    reddit_data = reddit.subreddit("all").search(word, limit=1000)
-    reddit_text = [x.title for x in reddit_data]
+    # Get reddit # TODO Bring back
+    # reddit = praw.Reddit(
+    #     client_id="r3dlLRYKcBN9-JRoyvi1Xw",
+    #     client_secret="YfKwRqhLjS1darC2TL5QnrzDe0S_sQ",
+    #     user_agent="hiiiiiiiiii",
+    # )
+    # reddit_data = reddit.subreddit("all").search(word, limit=1000)
+    # reddit_text = [x.title for x in reddit_data]
 
     # Get wikipedia
     wiki_search = get_wikipedia_data(word, 100)
@@ -194,22 +207,28 @@ def search(word):
 
     # Split into sentences
     tweets_text = split_into_sentences(tweets_text)
-    reddit_text = split_into_sentences(reddit_text)
+    # reddit_text = split_into_sentences(reddit_text) # TODO Bring back
     text_wiki = split_into_sentences(text_wiki)
 
     ### RUN SENTIMENT ANALYSIS ###
 
     print('## SENTIMENT ANALYSIS')
-    twit_df = pd.DataFrame(tweets_text)
-    redd_df = pd.DataFrame(reddit_text)
+    twit_df = pd.DataFrame(index=range(len(tweets_text)), columns=range(len(1)))
+    twit_df = twit_df.assign(C=[tweets_text[i] for i in twit_df.index])
+
+    # redd_df = pd.DataFrame(reddit_text) # TODO Bring back
     wiki_df = pd.DataFrame(text_wiki)
 
+    print('## TWIT DF - WIKI DF')
+    print(twit_df)
+    print(wiki_df)
+
     twit_nb = NB_BOW(twit_df)
-    redd_nb = NB_BOW(redd_df)
+    # redd_nb = NB_BOW(redd_df) # TODO Bring back
     wiki_nb = NB_BOW(wiki_df)
 
     print(twit_nb)
-    print(redd_nb)
+    # print(redd_nb) # TODO Bring back
     print(wiki_nb)
 
     ### RUN IF YOU \ ##
@@ -220,18 +239,18 @@ def search(word):
 
     print("## LOADING MODELS")
     model_twitter = Word2Vec.load("models/base.model")
-    model_reddit = Word2Vec.load("models/base.model")
+    # model_reddit = Word2Vec.load("models/base.model") # TODO Bring back
     model_wiki = Word2Vec.load("models/base.model")
 
     print("## TRAINING MODELS")
     # Train the model
     model_twitter.train(
         tweets_text, total_examples=len(tweets_text), epochs=10)
-    model_reddit.train(reddit_text, total_examples=len(reddit_text), epochs=10)
+    # model_reddit.train(reddit_text, total_examples=len(reddit_text), epochs=10) # TODO Bring back
     model_wiki.train(text_wiki, total_examples=len(text_wiki), epochs=10)
 
-    twitter_top = model_reddit.wv.most_similar(word, topn=10)
-    reddit_top = model_reddit.wv.most_similar(word, topn=10)
+    twitter_top = model_twitter.wv.most_similar(word, topn=10)
+    # reddit_top = model_reddit.wv.most_similar(word, topn=10) # TODO Bring back
     wiki_top = model_wiki.wv.most_similar(word, topn=10)
     # print(word + " twitter: " + str(twitter_top))
     # print(word + " reddit: " + str(reddit_top))
@@ -240,8 +259,10 @@ def search(word):
     # Print the length of the results
     print("## LENGTHS")
     print("Twitter: " + str(len(twitter_top)))
-    print("Reddit: " + str(len(reddit_top)))
+    # print("Reddit: " + str(len(reddit_top))) # TODO Bring back
     print("Wiki: " + str(len(wiki_top)))
+
+    reddit_top = ['aaa']
 
     return twitter_top, reddit_top, wiki_top
 
