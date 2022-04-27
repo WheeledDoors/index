@@ -166,7 +166,7 @@ def search(word):
 
     twit_df = setup_df_clean(tweets_text)
     redd_df = setup_df_clean(reddit_text) # TODO Bring back
-    wiki_df = setup_df_clean(wiki_text)
+    # wiki_df = setup_df_clean(wiki_text)
 
     # print('## DFs')
     # print(twit_df)
@@ -181,7 +181,7 @@ def search(word):
     ### RUN SENTIMENT THINGS ###
     twit_nb = NB_BOW(twit_df)
     redd_nb = NB_BOW(redd_df) # TODO Bring back
-    wiki_nb = NB_BOW(wiki_df)
+    # wiki_nb = NB_BOW(wiki_df)
 
     print('## LDA')
     twit_lda = LDA(twit_df, 3)
@@ -190,7 +190,7 @@ def search(word):
 
     print(twit_nb)
     print(redd_nb) # TODO Bring back
-    print(wiki_nb)
+    # print(wiki_nb)
 
     ### RUN IF YOU \ ##
 
@@ -225,7 +225,7 @@ def search(word):
 
     # reddit_top = ['aaa']
 
-    return twitter_top, reddit_top, wiki_top, twit_nb, redd_nb, wiki_nb, twit_lda, redd_lda
+    return twitter_top, reddit_top, wiki_top, twit_nb, redd_nb, twit_lda, redd_lda
 
 
 def clean_data(df):

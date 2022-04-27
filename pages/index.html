@@ -67,7 +67,7 @@ CURSOR PARKING LOT
 			lambda.invoke(params, function (err, data) {
 				if (err) {
 					console.log(err, err.stack); // an error occurred
-				} 
+				}
 				else {
 					if (nsl == 1) {
 						data1 = data.Payload;
@@ -83,11 +83,11 @@ CURSOR PARKING LOT
 		}
 
 		const getNWord = async (word_param1, word_param2) => {
-			console.log("Calling lambda function with params " + word_param);
+			console.log("Calling lambda function with params " + word_param1 + " " + word_param2);
 			var data12 = await callLambdaF(word_param1, 1)
 			var data22 = await callLambdaF(word_param2, 2);
-			console.log("Done lambda with params " + word_param);
-			console.log({data, data1, data2});
+			console.log("Done lambda with params " + word_param1 + " " + word_param2);
+			console.log({ data12, data22 });
 		};
 
 		// Call the API to get the json of words
@@ -98,8 +98,7 @@ CURSOR PARKING LOT
 		// DUMMY FETCH
 		function ftch(word1, word2) {
 			console.log("Fetching " + word1 + " and " + word2);
-			getNWord(word1,1);
-			getNWord(word2,2);
+			getNWord(word1, word2)
 			console.log({ datajson })
 		}
 		ftch("wheel", "door");
