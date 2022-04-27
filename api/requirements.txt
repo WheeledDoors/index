@@ -1,3 +1,6 @@
 gensim==4.1.2
 praw
 bs4
+nltk
+pandas
+numpy
