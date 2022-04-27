@@ -45,11 +45,7 @@ CURSOR PARKING LOT
         // Call the API to get the json of words
 
         datajson = ""
-        dummy_data = {
-            "statusCode": 200,
-            "body": "{\"word1\": {\"related_words\": {\"wiki\": [[\"bicycles\", 0.7410068511962891], [\"bricks\", 0.7354349493980408], [\"rims\", 0.7337756752967834], [\"valves\", 0.7192175984382629], [\"gears\", 0.7177874445915222], [\"decks\", 0.7108016610145569], [\"tires\", 0.7098410725593567], [\"blades\", 0.7037431597709656], [\"capacitors\", 0.6996168494224548], [\"shells\", 0.6979067325592041]], \"twit\": [[\"wheel\", 0.8060711026191711], [\"carts\", 0.8037176728248596], [\"ropes\", 0.7986544966697693], [\"pedals\", 0.7984864711761475], [\"carriage\", 0.7899273633956909], [\"gears\", 0.7881355881690979], [\"rope\", 0.7881324887275696], [\"wire\", 0.782041072845459], [\"buttons\", 0.7813149094581604], [\"canopy\", 0.7812848091125488]], \"redd\": [[\"wheel\", 0.8060711026191711], [\"carts\", 0.8037176728248596], [\"ropes\", 0.7986544966697693], [\"pedals\", 0.7984864711761475], [\"carriage\", 0.7899273633956909], [\"gears\", 0.7881355881690979], [\"rope\", 0.7881324887275696], [\"wire\", 0.782041072845459], [\"buttons\", 0.7813149094581604], [\"canopy\", 0.7812848091125488]]}, \"sentiment\": [0.75, 0.25, 15, 20, 18, 22]}, \"word2\": {\"related_words\": {\"wiki\": [[\"panels\", 0.7212079763412476], [\"door\", 0.6898825168609619], [\"beams\", 0.6726765036582947], [\"hinged\", 0.6473066806793213], [\"openings\", 0.634428083896637], [\"bricks\", 0.6320927143096924], [\"rails\", 0.6319500207901001], [\"layers\", 0.6234999299049377], [\"tunnels\", 0.6150087714195251], [\"leds\", 0.6144955158233643]], \"twit\": [[\"door\", 0.7685925960540771], [\"lights\", 0.7548654675483704], [\"walls\", 0.7076693773269653], [\"roof\", 0.6995946764945984], [\"boxes\", 0.6857568621635437], [\"stones\", 0.6819460391998291], [\"rooms\", 0.6742620468139648], [\"gates\", 0.6678439974784851], [\"buttons\", 0.6598821878433228], [\"digging\", 0.6570510268211365]], \"redd\": [[\"door\", 0.7685925960540771], [\"lights\", 0.7548654675483704], [\"walls\", 0.7076693773269653], [\"roof\", 0.6995946764945984], [\"boxes\", 0.6857568621635437], [\"stones\", 0.6819460391998291], [\"rooms\", 0.6742620468139648], [\"gates\", 0.6678439974784851], [\"buttons\", 0.6598821878433228], [\"digging\", 0.6570510268211365]]}, \"sentiment\": [0.12, 0.5, 12, 12, 15, 15]}}"
-        }
-
+        dummy_data = {"statusCode": 200, "body": "{\"word1\": {\"related_words\": {\"wiki\": [[\"rims\", 0.7626462578773499], [\"bicycles\", 0.7493165135383606], [\"bricks\", 0.7415571808815002], [\"blades\", 0.740509569644928], [\"gears\", 0.7370408177375793], [\"valves\", 0.7349055409431458], [\"decks\", 0.726704478263855], [\"tires\", 0.7246121764183044], [\"traction\", 0.7175727486610413], [\"batteries\", 0.7164859175682068]], \"twit\": [[\"wheel\", 0.8151983618736267], [\"carts\", 0.8052899837493896], [\"carriage\", 0.7981159687042236], [\"ropes\", 0.7943714261054993], [\"decks\", 0.7904018759727478], [\"gears\", 0.7896170020103455], [\"pedals\", 0.787275493144989], [\"wire\", 0.7782962918281555], [\"shafts\", 0.7773459553718567], [\"brakes\", 0.7740671038627625]], \"redd\": [[\"wheel\", 0.8151983618736267], [\"carts\", 0.8052899837493896], [\"carriage\", 0.7981159687042236], [\"ropes\", 0.7943714261054993], [\"decks\", 0.7904018759727478], [\"gears\", 0.7896170020103455], [\"pedals\", 0.787275493144989], [\"wire\", 0.7782962918281555], [\"shafts\", 0.7773459553718567], [\"brakes\", 0.7740671038627625]]}, \"sentiment\": [0.75, 0.15, 75, 25, 12, 40], \"topic\": {\"wiki\": {\"Topic_0\": [\"banana\", \"product\", \"would\", \"amazon\", \"flavor\", \"like\", \"buy\", \"taste\", \"2\", \"tbsp\"], \"Topic_1\": [\"br\", \"tea\", \"like\", \"one\", \"good\", \"flavor\", \"also\", \"make\", \"taste\", \"magnesium\"], \"Topic_2\": [\"coffee\", \"br\", \"flavor\", \"product\", \"cup\", \"get\", \"would\", \"taste\", \"good\", \"tea\"], \"Topic_3\": [\"br\", \"like\", \"food\", \"taste\", \"good\", \"love\", \"dog\", \"great\", \"really\", \"eat\"], \"Topic_4\": [\"br\", \"good\", \"coffee\", \"product\", \"like\", \"would\", \"store\", \"chip\", \"great\", \"price\"]}, \"redd\": {\"Topic_0\": [\"banana\", \"product\", \"would\", \"amazon\", \"flavor\", \"like\", \"buy\", \"taste\", \"2\", \"tbsp\"], \"Topic_1\": [\"br\", \"tea\", \"like\", \"one\", \"good\", \"flavor\", \"also\", \"make\", \"taste\", \"magnesium\"], \"Topic_2\": [\"coffee\", \"br\", \"flavor\", \"product\", \"cup\", \"get\", \"would\", \"taste\", \"good\", \"tea\"], \"Topic_3\": [\"br\", \"like\", \"food\", \"taste\", \"good\", \"love\", \"dog\", \"great\", \"really\", \"eat\"], \"Topic_4\": [\"br\", \"good\", \"coffee\", \"product\", \"like\", \"would\", \"store\", \"chip\", \"great\", \"price\"]}, \"twit\": {\"Topic_0\": [\"banana\", \"product\", \"would\", \"amazon\", \"flavor\", \"like\", \"buy\", \"taste\", \"2\", \"tbsp\"], \"Topic_1\": [\"br\", \"tea\", \"like\", \"one\", \"good\", \"flavor\", \"also\", \"make\", \"taste\", \"magnesium\"], \"Topic_2\": [\"coffee\", \"br\", \"flavor\", \"product\", \"cup\", \"get\", \"would\", \"taste\", \"good\", \"tea\"], \"Topic_3\": [\"br\", \"like\", \"food\", \"taste\", \"good\", \"love\", \"dog\", \"great\", \"really\", \"eat\"], \"Topic_4\": [\"br\", \"good\", \"coffee\", \"product\", \"like\", \"would\", \"store\", \"chip\", \"great\", \"price\"]}}}, \"word2\": {\"related_words\": {\"wiki\": [[\"panels\", 0.7338306307792664], [\"door\", 0.6900017261505127], [\"beams\", 0.6597744822502136], [\"tunnels\", 0.646194338798523], [\"openings\", 0.6459143757820129], [\"rails\", 0.6386350989341736], [\"grid\", 0.634249746799469], [\"hinged\", 0.631747841835022], [\"elevators\", 0.6273483037948608], [\"slots\", 0.6212843656539917]], \"twit\": [[\"door\", 0.7631707787513733], [\"lights\", 0.7612251043319702], [\"walls\", 0.7173717021942139], [\"roof\", 0.7097958326339722], [\"stones\", 0.6884087324142456], [\"rooms\", 0.6846696734428406], [\"gates\", 0.6818853616714478], [\"boxes\", 0.6759169697761536], [\"digging\", 0.6716004014015198], [\"hearths\", 0.66913241147995]], \"redd\": [[\"door\", 0.7631707787513733], [\"lights\", 0.7612251043319702], [\"walls\", 0.7173717021942139], [\"roof\", 0.7097958326339722], [\"stones\", 0.6884087324142456], [\"rooms\", 0.6846696734428406], [\"gates\", 0.6818853616714478], [\"boxes\", 0.6759169697761536], [\"digging\", 0.6716004014015198], [\"hearths\", 0.66913241147995]]}, \"sentiment\": [0.25, 0.65, 25, 75, 12, 15], \"topic\": {\"wiki\": {\"Topic_0\": [\"banana\", \"product\", \"would\", \"amazon\", \"flavor\", \"like\", \"buy\", \"taste\", \"2\", \"tbsp\"], \"Topic_1\": [\"br\", \"tea\", \"like\", \"one\", \"good\", \"flavor\", \"also\", \"make\", \"taste\", \"magnesium\"], \"Topic_2\": [\"coffee\", \"br\", \"flavor\", \"product\", \"cup\", \"get\", \"would\", \"taste\", \"good\", \"tea\"], \"Topic_3\": [\"br\", \"like\", \"food\", \"taste\", \"good\", \"love\", \"dog\", \"great\", \"really\", \"eat\"], \"Topic_4\": [\"br\", \"good\", \"coffee\", \"product\", \"like\", \"would\", \"store\", \"chip\", \"great\", \"price\"]}, \"redd\": {\"Topic_0\": [\"banana\", \"product\", \"would\", \"amazon\", \"flavor\", \"like\", \"buy\", \"taste\", \"2\", \"tbsp\"], \"Topic_1\": [\"br\", \"tea\", \"like\", \"one\", \"good\", \"flavor\", \"also\", \"make\", \"taste\", \"magnesium\"], \"Topic_2\": [\"coffee\", \"br\", \"flavor\", \"product\", \"cup\", \"get\", \"would\", \"taste\", \"good\", \"tea\"], \"Topic_3\": [\"br\", \"like\", \"food\", \"taste\", \"good\", \"love\", \"dog\", \"great\", \"really\", \"eat\"], \"Topic_4\": [\"br\", \"good\", \"coffee\", \"product\", \"like\", \"would\", \"store\", \"chip\", \"great\", \"price\"]}, \"twit\": {\"Topic_0\": [\"banana\", \"product\", \"would\", \"amazon\", \"flavor\", \"like\", \"buy\", \"taste\", \"2\", \"tbsp\"], \"Topic_1\": [\"br\", \"tea\", \"like\", \"one\", \"good\", \"flavor\", \"also\", \"make\", \"taste\", \"magnesium\"], \"Topic_2\": [\"coffee\", \"br\", \"flavor\", \"product\", \"cup\", \"get\", \"would\", \"taste\", \"good\", \"tea\"], \"Topic_3\": [\"br\", \"like\", \"food\", \"taste\", \"good\", \"love\", \"dog\", \"great\", \"really\", \"eat\"], \"Topic_4\": [\"br\", \"good\", \"coffee\", \"product\", \"like\", \"would\", \"store\", \"chip\", \"great\", \"price\"]}}}}"}
         // function ftch(word1, word2) {
         //   console.log("Fetching");
         //     let data = { "word1": "wheels", "word2": "doors" };
@@ -77,84 +73,6 @@ CURSOR PARKING LOT
             console.log({ datajson })
         }
         ftch("a", "b");
-
-        // TESTING FAKE DATA//
-        const t_1 = {
-            Topic_0: [
-                'like',
-                'tea',
-                'taste',
-                'br',
-                'love',
-                'food',
-                'flavor',
-                'make',
-                'coffee',
-                'product',
-            ],
-            Topic_1: [
-                'br',
-                'product',
-                'good',
-                'like',
-                'make',
-                'one',
-                'also',
-                'well',
-                'taste',
-                'flavor',
-            ],
-            Topic_2: [
-                'br',
-                'coffee',
-                'like',
-                'dog',
-                'food',
-                'love',
-                'would',
-                'flavor',
-                'one',
-                'product',
-            ],
-        };
-        const t_2 = {
-            Topic_0: [
-                'like',
-                'tea',
-                'taste',
-                'br',
-                'love',
-                'food',
-                'flavor',
-                'make',
-                'coffee',
-                'product',
-            ],
-            Topic_1: [
-                'br',
-                'product',
-                'good',
-                'like',
-                'make',
-                'one',
-                'also',
-                'well',
-                'taste',
-                'flavor',
-            ],
-            Topic_2: [
-                'br',
-                'coffee',
-                'like',
-                'dog',
-                'food',
-                'love',
-                'would',
-                'flavor',
-                'one',
-                'product',
-            ],
-        };
 
         /////////////HELPER FUNCTIONS//////////////
 
@@ -245,10 +163,10 @@ CURSOR PARKING LOT
             topic_num
         ) => {
             if (topic_corpus === 'Twitter') {
-                d = t_1[topic_num];
+                d = datajson["word1"]["topic"]["twit"][topic_num];
             } else if (topic_corpus == 'Reddit') {
-                d = t_1[topic_num];
-            } else d = t_1[topic_num];
+                d = datajson["word1"]["topic"]["redd"][topic_num];
+            } else d = datajson["word1"]["topic"]["wiki"][topic_num];
             for (let i = 0; i < d.length; i++) {
                 svg_1
                     .append('text')
@@ -265,10 +183,10 @@ CURSOR PARKING LOT
             topic_num
         ) => {
             if (topic_corpus === 'Twitter') {
-                d = t_2[topic_num];
+                d = datajson["word2"]["topic"]["twit"][topic_num];
             } else if (topic_corpus == 'Reddit') {
-                d = t_2[topic_num];
-            } else d = t_2[topic_num];
+                d = datajson["word2"]["topic"]["redd"][topic_num];
+            } else d = datajson["word2"]["topic"]["wiki"][topic_num];
             for (let i = 0; i < d.length; i++) {
                 svg_2
                     .append('text')
