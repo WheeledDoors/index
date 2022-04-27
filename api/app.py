@@ -20,33 +20,103 @@ def handler(event, context):
 	data = {}
 	data['word1'] = {}
 	data['word2'] = {}
-	
+
 	data['word1']['related_words'] = {}
 	data['word1']['related_words']['wiki'] = wres1
 	data['word1']['related_words']['twit'] = tres1
 	data['word1']['related_words']['redd'] = rres1
-	
+
 	data['word2']['related_words'] = {}
 	data['word2']['related_words']['wiki'] = wres2
 	data['word2']['related_words']['twit'] = tres2
 	data['word2']['related_words']['redd'] = rres2
+
+	data['word1']['sentiment'] = [0.75, 75, 25]
+	data['word2']['sentiment'] = [0.25, 25, 75]
+
+	dummy_topics = {'Topic_0': ['br',
+								'product',
+								'would',
+								'amazon',
+								'flavor',
+								'like',
+								'buy',
+								'taste',
+								'2',
+								'tbsp'],
+					'Topic_1': ['br',
+								'tea',
+								'like',
+								'one',
+								'good',
+								'flavor',
+								'also',
+								'make',
+								'taste',
+								'magnesium'],
+					'Topic_2': ['coffee',
+								'br',
+								'flavor',
+								'product',
+								'cup',
+								'get',
+								'would',
+								'taste',
+								'good',
+								'tea'],
+					'Topic_3': ['br',
+								'like',
+								'food',
+								'taste',
+								'good',
+								'love',
+								'dog',
+								'great',
+								'really',
+								'eat'],
+					'Topic_4': ['br',
+								'good',
+								'coffee',
+								'product',
+								'like',
+								'would',
+								'store',
+								'chip',
+								'great',
+								'price']}
+
+	dummy_topics2 = dummy_topics.copy()
+	dummy_topics2['Topic_0'][0] = 'weewoo'
+	dummy_topics3 = dummy_topics.copy()
+	dummy_topics3['Topic_0'][0] = 'apple'
+	dummy_topics4 = dummy_topics.copy()
+	dummy_topics4['Topic_0'][0] = 'banana'
 	
-	data['word1']['sentiment'] = [0.75,75,25]
-	data['word2']['sentiment'] = [0.25,25,75]
+	data['word1']['topic'] = {}
+	data['word2']['topic'] = {}
+
+	data['word1']['topic']['wiki'] = dummy_topics
+	data['word1']['topic']['redd'] = dummy_topics2
+	data['word1']['topic']['twit'] = dummy_topics3
+	data['word2']['topic']['wiki'] = dummy_topics2
+	data['word2']['topic']['redd'] = dummy_topics3
+	data['word2']['topic']['twit'] = dummy_topics4
 
 	return {
 		'statusCode': 200,
 		'body': json.dumps(data)
-	}
+}
 
-def get_tweets(search, num_tweets = 5):
+
+def get_tweets(search, num_tweets=5):
 
 	with open('key.json') as f:
 		key = json.load(f)
 		bearer_token = key['BEARER_TOKEN']
 
 	# Create the url
-	url = 'https://api.twitter.com/1.1/search/tweets.json?result_type=popular&q='+ search + '&max_results=' + str(num_tweets)
+	url = 'https://api.twitter.com/1.1/search/tweets.json?result_type=popular&q=' + \
+		search + '&max_results=' + str(num_tweets)
 	# Create request headers
 	headers = {
 		'authorization': 'Bearer ' + bearer_token,
@@ -56,12 +126,15 @@ def get_tweets(search, num_tweets = 5):
 	response = requests.get(url, headers=headers)
 	return response.json()
 
-def get_wikipedia_data(search, num_posts = 5):
+
+def get_wikipedia_data(search, num_posts=5):
 	# Create the url for the search also get the posts text
-	url = 'https://en.wikipedia.org/w/api.php?action=query&list=search&srsearch=' + search + '&format=json&srlimit=' + str(num_posts)
+	url = 'https://en.wikipedia.org/w/api.php?action=query&list=search&srsearch=' + \
+		search + '&format=json&srlimit=' + str(num_posts)
 	# Make the request
 	response = requests.get(url)
 	return response.json()
+
 
 def split_into_sentences(text):
 	out = []
@@ -69,6 +142,7 @@ def split_into_sentences(text):
 		sentence = sentence.split()
 		out.append(sentence)
 	return out
+
 
 def search(word):
 	print('## SEARCHING FOR: ' + word)
@@ -78,9 +152,9 @@ def search(word):
 
 	# Get reddit
 	reddit = praw.Reddit(
-	client_id="r3dlLRYKcBN9-JRoyvi1Xw",
-	client_secret="YfKwRqhLjS1darC2TL5QnrzDe0S_sQ",
-	user_agent="hiiiiiiiiii",
+		client_id="r3dlLRYKcBN9-JRoyvi1Xw",
+		client_secret="YfKwRqhLjS1darC2TL5QnrzDe0S_sQ",
+		user_agent="hiiiiiiiiii",
 	)
 	reddit_data = reddit.subreddit("all").search(word, limit=1000)
 	reddit_text = [x.title for x in reddit_data]
@@ -127,10 +201,10 @@ def search(word):
 	model_reddit = Word2Vec.load("models/base.model")
 	model_wiki = Word2Vec.load("models/base.model")
 
-
 	print("## TRAINING MODELS")
 	# Train the model
-	model_twitter.train(tweets_text, total_examples=len(tweets_text), epochs=10)
+	model_twitter.train(
+		tweets_text, total_examples=len(tweets_text), epochs=10)
 	model_reddit.train(reddit_text, total_examples=len(reddit_text), epochs=10)
 	model_wiki.train(text_wiki, total_examples=len(text_wiki), epochs=10)
 
