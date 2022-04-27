@@ -55,50 +55,54 @@ CURSOR PARKING LOT
 		// Create client.
 		const lambda = new AWS.Lambda();
 
-		const myFunction = async () => {
+		var data1;
+		var data2;
+
+		function callLambdaF(word_param, nsl) {
 			const params = {
 				FunctionName: 'wheelTest', /* required */
-				Payload: JSON.stringify({ "word1": "wheels", "word2": "doors" })
+				Payload: JSON.stringify({ "word1": word_param, "word2": "doors" })
 			};
 			console.log('Calling lambda function');
 			lambda.invoke(params, function (err, data) {
-				if (err) console.log(err, err.stack); // an error occurred
-				else console.log({ data });           // successful response
+				if (err) {
+					console.log(err, err.stack); // an error occurred
+				} 
+				else {
+					if (nsl == 1) {
+						data1 = data.Payload;
+					}
+					else {
+						data2 = data.Payload;
+					}
+					return new Promise(function (resolve, reject) {
+						resolve(data);
+					});
+				}
 			})
+		}
+
+		const getNWord = async (word_param1, word_param2) => {
+			console.log("Calling lambda function with params " + word_param);
+			var data12 = await callLambdaF(word_param1, 1)
+			var data22 = await callLambdaF(word_param2, 2);
+			console.log("Done lambda with params " + word_param);
+			console.log({data, data1, data2});
 		};
 
-		myFunction();
 		// Call the API to get the json of words
 
 		datajson = ""
 		dummy_data = { "statusCode": 200, "body": "{\"word1\": {\"related_words\": {\"wiki\": [[\"rims\", 0.7626462578773499], [\"bicycles\", 0.7493165135383606], [\"bricks\", 0.7415571808815002], [\"blades\", 0.740509569644928], [\"gears\", 0.7370408177375793], [\"valves\", 0.7349055409431458], [\"decks\", 0.726704478263855], [\"tires\", 0.7246121764183044], [\"traction\", 0.7175727486610413], [\"batteries\", 0.7164859175682068]], \"twit\": [[\"wheel\", 0.8151983618736267], [\"carts\", 0.8052899837493896], [\"carriage\", 0.7981159687042236], [\"ropes\", 0.7943714261054993], [\"decks\", 0.7904018759727478], [\"gears\", 0.7896170020103455], [\"pedals\", 0.787275493144989], [\"wire\", 0.7782962918281555], [\"shafts\", 0.7773459553718567], [\"brakes\", 0.7740671038627625]], \"redd\": [[\"wheel\", 0.8151983618736267], [\"carts\", 0.8052899837493896], [\"carriage\", 0.7981159687042236], [\"ropes\", 0.7943714261054993], [\"decks\", 0.7904018759727478], [\"gears\", 0.7896170020103455], [\"pedals\", 0.787275493144989], [\"wire\", 0.7782962918281555], [\"shafts\", 0.7773459553718567], [\"brakes\", 0.7740671038627625]]}, \"sentiment\": [0.75, 0.15, 75, 25, 12, 40], \"topic\": {\"wiki\": {\"Topic_0\": [\"banana\", \"product\", \"would\", \"amazon\", \"flavor\", \"like\", \"buy\", \"taste\", \"2\", \"tbsp\"], \"Topic_1\": [\"br\", \"tea\", \"like\", \"one\", \"good\", \"flavor\", \"also\", \"make\", \"taste\", \"magnesium\"], \"Topic_2\": [\"coffee\", \"br\", \"flavor\", \"product\", \"cup\", \"get\", \"would\", \"taste\", \"good\", \"tea\"], \"Topic_3\": [\"br\", \"like\", \"food\", \"taste\", \"good\", \"love\", \"dog\", \"great\", \"really\", \"eat\"], \"Topic_4\": [\"br\", \"good\", \"coffee\", \"product\", \"like\", \"would\", \"store\", \"chip\", \"great\", \"price\"]}, \"redd\": {\"Topic_0\": [\"banana\", \"product\", \"would\", \"amazon\", \"flavor\", \"like\", \"buy\", \"taste\", \"2\", \"tbsp\"], \"Topic_1\": [\"br\", \"tea\", \"like\", \"one\", \"good\", \"flavor\", \"also\", \"make\", \"taste\", \"magnesium\"], \"Topic_2\": [\"coffee\", \"br\", \"flavor\", \"product\", \"cup\", \"get\", \"would\", \"taste\", \"good\", \"tea\"], \"Topic_3\": [\"br\", \"like\", \"food\", \"taste\", \"good\", \"love\", \"dog\", \"great\", \"really\", \"eat\"], \"Topic_4\": [\"br\", \"good\", \"coffee\", \"product\", \"like\", \"would\", \"store\", \"chip\", \"great\", \"price\"]}, \"twit\": {\"Topic_0\": [\"banana\", \"product\", \"would\", \"amazon\", \"flavor\", \"like\", \"buy\", \"taste\", \"2\", \"tbsp\"], \"Topic_1\": [\"br\", \"tea\", \"like\", \"one\", \"good\", \"flavor\", \"also\", \"make\", \"taste\", \"magnesium\"], \"Topic_2\": [\"coffee\", \"br\", \"flavor\", \"product\", \"cup\", \"get\", \"would\", \"taste\", \"good\", \"tea\"], \"Topic_3\": [\"br\", \"like\", \"food\", \"taste\", \"good\", \"love\", \"dog\", \"great\", \"really\", \"eat\"], \"Topic_4\": [\"br\", \"good\", \"coffee\", \"product\", \"like\", \"would\", \"store\", \"chip\", \"great\", \"price\"]}}}, \"word2\": {\"related_words\": {\"wiki\": [[\"panels\", 0.7338306307792664], [\"door\", 0.6900017261505127], [\"beams\", 0.6597744822502136], [\"tunnels\", 0.646194338798523], [\"openings\", 0.6459143757820129], [\"rails\", 0.6386350989341736], [\"grid\", 0.634249746799469], [\"hinged\", 0.631747841835022], [\"elevators\", 0.6273483037948608], [\"slots\", 0.6212843656539917]], \"twit\": [[\"door\", 0.7631707787513733], [\"lights\", 0.7612251043319702], [\"walls\", 0.7173717021942139], [\"roof\", 0.7097958326339722], [\"stones\", 0.6884087324142456], [\"rooms\", 0.6846696734428406], [\"gates\", 0.6818853616714478], [\"boxes\", 0.6759169697761536], [\"digging\", 0.6716004014015198], [\"hearths\", 0.66913241147995]], \"redd\": [[\"door\", 0.7631707787513733], [\"lights\", 0.7612251043319702], [\"walls\", 0.7173717021942139], [\"roof\", 0.7097958326339722], [\"stones\", 0.6884087324142456], [\"rooms\", 0.6846696734428406], [\"gates\", 0.6818853616714478], [\"boxes\", 0.6759169697761536], [\"digging\", 0.6716004014015198], [\"hearths\", 0.66913241147995]]}, \"sentiment\": [0.25, 0.65, 25, 75, 12, 15], \"topic\": {\"wiki\": {\"Topic_0\": [\"banana\", \"product\", \"would\", \"amazon\", \"flavor\", \"like\", \"buy\", \"taste\", \"2\", \"tbsp\"], \"Topic_1\": [\"br\", \"tea\", \"like\", \"one\", \"good\", \"flavor\", \"also\", \"make\", \"taste\", \"magnesium\"], \"Topic_2\": [\"coffee\", \"br\", \"flavor\", \"product\", \"cup\", \"get\", \"would\", \"taste\", \"good\", \"tea\"], \"Topic_3\": [\"br\", \"like\", \"food\", \"taste\", \"good\", \"love\", \"dog\", \"great\", \"really\", \"eat\"], \"Topic_4\": [\"br\", \"good\", \"coffee\", \"product\", \"like\", \"would\", \"store\", \"chip\", \"great\", \"price\"]}, \"redd\": {\"Topic_0\": [\"banana\", \"product\", \"would\", \"amazon\", \"flavor\", \"like\", \"buy\", \"taste\", \"2\", \"tbsp\"], \"Topic_1\": [\"br\", \"tea\", \"like\", \"one\", \"good\", \"flavor\", \"also\", \"make\", \"taste\", \"magnesium\"], \"Topic_2\": [\"coffee\", \"br\", \"flavor\", \"product\", \"cup\", \"get\", \"would\", \"taste\", \"good\", \"tea\"], \"Topic_3\": [\"br\", \"like\", \"food\", \"taste\", \"good\", \"love\", \"dog\", \"great\", \"really\", \"eat\"], \"Topic_4\": [\"br\", \"good\", \"coffee\", \"product\", \"like\", \"would\", \"store\", \"chip\", \"great\", \"price\"]}, \"twit\": {\"Topic_0\": [\"banana\", \"product\", \"would\", \"amazon\", \"flavor\", \"like\", \"buy\", \"taste\", \"2\", \"tbsp\"], \"Topic_1\": [\"br\", \"tea\", \"like\", \"one\", \"good\", \"flavor\", \"also\", \"make\", \"taste\", \"magnesium\"], \"Topic_2\": [\"coffee\", \"br\", \"flavor\", \"product\", \"cup\", \"get\", \"would\", \"taste\", \"good\", \"tea\"], \"Topic_3\": [\"br\", \"like\", \"food\", \"taste\", \"good\", \"love\", \"dog\", \"great\", \"really\", \"eat\"], \"Topic_4\": [\"br\", \"good\", \"coffee\", \"product\", \"like\", \"would\", \"store\", \"chip\", \"great\", \"price\"]}}}}" }
-		// function ftch(word1, word2) {
-		//   console.log("Fetching");
-		//     let data = { "word1": "wheels", "word2": "doors" };
-		//     fetch('https://bzopsstu2k.execute-api.us-east-2.amazonaws.com/deploy/getwheels', {
-		//         method: 'POST', // or 'PUT'
-		//         headers: {
-		//             'Content-Type': 'application/json',
-		//         },
-		//         body: JSON.stringify(data),
-		//     })
-		//         .then(response => response.json())
-		//         .then(data => {
-		//             console.log('Success:', data)
-		//             datajson = JSON.parse(JSON.parse(data.body))
-		//         })
-		//         .catch((error) => {
-		//             console.error('Error:', error);
-		//         });
-		// }
 
 		// DUMMY FETCH
 		function ftch(word1, word2) {
-			console.log("Dummy Fetching");
-			datajson = JSON.parse(dummy_data.body)
+			console.log("Fetching " + word1 + " and " + word2);
+			getNWord(word1,1);
+			getNWord(word2,2);
 			console.log({ datajson })
 		}
-		ftch("a", "b");
+		ftch("wheel", "door");
 
 		/////////////HELPER FUNCTIONS//////////////
 
@@ -249,14 +253,6 @@ CURSOR PARKING LOT
 			{
 				value: 'Topic_2',
 				text: 'Topic_2',
-			},
-			{
-				value: 'Topic_3',
-				text: 'Topic_3',
-			},
-			{
-				value: 'Topic_4',
-				text: 'Topic_4',
 			},
 		];
 
