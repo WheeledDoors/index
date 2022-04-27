@@ -163,7 +163,7 @@ def setup_nltk_dir():
 
 
 def setup_df_clean(text_list):
-    df = pd.DataFrame(text_list, dtype="string")
+    df = pd.Series(text_list)
     print(df)
     # Remove any rows with NA values
     return df
