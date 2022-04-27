@@ -45,7 +45,6 @@ CURSOR PARKING LOT
 <body>
 	<script>
 
-
 		console.log('Loading function');
 
 		// var AWS = require('aws-sdk');
@@ -64,21 +63,15 @@ CURSOR PARKING LOT
 			console.log('Calling lambda function');
 			lambda.invoke(params, function (err, data) {
 				if (err) console.log(err, err.stack); // an error occurred
-				else console.log({data});           // successful response
+				else console.log({ data });           // successful response
 			})
 		};
 
 		myFunction();
-
-
-
 		// Call the API to get the json of words
-		datajson = ""
-		dummy_data = {
-			"statusCode": 200,
-			"body": "{\"word1\": {\"related_words\": {\"wiki\": [[\"bicycles\", 0.7410068511962891], [\"bricks\", 0.7354349493980408], [\"rims\", 0.7337756752967834], [\"valves\", 0.7192175984382629], [\"gears\", 0.7177874445915222], [\"decks\", 0.7108016610145569], [\"tires\", 0.7098410725593567], [\"blades\", 0.7037431597709656], [\"capacitors\", 0.6996168494224548], [\"shells\", 0.6979067325592041]], \"twit\": [[\"wheel\", 0.8060711026191711], [\"carts\", 0.8037176728248596], [\"ropes\", 0.7986544966697693], [\"pedals\", 0.7984864711761475], [\"carriage\", 0.7899273633956909], [\"gears\", 0.7881355881690979], [\"rope\", 0.7881324887275696], [\"wire\", 0.782041072845459], [\"buttons\", 0.7813149094581604], [\"canopy\", 0.7812848091125488]], \"redd\": [[\"wheel\", 0.8060711026191711], [\"carts\", 0.8037176728248596], [\"ropes\", 0.7986544966697693], [\"pedals\", 0.7984864711761475], [\"carriage\", 0.7899273633956909], [\"gears\", 0.7881355881690979], [\"rope\", 0.7881324887275696], [\"wire\", 0.782041072845459], [\"buttons\", 0.7813149094581604], [\"canopy\", 0.7812848091125488]]}, \"sentiment\": [0.75, 75, 25]}, \"word2\": {\"related_words\": {\"wiki\": [[\"panels\", 0.7212079763412476], [\"door\", 0.6898825168609619], [\"beams\", 0.6726765036582947], [\"hinged\", 0.6473066806793213], [\"openings\", 0.634428083896637], [\"bricks\", 0.6320927143096924], [\"rails\", 0.6319500207901001], [\"layers\", 0.6234999299049377], [\"tunnels\", 0.6150087714195251], [\"leds\", 0.6144955158233643]], \"twit\": [[\"door\", 0.7685925960540771], [\"lights\", 0.7548654675483704], [\"walls\", 0.7076693773269653], [\"roof\", 0.6995946764945984], [\"boxes\", 0.6857568621635437], [\"stones\", 0.6819460391998291], [\"rooms\", 0.6742620468139648], [\"gates\", 0.6678439974784851], [\"buttons\", 0.6598821878433228], [\"digging\", 0.6570510268211365]], \"redd\": [[\"door\", 0.7685925960540771], [\"lights\", 0.7548654675483704], [\"walls\", 0.7076693773269653], [\"roof\", 0.6995946764945984], [\"boxes\", 0.6857568621635437], [\"stones\", 0.6819460391998291], [\"rooms\", 0.6742620468139648], [\"gates\", 0.6678439974784851], [\"buttons\", 0.6598821878433228], [\"digging\", 0.6570510268211365]]}, \"sentiment\": [0.25, 25, 75]}}"
-		}
 
+		datajson = ""
+		dummy_data = { "statusCode": 200, "body": "{\"word1\": {\"related_words\": {\"wiki\": [[\"rims\", 0.7626462578773499], [\"bicycles\", 0.7493165135383606], [\"bricks\", 0.7415571808815002], [\"blades\", 0.740509569644928], [\"gears\", 0.7370408177375793], [\"valves\", 0.7349055409431458], [\"decks\", 0.726704478263855], [\"tires\", 0.7246121764183044], [\"traction\", 0.7175727486610413], [\"batteries\", 0.7164859175682068]], \"twit\": [[\"wheel\", 0.8151983618736267], [\"carts\", 0.8052899837493896], [\"carriage\", 0.7981159687042236], [\"ropes\", 0.7943714261054993], [\"decks\", 0.7904018759727478], [\"gears\", 0.7896170020103455], [\"pedals\", 0.787275493144989], [\"wire\", 0.7782962918281555], [\"shafts\", 0.7773459553718567], [\"brakes\", 0.7740671038627625]], \"redd\": [[\"wheel\", 0.8151983618736267], [\"carts\", 0.8052899837493896], [\"carriage\", 0.7981159687042236], [\"ropes\", 0.7943714261054993], [\"decks\", 0.7904018759727478], [\"gears\", 0.7896170020103455], [\"pedals\", 0.787275493144989], [\"wire\", 0.7782962918281555], [\"shafts\", 0.7773459553718567], [\"brakes\", 0.7740671038627625]]}, \"sentiment\": [0.75, 0.15, 75, 25, 12, 40], \"topic\": {\"wiki\": {\"Topic_0\": [\"banana\", \"product\", \"would\", \"amazon\", \"flavor\", \"like\", \"buy\", \"taste\", \"2\", \"tbsp\"], \"Topic_1\": [\"br\", \"tea\", \"like\", \"one\", \"good\", \"flavor\", \"also\", \"make\", \"taste\", \"magnesium\"], \"Topic_2\": [\"coffee\", \"br\", \"flavor\", \"product\", \"cup\", \"get\", \"would\", \"taste\", \"good\", \"tea\"], \"Topic_3\": [\"br\", \"like\", \"food\", \"taste\", \"good\", \"love\", \"dog\", \"great\", \"really\", \"eat\"], \"Topic_4\": [\"br\", \"good\", \"coffee\", \"product\", \"like\", \"would\", \"store\", \"chip\", \"great\", \"price\"]}, \"redd\": {\"Topic_0\": [\"banana\", \"product\", \"would\", \"amazon\", \"flavor\", \"like\", \"buy\", \"taste\", \"2\", \"tbsp\"], \"Topic_1\": [\"br\", \"tea\", \"like\", \"one\", \"good\", \"flavor\", \"also\", \"make\", \"taste\", \"magnesium\"], \"Topic_2\": [\"coffee\", \"br\", \"flavor\", \"product\", \"cup\", \"get\", \"would\", \"taste\", \"good\", \"tea\"], \"Topic_3\": [\"br\", \"like\", \"food\", \"taste\", \"good\", \"love\", \"dog\", \"great\", \"really\", \"eat\"], \"Topic_4\": [\"br\", \"good\", \"coffee\", \"product\", \"like\", \"would\", \"store\", \"chip\", \"great\", \"price\"]}, \"twit\": {\"Topic_0\": [\"banana\", \"product\", \"would\", \"amazon\", \"flavor\", \"like\", \"buy\", \"taste\", \"2\", \"tbsp\"], \"Topic_1\": [\"br\", \"tea\", \"like\", \"one\", \"good\", \"flavor\", \"also\", \"make\", \"taste\", \"magnesium\"], \"Topic_2\": [\"coffee\", \"br\", \"flavor\", \"product\", \"cup\", \"get\", \"would\", \"taste\", \"good\", \"tea\"], \"Topic_3\": [\"br\", \"like\", \"food\", \"taste\", \"good\", \"love\", \"dog\", \"great\", \"really\", \"eat\"], \"Topic_4\": [\"br\", \"good\", \"coffee\", \"product\", \"like\", \"would\", \"store\", \"chip\", \"great\", \"price\"]}}}, \"word2\": {\"related_words\": {\"wiki\": [[\"panels\", 0.7338306307792664], [\"door\", 0.6900017261505127], [\"beams\", 0.6597744822502136], [\"tunnels\", 0.646194338798523], [\"openings\", 0.6459143757820129], [\"rails\", 0.6386350989341736], [\"grid\", 0.634249746799469], [\"hinged\", 0.631747841835022], [\"elevators\", 0.6273483037948608], [\"slots\", 0.6212843656539917]], \"twit\": [[\"door\", 0.7631707787513733], [\"lights\", 0.7612251043319702], [\"walls\", 0.7173717021942139], [\"roof\", 0.7097958326339722], [\"stones\", 0.6884087324142456], [\"rooms\", 0.6846696734428406], [\"gates\", 0.6818853616714478], [\"boxes\", 0.6759169697761536], [\"digging\", 0.6716004014015198], [\"hearths\", 0.66913241147995]], \"redd\": [[\"door\", 0.7631707787513733], [\"lights\", 0.7612251043319702], [\"walls\", 0.7173717021942139], [\"roof\", 0.7097958326339722], [\"stones\", 0.6884087324142456], [\"rooms\", 0.6846696734428406], [\"gates\", 0.6818853616714478], [\"boxes\", 0.6759169697761536], [\"digging\", 0.6716004014015198], [\"hearths\", 0.66913241147995]]}, \"sentiment\": [0.25, 0.65, 25, 75, 12, 15], \"topic\": {\"wiki\": {\"Topic_0\": [\"banana\", \"product\", \"would\", \"amazon\", \"flavor\", \"like\", \"buy\", \"taste\", \"2\", \"tbsp\"], \"Topic_1\": [\"br\", \"tea\", \"like\", \"one\", \"good\", \"flavor\", \"also\", \"make\", \"taste\", \"magnesium\"], \"Topic_2\": [\"coffee\", \"br\", \"flavor\", \"product\", \"cup\", \"get\", \"would\", \"taste\", \"good\", \"tea\"], \"Topic_3\": [\"br\", \"like\", \"food\", \"taste\", \"good\", \"love\", \"dog\", \"great\", \"really\", \"eat\"], \"Topic_4\": [\"br\", \"good\", \"coffee\", \"product\", \"like\", \"would\", \"store\", \"chip\", \"great\", \"price\"]}, \"redd\": {\"Topic_0\": [\"banana\", \"product\", \"would\", \"amazon\", \"flavor\", \"like\", \"buy\", \"taste\", \"2\", \"tbsp\"], \"Topic_1\": [\"br\", \"tea\", \"like\", \"one\", \"good\", \"flavor\", \"also\", \"make\", \"taste\", \"magnesium\"], \"Topic_2\": [\"coffee\", \"br\", \"flavor\", \"product\", \"cup\", \"get\", \"would\", \"taste\", \"good\", \"tea\"], \"Topic_3\": [\"br\", \"like\", \"food\", \"taste\", \"good\", \"love\", \"dog\", \"great\", \"really\", \"eat\"], \"Topic_4\": [\"br\", \"good\", \"coffee\", \"product\", \"like\", \"would\", \"store\", \"chip\", \"great\", \"price\"]}, \"twit\": {\"Topic_0\": [\"banana\", \"product\", \"would\", \"amazon\", \"flavor\", \"like\", \"buy\", \"taste\", \"2\", \"tbsp\"], \"Topic_1\": [\"br\", \"tea\", \"like\", \"one\", \"good\", \"flavor\", \"also\", \"make\", \"taste\", \"magnesium\"], \"Topic_2\": [\"coffee\", \"br\", \"flavor\", \"product\", \"cup\", \"get\", \"would\", \"taste\", \"good\", \"tea\"], \"Topic_3\": [\"br\", \"like\", \"food\", \"taste\", \"good\", \"love\", \"dog\", \"great\", \"really\", \"eat\"], \"Topic_4\": [\"br\", \"good\", \"coffee\", \"product\", \"like\", \"would\", \"store\", \"chip\", \"great\", \"price\"]}}}}" }
 		// function ftch(word1, word2) {
 		//   console.log("Fetching");
 		//     let data = { "word1": "wheels", "word2": "doors" };
@@ -107,177 +100,58 @@ CURSOR PARKING LOT
 		}
 		ftch("a", "b");
 
-		// TESTING FAKE DATA//
-		const s_1 = [0.75, 0.25, 15, 20, 18, 22];
-		const s_2 = [0.12, 0.5, 12, 12, 15, 15];
-		const t_1 = {
-			Topic_0: [
-				'like',
-				'tea',
-				'taste',
-				'br',
-				'love',
-				'food',
-				'flavor',
-				'make',
-				'coffee',
-				'product',
-			],
-			Topic_1: [
-				'br',
-				'product',
-				'good',
-				'like',
-				'make',
-				'one',
-				'also',
-				'well',
-				'taste',
-				'flavor',
-			],
-			Topic_2: [
-				'br',
-				'coffee',
-				'like',
-				'dog',
-				'food',
-				'love',
-				'would',
-				'flavor',
-				'one',
-				'product',
-			],
-		};
-		const t_2 = {
-			Topic_0: [
-				'like',
-				'tea',
-				'taste',
-				'br',
-				'love',
-				'food',
-				'flavor',
-				'make',
-				'coffee',
-				'product',
-			],
-			Topic_1: [
-				'br',
-				'product',
-				'good',
-				'like',
-				'make',
-				'one',
-				'also',
-				'well',
-				'taste',
-				'flavor',
-			],
-			Topic_2: [
-				'br',
-				'coffee',
-				'like',
-				'dog',
-				'food',
-				'love',
-				'would',
-				'flavor',
-				'one',
-				'product',
-			],
-		};
-		const w_1_t = [
-			['wheels', 0.7774049639701843],
-			['brakes', 0.6446653604507446],
-			['steering', 0.6232441067695618],
-			['brake', 0.5632343292236328],
-			['rear', 0.5525266528129578],
-			['car', 0.5081983804702759],
-			['tire', 0.5005371570587158],
-			['axle', 0.49684619903564453],
-			['braking', 0.48656943440437317],
-			['gear', 0.4825408458709717],
-		];
-		const w_1_w = [
-			['steering', 0.6776399612426758],
-			['wheels', 0.6603336930274963],
-			['bicycle', 0.586100697517395],
-			['rear', 0.562150776386261],
-			['wagon', 0.559565007686615],
-			['bike', 0.5568479895591736],
-			['chair', 0.5540367960929871],
-			['truck', 0.5437824726104736],
-			['cart', 0.5416857004165649],
-			['ride', 0.5348616242408752],
-		];
-
-		const w_2_t = [
-			['I', 0.7774049639701843],
-			['hate', 0.6446653604507446],
-			['coding', 0.6232441067695618],
-			['brake', 0.5632343292236328],
-			['rear', 0.5525266528129578],
-			['car', 0.5081983804702759],
-			['tire', 0.5005371570587158],
-			['axle', 0.49684619903564453],
-			['braking', 0.48656943440437317],
-			['gear', 0.4825408458709717],
-		];
-		const w_2_w = [
-			['still', 0.6776399612426758],
-			['hate', 0.6603336930274963],
-			['coding', 0.586100697517395],
-			['rear', 0.562150776386261],
-			['wagon', 0.559565007686615],
-			['bike', 0.5568479895591736],
-			['chair', 0.5540367960929871],
-			['truck', 0.5437824726104736],
-			['cart', 0.5416857004165649],
-			['ride', 0.5348616242408752],
-		];
-
 		/////////////HELPER FUNCTIONS//////////////
 
 		const sentiment_label_color = (d) => {
-			if (d < 0.45) {
-				return 'red';
-			} else if (d > 0.55) {
-				return 'seagreen';
-			} else {
-				return 'grey';
+			if (d < 0.25) {
+				return "red";
+			} else if (d < 0.45) {
+				return "salmon";
+			} else if (d < 0.55) {
+				return "grey";
+			} else if (d < 0.75) {
+				return "lightgreen";
 			}
-		};
+			else { return "lime"; }
+		}
 
 		const sentiment_label_mouth = (d) => {
-			if (d < 0.45) {
-				return -15;
-			} else if (d > 0.55) {
-				return 15;
-			} else {
+			if (d < 0.25) {
+				return -30;
+			} else if (d < 0.45) {
+				return -10;
+			} else if (d < 0.55) {
 				return 0;
+			} else if (d < 0.75) {
+				return 10;
 			}
+			else { return 30; }
 		};
 
 		const sentiment_label = (d) => {
-			if (d < 0.45) {
-				return 'Negative';
-			} else if (d > 0.55) {
-				return 'Positive';
-			} else {
-				return 'Neutral';
+			if (d < 0.25) {
+				return "Very Negative";
+			} else if (d < 0.45) {
+				return "Sorta Negative";
+			} else if (d < 0.55) {
+				return "Neutral";
+			} else if (d < 0.75) {
+				return "Sorta Positive";
 			}
+			else { return "Very Positive"; }
 		};
 
 		const word_printer = (word_corpus) => {
 			if (word_corpus === 'Twitter') {
-				d = w_1_t;
-			} else d = w_1_w;
+				d = datajson["word1"]["related_words"]["twit"];
+			} else if (word_corpus === 'Reddit') { d = datajson["word1"]["related_words"]["redd"] }
+			else d = datajson["word1"]["related_words"]["wiki"];
 			for (let i = 0; i < d.length; i++) {
 				svg_1
 					.append('text')
 					.attr('x', width / 2 / 2)
-					.attr('y', height / 2 + 110 + i * 20)
-					.attr('font-size', '15px')
+					.attr('y', height / 2 + 0.10 * height + i * (0.022 * height))
+					.attr('font-size', other_text_size)
 					.text(
 						d[i][0] +
 						', ' +
@@ -289,14 +163,15 @@ CURSOR PARKING LOT
 
 		const word_printer_2 = (word_corpus) => {
 			if (word_corpus === 'Twitter') {
-				d = w_2_t;
-			} else d = w_2_w;
+				d = datajson["word2"]["related_words"]["twit"];
+			} else if (word_corpus === 'Reddit') { d = datajson["word2"]["related_words"]["redd"] }
+			else d = datajson["word2"]["related_words"]["wiki"];
 			for (let i = 0; i < d.length; i++) {
 				svg_2
 					.append('text')
 					.attr('x', width / 2 / 2)
-					.attr('y', height / 2 + 110 + i * 20)
-					.attr('font-size', '15px')
+					.attr('y', height / 2 + 0.10 * height + i * (0.022 * height))
+					.attr('font-size', other_text_size)
 					.text(
 						d[i][0] +
 						', ' +
@@ -312,16 +187,16 @@ CURSOR PARKING LOT
 			topic_num
 		) => {
 			if (topic_corpus === 'Twitter') {
-				d = t_1[topic_num];
+				d = datajson["word1"]["topic"]["twit"][topic_num];
 			} else if (topic_corpus == 'Reddit') {
-				d = t_1[topic_num];
-			} else d = t_1[topic_num];
+				d = datajson["word1"]["topic"]["redd"][topic_num];
+			} else d = datajson["word1"]["topic"]["wiki"][topic_num];
 			for (let i = 0; i < d.length; i++) {
 				svg_1
 					.append('text')
 					.attr('x', width / 2 + width / 2 / 2)
-					.attr('y', height / 2 + 110 + i * 20)
-					.attr('font-size', '15px')
+					.attr('y', height / 2 + 0.10 * height + i * (0.022 * height))
+					.attr('font-size', other_text_size)
 					.text(d[i])
 					.attr('text-anchor', 'middle');
 			}
@@ -332,16 +207,16 @@ CURSOR PARKING LOT
 			topic_num
 		) => {
 			if (topic_corpus === 'Twitter') {
-				d = t_2[topic_num];
+				d = datajson["word2"]["topic"]["twit"][topic_num];
 			} else if (topic_corpus == 'Reddit') {
-				d = t_2[topic_num];
-			} else d = t_2[topic_num];
+				d = datajson["word2"]["topic"]["redd"][topic_num];
+			} else d = datajson["word2"]["topic"]["wiki"][topic_num];
 			for (let i = 0; i < d.length; i++) {
 				svg_2
 					.append('text')
 					.attr('x', width / 2 + width / 2 / 2)
-					.attr('y', height / 2 + 110 + i * 20)
-					.attr('font-size', '15px')
+					.attr('y', height / 2 + 0.10 * height + i * (0.022 * height))
+					.attr('font-size', other_text_size)
 					.text(d[i])
 					.attr('text-anchor', 'middle');
 			}
@@ -393,6 +268,10 @@ CURSOR PARKING LOT
 			{
 				value: 'Wikipedia',
 				text: 'Wikipedia',
+			},
+			{
+				value: 'Reddit',
+				text: 'Reddit',
 			},
 		];
 
@@ -458,24 +337,22 @@ CURSOR PARKING LOT
 			return my;
 		};
 
-		/////////////////////DEFINING SVG/////////////////////
+		///////////////////// Gloabl Variables for Editing Layout /////////////////////
 		const width = window.innerWidth / 2;
 		const height = window.innerHeight;
 
+		const background_color = "Azure";
+
+		const section_header_size = "1.7vw";
+		const other_text_size = "1.2vw"
+
+
+		/////////////////////DEFINING SVG/////////////////////
 		const svg_1 = d3
 			.select('body')
 			.append('svg')
 			.attr('width', width)
 			.attr('height', height);
-
-		svg_1
-			.append('text')
-			.attr('x', width / 2)
-			.attr('y', height / 2 - 200)
-			.attr('font-size', '25px')
-			.text('Word One:')
-			.attr('text-anchor', 'middle');
-
 
 		const svg_2 = d3
 			.select('body')
@@ -483,130 +360,258 @@ CURSOR PARKING LOT
 			.attr('width', width)
 			.attr('height', height);
 
+		/////////////////////Header Text/////////////////////
+
+		svg_1
+			.append('text')
+			.attr('x', width / 2)
+			.attr('y', height / 2 - 0.4 * height)
+			.attr('font-size', section_header_size)
+			.text('Enter Search Term One:')
+			.attr('text-anchor', 'middle');
+
+
 		svg_2
 			.append('text')
 			.attr('x', width / 2)
-			.attr('y', height / 2 - 200)
-			.attr('font-size', '25px')
-			.text('Word Two:')
+			.attr('y', height / 2 - 0.4 * height)
+			.attr('font-size', section_header_size)
+			.text('Enter Search Term Two:')
 			.attr('text-anchor', 'middle');
+
+
 
 		/////////////SENTIMENT SECTION/////////////////////////
+
 		svg_1
 			.append('text')
-			.attr('x', width / 2 / 2)
-			.attr('y', height / 2 - 100)
-			.attr('font-size', '20px')
-			.text('Twitter Sentiment is: ')
+			.attr('x', width / 2)
+			.attr('y', height / 2 - 0.27 * height)
+			.attr('font-size', section_header_size)
+			.text('Sentiment')
 			.attr('font-weight', 'bold')
 			.attr('text-anchor', 'middle');
+
+
+		svg_2
+			.append('text')
+			.attr('x', width / 2)
+			.attr('y', height / 2 - 0.27 * height)
+			.attr('font-size', section_header_size)
+			.text('Sentiment')
+			.attr('font-weight', 'bold')
+			.attr('text-anchor', 'middle');
+
+
+		svg_1.append("svg:image")
+			.attr('x', width / 2 / 2 - 0.12 * width)
+			.attr('y', height / 2 - 0.24 * height)
+			.attr('width', String(0.11 * width) + "px")
+			.attr('height', String(0.11 * width) + "px")
+			.attr("xlink:href", "twitter-logo.png")
 
 		svg_1
 			.append('text')
 			.attr('x', width / 2 / 2)
-			.attr('y', height / 2 - 80)
-			.attr('font-size', '20px')
-			.text(sentiment_label(s_1[0]))
+			.attr('y', height / 2 - 0.07 * height)
+			.attr('font-size', section_header_size)
+			.text(sentiment_label(datajson["word1"]["sentiment"][0]))
 			.attr('text-anchor', 'middle')
 			.attr(
 				'fill',
-				sentiment_label_color(s_1[0])
+				sentiment_label_color(datajson["word1"]["sentiment"][0])
 			);
+
+		svg_2.append("svg:image")
+			.attr('x', width / 2 / 2 - 0.12 * width)
+			.attr('y', height / 2 - 0.24 * height)
+			.attr('width', String(0.11 * width) + "px")
+			.attr('height', String(0.11 * width) + "px")
+			.attr("xlink:href", "twitter-logo.png")
 
 		svg_2
 			.append('text')
 			.attr('x', width / 2 / 2)
-			.attr('y', height / 2 - 100)
-			.attr('font-size', '20px')
-			.text('Twitter Sentiment is: ')
-			.attr('font-weight', 'bold')
-			.attr('text-anchor', 'middle');
-
-		svg_2
-			.append('text')
-			.attr('x', width / 2 / 2)
-			.attr('y', height / 2 - 80)
-			.attr('font-size', '20px')
-			.text(sentiment_label(s_2[0]))
+			.attr('y', height / 2 - 0.07 * height)
+			.attr('font-size', section_header_size)
+			.text(sentiment_label(datajson["word2"]["sentiment"][0]))
 			.attr('text-anchor', 'middle')
 			.attr(
 				'fill',
-				sentiment_label_color(s_2[0])
+				sentiment_label_color(datajson["word2"]["sentiment"][0])
 			);
+
+		svg_1.append("svg:image")
+			.attr('x', width / 2 / 2 + width / 2 - 0.12 * width)
+			.attr('y', height / 2 - 0.24 * height)
+			.attr('width', String(0.11 * width) + "px")
+			.attr('height', String(0.11 * width) + "px")
+			.attr("xlink:href", "reddit-logo.png")
 
 		svg_1
 			.append('text')
 			.attr('x', width / 2 / 2 + width / 2)
-			.attr('y', height / 2 - 100)
-			.attr('font-size', '20px')
-			.text('Reddit Sentiment is: ')
+			.attr('y', height / 2 - 0.07 * height)
+			.attr('font-size', section_header_size)
+			.text(sentiment_label(datajson["word1"]["sentiment"][1]))
+			.attr('text-anchor', 'middle')
+			.attr(
+				'fill',
+				sentiment_label_color(datajson["word1"]["sentiment"][1])
+			);
+
+		svg_2.append("svg:image")
+			.attr('x', width / 2 / 2 + width / 2 - 0.12 * width)
+			.attr('y', height / 2 - 0.24 * height)
+			.attr('width', String(0.11 * width) + "px")
+			.attr('height', String(0.11 * width) + "px")
+			.attr("xlink:href", "reddit-logo.png")
+
+
+		svg_2
+			.append('text')
+			.attr('x', width / 2 / 2 + width / 2)
+			.attr('y', height / 2 - 0.07 * height)
+			.attr('font-size', section_header_size)
+			.text(sentiment_label(datajson["word2"]["sentiment"][1]))
+			.attr('text-anchor', 'middle')
+			.attr(
+				'fill',
+				sentiment_label_color(datajson["word2"]["sentiment"][1])
+			);
+
+		////// Sentiment Counts //////
+		svg_1
+			.append('text')
+			.attr('x', width / 2)
+			.attr('y', height / 2 - 0.215 * height)
+			.attr('font-size', other_text_size)
+			.text('From Twitter:')
 			.attr('font-weight', 'bold')
+			.attr('text-anchor', 'middle');
+		svg_1
+			.append('text')
+			.attr('x', width / 2)
+			.attr('y', height / 2 - 0.194 * height)
+			.attr('font-size', other_text_size)
+			.text(datajson["word1"]["sentiment"][2] + ' posts were positive')
+			.attr('text-anchor', 'middle');
+		svg_1
+			.append('text')
+			.attr('x', width / 2)
+			.attr('y', height / 2 - 0.172 * height)
+			.attr('font-size', other_text_size)
+			.text(datajson["word1"]["sentiment"][3] + ' posts were negative')
+			.attr('text-anchor', 'middle');
+
+
+		svg_2
+			.append('text')
+			.attr('x', width / 2)
+			.attr('y', height / 2 - 0.215 * height)
+			.attr('font-size', other_text_size)
+			.text('From Twitter:')
+			.attr('font-weight', 'bold')
+			.attr('text-anchor', 'middle');
+		svg_2
+			.append('text')
+			.attr('x', width / 2)
+			.attr('y', height / 2 - 0.194 * height)
+			.attr('font-size', other_text_size)
+			.text(datajson["word2"]["sentiment"][2] + ' posts were positive')
+			.attr('text-anchor', 'middle');
+		svg_2
+			.append('text')
+			.attr('x', width / 2)
+			.attr('y', height / 2 - 0.172 * height)
+			.attr('font-size', other_text_size)
+			.text(datajson["word2"]["sentiment"][3] + ' posts were negative')
 			.attr('text-anchor', 'middle');
 
 		svg_1
 			.append('text')
-			.attr('x', width / 2 / 2 + width / 2)
-			.attr('y', height / 2 - 80)
-			.attr('font-size', '20px')
-			.text(sentiment_label(s_1[1]))
-			.attr('text-anchor', 'middle')
-			.attr(
-				'fill',
-				sentiment_label_color(s_1[1])
-			);
-
-		svg_2
-			.append('text')
-			.attr('x', width / 2 / 2 + width / 2)
-			.attr('y', height / 2 - 100)
-			.attr('font-size', '20px')
-			.text('Reddit Sentiment is: ')
+			.attr('x', width / 2)
+			.attr('y', height / 2 - 0.12 * height)
+			.attr('font-size', other_text_size)
+			.text('From Reddit:')
 			.attr('font-weight', 'bold')
+			.attr('text-anchor', 'middle');
+		svg_1
+			.append('text')
+			.attr('x', width / 2)
+			.attr('y', height / 2 - 0.096 * height)
+			.attr('font-size', other_text_size)
+			.text(datajson["word1"]["sentiment"][4] + ' posts were positive')
+			.attr('text-anchor', 'middle');
+		svg_1
+			.append('text')
+			.attr('x', width / 2)
+			.attr('y', height / 2 - 0.075 * height)
+			.attr('font-size', other_text_size)
+			.text(datajson["word1"]["sentiment"][5] + ' posts were negative')
 			.attr('text-anchor', 'middle');
 
 		svg_2
 			.append('text')
-			.attr('x', width / 2 / 2 + width / 2)
-			.attr('y', height / 2 - 80)
-			.attr('font-size', '20px')
-			.text(sentiment_label(s_2[1]))
-			.attr('text-anchor', 'middle')
-			.attr(
-				'fill',
-				sentiment_label_color(s_2[1])
-			);
+			.attr('x', width / 2)
+			.attr('y', height / 2 - 0.12 * height)
+			.attr('font-size', other_text_size)
+			.text('From Reddit:')
+			.attr('font-weight', 'bold')
+			.attr('text-anchor', 'middle');
+		svg_2
+			.append('text')
+			.attr('x', width / 2)
+			.attr('y', height / 2 - 0.096 * height)
+			.attr('font-size', other_text_size)
+			.text(datajson["word2"]["sentiment"][4] + ' posts were positive')
+			.attr('text-anchor', 'middle');
+		svg_2
+			.append('text')
+			.attr('x', width / 2)
+			.attr('y', height / 2 - 0.075 * height)
+			.attr('font-size', other_text_size)
+			.text(datajson["word2"]["sentiment"][5] + ' posts were negative')
+			.attr('text-anchor', 'middle');
 
 		//////TWITTER SMILE//////
-		const circle_start_y = height / 2 - 40;
-		const cirlce_start_x_1 = width / 2 / 2;
+		const circle_start_y = height / 2 - .18 * height;
+		const cirlce_start_x_1 = width / 2 / 2 + 0.0625 * width;
 		const cirlce_start_x_2 =
-			width / 2 / 2 + width / 2;
-		const y_mouth_start = circle_start_y + 10;
+			width / 2 / 2 + width / 2 + 0.0625 * width;
+		const y_mouth_start = circle_start_y + 0.016 * height;
+
+		const radius = 0.052 * width;
+		const eye_radis = 0.008 * width;
+		const eye_height = 0.0156 * width;
+		const eye_seperation = 0.021 * width;
+
+		const smile_lenght = 0.031 * width;
 
 		svg_1
 			.append('circle')
-			.attr('r', 25)
+			.attr('r', radius)
 			.attr('cx', cirlce_start_x_1)
 			.attr('cy', circle_start_y)
 			.attr(
 				'fill',
-				sentiment_label_color(s_1[0])
+				sentiment_label_color(datajson["word1"]["sentiment"][0])
 			)
 			.attr('stroke', 'black');
 
 		svg_1
 			.append('circle')
-			.attr('r', 3)
-			.attr('cx', cirlce_start_x_1 - 8)
-			.attr('cy', circle_start_y - 5)
+			.attr('r', eye_radis)
+			.attr('cx', cirlce_start_x_1 - eye_seperation)
+			.attr('cy', circle_start_y - eye_height)
 			.attr('fill', 'black')
 			.attr('stroke', 'black');
 
 		svg_1
 			.append('circle')
-			.attr('r', 3)
-			.attr('cx', cirlce_start_x_1 + 8)
-			.attr('cy', circle_start_y - 5)
+			.attr('r', eye_radis)
+			.attr('cx', cirlce_start_x_1 + eye_seperation)
+			.attr('cy', circle_start_y - eye_height)
 			.attr('fill', 'black')
 			.attr('stroke', 'black');
 
@@ -616,7 +621,7 @@ CURSOR PARKING LOT
 			.attr(
 				'd',
 				'M' +
-				String(cirlce_start_x_1 - 12) +
+				String(cirlce_start_x_1 - smile_lenght) +
 				',' +
 				String(y_mouth_start) +
 				' Q' +
@@ -624,58 +629,44 @@ CURSOR PARKING LOT
 				',' +
 				String(
 					y_mouth_start +
-					sentiment_label_mouth(s_1[0])
+					sentiment_label_mouth(datajson["word1"]["sentiment"][0])
 				) +
 				' ' +
-				String(cirlce_start_x_1 + 12) +
+				String(cirlce_start_x_1 + smile_lenght) +
 				',' +
 				String(y_mouth_start)
 			)
 			.attr('stroke', 'black')
 			.attr('stroke-width', '3px')
 			.attr('fill', 'none')
-			.attr('cx', width / 2 + 8)
-			.attr('cy', height / 2 - 55);
+			.attr('cx', width / 2 + 0.008 * width)
+			.attr('cy', height / 2 - 0.059 * height);
 
-		svg_1
-			.append('text')
-			.attr('x', width / 2 / 2)
-			.attr('y', height / 2 + 5)
-			.attr('font-size', '18px')
-			.text(s_1[2] + ' posts were positive')
-			.attr('text-anchor', 'middle');
-		svg_1
-			.append('text')
-			.attr('x', width / 2 / 2)
-			.attr('y', height / 2 + 25)
-			.attr('font-size', '18px')
-			.text(s_1[3] + ' posts were negative')
-			.attr('text-anchor', 'middle');
 
 		svg_2
 			.append('circle')
-			.attr('r', 25)
+			.attr('r', radius)
 			.attr('cx', cirlce_start_x_1)
 			.attr('cy', circle_start_y)
 			.attr(
 				'fill',
-				sentiment_label_color(s_2[0])
+				sentiment_label_color(datajson["word2"]["sentiment"][0])
 			)
 			.attr('stroke', 'black');
 
 		svg_2
 			.append('circle')
-			.attr('r', 3)
-			.attr('cx', cirlce_start_x_1 - 8)
-			.attr('cy', circle_start_y - 5)
+			.attr('r', eye_radis)
+			.attr('cx', cirlce_start_x_1 - eye_seperation)
+			.attr('cy', circle_start_y - eye_height)
 			.attr('fill', 'black')
 			.attr('stroke', 'black');
 
 		svg_2
 			.append('circle')
-			.attr('r', 3)
-			.attr('cx', cirlce_start_x_1 + 8)
-			.attr('cy', circle_start_y - 5)
+			.attr('r', eye_radis)
+			.attr('cx', cirlce_start_x_1 + eye_seperation)
+			.attr('cy', circle_start_y - eye_height)
 			.attr('fill', 'black')
 			.attr('stroke', 'black');
 
@@ -685,7 +676,7 @@ CURSOR PARKING LOT
 			.attr(
 				'd',
 				'M' +
-				String(cirlce_start_x_1 - 12) +
+				String(cirlce_start_x_1 - smile_lenght) +
 				',' +
 				String(y_mouth_start) +
 				' Q' +
@@ -693,60 +684,44 @@ CURSOR PARKING LOT
 				',' +
 				String(
 					y_mouth_start +
-					sentiment_label_mouth(s_2[0])
+					sentiment_label_mouth(datajson["word2"]["sentiment"][0])
 				) +
 				' ' +
-				String(cirlce_start_x_1 + 12) +
+				String(cirlce_start_x_1 + smile_lenght) +
 				',' +
 				String(y_mouth_start)
 			)
 			.attr('stroke', 'black')
 			.attr('stroke-width', '3px')
 			.attr('fill', 'none')
-			.attr('cx', width / 2 + 8)
-			.attr('cy', height / 2 - 55);
-
-		svg_2
-			.append('text')
-			.attr('x', width / 2 / 2)
-			.attr('y', height / 2 + 5)
-			.attr('font-size', '18px')
-			.text(s_2[2] + ' posts were positive')
-			.attr('text-anchor', 'middle');
-		svg_2
-			.append('text')
-			.attr('x', width / 2 / 2)
-			.attr('y', height / 2 + 25)
-			.attr('font-size', '18px')
-			.text(s_2[3] + ' posts were negative')
-			.attr('text-anchor', 'middle');
-
+			.attr('cx', width / 2 + 0.008 * width)
+			.attr('cy', height / 2 - 0.059 * height);
 
 		//////REDDIT SMILE//////
 		svg_1
 			.append('circle')
-			.attr('r', 25)
+			.attr('r', radius)
 			.attr('cx', cirlce_start_x_2)
 			.attr('cy', circle_start_y)
 			.attr(
 				'fill',
-				sentiment_label_color(s_1[1])
+				sentiment_label_color(datajson["word1"]["sentiment"][1])
 			)
 			.attr('stroke', 'black');
 
 		svg_1
 			.append('circle')
-			.attr('r', 3)
-			.attr('cx', cirlce_start_x_2 - 8)
-			.attr('cy', circle_start_y - 5)
+			.attr('r', eye_radis)
+			.attr('cx', cirlce_start_x_2 - eye_seperation)
+			.attr('cy', circle_start_y - eye_height)
 			.attr('fill', 'black')
 			.attr('stroke', 'black');
 
 		svg_1
 			.append('circle')
-			.attr('r', 3)
-			.attr('cx', cirlce_start_x_2 + 8)
-			.attr('cy', circle_start_y - 5)
+			.attr('r', eye_radis)
+			.attr('cx', cirlce_start_x_2 + eye_seperation)
+			.attr('cy', circle_start_y - eye_height)
 			.attr('fill', 'black')
 			.attr('stroke', 'black');
 
@@ -755,7 +730,7 @@ CURSOR PARKING LOT
 			.attr(
 				'd',
 				'M' +
-				String(cirlce_start_x_2 - 12) +
+				String(cirlce_start_x_2 - smile_lenght) +
 				',' +
 				String(y_mouth_start) +
 				' Q' +
@@ -763,58 +738,43 @@ CURSOR PARKING LOT
 				',' +
 				String(
 					y_mouth_start +
-					sentiment_label_mouth(s_1[1])
+					sentiment_label_mouth(datajson["word1"]["sentiment"][1])
 				) +
 				' ' +
-				String(cirlce_start_x_2 + 12) +
+				String(cirlce_start_x_2 + smile_lenght) +
 				',' +
 				String(y_mouth_start)
 			)
 			.attr('stroke', 'black')
 			.attr('stroke-width', '3px')
 			.attr('fill', 'none')
-			.attr('cx', width / 2 + 8)
+			.attr('cx', width / 2 + 0.008 * width)
 			.attr('cy', height / 2 - 55);
-
-		svg_1
-			.append('text')
-			.attr('x', width / 2 / 2 + width / 2)
-			.attr('y', height / 2 + 5)
-			.attr('font-size', '18px')
-			.text(s_1[4] + ' posts were positive')
-			.attr('text-anchor', 'middle');
-		svg_1
-			.append('text')
-			.attr('x', width / 2 / 2 + width / 2)
-			.attr('y', height / 2 + 25)
-			.attr('font-size', '18px')
-			.text(s_1[5] + ' posts were negative')
-			.attr('text-anchor', 'middle');
 
 		svg_2
 			.append('circle')
-			.attr('r', 25)
+			.attr('r', radius)
 			.attr('cx', cirlce_start_x_2)
 			.attr('cy', circle_start_y)
 			.attr(
 				'fill',
-				sentiment_label_color(s_2[1])
+				sentiment_label_color(datajson["word2"]["sentiment"][1])
 			)
 			.attr('stroke', 'black');
 
 		svg_2
 			.append('circle')
-			.attr('r', 3)
-			.attr('cx', cirlce_start_x_2 - 8)
-			.attr('cy', circle_start_y - 5)
+			.attr('r', eye_radis)
+			.attr('cx', cirlce_start_x_2 - eye_seperation)
+			.attr('cy', circle_start_y - eye_height)
 			.attr('fill', 'black')
 			.attr('stroke', 'black');
 
 		svg_2
 			.append('circle')
-			.attr('r', 3)
-			.attr('cx', cirlce_start_x_2 + 8)
-			.attr('cy', circle_start_y - 5)
+			.attr('r', eye_radis)
+			.attr('cx', cirlce_start_x_2 + eye_seperation)
+			.attr('cy', circle_start_y - eye_height)
 			.attr('fill', 'black')
 			.attr('stroke', 'black');
 
@@ -823,7 +783,7 @@ CURSOR PARKING LOT
 			.attr(
 				'd',
 				'M' +
-				String(cirlce_start_x_2 - 12) +
+				String(cirlce_start_x_2 - smile_lenght) +
 				',' +
 				String(y_mouth_start) +
 				' Q' +
@@ -831,33 +791,19 @@ CURSOR PARKING LOT
 				',' +
 				String(
 					y_mouth_start +
-					sentiment_label_mouth(s_2[1])
+					sentiment_label_mouth(datajson["word2"]["sentiment"][1])
 				) +
 				' ' +
-				String(cirlce_start_x_2 + 12) +
+				String(cirlce_start_x_2 + smile_lenght) +
 				',' +
 				String(y_mouth_start)
 			)
 			.attr('stroke', 'black')
 			.attr('stroke-width', '3px')
 			.attr('fill', 'none')
-			.attr('cx', width / 2 + 8)
-			.attr('cy', height / 2 - 55);
+			.attr('cx', width / 2 + 0.008 * width)
+			.attr('cy', height / 2 - 0.059 * height);
 
-		svg_2
-			.append('text')
-			.attr('x', width / 2 / 2 + width / 2)
-			.attr('y', height / 2 + 5)
-			.attr('font-size', '18px')
-			.text(s_2[4] + ' posts were positive')
-			.attr('text-anchor', 'middle');
-		svg_2
-			.append('text')
-			.attr('x', width / 2 / 2 + width / 2)
-			.attr('y', height / 2 + 25)
-			.attr('font-size', '18px')
-			.text(s_2[5] + ' posts were negative')
-			.attr('text-anchor', 'middle');
 
 		/////////// Menu Stuff ///////
 		const words_Container_1 = d3
@@ -906,8 +852,8 @@ CURSOR PARKING LOT
 		svg_1
 			.append('text')
 			.attr('x', width / 2 / 2)
-			.attr('y', height / 2 + 60)
-			.attr('font-size', '18px')
+			.attr('y', height / 2)
+			.attr('font-size', section_header_size)
 			.text('Related Words')
 			.attr('font-weight', 'bold')
 			.attr('text-anchor', 'middle');
@@ -927,11 +873,11 @@ CURSOR PARKING LOT
 					svg_1
 						.append('rect')
 						.attr('x', 0)
-						.attr('y', height / 2 + 90)
+						.attr('y', height / 2 + 0.022 * height)
 						.attr('width', width)
 						.attr('height', height / 3)
-						.attr('stroke', 'white')
-						.attr('fill', 'white');
+						.attr('stroke', background_color)
+						.attr('fill', background_color);
 					word_printer(word_corpus, svg_1);
 					topic_printer(
 						topic_corpus_1,
@@ -943,8 +889,8 @@ CURSOR PARKING LOT
 		svg_2
 			.append('text')
 			.attr('x', width / 2 / 2)
-			.attr('y', height / 2 + 60)
-			.attr('font-size', '18px')
+			.attr('y', height / 2)
+			.attr('font-size', section_header_size)
 			.text('Related Words')
 			.attr('font-weight', 'bold')
 			.attr('text-anchor', 'middle');
@@ -964,11 +910,11 @@ CURSOR PARKING LOT
 					svg_2
 						.append('rect')
 						.attr('x', 0)
-						.attr('y', height / 2 + 90)
+						.attr('y', height / 2 + 0.022 * height)
 						.attr('width', width)
 						.attr('height', height / 3)
-						.attr('stroke', 'white')
-						.attr('fill', 'white');
+						.attr('stroke', background_color)
+						.attr('fill', background_color);
 					word_printer_2(word_corpus_2);
 					topic_printer_2(
 						topic_corpus_2,
@@ -981,8 +927,8 @@ CURSOR PARKING LOT
 		svg_1
 			.append('text')
 			.attr('x', width / 2 + width / 2 / 2)
-			.attr('y', height / 2 + 60)
-			.attr('font-size', '18px')
+			.attr('y', height / 2)
+			.attr('font-size', section_header_size)
 			.text('Common Topics')
 			.attr('font-weight', 'bold')
 			.attr('text-anchor', 'middle');
@@ -1005,11 +951,11 @@ CURSOR PARKING LOT
 					svg_1
 						.append('rect')
 						.attr('x', 0)
-						.attr('y', height / 2 + 90)
+						.attr('y', height / 2 + 0.022 * height)
 						.attr('width', width)
 						.attr('height', height / 3)
-						.attr('stroke', 'white')
-						.attr('fill', 'white');
+						.attr('stroke', background_color)
+						.attr('fill', background_color);
 					word_printer(word_corpus)
 					topic_printer(
 						topic_corpus_1,
@@ -1029,11 +975,11 @@ CURSOR PARKING LOT
 					svg_1
 						.append('rect')
 						.attr('x', 0)
-						.attr('y', height / 2 + 90)
+						.attr('y', height / 2 + 0.022 * height)
 						.attr('width', width)
 						.attr('height', height / 3)
-						.attr('stroke', 'white')
-						.attr('fill', 'white');
+						.attr('stroke', background_color)
+						.attr('fill', background_color);
 					word_printer(word_corpus);
 					topic_printer(
 						topic_corpus_1,
@@ -1045,8 +991,8 @@ CURSOR PARKING LOT
 		svg_2
 			.append('text')
 			.attr('x', width / 2 + width / 2 / 2)
-			.attr('y', height / 2 + 60)
-			.attr('font-size', '18px')
+			.attr('y', height / 2)
+			.attr('font-size', section_header_size)
 			.text('Common Topics')
 			.attr('font-weight', 'bold')
 			.attr('text-anchor', 'middle');
@@ -1069,11 +1015,11 @@ CURSOR PARKING LOT
 					svg_2
 						.append('rect')
 						.attr('x', 0)
-						.attr('y', height / 2 + 90)
+						.attr('y', height / 2 + 0.022 * height)
 						.attr('width', width)
 						.attr('height', height / 3)
-						.attr('stroke', 'white')
-						.attr('fill', 'white');
+						.attr('stroke', background_color)
+						.attr('fill', background_color);
 					word_printer_2(word_corpus_2)
 					topic_printer_2(
 						topic_corpus_2,
@@ -1093,11 +1039,11 @@ CURSOR PARKING LOT
 					svg_2
 						.append('rect')
 						.attr('x', 0)
-						.attr('y', height / 2 + 90)
+						.attr('y', height / 2 + 0.022 * height)
 						.attr('width', width)
 						.attr('height', height / 3)
-						.attr('stroke', 'white')
-						.attr('fill', 'white');
+						.attr('stroke', background_color)
+						.attr('fill', background_color);
 					word_printer_2(word_corpus_2);
 					topic_printer_2(
 						topic_corpus_2,
@@ -1105,6 +1051,48 @@ CURSOR PARKING LOT
 					);
 				})
 		);
+
+
+
+		/////////////////PROJECT EXPLINATION ///////////////////
+
+		svg_1
+			.append('text')
+			.attr('x', 0.05 * width)
+			.attr('y', height / 2 + 0.4 * height)
+			.attr('font-size', other_text_size)
+			.text('Behind This Project:')
+			.attr('font-weight', 'bold')
+			.attr('text-anchor', 'left');
+
+		svg_1
+			.append('text')
+			.attr('x', 0.05 * width)
+			.attr('y', height / 2 + 0.42 * height)
+			.attr('font-size', "1vw")
+			.attr('text-anchor', 'left')
+			.text('The project was developed for Information Retrevial, CS 547, by Gabe Deml, Leah Mitchell, and Yoni Weiner.');
+		svg_1
+			.append('text')
+			.attr('x', 0.05 * width)
+			.attr('y', height / 2 + 0.44 * height)
+			.attr('font-size', "1vw")
+			.attr('text-anchor', 'left')
+			.text('The ultimate goal of this project was to develop a search engine that allows for users to compare two words, ');
+		svg_1
+			.append('text')
+			.attr('x', 0.05 * width)
+			.attr('y', height / 2 + 0.46 * height)
+			.attr('font-size', "1vw")
+			.attr('text-anchor', 'left')
+			.text('through the use of sentiment models for social media, word2vec models for semantic definitions, and');
+		svg_1
+			.append('text')
+			.attr('x', 0.05 * width)
+			.attr('y', height / 2 + 0.48 * height)
+			.attr('font-size', "1vw")
+			.attr('text-anchor', 'left')
+			.text('topic modeling for related subject areas.');
 
 	</script>
 </body>
