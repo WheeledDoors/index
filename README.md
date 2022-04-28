@@ -34,4 +34,6 @@ Wheels seems to win!
 | Random Forest | Word2Vec | 0.662 | 0.664 | 
 | Support Vector | Word2Vec | 0.710 | 0.725 | 
 | Bert | None | 0.501 | 0.662 | 
-| Average Word | None | 0.651 | 0.646
+| Average Word | None | 0.651 | 0.646 | 
+
+We chose logistic regersion because it is one of the fastest models. Speed of the model was the highest priority It is also one of the most accurate. models.  
