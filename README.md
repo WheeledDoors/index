@@ -44,7 +44,7 @@ To implement our code into one final design, we developed both a front end web i
 
 # Project Takeaways
 
-WHile this project was interesting and presented indivdual learning challenges to each of us, we don't recommend attempting such a large and expansive project on student resources. With more resource, i.e. money and computing capabilities, we hope to see this project improve including improving speed, allowing for users to determine how many topics and with corpouses, and general mprovements to the web intereface. 
+While this project was interesting and presented indivdual learning challenges to each of us, we don't recommend attempting such a large and expansive project on student resources. With more resource, i.e. money and computing capabilities, we hope to see this project improve including improving speed, allowing for users to determine how many topics and with corpouses, and general mprovements to the web intereface. 
 
 ## So, which is actually more prevelant: wheels or doors?
 While we don't know the true answer, we can at least say that in the publics eyes based off of sentiment analysis: Wheels seems to win!
