@@ -10,12 +10,11 @@
   * Train word2vec on text8
 
 ## Project Goal
-Build a system that can compare two search terms through specialized queries on Social Media and Wikipedia and complete some analysis on those query results
+A project that originated around a meme of whether or not there are more wheels or doors in the world, this project branched into having a general goal of being able to compare two search terms. In final our project goal was to: build a system that can compare two search terms through specialized queries on Social Media and Wikipedia and complete some analysis on those query results. 
 
-# Project takeaways
+# Methodology
 
-## Wheels or doors?
-Wheels seems to win!
+## Word2Vec
 
 ## Sentement Analysis
 
@@ -39,3 +38,13 @@ One of our goals was to create a sentiment analysis algorithm to understand more
 | Average Word | None | 0.651 | 0.646 | 
 
 We choose Naive Bayes with Bag of Words preprocessing as it had the most successful testing error unde the 50,000 training point build and was in the faster group of models. 
+
+## Topic Modeling
+
+The last goal of our method was the complete topic modeling for each of the query results. This was simple to achieve using a LDA method as it was an unsupervised model so required no pre-training. This method returns 3 total topics with the top 10 words per topic. 
+
+# Project Takeaways
+
+## Wheels or doors?
+Wheels seems to win!
+
