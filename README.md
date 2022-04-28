@@ -19,6 +19,8 @@ Wheels seems to win!
 
 ## Sentement Analysis
 
+One of our goals was to create a sentiment analysis algorithm to understand more about the general feelings towards the inputted key search terms. One issue to this goal is that each query will produce a brand new, unlabeled dataset, so to work around this, we trained methods on a general twitter dataset to get a general baseline moddel. While this won't great a perfect accuracy, the hope was to create a model that can give a general  idea of the sentimenet around each word. 
+
 | Model Name | Preprocessing | 50k Avg Accuracy | 100k Avg Accuracy |
 | -----------|---------------|------------------|-------------------|
 | Naive Bayes| BOW | 0.782 | 0.753 |
@@ -36,4 +38,4 @@ Wheels seems to win!
 | Bert | None | 0.501 | 0.662 | 
 | Average Word | None | 0.651 | 0.646 | 
 
-We chose logistic regersion because it is one of the fastest models. Speed of the model was the highest priority It is also one of the most accurate. models.  
+We choose Naive Bayes with Bag of Words preprocessing as it had the most successful testing error unde the 50,000 training point build and was in the faster group of models. 
